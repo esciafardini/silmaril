@@ -1,0 +1,384 @@
+;; Glossary batch 08 of 12 (Ladros – Menelmacar)
+[{:place/name        "Ladros"
+  :place/description "The lands to the northeast of Dorthonion that were granted by the Noldorin Kings to the Men of the House of Bëor."
+  :place/page        [139]
+  :place/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ ;; TODO a song, not an object
+ {:thing/name        "Laer Cú Beleg"
+  :thing/description "‘The Song of the Great Bow’, made by Túrin at Eithel Ivrin in memory of Beleg Cúthalion."
+  :thing/page        [199]
+  :thing/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Lalaith"
+  :character/description "‘Laughter’, daughter of Húrin and Morwen who died in childhood."
+  :character/page        [188]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Lammoth"
+  :place/description "‘The Great Echo’, region north of the Firth of Drengist, named from the echoes of Morgoth’s cry in his struggle with Ungoliant."
+  :place/page        [71 96]
+  :place/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Return of the Noldor"]]}
+
+ {:place/name        "Lanthir Lamath"
+  :place/description "‘Waterfall of Echoing Voices’, where Dior had his house in Ossiriand, and after which his daughter Elwing (‘Star-spray’) was named."
+  :place/page        [224 225]
+  :place/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
+
+ ;; TODO an alliance, not a single event
+ {:event/name        "Last Alliance"
+  :event/description "The league made at the end of the Second Age between Elendil and Gil-galad to defeat Sauron."
+  :event/page        [281]
+  :event/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Laurelin"
+  :thing/description "‘Song of Gold’, the younger of the Two Trees of Valinor."
+  :thing/page        [26 27 51 64 89 90 91 117]
+  :thing/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Darkening of Valinor"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of the Noldor in Beleriand"]]}
+
+ ;; TODO a poem, not an object
+ {:thing/name        "Lay of Leithian"
+  :thing/description "The long poem concerning the lives of Beren and Lúthien from which the prose account in _The Silmarillion_ was derived. _Leithian_ is translated ‘Release from Bondage’."
+  :thing/page        [152 155 158 161 162 176]
+  :thing/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
+
+ {:place/name        "Legolin"
+  :place/description "The third of the tributaries of Gelion in Ossiriand."
+  :place/page        [114]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:thing/name        "lembas"
+  :thing/description "Sindarin name of the waybread of the Eldar (from earlier _lenn-mbass_ ‘journey-bread’)."
+  :thing/page        [192 195 196 198]
+  :thing/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Lenwë"
+  :character/description "The leader of the Elves from the host of the Teleri who refused to cross the Misty Mountains on the westward journey from Cuiviénen (the Nandor); father of Denethor."
+  :character/page        [43 80 84 85 125]
+  :character/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of Maeglin"]]}
+
+ {:place/name        "Lhûn"
+  :place/description "River in Eriador flowing into the sea in the Gulf of Lhûn."
+  :place/page        [274 278]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Linaewen"
+  :place/description "‘Lake of birds’, the great mere in Nevrast."
+  :place/page        [109]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:place/name        "Lindon"
+  :place/description "A name of Ossiriand in the First Age; see 114. After the tumults at the end of the First Age the name Lindon was retained for the lands west of the Blue Mountains that still remained above the Sea."
+  :place/page        [114 274 275 277 278 285]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Lindórië"
+  :character/description "Mother of Inzilbêth."
+  :character/page        [256]
+  :character/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Little Gelion"
+  :place/description "One of the two tributary branches of the river Gelion in the north, rising in the Hill of Himring."
+  :place/page        [114]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ ;; TODO a word for nightingales
+ {:animal/name        "Lómelindi"
+  :animal/description "Quenya word meaning ‘dusk-singers’, nightingales."
+  :animal/page        [45]
+  :animal/appears-in  [[:chapter/name "Of Thingol and Melian"]]}
+
+ {:place/name        "Lórellin"
+  :place/description "The lake in Lórien in Valinor where the Vala Estë sleeps by day."
+  :place/page        [16]
+  :place/appears-in  [[:chapter/name "Valaquenta"]]}
+
+ {:character/name        "Lorgan"
+  :character/description "Chief of the Easterling Men in Hithlum after the Nirnaeth Arnoediad, by whom Tuor was enslaved."
+  :character/page        [227]
+  :character/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ ;; TODO glossary label ‘Lórien (1)’; place has no glossary-label attribute. Some refs may be to Irmo himself
+ {:place/name        "Lórien (gardens)"
+  :place/description "The gardens and dwelling-place of the Vala Irmo."
+  :place/page        [14 16 18 19 45 54 83 90 91 223]
+  :place/appears-in  [[:chapter/name "Valaquenta"]
+                      [:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ ;; TODO glossary label ‘Lórien (2)’; place has no glossary-label attribute
+ {:place/name        "Lothlórien"
+  :place/description "The land ruled by Celeborn and Galadriel between the rivers Celebrant and Anduin. Probably the original name of this land was altered to the form of the Quenya name Lórien of the gardens of the Vala Irmo in Valinor. In Lothlórien the Sindarin word _loth_ ‘flower’ is prefixed.\n\n_Lothlórien_: ‘Lórien of the Blossom’; see _Lórien_ (2)."
+  :place/page        [286]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Losgar"
+  :place/description "The place of the burning of the ships of the Teleri by Fëanor, at the mouth of the Firth of Drengist."
+  :place/page        [80 87 96 99 109 118 120]
+  :place/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]]}
+
+ {:place/name        "Lothlann"
+  :place/description "‘The wide and empty’, the great plain north of the March of Maedhros."
+  :place/page        [114 144 198]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ ;; TODO printed run-in with Lumbar; the page ref 37 is shared
+ {:thing/name        "Luinil"
+  :thing/description "Name of a star (one shining with a blue light)."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ ;; TODO printed run-in with Luinil; the page ref 37 is shared
+ {:thing/name        "Lumbar"
+  :thing/description "Name of a star."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ {:character/name        "Lúthien"
+  :character/description "The daughter of King Thingol and Melian the Maia, who after the fulfilment of the Quest of the Silmaril and the death of Beren chose to become mortal and to share his fate."
+  :character/page        [81 85 114 139 152 155 156 157 158 159 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 188 223 224 225 236 239 243 249]
+  :character/appears-in  [[:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]]}
+
+ {:character/name        "Mablung"
+  :character/description "Elf of Doriath, chief captain of Thingol, friend of Túrin; slain in Menegroth by the Dwarves. The name means ‘of the Heavy Hand’."
+  :character/page        [103 174 175 176 179 207 208 214 215 219 223]
+  :character/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Maedhros"
+  :character/description "The eldest son of Fëanor; rescued by Fingon from Thangorodrim; held the Hill of Himring and the lands about; formed the Union of Maedhros that ended in the Nirnaeth Arnoediad; bore one of the Silmarils with him to his death at the end of the First Age."
+  :character/page        [50 73 79 80 98 99 100 101 102 103 105 106 109 112 114 115 131 136 144 148 166 178 179 180 181 182 183 185 226 236 239 242 243]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Maeglin"
+  :character/description "‘Sharp Glance’, son of Eöl and Aredhel Turgon’s sister, born in Nan Elmoth; became mighty in Gondolin, and betrayed it to Morgoth; slain in the sack of the city by Tuor."
+  :character/page        [82 125 126 127 128 129 130 150 184 192 229 230 231 232]
+  :character/appears-in  [[:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:character/name        "Maglor"
+  :character/description "The second son of Fëanor, a great singer and minstrel; held the lands called Maglor’s Gap; at the end of the First Age seized with Maedhros the two Silmarils that remained in Middle-earth, and cast the one that he took into the Sea."
+  :character/page        [50 73 77 103 105 107 115 131 144 148 183 236 237 239 240 242 243]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Maglor’s Gap"
+  :place/description "The region between the northern arms of Gelion where there were no hills of defence against the North."
+  :place/page        [105 115 144]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Magor"
+  :character/description "Son of Malach Aradan; leader of the Men of the following of Marach who entered West Beleriand."
+  :character/page        [135 139]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:place/name        "Máhanaxar"
+  :place/description "The circle outside the gates of Valmar, in which were set the thrones of the Valar where they sat in council."
+  :place/page        [26 40 41 68 69 72 75 88]
+  :place/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:character/name        "Mahtan"
+  :character/description "A great smith of the Noldor, father of Nerdanel the wife of Fëanor."
+  :character/page        [54 59]
+  :character/appears-in  [[:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]]}
+
+ {:race/name        "Maiar"
+  :race/description "Ainur of lesser degree than the Valar (singular _Maia_)."
+  :race/page        [9 18 19 20 24 45 49 65 72 82 85 87 90 178 223 225 249 273]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Valaquenta"]
+                     [:chapter/name "Of the Beginning of Days"]
+                     [:chapter/name "Of Thingol and Melian"]
+                     [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                     [:chapter/name "Of the Darkening of Valinor"]
+                     [:chapter/name "Of the Flight of the Noldor"]
+                     [:chapter/name "Of the Sindar"]
+                     [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                     [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                     [:chapter/name "Of the Ruin of Doriath"]
+                     [:chapter/name "Akallabêth"]
+                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Malach"
+  :character/description "Son of Marach."
+  :character/page        [134 135 139]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:place/name        "Malduin"
+  :place/description "A tributary of the Teiglin; the name probably means ‘Yellow River’."
+  :place/page        [195]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ ;; TODO the headword names both the Vala and his halls: refs ‘named as Vala’ are here; ‘named as the place of his dwelling’ went to Halls of Mandos; ‘Doom of the Noldor and the Curse of Mandos’ went to Doom of the Noldor
+ {:character/name        "Mandos"
+  :character/description "A Vala, the Judge."
+  :character/page        [14 16 17 37 41 55 58 60 61 62 69 77 89 92 95 101 120 176 238 244]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                          [:chapter/name "Of Men"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO from the Mandos sub-heading ‘With reference to the Doom of the Noldor and the Curse of Mandos’; also called the Curse of Mandos
+ {:event/name        "Doom of the Noldor"
+  :event/page        [78 117 120 133 157 160 166 229]
+  :event/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ ;; TODO glossary says Passim; only the ‘especially’ pages are linked
+ {:character/name        "Manwë"
+  :character/description "The chief of the Valar."
+  :character/page        [9 14 28 55 75 100 101 239 241]
+  :character/appears-in  [[:chapter/name "Ainulindalë"]
+                          [:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Beginning of Days"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "March of Maedhros"
+  :place/description "The open lands to the north of the head waters of the river Gelion, held by Maedhros and his brothers against attack on East Beleriand."
+  :place/page        [102 103 114]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:character/name        "Marach"
+  :character/description "Leader of the third host of Men to enter Beleriand, ancestor of Hador Lórindol."
+  :character/page        [133 134 135 141]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Mardil"
+  :character/description "The first Ruling Steward of Gondor."
+  :character/page        [285]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO glossary also says ‘Chapter 19 passim’ and ‘Chapters 21, 22 passim’; those chapters are not linked
+ {:character/name        "Melian"
+  :character/description "A Maia, who left Valinor and came to Middle-earth; afterwards the Queen of King Thingol in Doriath, about which she set a girdle of enchantment, the Girdle of Melian; mother of Lúthien, and foremother of Elrond and Elros."
+  :character/page        [112 113 118 119 120 123 124 135 138 143 178 179 244 249]
+  :character/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]]}
+
+ ;; TODO glossary says Passim; only the ‘especially’ pages are linked
+ {:character/name        "Melkor"
+  :character/description "The great rebellious Vala, the beginning of evil, in his origin the mightiest of the Ainur. The meaning of _Melkor_ was ‘He who arises in Might’."
+  :character/page        [4 6 7 19 20 39 55 56 69 71 72 91 92 94 136 189 195 200 216 221 244 248]
+  :character/appears-in  [[:chapter/name "Ainulindalë"]
+                          [:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                          [:chapter/name "Of Men"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]]}
+
+ {:race/name        "Men"
+  :race/description "See especially 29–30, 58–9, 93–4, 131–3, 140, 247–8, 251–3; and see also _Atani_, _Children of Ilúvatar_, _Easterlings_."
+  :race/page        [6 29 30 34 58 59 73 89 93 94 131 132 133 140 247 248 251 252 253]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Of the Beginning of Days"]
+                     [:chapter/name "Of Aulë and Yavanna"]
+                     [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                     [:chapter/name "Of the Flight of the Noldor"]
+                     [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                     [:chapter/name "Of Men"]
+                     [:chapter/name "Of the Coming of Men into the West"]
+                     [:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Menegroth"
+  :place/description "The hidden halls of Thingol and Melian on the river Esgalduin in Doriath; see especially 83."
+  :place/page        [46 83 84 86 87 98 101 104 113 120 156 158 162 169 173 174 175 176 178 189 190 191 192 195 207 208 220 221 222 223 224 225]
+  :place/appears-in  [[:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Meneldil"
+  :character/description "Son of Anárion, King of Gondor."
+  :character/page        [283 284]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Menelmacar"
+  :thing/description "‘Swordsman of the Sky’, the constellation Orion."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}]

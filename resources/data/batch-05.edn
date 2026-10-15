@@ -1,0 +1,409 @@
+;; Glossary batch 05 of 12 (Eldar – Finrod)
+[;; TODO glossary says ‘Passim; see entry Elves’ — no page refs
+ {:race/name        "Eldar"
+  :race/description "According to Elvish legend the name _Eldar_ ‘People of the Stars’ was given to all the Elves by the Vala Oromë. It came however to be used to refer only to the Elves of the Three Kindreds (Vanyar, Noldor, and Teleri) who set out on the great westward march from Cuiviénen (whether or not they remained in Middle-earth), and to exclude the Avari. See _Dark Elves_, _Úmanyar_."
+  :race/page        [10 42 47 56 117 156 173 176 177 181 192 243 285]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                     [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                     [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                     [:chapter/name "Of the Noldor in Beleriand"]
+                     [:chapter/name "Of Beren and Lúthien"]
+                     [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                     [:chapter/name "Of Túrin Turambar"]
+                     [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO glossary label ‘Elemmírë (1)’; thing has no glossary-label attribute
+ {:thing/name        "Elemmírë (star)"
+  :thing/description "Name of a star."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ {:character/name           "Elemmírë (elf)"
+  :character/glossary-label "Elemmírë (2)"
+  :character/description    "Vanyarin Elf, maker of the _Aldudénië_, the Lament for the Two Trees."
+  :character/page           [66]
+  :character/appears-in     [[:chapter/name "Of the Darkening of Valinor"]]}
+
+ {:character/name        "Elendil"
+  :character/description "Son of Amandil, last lord of Andúnië in Númenor, descended from Eärendil and Elwing but not of the direct line of the Kings; escaped with his sons Isildur and Anárion from the Drowning of Númenor and founded the Númenórean realms in Middle-earth; slain with Gil-galad in the overthrow of Sauron at the end of the Second Age. The name may be interpreted either as ‘Elf-friend’ (cf. _Elendili_) or as ‘Star-lover’."
+  :character/page        [260 263 264 267 268 278 279 280 281 282 283 285 291]
+  :character/appears-in  [[:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO from the ‘Heirs of Elendil’ sub-heading of Elendil
+ {:house/name        "Heirs of Elendil"
+  :house/founder     {:character/name "Elendil"}
+  :house/page        [268 282]
+  :house/appears-in  [[:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:race/name        "Elendili"
+  :race/description "‘Elf-friends’, name given to those Númenóreans who were not estranged from the Eldar in the days of Tar-Ancalimon and later kings."
+  :race/page        [254 255 256 257 259 260 261 263 264 279 280]
+  :race/appears-in  [[:chapter/name "Akallabêth"]
+                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Elendur"
+  :character/description "Eldest son of Isildur, slain with him at the Gladden Fields."
+  :character/page        [283]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Elenwë"
+  :character/description "Wife of Turgon; perished in the crossing of the Helcaraxë."
+  :character/page        [80 125]
+  :character/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of Maeglin"]]}
+
+ {:place/name        "Elostirion"
+  :place/description "Tallest of the towers upon Emyn Beraid, in which the _palantír_ was placed."
+  :place/page        [280]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO ref 291 from the ‘Sons of Elrond’ sub-heading merged in
+ {:character/name        "Elrond"
+  :character/description "Son of Eärendil and Elwing, who at the end of the First Age chose to belong to the Firstborn, and remained in Middle-earth until the end of the Third Age; master of Imladris (Rivendell) and keeper of Vilya, the Ring of Air, which he had received from Gil-galad. The name means ‘Star-dome’."
+  :character/page        [95 235 236 237 243 249 274 275 276 282 283 284 285 286 287 288 289 290 291 292]
+  :character/appears-in  [[:chapter/name "Of Men"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Elros"
+  :character/description "Son of Eärendil and Elwing, who at the end of the First Age chose to be numbered among Men, and became the first King of Númenor, living to a very great age. The name means ‘Star-foam’."
+  :character/page        [235 236 237 243 249 250 254 255 256 257 260 274 278]
+  :character/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Eluréd"
+  :character/description "Elder son of Dior; perished in the attack on Doriath by the sons of Fëanor. The name means the same as _Eluchíl_."
+  :character/page        [224 225 226]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Elurín"
+  :character/description "Younger son of Dior; perished with his brother Eluréd. The name means ‘Remembrance of Elu (Thingol)’."
+  :character/page        [224 225 226]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:race/name        "Elves"
+  :race/description "See especially 29–30, 37–9, 41–2, 77–8, 94–5, 252–3; and see also _Children of Ilúvatar_, _Eldar_, _Dark Elves_. _Elves of the Light_: see _Calaquendi_."
+  :race/page        [6 8 10 27 29 30 32 34 37 38 39 40 41 42 45 49 58 60 77 78 89 94 95 132 239 243 249 251 252 253 274 275 286 292]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Of the Beginning of Days"]
+                     [:chapter/name "Of Aulë and Yavanna"]
+                     [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                     [:chapter/name "Of Thingol and Melian"]
+                     [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                     [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                     [:chapter/name "Of the Flight of the Noldor"]
+                     [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                     [:chapter/name "Of Men"]
+                     [:chapter/name "Of the Coming of Men into the West"]
+                     [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                     [:chapter/name "Akallabêth"]
+                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Elwing"
+  :character/description "Daughter of Dior, who escaping from Doriath with the Silmaril wedded Eärendil at the Mouths of Sirion and went with him to Valinor; mother of Elrond and Elros. The name means ‘Star-spray’; see _Lanthir Lamath_."
+  :character/page        [95 139 224 225 226 233 235 236 237 238 239 240 243]
+  :character/appears-in  [[:chapter/name "Of Men"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Emeldir"
+  :character/description "Wife of Barahir and mother of Beren; led the women and children of the House of Bëor from Dorthonion after the Dagor Bragollach. (She was herself also a descendant of Bëor the Old, and her father’s name was Beren; this is not stated in the text.)"
+  :character/page        [146 151]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:place/name        "Emyn Beraid"
+  :place/description "‘The Tower Hills’ in the west of Eriador; see _Elostirion_."
+  :place/page        [279 280]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Enchanted Isles"
+  :place/description "The islands set by the Valar in the Great Sea eastwards of Tol Eressëa at the time of the Hiding of Valinor."
+  :place/page        [92 237]
+  :place/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Eöl"
+  :character/description "The great smith who dwelt in Nan Elmoth, and took Aredhel Turgon’s sister to wife; friend of the Dwarves; maker of the sword Anglachel; father of Maeglin; put to death in Gondolin."
+  :character/page        [82 124 125 126 127 128 129 192]
+  :character/appears-in  [[:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Eönwë"
+  :character/description "One of the mightiest of the Maiar; leader of the host of the Valar in the attack on Morgoth at the end of the First Age."
+  :character/page        [18 238 239 240 241 242 243 248 273]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Ephel Brandir"
+  :place/description "‘The encircling fence of Brandir’, dwellings of the Men of Brethil upon Amon Obel."
+  :place/page        [206 209 210]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Ephel Dúath"
+  :place/description "‘Fence of Shadow’, the mountain-range between Gondor and Mordor."
+  :place/page        [279 280 284]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Erech"
+  :place/description "A hill in the west of Gondor, where was the Stone of Isildur (see _The Return of the King_ V 2)."
+  :place/page        [279]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Ered Engrin"
+  :place/description "Mountains in the far north."
+  :place/page        [99 105 106 108 151]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:place/name        "Ered Gorgoroth"
+  :place/description "Mountains northward of Nan Dungortheb."
+  :place/page        [71 86 112 123 138 154 166]
+  :place/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of Beren and Lúthien"]]}
+
+ {:place/name        "Ered Lómin"
+  :place/description "Mountains forming the west-fence of Hithlum."
+  :place/page        [96 109]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:place/name        "Ered Luin"
+  :place/description "A mountain range. After the destruction at the end of the First Age it formed the north-western coastal range of Middle-earth."
+  :place/page        [43 44 81 82 84 103 104 105 114 115 124 125 131 137 185 221 222 223 224 274 277 278]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Ered Nimrais"
+  :place/description "The White Mountains (_nimrais_ ‘white horns’), the great range from east to west south of the Misty Mountains."
+  :place/page        [84]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]]}
+
+ ;; TODO printed refs 279–80, 284 dropped: they belong to Ephel Dúath, which shares the name ‘Mountains of Shadow’
+ {:place/name        "Ered Wethrin"
+  :place/description "The great curving range bordering Ard-galen on the west and forming the barrier between Hithlum and West Beleriand."
+  :place/page        [96 97 99 103 106 109 110 117 135 142 143 151 160 165 180 182 185 193 197 199 201 202 205 217 218 228]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Eregion"
+  :place/description "‘Land of Holly’; Noldorin realm in the Second Age at the western feet of the Misty Mountains, where the Elven Rings were made."
+  :place/page        [274 275 276]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Erellont"
+  :character/description "One of the three mariners who accompanied Eärendil on his voyages."
+  :character/page        [237]
+  :character/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Eriador"
+  :place/description "The land between the Misty Mountains and the Blue, in which lay the Kingdom of Arnor (and also the Shire of the Hobbits)."
+  :place/page        [43 44 82 84 136 255 278 283 285 286 290]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO no headword of its own; combined name chosen for the import; text and pages come from the Eru and Ilúvatar headwords
+ {:character/name        "Eru Ilúvatar"
+  :character/page        [3 4 5 6 7 8 9 10 13 14 15 16 17 18 19 25 27 28 29 30 31 32 33 34 35 37 38 39 40 46 49 55 56 57 58 65 68 73 75 78 80 88 89 93 95 139 155 156 176 177 200 222 223 239 242 248 249 250 252 253 254 257 259 260 266 267 268]
+  :character/appears-in  [[:chapter/name "Ainulindalë"]
+                          [:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Beginning of Days"]
+                          [:chapter/name "Of Aulë and Yavanna"]
+                          [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                          [:chapter/name "Of Thingol and Melian"]
+                          [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Darkening of Valinor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                          [:chapter/name "Of Men"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Esgalduin"
+  :place/description "The river of Doriath, dividing the forests of Neldoreth and Region, and flowing into Sirion. The name means ‘River under Veil’."
+  :place/page        [83 112 113 123 155 174 175 208 223]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Estë"
+  :character/description "One of the Valier, the spouse of Irmo (Lórien); her name means ‘Rest’."
+  :character/page        [14 16 18 54 90 91]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:place/name        "Estolad"
+  :place/description "The land south of Nan Elmoth where the Men of the followings of Bëor and Marach dwelt after they crossed the Blue Mountains into Beleriand; translated in the text as ‘the Encampment’."
+  :place/page        [133 134 135 136 137]
+  :place/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:place/name        "Ezellohar"
+  :place/description "The Green Mound of the Two Trees of Valinor."
+  :place/page        [26 34 66 68 69]
+  :place/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Aulë and Yavanna"]
+                      [:chapter/name "Of the Darkening of Valinor"]
+                      [:chapter/name "Of the Flight of the Noldor"]]}
+
+ {:place/name        "Falas"
+  :place/description "The western coasts of Beleriand, south of Nevrast."
+  :place/page        [48 83 86 87 97 110 151 180 186 201]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Falathar"
+  :character/description "One of the three mariners who accompanied Eärendil on his voyages."
+  :character/page        [237]
+  :character/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:race/name        "Falathrim"
+  :race/description "The Telerin Elves of the Falas, whose lord was Círdan."
+  :race/page        [48]
+  :race/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]]}
+
+ {:race/name        "Falmari"
+  :race/description "The Teleri who departed from Middle-earth and went into the West."
+  :race/page        [42]
+  :race/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ ;; TODO glossary also says ‘Chapters 5–9 and 13 passim’; only the ‘especially’ pages are linked
+ {:character/name        "Fëanor"
+  :character/description "Eldest son of Finwë (the only child of Finwë and Míriel), half-brother of Fingolfin and Finarfin; greatest of the Noldor, and leader in their rebellion; deviser of the Fëanorian script; maker of the Silmarils; slain in Mithrim in the Dagor-nuin-Giliath. His fifth son, Curufin, was named after him. Chapters 5–9 and 13 _passim_; see especially 50, 53–6, 88. Elsewhere his name occurs chiefly in _the sons of Fëanor_."
+  :character/page        [50 53 54 55 56 60 88]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ ;; TODO no headword in the glossary; pages and text from alias The Dispossessed, Sons of Fëanor
+ {:house/name        "House of Fëanor"
+  :house/page        [50 51 55 59 61 73 78 98 99 101 102 103 112 114 115 118 119 120 123 125 126 131 141 143 144 159 166 167 173 179 180 182 183 185 225 226 233 236 242 243]
+  :house/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO a pair of Valar, not a people
+ {:race/name        "Fëanturi"
+  :race/description "‘Masters of Spirits’, the Valar Námo (Mandos) and Irmo (Lórien)."
+  :race/page        [16]
+  :race/appears-in  [[:chapter/name "Valaquenta"]]}
+
+ {:character/name        "Finarfin"
+  :character/description "The third son of Finwë, the younger of Fëanor’s half-brothers; remained in Aman after the Exile of the Noldor and ruled the remnant of his people in Tirion. Alone among the Noldorin princes he and his descendants had golden hair, derived from his mother Indis, who was a Vanyarin Elf (see _Vanyar_). Many other occurrences of the name of Finarfin relate to his sons or his people."
+  :character/page        [50 55 59 60 74 75 78 92 157 166 240]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Finduilas"
+  :character/description "Daughter of Orodreth, loved by Gwindor; captured in the sack of Nargothrond, and killed by Orcs at the Crossings of Teiglin."
+  :character/page        [199 200 202 203 204 205 206 209 214]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Fingolfin"
+  :character/description "The second son of Finwë, the elder of Fëanor’s half-brothers; High King of the Noldor in Beleriand, dwelling in Hithlum; slain by Morgoth in single combat. Many other occurrences of the name of Fingolfin relate to his sons or his people."
+  :character/page        [50 55 59 60 61 65 66 74 75 77 78 79 80 90 96 99 100 101 103 105 106 109 112 117 120 134 139 141 143 144 145 146 147 186]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Darkening of Valinor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name        "Fingon"
+  :character/description "The eldest son of Fingolfin; rescued Maedhros from Thangorodrim; High King of the Noldor after the death of his father; slain by Gothmog in the Nirnaeth Arnoediad."
+  :character/page        [50 74 75 77 79 80 100 101 106 107 109 112 122 129 143 146 151 154 179 180 181 182 183 184 185 186 233 274]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Finrod"
+  :character/description "The eldest son of Finarfin. Founder and King of Nargothrond; encountered in Ossiriand the first Men to cross the Blue Mountains; rescued by Barahir in the Dagor Bragollach; redeemed his oath to Barahir by accompanying Beren on his quest; slain in defence of Beren in the dungeons of Tol-in-Gaurhoth."
+  :character/page        [51 74 75 80 99 101 103 104 105 110 112 113 115 118 119 120 121 131 132 133 134 135 138 140 143 144 150 154 157 159 160 161 162 163 164 165 166 173 194 195 201 203 204 207 208 219 220 222]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]]}]

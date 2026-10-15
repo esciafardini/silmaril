@@ -1,0 +1,330 @@
+;; Glossary batch 01 of 12 (Adûnakhôr – Annúminas)
+[{:character/name        "Adûnakhôr"
+  :character/description "‘Lord of the West’, name taken by the twentieth King of Númenor, the first to do so in the Adûnaic (Númenórean) tongue."
+  :character/page        [255]
+  :character/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Adurant"
+  :place/description "The sixth and most southerly of the tributaries of Gelion in Ossiriand. The name means ‘double stream’, referring to its divided course about the island of Tol Galen."
+  :place/page        [114 178 223]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:thing/name        "Aeglos"
+  :thing/description "‘Snow-point’, the spear of Gil-galad."
+  :thing/page        [282]
+  :thing/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Aegnor"
+  :character/description "The fourth son of Finarfin, who with his brother Angrod held the northern slopes of Dorthonion; slain in the Dagor Bragollach. The name means ‘Fell Fire’."
+  :character/page        [51 74 110 141 143]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:place/name        "Aelin-uial"
+  :place/description "The meres where Aros flowed into Sirion."
+  :place/page        [104 113 158 207 220]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Aerandir"
+  :character/description "‘Sea-wanderer’, one of the three mariners who accompanied Eärendil on his voyages."
+  :character/page        [237]
+  :character/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Aerin"
+  :character/description "A kinswoman of Húrin in Dor-lómin; taken as wife by Brodda the Easterling; aided Morwen after the Nirnaeth Arnoediad."
+  :character/page        [188 205]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Aglarond"
+  :place/description "‘The Glittering Cavern’ of Helm’s Deep in Ered Nimrais (see _The Two Towers_ III 8)."
+  :place/page        [279]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Aglon"
+  :place/description "‘The Narrow Pass’, between Dorthonion and the heights to the west of Himring."
+  :place/page        [115 126 143 144]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ ;; TODO the Music itself and the title of an account
+ {:event/name        "Ainulindalë"
+  :event/description "The account of Creation said to have been composed by Rúmil of Tirion in the Elder Days."
+  :event/page        [3 4 5 6 7 8 13 14 16 29 30 34 35 39 58 65 95 195]
+  :event/appears-in  [[:chapter/name "Ainulindalë"]
+                      [:chapter/name "Valaquenta"]
+                      [:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Aulë and Yavanna"]
+                      [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Darkening of Valinor"]
+                      [:chapter/name "Of Men"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:race/name        "Ainur"
+  :race/description "‘The Holy Ones’ (singular _Ainu_); the first beings created by Ilúvatar, the ‘order’ of the Valar and Maiar, made before Eä."
+  :race/page        [3 4 5 6 7 8 13 14 29 30 32 34 46 95 195 222]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Valaquenta"]
+                     [:chapter/name "Of the Beginning of Days"]
+                     [:chapter/name "Of Aulë and Yavanna"]
+                     [:chapter/name "Of Thingol and Melian"]
+                     [:chapter/name "Of Men"]
+                     [:chapter/name "Of Túrin Turambar"]
+                     [:chapter/name "Of the Ruin of Doriath"]]}
+
+ ;; TODO a word and a title, not an object
+ {:thing/name        "Akallabêth"
+  :thing/description "‘The Downfallen’, Adûnaic (Númenórean) word equivalent in meaning to Quenya _Atalantë_. Also the title of the account of the Downfall of Númenor."
+  :thing/page        [268 278]
+  :thing/appears-in  [[:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Alcarinquë"
+  :thing/description "‘The Glorious’, name of a star."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ {:thing/name        "Alcarondas"
+  :thing/description "The great ship of Ar-Pharazôn in which he sailed to Aman."
+  :thing/page        [265]
+  :thing/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ ;; TODO a song, not an object
+ {:thing/name        "Aldudénië"
+  :thing/description "‘Lament for the Two Trees’, made by a Vanyarin Elf named Elemmírë."
+  :thing/page        [66]
+  :thing/appears-in  [[:chapter/name "Of the Darkening of Valinor"]]}
+
+ {:place/name        "Almaren"
+  :place/description "The first abode of the Valar in Arda, before the second onslaught of Melkor: an isle in a great lake in the midst of Middle-earth."
+  :place/page        [24 25 92]
+  :place/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:place/name        "Alqualondë"
+  :place/description "‘Haven of the Swans’, the chief city and haven of the Teleri on the shores of Aman."
+  :place/page        [50 51 52 62 76 77 78 79 94 101 120 147 238 239 240]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of Men"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO glossary says Passim; only the ‘especially’ pages are linked
+ {:place/name        "Aman"
+  :place/description "‘Blessed, free from evil’, the name of the land in the West, beyond the Great Sea, in which the Valar dwelt after they had left the Isle of Almaren."
+  :place/page        [25 52 252 253]
+  :place/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Akallabêth"]]}
+
+ {:character/name        "Amandil"
+  :character/description "‘Lover of Aman’; the last lord of Andúnië in Númenor, descendant of Elros and father of Elendil; set out on a voyage to Valinor and did not return."
+  :character/page        [259 260 261 263 264 267 280]
+  :character/appears-in  [[:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Amarië"
+  :character/description "Vanyarin Elf, beloved of Finrod Felagund, who remained in Valinor."
+  :character/page        [121]
+  :character/appears-in  [[:chapter/name "Of the Noldor in Beleriand"]]}
+
+ {:character/name        "Amlach"
+  :character/description "Son of Imlach son of Marach; a leader of dissension among the Men of Estolad who, repenting, took service with Maedhros."
+  :character/page        [135 136]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:place/name        "Amon Ereb"
+  :place/description "‘The Lonely Hill’ (also simply _Ereb_), between Ramdal and the river Gelion in East Beleriand."
+  :place/page        [86 113 114 144]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:place/name        "Amon Ethir"
+  :place/description "‘The Hill of Spies’, raised by Finrod Felagund to the east of the doors of Nargothrond."
+  :place/page        [207 208]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Amon Gwareth"
+  :place/description "The hill upon which Gondolin was built, in the midst of the plain of Tumladen."
+  :place/page        [117 127 229 231 232]
+  :place/appears-in  [[:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Amon Obel"
+  :place/description "A hill in the midst of the Forest of Brethil, on which was built Ephel Brandir."
+  :place/page        [193 206 209]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Amon Rûdh"
+  :place/description "‘The Bald Hill’, a lonely height in the lands south of Brethil; abode of Mîm, and lair of Túrin’s outlaw band."
+  :place/page        [191 193 194 195 196 219]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Amon Sûl"
+  :place/description "‘Hill of the Wind’, in the Kingdom of Arnor (‘Weathertop’ in _The Lord of the Rings_)."
+  :place/page        [279 280]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Amras"
+  :character/description "Twin-brother of Amrod, youngest of the sons of Fëanor; slain with Amrod in the attack on Eärendil’s people at the Mouths of Sirion."
+  :character/page        [50 73 115 133 144 236]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO glossary only says ‘See Amras’; description mirrors Amras’s, pages borrowed from Amras
+ {:character/name        "Amrod"
+  :character/description "Twin-brother of Amras, youngest of the sons of Fëanor; slain with Amras in the attack on Eärendil’s people at the Mouths of Sirion."
+  :character/page        [50 73 115 133 144 236]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Anach"
+  :place/description "Pass leading down from Taur-nu-Fuin (Dorthonion) at the western end of Ered Gorgoroth."
+  :place/page        [191 195 196 230]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:character/name        "Anárion"
+  :character/description "Younger son of Elendil, who with his father and his brother Isildur escaped from the Drowning of Númenor and founded in Middle-earth the Númenórean realms in exile; lord of Minas Anor; slain in the siege of Barad-dûr."
+  :character/page        [260 267 278 279 281 282 283 284]
+  :character/appears-in  [[:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Anarríma"
+  :thing/description "Name of a constellation."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ {:character/name        "Ancalagon"
+  :character/description "Greatest of the winged dragons of Morgoth, destroyed by Eärendil."
+  :character/page        [241]
+  :character/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Andram"
+  :place/description "‘The Long Wall’, name of the dividing fall running across Beleriand."
+  :place/page        [86 113 114]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:place/name        "Androth"
+  :place/description "Caves in the hills of Mithrim where Tuor was fostered by the Grey-elves."
+  :place/page        [227]
+  :place/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Anduin"
+  :place/description "‘The Long River’, east of the Misty Mountains."
+  :place/page        [43 84 255 278 279 280 281 283 285 286 288 290]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Andúnië"
+  :place/description "City and haven on the west coast of Númenor."
+  :place/page        [249 256 257 259]
+  :place/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ ;; TODO from the ‘For the Lords of Andúnië see 256’ sub-heading of Andúnië
+ {:house/name        "Lords of Andúnië"
+  :house/page        [256]
+  :house/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ {:thing/name        "Angainor"
+  :thing/description "The chain wrought by Aulë with which Melkor was twice bound."
+  :thing/page        [40 241]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Angband"
+  :place/description "‘Iron Prison, Hell of Iron’, the great dungeon-fortress of Morgoth in the Northwest of Middle-earth."
+  :place/page        [37 71 86 97 98 99 109 169]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Beren and Lúthien"]]}
+
+ ;; TODO from the ‘The Siege of Angband’ sub-heading of Angband
+ {:event/name        "Siege of Angband"
+  :event/page        [105 106 108 109 112 115 123 141 142 150 157]
+  :event/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]]}
+
+ {:place/name        "Anghabar"
+  :place/description "‘Iron-delvings’, a mine in the Encircling Mountains about the plain of Gondolin."
+  :place/page        [129]
+  :place/appears-in  [[:chapter/name "Of Maeglin"]]}
+
+ {:thing/name        "Anglachel"
+  :thing/description "The sword made from meteoritic iron that Thingol received from Eöl and which he gave to Beleg; afterwards reforged for Túrin."
+  :thing/page        [191 192 196 197 198 199 200 203 206 211 212 213 215]
+  :thing/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Angrim"
+  :character/description "Father of Gorlim the Unhappy."
+  :character/page        [152]
+  :character/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
+
+ {:thing/name        "Angrist"
+  :thing/description "‘Iron-cleaver’, the knife made by Telchar of Nogrod, taken from Curufin by Beren and used by him to cut the Silmaril from Morgoth’s crown."
+  :thing/page        [167 171]
+  :thing/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
+
+ {:character/name        "Angrod"
+  :character/description "The third son of Finarfin, who with his brother Aegnor held the northern slopes of Dorthonion; slain in the Dagor Bragollach."
+  :character/page        [51 74 101 102 110 120 141 143 201]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Túrin Turambar"]]}
+
+ {:thing/name        "Anguirel"
+  :thing/description "Eöl’s sword, made of the same metal as Anglachel."
+  :thing/page        [192]
+  :thing/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Annael"
+  :character/description "Grey-elf of Mithrim, foster father of Tuor."
+  :character/page        [227]
+  :character/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Annon-in-Gelydh"
+  :place/description "‘Gate of the Noldor’, entrance to a subterranean water-course in the western hills of Dor-lómin, leading to Cirith Ninniach."
+  :place/page        [227]
+  :place/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Annúminas"
+  :place/description "‘Tower of the West’ (i.e. of Westernesse, Númenor); city of the Kings of Arnor beside Lake Nenuial."
+  :place/page        [278 280 283]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}]

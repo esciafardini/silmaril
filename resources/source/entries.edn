@@ -1,0 +1,3032 @@
+;; Glossary main entries, in index order. Hand-edited source: run
+;;   clojure -M -m silmaril.generate
+;; to regenerate resources/data/batch-NN.edn and resources/data/aliases.edn.
+;;
+;; :pages is the glossary's page refs as printed ("206, 209-15"). :desc is the
+;; glossary text verbatim, italics as _underscores_. :todo becomes a comment.
+
+[
+;; ---------------- index pages 304–307 ----------------
+ {:type :character
+  :name "Adûnakhôr"
+  :desc "‘Lord of the West’, name taken by the twentieth King of Númenor, the first to do so in the Adûnaic (Númenórean) tongue."
+  :pages "255"}
+
+ {:type :place
+  :name "Adurant"
+  :desc "The sixth and most southerly of the tributaries of Gelion in Ossiriand. The name means ‘double stream’, referring to its divided course about the island of Tol Galen."
+  :pages "114, 178, 223"}
+
+ {:type :thing
+  :name "Aeglos"
+  :desc "‘Snow-point’, the spear of Gil-galad."
+  :pages "282"}
+
+ {:type :character
+  :name "Aegnor"
+  :desc "The fourth son of Finarfin, who with his brother Angrod held the northern slopes of Dorthonion; slain in the Dagor Bragollach. The name means ‘Fell Fire’."
+  :pages "51, 74, 110, 141, 143"}
+
+ {:type :place
+  :name "Aelin-uial"
+  :desc "The meres where Aros flowed into Sirion."
+  :pages "104, 113, 158, 207, 220"}
+
+ {:type :character
+  :name "Aerandir"
+  :desc "‘Sea-wanderer’, one of the three mariners who accompanied Eärendil on his voyages."
+  :pages "237"}
+
+ {:type :character
+  :name "Aerin"
+  :desc "A kinswoman of Húrin in Dor-lómin; taken as wife by Brodda the Easterling; aided Morwen after the Nirnaeth Arnoediad."
+  :pages "188, 205"}
+
+ {:type :place
+  :name "Aglarond"
+  :desc "‘The Glittering Cavern’ of Helm’s Deep in Ered Nimrais (see _The Two Towers_ III 8)."
+  :pages "279"}
+
+ {:type :place
+  :name "Aglon"
+  :desc "‘The Narrow Pass’, between Dorthonion and the heights to the west of Himring."
+  :pages "115, 126, 143, 144"}
+
+ {:type :event
+  :name "Ainulindalë"
+  :desc "The account of Creation said to have been composed by Rúmil of Tirion in the Elder Days."
+  :pages "3-8, 13-14, 16, 29-30, 34-5, 39, 58, 65, 95, 195"
+  :todo "the Music itself and the title of an account"}
+
+ {:type :race
+  :name "Ainur"
+  :desc "‘The Holy Ones’ (singular _Ainu_); the first beings created by Ilúvatar, the ‘order’ of the Valar and Maiar, made before Eä."
+  :pages "3-8, 13-14, 29-30, 32, 34, 46, 95, 195, 222"}
+
+ {:type :thing
+  :name "Akallabêth"
+  :desc "‘The Downfallen’, Adûnaic (Númenórean) word equivalent in meaning to Quenya _Atalantë_. Also the title of the account of the Downfall of Númenor."
+  :pages "268, 278"
+  :todo "a word and a title, not an object"}
+
+ {:type :thing
+  :name "Alcarinquë"
+  :desc "‘The Glorious’, name of a star."
+  :pages "37"}
+
+ {:type :thing
+  :name "Alcarondas"
+  :desc "The great ship of Ar-Pharazôn in which he sailed to Aman."
+  :pages "265"}
+
+ {:type :thing
+  :name "Aldudénië"
+  :desc "‘Lament for the Two Trees’, made by a Vanyarin Elf named Elemmírë."
+  :pages "66"
+  :todo "a song, not an object"}
+
+ {:type :place
+  :name "Almaren"
+  :desc "The first abode of the Valar in Arda, before the second onslaught of Melkor: an isle in a great lake in the midst of Middle-earth."
+  :pages "24-5, 92"}
+
+ {:type :place
+  :name "Alqualondë"
+  :desc "‘Haven of the Swans’, the chief city and haven of the Teleri on the shores of Aman."
+  :pages "50-2, 62, 76-9, 94, 101, 120, 147, 238-40"}
+
+ {:type :place
+  :name "Aman"
+  :desc "‘Blessed, free from evil’, the name of the land in the West, beyond the Great Sea, in which the Valar dwelt after they had left the Isle of Almaren."
+  :pages "25, 52, 252-3"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :character
+  :name "Amandil"
+  :desc "‘Lover of Aman’; the last lord of Andúnië in Númenor, descendant of Elros and father of Elendil; set out on a voyage to Valinor and did not return."
+  :pages "259-61, 263-4, 267, 280"}
+
+ {:type :character
+  :name "Amarië"
+  :desc "Vanyarin Elf, beloved of Finrod Felagund, who remained in Valinor."
+  :pages "121"}
+
+ {:type :character
+  :name "Amlach"
+  :desc "Son of Imlach son of Marach; a leader of dissension among the Men of Estolad who, repenting, took service with Maedhros."
+  :pages "135-6"}
+
+ {:type :place
+  :name "Amon Ereb"
+  :desc "‘The Lonely Hill’ (also simply _Ereb_), between Ramdal and the river Gelion in East Beleriand."
+  :pages "86, 113-14, 144"}
+
+ {:type :place
+  :name "Amon Ethir"
+  :desc "‘The Hill of Spies’, raised by Finrod Felagund to the east of the doors of Nargothrond."
+  :pages "207-8"}
+
+ {:type :place
+  :name "Amon Gwareth"
+  :desc "The hill upon which Gondolin was built, in the midst of the plain of Tumladen."
+  :pages "117, 127, 229, 231-2"}
+
+ {:type :place
+  :name "Amon Obel"
+  :desc "A hill in the midst of the Forest of Brethil, on which was built Ephel Brandir."
+  :pages "193, 206, 209"}
+
+ {:type :place
+  :name "Amon Rûdh"
+  :desc "‘The Bald Hill’, a lonely height in the lands south of Brethil; abode of Mîm, and lair of Túrin’s outlaw band."
+  :pages "191, 193-6, 219"}
+
+ {:type :place
+  :name "Amon Sûl"
+  :desc "‘Hill of the Wind’, in the Kingdom of Arnor (‘Weathertop’ in _The Lord of the Rings_)."
+  :pages "279-80"}
+
+ {:type :character
+  :name "Amras"
+  :desc "Twin-brother of Amrod, youngest of the sons of Fëanor; slain with Amrod in the attack on Eärendil’s people at the Mouths of Sirion."
+  :pages "50, 73, 115, 133, 144, 236"}
+
+ {:type :character
+  :name "Amrod"
+  :desc "Twin-brother of Amras, youngest of the sons of Fëanor; slain with Amras in the attack on Eärendil’s people at the Mouths of Sirion."
+  :pages "50, 73, 115, 133, 144, 236"
+  :todo "glossary only says ‘See Amras’; description mirrors Amras’s, pages borrowed from Amras"}
+
+ {:type :place
+  :name "Anach"
+  :desc "Pass leading down from Taur-nu-Fuin (Dorthonion) at the western end of Ered Gorgoroth."
+  :pages "191, 195-6, 230"}
+
+ {:type :character
+  :name "Anárion"
+  :desc "Younger son of Elendil, who with his father and his brother Isildur escaped from the Drowning of Númenor and founded in Middle-earth the Númenórean realms in exile; lord of Minas Anor; slain in the siege of Barad-dûr."
+  :pages "260, 267, 278-9, 281-4"}
+
+ {:type :thing
+  :name "Anarríma"
+  :desc "Name of a constellation."
+  :pages "37"}
+
+ {:type :character
+  :name "Ancalagon"
+  :desc "Greatest of the winged dragons of Morgoth, destroyed by Eärendil."
+  :pages "241"}
+
+ {:type :place
+  :name "Andram"
+  :desc "‘The Long Wall’, name of the dividing fall running across Beleriand."
+  :pages "86, 113-14"}
+
+ {:type :place
+  :name "Androth"
+  :desc "Caves in the hills of Mithrim where Tuor was fostered by the Grey-elves."
+  :pages "227"}
+
+ {:type :place
+  :name "Anduin"
+  :desc "‘The Long River’, east of the Misty Mountains."
+  :pages "43, 84, 255, 278-81, 283, 285-6, 288, 290"}
+
+ {:type :place
+  :name "Andúnië"
+  :desc "City and haven on the west coast of Númenor."
+  :pages "249, 256-7, 259"}
+
+ {:type :house
+  :name "Lords of Andúnië"
+  :pages "256"
+  :todo "from the ‘For the Lords of Andúnië see 256’ sub-heading of Andúnië"}
+
+ {:type :thing
+  :name "Angainor"
+  :desc "The chain wrought by Aulë with which Melkor was twice bound."
+  :pages "40, 241"}
+
+ {:type :place
+  :name "Angband"
+  :desc "‘Iron Prison, Hell of Iron’, the great dungeon-fortress of Morgoth in the Northwest of Middle-earth."
+  :pages "37, 71, 86, 97-9, 109, 169"}
+
+ {:type :event
+  :name "Siege of Angband"
+  :pages "105-6, 108-9, 112, 115, 123, 141-2, 150, 157"
+  :todo "from the ‘The Siege of Angband’ sub-heading of Angband"}
+
+ {:type :place
+  :name "Anghabar"
+  :desc "‘Iron-delvings’, a mine in the Encircling Mountains about the plain of Gondolin."
+  :pages "129"}
+
+ {:type :thing
+  :name "Anglachel"
+  :desc "The sword made from meteoritic iron that Thingol received from Eöl and which he gave to Beleg; afterwards reforged for Túrin."
+  :pages "191-2, 196-200"}
+
+ {:type :character
+  :name "Angrim"
+  :desc "Father of Gorlim the Unhappy."
+  :pages "152"}
+
+ {:type :thing
+  :name "Angrist"
+  :desc "‘Iron-cleaver’, the knife made by Telchar of Nogrod, taken from Curufin by Beren and used by him to cut the Silmaril from Morgoth’s crown."
+  :pages "167, 171"}
+
+ {:type :character
+  :name "Angrod"
+  :desc "The third son of Finarfin, who with his brother Aegnor held the northern slopes of Dorthonion; slain in the Dagor Bragollach."
+  :pages "51, 74, 101-2, 110, 120, 141, 143, 201"}
+
+ {:type :thing
+  :name "Anguirel"
+  :desc "Eöl’s sword, made of the same metal as Anglachel."
+  :pages "192"}
+
+ {:type :character
+  :name "Annael"
+  :desc "Grey-elf of Mithrim, foster father of Tuor."
+  :pages "227"}
+
+ {:type :place
+  :name "Annon-in-Gelydh"
+  :desc "‘Gate of the Noldor’, entrance to a subterranean water-course in the western hills of Dor-lómin, leading to Cirith Ninniach."
+  :pages "227"}
+
+ {:type :place
+  :name "Annúminas"
+  :desc "‘Tower of the West’ (i.e. of Westernesse, Númenor); city of the Kings of Arnor beside Lake Nenuial."
+  :pages "278, 280, 283"}
+
+ {:type :character
+  :name "Aragorn"
+  :desc "The thirty-ninth Heir of Isildur in the direct line; King of the reunited realms of Arnor and Gondor after the War of the Ring; wedded Arwen, daughter of Elrond."
+  :pages "291"}
+
+ {:type :place
+  :name "Araman"
+  :desc "Barren wasteland on the coast of Aman, between the Pelóri and the Sea, extending northward to the Helcaraxë."
+  :pages "62, 70, 76-7, 79-80, 91-2, 96, 101, 229"}
+
+ {:type :thing
+  :name "Aranrúth"
+  :desc "‘King’s Ire’, the name of Thingol’s sword. Aranrúth survived the ruin of Doriath and was possessed by the Kings of Númenor."
+  :pages "191"}
+
+ {:type :character
+  :name "Aranwë"
+  :desc "Elf of Gondolin, father of Voronwë."
+  :pages "228"}
+
+ {:type :character
+  :name "Aratan"
+  :desc "Second son of Isildur, slain with him at the Gladden Fields."
+  :pages "283"}
+
+ {:type :race
+  :name "Aratar"
+  :desc "‘The Exalted’, the eight Valar of greatest power."
+  :pages "17"
+  :todo "a rank among the Valar, not a people"}
+
+ {:type :character
+  :name "Arathorn"
+  :desc "Father of Aragorn."
+  :pages "291"}
+
+ {:type :place
+  :name "Arda"
+  :desc "‘The Realm’, name of the Earth as the Kingdom of Manwë."
+  :pages "7, 10"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :place
+  :name "Ard-galen"
+  :desc "The great grassy plain north of Dorthonion. The name means ‘the Green Region’; cf. _Calenardhon_ (Rohan)."
+  :pages "97, 105-6, 108-110, 114, 142"}
+
+ {:type :character
+  :name "Aredhel"
+  :desc "‘Noble Elf’, the sister of Turgon of Gondolin, who was ensnared by Eöl in Nan Elmoth and bore to him Maeglin."
+  :pages "51, 122-9, 192"}
+
+ {:type :character
+  :name "Ar-Gimilzôr"
+  :desc "Twenty-third King of Númenor, persecutor of the Elendili."
+  :pages "256-7"}
+
+ {:type :place
+  :name "Argonath"
+  :desc "‘King-stones’, the Pillars of the Kings, great carvings of Isildur and Anárion on the Anduin at the entrance to the northern bounds of Gondor (see _The Fellowship of the Ring_ II 9)."
+  :pages "279, 285"}
+
+ {:type :character
+  :name "Arien"
+  :desc "A Maia, chosen by the Valar to guide the vessel of the Sun."
+  :pages "90-2"}
+
+ {:type :place
+  :name "Armenelos"
+  :desc "City of the Kings in Númenor."
+  :pages "249, 251, 258-61, 279"}
+
+ {:type :character
+  :name "Arminas"
+  :desc "Noldorin Elf of the House of Finarfin, of the people of Angrod."
+  :pages "201"
+  :todo "glossary only says ‘See Gelmir (2)’; description written for the import, not glossary text; page borrowed from Gelmir (2)"}
+
+ {:type :place
+  :name "Arnor"
+  :desc "‘Land of the King’, the northern realm of the Númenóreans in Middle-earth, established by Elendil after his escape from the Drowning of Númenor."
+  :pages "279-80, 291"}
+
+ ;; ---------------- index pages 308–310 ----------------
+ {:type :place
+  :name "Aros"
+  :desc "The southern river of Doriath."
+  :pages "86, 102, 113, 115, 123, 138, 221-3"}
+
+ {:type :place
+  :name "Arossiach"
+  :desc "Fords of the river Aros, near the north-eastern edge of Doriath."
+  :pages "112, 123-4, 126-7"}
+
+ {:type :character
+  :name "Ar-Pharazôn"
+  :desc "‘The Golden’, twenty-fifth and last King of Númenor; captor of Sauron, by whom he was seduced; commander of the great fleet that went against Aman."
+  :pages "257-68"}
+
+ {:type :character
+  :name "Ar-Sakalthôr"
+  :desc "Father of Ar-Gimilzôr."
+  :pages "256"}
+
+ {:type :character
+  :name "Arthad"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :place
+  :name "Arvernien"
+  :desc "The coastlands of Middle-earth west of Sirion’s mouths. Cf. Bilbo’s song at Rivendell: ‘Eärendil was a mariner that tarried in Arvernien...’ (_The Fellowship of the Ring_ II 1)."
+  :pages "233"}
+
+ {:type :place
+  :name "Ascar"
+  :desc "The most northerly of the tributaries of Gelion in Ossiriand. The name means ‘rushing, impetuous’."
+  :pages "82, 114-15, 131, 137, 224"}
+
+ {:type :thing
+  :name "Atalantë"
+  :desc "‘The Downfallen’, Quenya word equivalent in meaning to _Akallabêth_."
+  :pages "268"
+  :todo "a word, not an object"}
+
+ {:type :race
+  :name "Atani"
+  :desc "‘The Second People’, Men (singular _Atan_). For the origin of the name see 134. Since in Beleriand for a long time the only Men known to the Noldor and Sindar were those of the Three Houses, this name became specially associated with them, so that it was seldom applied to other Men who came later to Beleriand, or who were reported to be dwelling beyond the Mountains. But in the speech of Ilúvatar (29) the meaning is ‘Men (in general)’."
+  :pages "29, 93, 134, 134-5, 137-40, 148-9, 185, 187, 225, 247-9, 268"}
+
+ {:type :character
+  :name "Aulë"
+  :desc "A Vala, one of the Aratar, the smith and master of crafts, spouse of Yavanna; see especially 15, 27–8, and for his making of the Dwarves 31ff."
+  :pages "7, 8, 14-15, 17-20, 23-4, 27, 29, 31-5, 40-2, 50, 52, 54, 59, 69, 75, 82, 89, 248"}
+
+ {:type :place
+  :name "Avallónë"
+  :desc "Haven and city of the Eldar on Tol Eressëa, so named, according to the _Akallabêth_, ‘for it is of all cities the nearest to Valinor’."
+  :pages "248, 251-2, 257, 266, 269, 280, 284"}
+
+ {:type :race
+  :name "Avari"
+  :desc "‘The Unwilling, the Refusers’, the name given to all those Elves who refused to join the westward march from Cuiviénen. See _Eldar_ and _Dark Elves_."
+  :pages "42, 84, 89, 274"}
+
+ {:type :place
+  :name "Avathar"
+  :desc "‘The Shadows’, the forsaken land on the coast of Aman south of the Bay of Eldamar, between the Pelóri and the Sea, where Melkor met Ungoliant."
+  :pages "63-4, 70, 91"}
+
+ {:type :character
+  :name "Azaghâl"
+  :desc "Lord of the Dwarves of Belegost; wounded Glaurung in the Nirnaeth Arnoediad, and was killed by him."
+  :pages "183"}
+
+ {:type :place
+  :name "Balar"
+  :desc "The great bay to the south of Beleriand into which the river Sirion flowed. Also the isle in the bay, said to have been the eastern horn of Tol Eressëa that broke away, where Círdan and Gil-galad dwelt after the Nirnaeth Arnoediad."
+  :pages "40, 43, 47, 110, 48, 83, 112, 150, 186, 233, 235-6"}
+
+ {:type :race
+  :name "Balrog"
+  :desc "‘Demon of Might’, Sindarin form of the name of the demons of fire that served Morgoth."
+  :pages "19, 36, 71, 97-8, 112, 142-3, 158, 182-4, 231-2, 240"}
+
+ {:type :place
+  :name "Barad-dûr"
+  :desc "‘The Dark Tower’ of Sauron in Mordor."
+  :pages "255, 258, 268, 280, 282, 290-1"}
+
+ {:type :place
+  :name "Barad Eithel"
+  :desc "‘Tower of the Well’, the fortress of the Noldor at Eithel Sirion."
+  :pages "181"}
+
+ {:type :place
+  :name "Barad Nimras"
+  :desc "‘White Horn Tower’, raised by Finrod Felagund on the cape west of Eglarest."
+  :pages "112, 186"}
+
+ {:type :character
+  :name "Baragund"
+  :desc "Father of Morwen the wife of Húrin; nephew of Barahir and one of his twelve companions on Dorthonion."
+  :pages "139, 146, 151, 188, 241"}
+
+ {:type :character
+  :name "Barahir"
+  :desc "Father of Beren; rescued Finrod Felagund in the Dagor Bragollach, and received from him his ring; slain on Dorthonion. For the later history of the ring of Barahir, which became an heirloom of the House of Isildur, see _The Lord of the Rings_ Appendix A (I, iii)."
+  :pages "95, 139, 143, 146, 151-4, 156-9, 176, 178, 189, 220, 241"}
+
+ {:type :character
+  :name "Baran"
+  :desc "Elder son of Bëor the Old."
+  :pages "134"}
+
+ {:type :place
+  :name "Baranduin"
+  :desc "‘The Brown River’ in Eriador, flowing into the Sea south of the Blue Mountains; the Brandywine of the Shire in _The Lord of the Rings_."
+  :pages "278"}
+
+ {:type :place
+  :name "Bar-en-Danwedh"
+  :desc "‘House of Ransom’, the name that Mîm the Dwarf gave to his dwelling on Amon Rûdh when he yielded it to Túrin."
+  :pages "193, 195-6"}
+
+ {:type :event
+  :name "Battles of Beleriand"
+  :desc "The first battle: 86. The second battle (the Battle-under-Stars): see _Dagor-nuin-Giliath_. The third battle (the Glorious Battle): see _Dagor Aglareb_. The fourth battle (the Battle of Sudden Flame): see _Dagor Bragollach_. The fifth battle (Unnumbered Tears): see _Nirnaeth Arnoediad_. _The Great Battle_: 240–1, 247, 273"
+  :pages "86, 240-1, 247, 273"
+  :todo "overview of the five battles, not a single event"}
+
+ {:type :character
+  :name "Beleg"
+  :desc "A great archer and chief of the marchwardens of Doriath; friend and companion of Túrin, by whom he was slain."
+  :pages "148, 174-5, 179, 189-92, 194-9, 215"}
+
+ {:type :place
+  :name "Belegaer"
+  :desc "The sea of the West, between Middle-earth and Aman."
+  :pages "25, 79, 228"}
+
+ {:type :place
+  :name "Belegost"
+  :desc "‘Great Fortress’, one of the two cities of the Dwarves in the Blue Mountains."
+  :pages "82-4, 103, 124, 179, 183, 194, 220, 222"}
+
+ {:type :character
+  :name "Belegund"
+  :desc "Father of Rían the wife of Huor; nephew of Barahir and one of his twelve companions on Dorthonion."
+  :pages "139, 146, 151, 188"}
+
+ {:type :place
+  :name "Beleriand"
+  :desc "The name was said to have signified ‘the country of Balar’, and to have been given at first to the lands about the mouths of Sirion that faced the Isle of Balar. Later the name spread to include all the ancient coast of the Northwest of Middle-earth south of the Firth of Drengist, and all the inner lands south of Hithlum and eastwards to the feet of the Blue Mountains, divided by the river Sirion into East and West Beleriand. Beleriand was broken in the turmoils at the end of the First Age, and invaded by the sea, so that only Ossiriand (Lindon) remained."
+  :pages "110-15, 241, 273-4"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :place
+  :name "Belfalas"
+  :desc "Region on the southern coast of Gondor looking on to the great bay of the same name."
+  :pages "279"}
+
+ {:type :thing
+  :name "Belthil"
+  :desc "‘Divine radiance’, the image of Telperion made by Turgon in Gondolin."
+  :pages "117"}
+
+ {:type :thing
+  :name "Belthronding"
+  :desc "The bow of Beleg Cúthalion, which was buried with him."
+  :pages "198"}
+
+ {:type :character
+  :name "Bëor"
+  :desc "Leader of the first Men to enter Beleriand; vassal of Finrod Felagund; progenitor of the House of Bëor."
+  :pages "131-6, 139-41, 159"}
+
+ {:type :house
+  :name "House of Bëor"
+  :pages "134-6, 139, 143, 148, 151"
+  :founder "Bëor"
+  :todo "from the ‘House of, People of, Bëor’ sub-heading of Bëor"}
+
+ {:type :character
+  :name "Bereg"
+  :desc "Grandson of Baran son of Bëor the Old (this is not stated in the text); a leader of dissension among the Men of Estolad; went back over the mountains into Eriador."
+  :pages "135-6"}
+
+ {:type :character
+  :name "Beren"
+  :desc "Son of Barahir; cut a Silmaril from Morgoth’s crown to be the bride-price of Lúthien Thingol’s daughter, and was slain by Carcharoth the wolf of Angband; but returning from the dead, alone of mortal Men, lived afterwards with Lúthien on Tol Galen in Ossiriand, and fought with the Dwarves at Sarn Athrad. Great-grandfather of Elrond and Elros and ancestor of the Númenórean Kings."
+  :pages "95, 114, 139, 146, 151-60, 162-79, 188-9, 200, 220, 223-5, 236"}
+
+ {:type :age
+  :name "Black Years"
+  :pages "277, 282"
+  :todo "period with page refs only, no glossary text"}
+
+ {:type :character
+  :name "Bór"
+  :desc "A chieftain of the Easterlings, follower with his three sons of Maedhros and Maglor."
+  :pages "148, 179, 183"}
+
+ {:type :character
+  :name "Borlach"
+  :desc "One of the three sons of Bór; slain with his brothers in the Nirnaeth Arnoediad."
+  :pages "148"}
+
+ {:type :character
+  :name "Borlad"
+  :desc "One of the three sons of Bór; see _Borlach_."}
+
+ {:type :character
+  :name "Boromir"
+  :desc "Great-grandson of Bëor the Old, grandfather of Barahir father of Beren; first lord of Ladros."
+  :pages "139"}
+
+ {:type :character
+  :name "Boron"
+  :desc "Father of Boromir."
+  :pages "139"}
+
+ ;; ---------------- index pages 311 ----------------
+ {:type :character
+  :name "Borthand"
+  :desc "One of the three sons of Bór; see _Borlach_."}
+
+ {:type :character
+  :name "Brandir"
+  :desc "Ruler of the People of Haleth after the death of Handir his father; enamoured of Nienor; slain by Túrin."
+  :pages "206, 209-15"}
+
+ {:type :character
+  :name "Bregolas"
+  :desc "Father of Baragund and Belegund; slain in the Dagor Bragollach."
+  :pages "139, 143, 146"}
+
+ {:type :character
+  :name "Bregor"
+  :desc "Father of Barahir and Bregolas."
+  :pages "139"}
+
+ {:type :place
+  :name "Brethil"
+  :desc "The forest between the rivers Teiglin and Sirion, dwelling-place of the Haladin (the People of Haleth)."
+  :pages "110, 138, 146, 148-50, 166, 179-80, 182, 185, 191, 193, 195, 202, 205-6, 209-10, 214-15, 218-19"}
+
+ {:type :place
+  :name "Brilthor"
+  :desc "‘Glittering Torrent’, the fourth of the tributaries of Gelion in Ossiriand."
+  :pages "114"}
+
+ {:type :place
+  :name "Brithiach"
+  :desc "The ford over Sirion north of the Forest of Brethil."
+  :pages "122-3, 127, 138, 149, 196, 217-18"}
+
+ {:type :place
+  :name "Brithombar"
+  :desc "The northern of the Havens of the Falas on the coast of Beleriand."
+  :pages "48, 98, 112, 186, 235"}
+
+ {:type :place
+  :name "Brithon"
+  :desc "The river that flowed into the Great Sea at Brithombar."
+  :pages "186"}
+
+ {:type :character
+  :name "Brodda"
+  :desc "An Easterling in Hithlum after the Nirnaeth Arnoediad who took as wife Aerin, kinswoman of Húrin; slain by Túrin."
+  :pages "188, 205"}
+
+ {:type :place
+  :name "Cabed-en-Aras"
+  :desc "Deep gorge in the river Teiglin, where Túrin slew Glaurung, and where Nienor leapt to her death."
+  :pages "211, 213, 215"}
+
+ {:type :place
+  :name "Calacirya"
+  :desc "‘Cleft of Light’, the pass made in the mountains of the Pelóri in which was raised the green hill of Túna."
+  :pages "49, 52, 62, 72, 92, 237"}
+
+ {:type :race
+  :name "Calaquendi"
+  :desc "‘Elves of the Light’, those Elves who lived or had lived in Aman (the High Elves). See _Moriquendi_ and _Dark Elves_."
+  :pages "42, 46, 94, 98"}
+
+ {:type :place
+  :name "Calenardhon"
+  :desc "‘The Green Province’, the great grassy plain that was the northern part of Gondor; cf. _Ard-galen_."
+  :pages "285"}
+
+ {:type :place
+  :name "Caragdûr"
+  :desc "The precipice on the north side of Amon Gwareth (the hill of Gondolin) from which Eöl was cast to his death."
+  :pages "129"}
+
+ {:type :character
+  :name "Caranthir"
+  :desc "The fourth son of Fëanor; ‘the harshest of the brothers and the most quick to anger’; ruled in Thargelion; slain in the assault on Doriath."
+  :pages "50, 73, 102-3, 115, 120, 123, 134, 137, 144, 148, 225"}
+
+ {:type :character
+  :name "Carcharoth"
+  :desc "The great wolf of Angband that bit off the hand of Beren bearing the Silmaril; slain by Huan in Doriath. The name is translated in the text as ‘the Red Maw’."
+  :pages "170-1, 173-5"}
+
+ ;; ---------------- index pages 312–319 ----------------
+ {:type :place
+  :name "Cardolan"
+  :desc "Region in the south of Eriador, a part of the Kingdom of Arnor."
+  :pages "278"}
+
+ {:type :thing
+  :name "Carnil"
+  :desc "Name of a (red) star."
+  :pages "37"}
+
+ {:type :thing
+  :name "Celeborn (tree)"
+  :desc "‘Tree of Silver’, name of the Tree of Tol Eressëa, a scion of Galathilion."
+  :pages "50, 251"
+  :todo "glossary label ‘Celeborn (1)’; thing has no glossary-label attribute"}
+
+ {:type :character
+  :name "Celeborn (elf)"
+  :label "Celeborn (2)"
+  :desc "Elf of Doriath, kinsman of Thingol; wedded Galadriel and with her remained in Middle-earth after the end of the First Age."
+  :pages "105, 224, 243, 286"}
+
+ {:type :place
+  :name "Celebrant"
+  :desc "‘Silver Lode’, river running from Mirrormere through Lothlórien to join the Anduin."
+  :pages "286"}
+
+ {:type :character
+  :name "Celebrimbor"
+  :desc "‘Hand of Silver’, son of Curufin, who remained in Nargothrond when his father was expelled. In the Second Age greatest of the smiths of Eregion; maker of the Three Rings of the Elves; slain by Sauron."
+  :pages "166, 274, 276"}
+
+ {:type :place
+  :name "Celebros"
+  :desc "‘Silver Foam’ or ‘Silver Rain’, a stream in Brethil falling down to Teiglin near the Crossings."
+  :pages "209"}
+
+ {:type :character
+  :name "Celegorm"
+  :desc "The third son of Fëanor; until the Dagor Bragollach lord of the region of Himlad with Curufin his brother; dwelt in Nargothrond and imprisoned Lúthien; master of Huan the wolfhound; slain by Dior in Menegroth."
+  :pages "50, 52, 73, 97, 115, 123, 126, 143, 159-60, 162-3, 166-7, 173, 179, 225, 274"}
+
+ {:type :place
+  :name "Celon"
+  :desc "River flowing southwest from the Hill of Himring, a tributary of Aros. The name means ‘stream flowing down from heights’."
+  :pages "86, 115, 123, 126, 133, 138, 147"}
+
+ {:type :race
+  :name "Children of Ilúvatar"
+  :desc "The Firstborn and the Followers, Elves and Men."
+  :pages "6, 29"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :character
+  :name "Círdan"
+  :desc "‘The Shipwright’; Telerin Elf, lord of the Falas (coasts of West Beleriand); at the destruction of the Havens after the Nirnaeth Arnoediad escaped with Gil-galad to the Isle of Balar; during the Second and Third Ages keeper of the Grey Havens in the Gulf of Lhûn; at the coming of Mithrandir entrusted to him Narya, the Ring of Fire."
+  :pages "48, 81, 83, 86-7, 97, 103, 110, 119, 151, 186, 201-2, 233, 235-6, 243, 282, 286-8, 292"}
+
+ {:type :place
+  :name "Cirith Ninniach"
+  :desc "‘Rainbow Cleft’, by which Tuor came to the Western Sea; see _Annon-in-Gelydh_."
+  :pages "227"}
+
+ {:type :place
+  :name "Cirith Thoronath"
+  :desc "‘Eagles’ Cleft’, a high pass in the mountains north of Gondolin, where Glorfindel fought with a Balrog and fell into the abyss."
+  :pages "232"}
+
+ {:type :thing
+  :name "Cirth"
+  :desc "The Runes, first devised by Daeron of Doriath."
+  :pages "85"
+  :todo "a writing system; consider a :used-for ref to languages if the glossary ever names them"}
+
+ {:type :character
+  :name "Ciryon"
+  :desc "Third son of Isildur, slain with him at the Gladden Fields."
+  :pages "283"}
+
+ {:type :place
+  :name "Crissaegrim"
+  :desc "The mountain-peaks south of Gondolin, where were the eyries of Thorondor."
+  :pages "112, 145, 149, 172, 191, 217"}
+
+ {:type :place
+  :name "Crossings of Teiglin"
+  :desc "In the southwest of the Forest of Brethil, where the old road southward from the Pass of Sirion crossed the Teiglin."
+  :pages "138, 195-6, 206, 209, 212, 214, 218"}
+
+ {:type :place
+  :name "Cuiviénen"
+  :desc "‘Water of Awakening’, the lake in Middle-earth where the first Elves awoke, and where they were found by Oromë."
+  :pages "38-42, 45, 73, 89, 222"}
+
+ {:type :character
+  :name "Curufin"
+  :desc "The fifth son of Fëanor; father of Celebrimbor. For the origin of his name see _Fëanor_; and for his history see _Celegorm_."
+  :pages "50, 113, 115, 123, 126-7, 143, 159-60, 162-3, 166-8, 172-3, 179, 225, 274"}
+
+ {:type :character
+  :name "Curunír"
+  :desc "‘The one of cunning devices’, one of the Istari (Wizards)."
+  :pages "287-91"}
+
+ {:type :character
+  :name "Daeron"
+  :desc "Minstrel and chief loremaster of King Thingol; deviser of the Cirth (Runes); enamoured of Lúthien and twice betrayed her."
+  :pages "85, 103, 156, 162, 173, 243"}
+
+ {:type :character
+  :name "Dagnir"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :event
+  :name "Dagor Aglareb"
+  :desc "‘The Glorious Battle’, third of the great battles in the Wars of Beleriand."
+  :pages "105-6, 108, 116"}
+
+ {:type :event
+  :name "Dagor Bragollach"
+  :desc "‘The Battle of Sudden Flame’, fourth of the great battles in the Wars of Beleriand."
+  :pages "142, 146, 149, 151, 179, 181, 186, 201"}
+
+ {:type :place
+  :name "Dagorlad"
+  :desc "‘Battle Plain’, the place of the great battle north of Mordor between Sauron and the Last Alliance of Elves and Men at the end of the Second Age."
+  :pages "281, 283"}
+
+ {:type :event
+  :name "Dagor-nuin-Giliath"
+  :desc "‘The Battle-under-Stars’, the second battle in the Wars of Beleriand, fought in Mithrim after the coming of Fëanor to Middle-earth."
+  :pages "96-7"}
+
+ {:type :character
+  :name "Dairuin"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :race
+  :name "Dark Elves"
+  :desc "In the language of Aman all Elves that did not cross the Great Sea were Dark Elves, and the term is sometimes used thus, 94, 102; when Caranthir called Thingol a Dark Elf it was intended opprobriously, and was especially so, since Thingol had been to Aman and was not accounted among them (46). But in the period of the Exile of the Noldor it was often used of the Elves of Middle-earth other than the Noldor and the Sindar, and is then virtually equivalent to Avari (94, 114, 132). Different again is the title Dark Elf of the Sindarin Elf Eöl, 124, 126, 192; but at 128 Turgon no doubt meant that Eöl was a Dark Elf in the first sense."
+  :pages "46, 94, 102, 114, 124, 126, 128, 132, 192"}
+
+ {:type :age
+  :name "Days of Flight"
+  :pages "277"
+  :todo "period with page refs only, no glossary text"}
+
+ {:type :character
+  :name "Denethor"
+  :desc "Son of Lenwë; leader of the Nandorin Elves that came at last over the Blue Mountains and dwelt in Ossiriand; slain on Amon Ereb in the First Battle of Beleriand."
+  :pages "43, 85-6, 114"}
+
+ {:type :place
+  :name "Dimbar"
+  :desc "The land between the rivers Sirion and Mindeb."
+  :pages "112, 123, 149, 166, 191-2, 194-5, 217"}
+
+ {:type :place
+  :name "Dimrost"
+  :desc "The falls of Celebros in the Forest of Brethil; translated in the text as ‘the Rainy Stair’."
+  :pages "209"}
+
+ {:type :character
+  :name "Dior"
+  :desc "Son of Beren and Lúthien and father of Elwing, Elrond’s mother; came to Doriath from Ossiriand after the death of Thingol, and received the Silmaril after the death of Beren and Lúthien; slain in Menegroth by the sons of Fëanor."
+  :pages "178, 224-6, 230, 233, 236, 240, 242-3"}
+
+ {:type :place
+  :name "Dol Guldur"
+  :desc "‘Hill of Sorcery’, fastness of the Necromancer (Sauron) in southern Mirkwood in the Third Age."
+  :pages "287-90"}
+
+ {:type :place
+  :name "Dolmed"
+  :desc "‘Wet Head’, a great mountain in the Ered Luin, near the Dwarf-cities of Nogrod and Belegost."
+  :pages "81-2, 86, 183, 224"}
+
+ {:type :place
+  :name "Dor-Cúarthol"
+  :desc "‘Land of Bow and Helm’, name of the country defended by Beleg and Túrin from their lair on Amon Rûdh."
+  :pages "195"}
+
+ {:type :place
+  :name "Dor Daedeloth"
+  :desc "‘Land of the Shadow of Horror’, the land of Morgoth in the north."
+  :pages "97, 99, 101"}
+
+ {:type :place
+  :name "Dor Dínen"
+  :desc "‘The Silent Land’, where nothing dwelt, between the upper waters of Esgalduin and Aros."
+  :pages "112"}
+
+ {:type :place
+  :name "Dor Firn-i-Guinar"
+  :desc "The region in Ossiriand where Beren and Lúthien dwelt after their return."
+  :pages "178, 224"}
+
+ {:type :place
+  :name "Doriath"
+  :desc "‘Land of the Fence’, referring to the Girdle of Melian; the kingdom of Thingol and Melian in the forests of Neldoreth and Region, ruled from Menegroth on the river Esgalduin."
+  :pages "87, 113"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :character
+  :name "Dorlas"
+  :desc "A Man of the Haladin in Brethil; went with Túrin and Hunthor to the attack on Glaurung, but withdrew in fear; slain by Brandir the Lame."
+  :pages "206, 210-11, 213-14"}
+
+ {:type :character
+  :name "Wife of Dorlas"
+  :pages "214"
+  :todo "from the ‘The wife of Dorlas, not named’ sub-heading of Dorlas"}
+
+ {:type :place
+  :name "Dor-lómin"
+  :desc "Region in the south of Hithlum, the territory of Fingon, given as a fief to the House of Hador; the home of Húrin and Morwen."
+  :pages "79, 109-10, 139, 146, 149, 150-1, 180, 184, 188-9, 194, 203-7, 213-14, 217, 222"}
+
+ {:type :place
+  :name "Dorthonion"
+  :desc "‘Land of Pines’, the great forested highlands on the northern borders of Beleriand. Cf. Treebeard’s song in _The Two Towers_ III 4: ‘To the pine-trees upon the highlands of Dorthonion I climbed in the Winter...’"
+  :pages "40, 86, 97, 102, 105-6, 110, 112, 114-15, 134, 139, 142-4, 146, 151-4, 180"}
+
+ {:type :thing
+  :name "Dragon-helm of Dor-lómin"
+  :desc "Heirloom of the House of Hador, worn by Túrin."
+  :pages "189, 194-5, 201, 219"}
+
+ {:type :animal
+  :name "Dragons"
+  :pages "183, 231-2, 241, 248, 277, 286"
+  :todo "page refs only, no glossary text"}
+
+ {:type :character
+  :name "Draugluin"
+  :desc "The great werewolf slain by Huan at Tol-in-Gaurhoth, and in whose form Beren entered Angband."
+  :pages "164, 168-70"}
+
+ {:type :place
+  :name "Drengist"
+  :desc "The long firth that pierced Ered Lómin, the west-fence of Hithlum."
+  :pages "43, 70, 79-80, 87, 96, 106, 109, 151"}
+
+ {:type :place
+  :name "Dry River"
+  :desc "The river that once flowed out under the Encircling Mountains from the primeval lake where was afterwards Tumladen, the plain of Gondolin."
+  :pages "128, 217"}
+
+ {:type :place
+  :name "Duilwen"
+  :desc "The fifth of the tributaries of Gelion in Ossiriand."
+  :pages "114"}
+
+ {:type :character
+  :name "Durin"
+  :desc "Lord of the Dwarves of Khazad-dûm (Moria)."
+  :pages "33, 281"}
+
+ {:type :place
+  :name "Dwarf-road"
+  :desc "Road leading down into Beleriand from the cities of Nogrod and Belegost, and crossing Gelion at the ford of Sarn Athrad."
+  :pages "131, 134, 137"}
+
+ {:type :race
+  :name "Dwarves"
+  :desc "For the _Necklace of the Dwarves_ see _Nauglamír_. For the _Seven Rings of the Dwarves_ see _Rings of Power_."
+  :pages "31-3, 81-4, 103-4, 115, 124-6, 131, 148, 180, 183, 192, 194, 219-25, 274, 276, 281, 286, 31-33, 82"
+  :todo "refs from sub-heading ‘Seven Fathers of the Dwarves’ (31–33, 82) merged in; ‘Referring to the Petty-Dwarves’ (192–6, 202, 219) moved to Noegyth Nibin"}
+
+ {:type :place
+  :name "Eä"
+  :desc "The World, the material Universe; _Eä_, meaning in Elvish ‘It is’ or ‘Let it be’, was the word of Ilúvatar when the World began its existence."
+  :pages "8, 13-14, 18, 24, 27, 31, 37-8, 46, 62, 65, 68, 75, 78, 88"}
+
+ {:type :animal
+  :name "Eagles"
+  :pages "34, 54, 100, 112, 116, 149-50, 172, 217-18, 230, 265"
+  :todo "page refs only, no glossary text"}
+
+ {:type :character
+  :name "Eärendil"
+  :desc "Son of Tuor and Idril Turgon’s daughter; escaped from the sack of Gondolin and wedded Elwing daughter of Dior at the Mouths of Sirion; sailed with her to Aman and pleaded for help against Morgoth; set to sail the skies in his ship Vingilot bearing the Silmaril that Beren and Lúthien brought out of Angband. The name means ‘Lover of the Sea’."
+  :pages "95, 139, 230-3, 235-9, 241, 244, 247-9, 252, 258, 263-4, 266, 268, 274"}
+
+ {:type :thing
+  :name "Lay of Eärendil"
+  :pages "235, 247"
+  :todo "a song about Eärendil; from the ‘Lay of Eärendil’ sub-heading of Eärendil"}
+
+ {:type :character
+  :name "Eärendur (lord of Andúnië)"
+  :label "Eärendur (1)"
+  :desc "A lord of Andúnië in Númenor."
+  :pages "256"}
+
+ {:type :character
+  :name "Eärendur (king of Arnor)"
+  :label "Eärendur (2)"
+  :desc "Tenth King of Arnor."
+  :pages "283"}
+
+ {:type :character
+  :name "Eärnil"
+  :desc "Thirty-second King of Gondor."
+  :pages "284-5"}
+
+ {:type :character
+  :name "Eärnur"
+  :desc "Son of Eärnil; last King of Gondor, in whom the line of Anárion came to its end."
+  :pages "285"}
+
+ {:type :thing
+  :name "Eärrámë"
+  :desc "‘Sea-wing’, the name of Tuor’s ship."
+  :pages "234"}
+
+ {:type :character
+  :name "Eärwen"
+  :desc "Daughter of Olwë of Alqualondë, Thingol’s brother; wedded Finarfin of the Noldor. From Eärwen Finrod, Orodreth, Angrod, Aegnor and Galadriel had Telerin blood and were therefore allowed entry into Doriath."
+  :pages "50, 101, 120"}
+
+ {:type :race
+  :name "Easterlings"
+  :desc "Entered Beleriand from the East in the time after the Dagor Bragollach, and fought on both sides in the Nirnaeth Arnoediad; given Hithlum as a dwelling-place by Morgoth, where they oppressed the remnant of the People of Hador."
+  :pages "148, 183, 185, 188, 205, 216, 227"}
+
+ {:type :place
+  :name "Echoriath"
+  :desc "The mountains about the plain of Gondolin."
+  :pages "105, 129, 149, 217, 218, 230"}
+
+ {:type :character
+  :name "Ecthelion"
+  :desc "Elf-lord of Gondolin, who in the sack of the city slew and was slain by Gothmog Lord of Balrogs."
+  :pages "97, 184, 228-9, 231"}
+
+ {:type :character
+  :name "Edrahil"
+  :desc "Chief of the Elves of Nargothrond who accompanied Finrod and Beren on their quest, and died in the dungeons of Tol-in-Gaurhoth."
+  :pages "160"}
+
+ {:type :place
+  :name "Eglarest"
+  :desc "The southern of the Havens of the Falas on the coast of Beleriand."
+  :pages "48, 86, 98, 110, 112-3, 186, 235"}
+
+ {:type :race
+  :name "Eglath"
+  :desc "‘The Forsaken People’, name given to themselves by the Telerin Elves who remained in Beleriand seeking for Elwë (Thingol) when the main host of the Teleri departed to Aman."
+  :pages "48, 222"}
+
+ {:type :character
+  :name "Eilinel"
+  :desc "The wife of Gorlim the Unhappy."
+  :pages "152-3"}
+
+ {:type :place
+  :name "Eithel Ivrin"
+  :desc "‘Ivrin’s Well’, the source of the river Narog beneath Ered Wethrin."
+  :pages "199, 202"}
+
+ {:type :place
+  :name "Eithel Sirion"
+  :desc "‘Sirion’s Well’, in the eastern face of Ered Wethrin, where was the great fortress of Fingolfin and Fingon (see _Barad Eithel_)."
+  :pages "97, 109-10, 143, 151, 180-1"}
+
+ {:type :place
+  :name "Ekkaia"
+  :desc "The sea encircling Arda."
+  :pages "25, 28, 40, 52, 79, 91, 95, 176"}
+
+ {:type :place
+  :name "Eldamar"
+  :desc "The region of Aman in which the Elves dwelt; also the great Bay of the same name."
+  :pages "49-53, 59-60, 62-3, 75, 76, 101, 125, 166, 237"}
+
+ {:type :race
+  :name "Eldar"
+  :desc "According to Elvish legend the name _Eldar_ ‘People of the Stars’ was given to all the Elves by the Vala Oromë. It came however to be used to refer only to the Elves of the Three Kindreds (Vanyar, Noldor, and Teleri) who set out on the great westward march from Cuiviénen (whether or not they remained in Middle-earth), and to exclude the Avari. See _Dark Elves_, _Úmanyar_."
+  :todo "glossary says ‘Passim; see entry Elves’ — no page refs"}
+
+ {:type :thing
+  :name "Elemmírë (star)"
+  :desc "Name of a star."
+  :pages "37"
+  :todo "glossary label ‘Elemmírë (1)’; thing has no glossary-label attribute"}
+
+ {:type :character
+  :name "Elemmírë (elf)"
+  :label "Elemmírë (2)"
+  :desc "Vanyarin Elf, maker of the _Aldudénië_, the Lament for the Two Trees."
+  :pages "66"}
+
+ {:type :character
+  :name "Elendil"
+  :desc "Son of Amandil, last lord of Andúnië in Númenor, descended from Eärendil and Elwing but not of the direct line of the Kings; escaped with his sons Isildur and Anárion from the Drowning of Númenor and founded the Númenórean realms in Middle-earth; slain with Gil-galad in the overthrow of Sauron at the end of the Second Age. The name may be interpreted either as ‘Elf-friend’ (cf. _Elendili_) or as ‘Star-lover’."
+  :pages "260, 263-4, 267-8, 278-83, 285, 291"}
+
+ {:type :house
+  :name "Heirs of Elendil"
+  :pages "268, 282"
+  :founder "Elendil"
+  :todo "from the ‘Heirs of Elendil’ sub-heading of Elendil"}
+
+ {:type :race
+  :name "Elendili"
+  :desc "‘Elf-friends’, name given to those Númenóreans who were not estranged from the Eldar in the days of Tar-Ancalimon and later kings."
+  :pages "254-7, 259-61, 263-4, 279-80"}
+
+ {:type :character
+  :name "Elendur"
+  :desc "Eldest son of Isildur, slain with him at the Gladden Fields."
+  :pages "283"}
+
+ {:type :character
+  :name "Elenwë"
+  :desc "Wife of Turgon; perished in the crossing of the Helcaraxë."
+  :pages "80, 125"}
+
+ {:type :place
+  :name "Elostirion"
+  :desc "Tallest of the towers upon Emyn Beraid, in which the _palantír_ was placed."
+  :pages "280"}
+
+ {:type :character
+  :name "Elrond"
+  :desc "Son of Eärendil and Elwing, who at the end of the First Age chose to belong to the Firstborn, and remained in Middle-earth until the end of the Third Age; master of Imladris (Rivendell) and keeper of Vilya, the Ring of Air, which he had received from Gil-galad. The name means ‘Star-dome’."
+  :pages "95, 235-7, 243, 249, 274-6, 282-90, 292, 291"
+  :todo "ref 291 from the ‘Sons of Elrond’ sub-heading merged in"}
+
+ {:type :character
+  :name "Elros"
+  :desc "Son of Eärendil and Elwing, who at the end of the First Age chose to be numbered among Men, and became the first King of Númenor, living to a very great age. The name means ‘Star-foam’."
+  :pages "235-7, 243, 249-50, 254-7, 260, 274, 278"}
+
+ {:type :character
+  :name "Eluréd"
+  :desc "Elder son of Dior; perished in the attack on Doriath by the sons of Fëanor. The name means the same as _Eluchíl_."
+  :pages "224-6"}
+
+ {:type :character
+  :name "Elurín"
+  :desc "Younger son of Dior; perished with his brother Eluréd. The name means ‘Remembrance of Elu (Thingol)’."
+  :pages "224-6"}
+
+ {:type :race
+  :name "Elves"
+  :desc "See especially 29–30, 37–9, 41–2, 77–8, 94–5, 252–3; and see also _Children of Ilúvatar_, _Eldar_, _Dark Elves_. _Elves of the Light_: see _Calaquendi_."
+  :pages "29-30, 37-9, 41-2, 77-8, 94-5, 252-3"}
+
+ {:type :character
+  :name "Elwing"
+  :desc "Daughter of Dior, who escaping from Doriath with the Silmaril wedded Eärendil at the Mouths of Sirion and went with him to Valinor; mother of Elrond and Elros. The name means ‘Star-spray’; see _Lanthir Lamath_."
+  :pages "95, 139, 224-6, 233, 235-40, 243"}
+
+ {:type :character
+  :name "Emeldir"
+  :desc "Wife of Barahir and mother of Beren; led the women and children of the House of Bëor from Dorthonion after the Dagor Bragollach. (She was herself also a descendant of Bëor the Old, and her father’s name was Beren; this is not stated in the text.)"
+  :pages "146, 151"}
+
+ {:type :place
+  :name "Emyn Beraid"
+  :desc "‘The Tower Hills’ in the west of Eriador; see _Elostirion_."
+  :pages "279-80"}
+
+ {:type :place
+  :name "Enchanted Isles"
+  :desc "The islands set by the Valar in the Great Sea eastwards of Tol Eressëa at the time of the Hiding of Valinor."
+  :pages "92, 237"}
+
+ {:type :character
+  :name "Eöl"
+  :desc "The great smith who dwelt in Nan Elmoth, and took Aredhel Turgon’s sister to wife; friend of the Dwarves; maker of the sword Anglachel; father of Maeglin; put to death in Gondolin."
+  :pages "82, 124-9, 192"}
+
+ {:type :character
+  :name "Eönwë"
+  :desc "One of the mightiest of the Maiar; leader of the host of the Valar in the attack on Morgoth at the end of the First Age."
+  :pages "18, 238-43, 248, 273"}
+
+ {:type :place
+  :name "Ephel Brandir"
+  :desc "‘The encircling fence of Brandir’, dwellings of the Men of Brethil upon Amon Obel."
+  :pages "206, 209-10"}
+
+ {:type :place
+  :name "Ephel Dúath"
+  :desc "‘Fence of Shadow’, the mountain-range between Gondor and Mordor."
+  :pages "279-80, 284"}
+
+ {:type :place
+  :name "Erech"
+  :desc "A hill in the west of Gondor, where was the Stone of Isildur (see _The Return of the King_ V 2)."
+  :pages "279"}
+
+ {:type :place
+  :name "Ered Engrin"
+  :desc "Mountains in the far north."
+  :pages "99, 105-6, 108, 151"}
+
+ {:type :place
+  :name "Ered Gorgoroth"
+  :desc "Mountains northward of Nan Dungortheb."
+  :pages "71, 86, 112, 123, 138, 154, 166"}
+
+ {:type :place
+  :name "Ered Lómin"
+  :desc "Mountains forming the west-fence of Hithlum."
+  :pages "96, 109"}
+
+ {:type :place
+  :name "Ered Luin"
+  :desc "A mountain range. After the destruction at the end of the First Age it formed the north-western coastal range of Middle-earth."
+  :pages "43-4, 81-2, 84, 103-5, 114, 124, 131, 222, 274, 277-8"}
+
+ {:type :place
+  :name "Ered Nimrais"
+  :desc "The White Mountains (_nimrais_ ‘white horns’), the great range from east to west south of the Misty Mountains."
+  :pages "84"}
+
+ {:type :place
+  :name "Ered Wethrin"
+  :desc "The great curving range bordering Ard-galen on the west and forming the barrier between Hithlum and West Beleriand."
+  :pages "96-7, 99, 103, 106, 109-10, 117, 135, 142-3, 151, 160, 165, 180, 182, 185, 193, 197, 199, 201-2, 205, 217-18, 228"
+  :todo "printed refs 279–80, 284 dropped: they belong to Ephel Dúath, which shares the name ‘Mountains of Shadow’"}
+
+ {:type :place
+  :name "Eregion"
+  :desc "‘Land of Holly’; Noldorin realm in the Second Age at the western feet of the Misty Mountains, where the Elven Rings were made."
+  :pages "274-6"}
+
+ {:type :character
+  :name "Erellont"
+  :desc "One of the three mariners who accompanied Eärendil on his voyages."
+  :pages "237"}
+
+ {:type :place
+  :name "Eriador"
+  :desc "The land between the Misty Mountains and the Blue, in which lay the Kingdom of Arnor (and also the Shire of the Hobbits)."
+  :pages "43-4, 82, 84, 136, 255, 278, 283, 285-6, 290"}
+
+ ;; ---------------- index pages 320–331 ----------------
+ {:type :character
+  :name "Eru Ilúvatar"
+  :todo "no headword of its own; combined name chosen for the import; text and pages come from the Eru and Ilúvatar headwords"}
+
+ {:type :place
+  :name "Esgalduin"
+  :desc "The river of Doriath, dividing the forests of Neldoreth and Region, and flowing into Sirion. The name means ‘River under Veil’."
+  :pages "83, 112-13, 123, 155, 174-5, 208, 223"}
+
+ {:type :character
+  :name "Estë"
+  :desc "One of the Valier, the spouse of Irmo (Lórien); her name means ‘Rest’."
+  :pages "14, 16, 18, 54, 90-1"}
+
+ {:type :place
+  :name "Estolad"
+  :desc "The land south of Nan Elmoth where the Men of the followings of Bëor and Marach dwelt after they crossed the Blue Mountains into Beleriand; translated in the text as ‘the Encampment’."
+  :pages "133-7"}
+
+ {:type :place
+  :name "Ezellohar"
+  :desc "The Green Mound of the Two Trees of Valinor."
+  :pages "26, 34, 66, 68-9"}
+
+ {:type :place
+  :name "Falas"
+  :desc "The western coasts of Beleriand, south of Nevrast."
+  :pages "48, 83, 86-7, 97, 110, 151, 180, 186, 201"}
+
+ {:type :character
+  :name "Falathar"
+  :desc "One of the three mariners who accompanied Eärendil on his voyages."
+  :pages "237"}
+
+ {:type :race
+  :name "Falathrim"
+  :desc "The Telerin Elves of the Falas, whose lord was Círdan."
+  :pages "48"}
+
+ {:type :race
+  :name "Falmari"
+  :desc "The Teleri who departed from Middle-earth and went into the West."
+  :pages "42"}
+
+ {:type :character
+  :name "Fëanor"
+  :desc "Eldest son of Finwë (the only child of Finwë and Míriel), half-brother of Fingolfin and Finarfin; greatest of the Noldor, and leader in their rebellion; deviser of the Fëanorian script; maker of the Silmarils; slain in Mithrim in the Dagor-nuin-Giliath. His fifth son, Curufin, was named after him. Chapters 5–9 and 13 _passim_; see especially 50, 53–6, 88. Elsewhere his name occurs chiefly in _the sons of Fëanor_."
+  :pages "50, 53-6, 88"
+  :todo "glossary also says ‘Chapters 5–9 and 13 passim’; only the ‘especially’ pages are linked"}
+
+ {:type :race
+  :name "Fëanturi"
+  :desc "‘Masters of Spirits’, the Valar Námo (Mandos) and Irmo (Lórien)."
+  :pages "16"
+  :todo "a pair of Valar, not a people"}
+
+ {:type :character
+  :name "Finarfin"
+  :desc "The third son of Finwë, the younger of Fëanor’s half-brothers; remained in Aman after the Exile of the Noldor and ruled the remnant of his people in Tirion. Alone among the Noldorin princes he and his descendants had golden hair, derived from his mother Indis, who was a Vanyarin Elf (see _Vanyar_). Many other occurrences of the name of Finarfin relate to his sons or his people."
+  :pages "50, 55, 59-60, 74-5, 78, 92, 157, 166, 240"}
+
+ {:type :character
+  :name "Finduilas"
+  :desc "Daughter of Orodreth, loved by Gwindor; captured in the sack of Nargothrond, and killed by Orcs at the Crossings of Teiglin."
+  :pages "199-200, 202-6, 209, 214"}
+
+ {:type :character
+  :name "Fingolfin"
+  :desc "The second son of Finwë, the elder of Fëanor’s half-brothers; High King of the Noldor in Beleriand, dwelling in Hithlum; slain by Morgoth in single combat. Many other occurrences of the name of Fingolfin relate to his sons or his people."
+  :pages "50, 55, 59-61, 65-6, 74-5, 77-80, 90, 96, 99-101, 103, 105-6, 109, 112, 117, 120, 134, 139, 141, 143-7, 186"}
+
+ {:type :character
+  :name "Fingon"
+  :desc "The eldest son of Fingolfin; rescued Maedhros from Thangorodrim; High King of the Noldor after the death of his father; slain by Gothmog in the Nirnaeth Arnoediad."
+  :pages "50, 74-5, 77, 79-80, 100-1, 106-7, 109, 112, 122, 129, 143, 146, 151, 154, 179-86, 233, 274"}
+
+ {:type :character
+  :name "Finrod"
+  :desc "The eldest son of Finarfin. Founder and King of Nargothrond; encountered in Ossiriand the first Men to cross the Blue Mountains; rescued by Barahir in the Dagor Bragollach; redeemed his oath to Barahir by accompanying Beren on his quest; slain in defence of Beren in the dungeons of Tol-in-Gaurhoth."
+  :pages "51, 74-5, 80, 99, 101, 103-5, 110, 112-13, 115, 118-21, 131-5, 138, 140, 143-4, 150, 154, 157, 159-66, 173, 194-5, 201, 203-4, 207-8, 219-20, 222"}
+
+ {:type :character
+  :name "Finwë"
+  :desc "Leader of the Noldor on the westward journey from Cuiviénen; King of the Noldor in Aman; father of Fëanor, Fingolfin, and Finarfin; slain by Morgoth at Formenos. Other references are to his sons or his house."
+  :pages "41, 44-5, 48-50, 52-5, 59-62, 65, 69, 72, 118-19"}
+
+ {:type :place
+  :name "Formenos"
+  :desc "‘Northern Fortress’, the stronghold of Fëanor and his sons in the north of Valinor, built after the banishment of Fëanor from Tirion."
+  :pages "61-2, 65, 69-70, 118"}
+
+ {:type :place
+  :name "Fornost"
+  :desc "‘Northern Fortress’, Númenórean city on the North Downs in Eriador."
+  :pages "278"}
+
+ {:type :character
+  :name "Frodo"
+  :desc "The Ringbearer."
+  :pages "291"}
+
+ {:type :character
+  :name "Fuinur"
+  :desc "A renegade Númenórean who became mighty among the Haradrim at the end of the Second Age."
+  :pages "281"}
+
+ {:type :character
+  :name "Galadriel"
+  :desc "Daughter of Finarfin and sister of Finrod Felagund; one of the leaders of the Noldorin rebellion against the Valar; wedded Celeborn of Doriath and with him remained in Middle-earth after the end of the First Age; keeper of Nenya, the Ring of Water, in Lothlórien."
+  :pages "51, 74, 80, 104-5, 118-19, 121, 135, 159, 224, 243, 286-8"}
+
+ {:type :thing
+  :name "Galathilion"
+  :desc "The White Tree of Tirion, the image of Telperion made by Yavanna for the Vanyar and the Noldor."
+  :pages "50, 251, 279"}
+
+ {:type :character
+  :name "Galdor"
+  :desc "Son of Hador Lórindol and lord of Dor-lómin after him; father of Húrin and Huor; slain at Eithel Sirion."
+  :pages "139, 143, 146, 149-51, 188, 199, 219, 241"}
+
+ {:type :thing
+  :name "galvorn"
+  :desc "The metal devised by Eöl."
+  :pages "124"}
+
+ {:type :event
+  :name "Gates of Summer"
+  :desc "A great festival of Gondolin, on the eve of which the city was assaulted by the forces of Morgoth."
+  :pages "231"
+  :todo "a festival, not a battle"}
+
+ {:type :place
+  :name "Gelion"
+  :desc "The great river of East Beleriand, rising in Himring and Mount Rerir and fed by the rivers of Ossiriand flowing down from the Blue Mountains."
+  :pages "44-5, 81-2, 86, 103, 112-15, 131, 133, 137, 144, 178, 221, 223-4"}
+
+ {:type :character
+  :name "Gelmir (son of Guilin)"
+  :label "Gelmir (1)"
+  :desc "Elf of Nargothrond, brother of Gwindor, captured in the Dagor Bragollach and afterwards put to death in front of Eithel Sirion, as a provocation to its defenders, before the Nirnaeth Arnoediad."
+  :pages "179, 181"}
+
+ {:type :character
+  :name "Gelmir (messenger)"
+  :label "Gelmir (2)"
+  :desc "Elf of the people of Angrod, who with Arminas came to Nargothrond to warn Orodreth of its peril."
+  :pages "201"}
+
+ {:type :character
+  :name "Gildor"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :character
+  :name "Gil-galad"
+  :desc "‘Star of Radiance’, son of Fingon. After the death of Turgon he became the last High King of the Noldor in Middle-earth, and remained in Lindon after the end of the First Age; leader with Elendil of the Last Alliance of Men and Elves and slain with him in combat with Sauron."
+  :pages "146, 233, 236, 243, 255-6, 274-5, 277-8, 280-2, 285-6"}
+
+ {:type :character
+  :name "Gimilkhâd"
+  :desc "Younger son of Ar-Gimilzôr and Inzilbêth and father of Ar-Pharazôn, the last King of Númenor."
+  :pages "256-7"}
+
+ {:type :place
+  :name "Ginglith"
+  :desc "River in West Beleriand flowing into the Narog above Nargothrond."
+  :pages "159, 202"}
+
+ {:type :place
+  :name "Gladden Fields"
+  :desc "The great stretches of reeds and iris (gladden) in and about the Anduin, where Isildur was slain and the One Ring lost."
+  :pages "283, 289"}
+
+ {:type :character
+  :name "Glaurung"
+  :desc "The first of the Dragons of Morgoth; in the Dagor Bragollach, the Nirnaeth Arnoediad, and the Sack of Nargothrond; cast his spell upon Túrin and upon Nienor; slain by Túrin at Cabed-en-Aras."
+  :pages "106-7, 139, 142, 144, 183, 202-5, 207-8, 210-15, 218-19, 228, 231"}
+
+ {:type :thing
+  :name "Glingal"
+  :desc "‘Hanging Flame’, the image of Laurelin made by Turgon in Gondolin."
+  :pages "117"}
+
+ {:type :character
+  :name "Glirhuin"
+  :desc "A minstrel of Brethil."
+  :pages "219"}
+
+ {:type :character
+  :name "Glóredhel"
+  :desc "Daughter of Hador Lórindol of Dor-lómin and sister of Galdor; wedded Haldir of Brethil."
+  :pages "149"}
+
+ {:type :character
+  :name "Glorfindel"
+  :desc "Elf of Gondolin, who fell to his death in Cirith Thoronath in combat with a Balrog after the escape from the sack of the city. The name means ‘Golden-haired’."
+  :pages "184, 232-3"}
+
+ {:type :place
+  :name "Gondolin"
+  :desc "‘The Hidden Rock’, secret city of King Turgon surrounded by the Encircling Mountains (Echoriath)."
+  :pages "51, 97, 116-18, 122-3, 125-7, 129-30, 145, 149-51, 172, 180, 182, 184, 186-7, 195, 217, 227-33, 236, 239, 244, 249"}
+
+ {:type :race
+  :name "Gondolindrim"
+  :desc "The people of Gondolin."
+  :pages "129, 150, 182"}
+
+ {:type :place
+  :name "Gondor"
+  :desc "‘Land of Stone’, name of the southern Númenórean kingdom in Middle-earth, established by Isildur and Anárion."
+  :pages "279-85, 290-1"
+  :todo "sub-heading ‘City of Gondor: Minas Tirith. 291’ logged as an alias of Minas Anor"}
+
+ {:type :place
+  :name "Gorgoroth (Mordor)"
+  :desc "A plateau in Mordor, between the converging Mountains of Shadow and Mountains of Ash."
+  :pages "280, 282, 284"
+  :todo "glossary label ‘Gorgoroth (2)’; ‘Gorgoroth (1)’ is a cross-reference to Ered Gorgoroth"}
+
+ {:type :character
+  :name "Gorlim"
+  :desc "One of the twelve companions of Barahir on Dorthonion, who was ensnared by a phantom of his wife Eilinel and revealed to Sauron the hiding-place of Barahir."
+  :pages "146, 152-3"}
+
+ {:type :character
+  :name "Gothmog"
+  :desc "Lord of Balrogs, high-captain of Angband, slayer of Fëanor, Fingon, and Ecthelion. (The same name was borne in the Third Age by the Lieutenant of Minas Morgul; _The Return of the King_ V 6.)"
+  :pages "97, 183-5, 232"}
+
+ {:type :place
+  :name "Greater Gelion"
+  :desc "One of the two tributary branches of the river Gelion in the north, rising in Mount Rerir."
+  :pages "114"}
+
+ {:type :place
+  :name "Greenwood the Great"
+  :desc "The great forest east of the Misty Mountains."
+  :pages "278, 283, 287-90"}
+
+ {:type :thing
+  :name "Grond"
+  :desc "The great mace of Morgoth, with which he fought Fingolfin. The battering-ram used against the Gate of Minas Tirith was named after it (_The Return of the King_ V 4)."
+  :pages "145"}
+
+ {:type :character
+  :name "Guilin"
+  :desc "Father of Gelmir and Gwindor, Elves of Nargothrond."
+  :pages "179, 181, 197, 199, 202"}
+
+ {:type :character
+  :name "Gundor"
+  :desc "Younger son of Hador Lórindol, lord of Dor-lómin, slain with his father at Eithel Sirion in the Dagor Bragollach."
+  :pages "139, 143, 241"}
+
+ {:type :race
+  :name "Gwaith-i-Mírdain"
+  :desc "‘People of the Jewel-smiths’, name of the fellowship of craftsmen in Eregion, greatest of whom was Celebrimbor son of Curufin."
+  :pages "274"
+  :todo "a fellowship of craftsmen, not a people"}
+
+ {:type :character
+  :name "Gwindor"
+  :desc "Elf of Nargothrond, brother of Gelmir; enslaved in Angband, but escaped and aided Beleg in the rescue of Túrin; brought Túrin to Nargothrond; loved Finduilas Orodreth’s daughter; slain in the Battle of Tumhalad."
+  :pages "179-82, 197-202"}
+
+ {:type :character
+  :name "Hador"
+  :desc "Lord of Dor-lómin, vassal of Fingolfin; father of Galdor father of Húrin; slain at Eithel Sirion in the Dagor Bragollach."
+  :pages "139, 143, 146, 149, 151"}
+
+ {:type :house
+  :name "House of Hador"
+  :pages "139, 148-9, 151, 179, 184-5, 188-9, 196, 205, 216, 238"
+  :founder "Hador"
+  :todo "from the ‘House of, People of, Hador’ sub-heading of Hador"}
+
+ {:type :race
+  :name "Haladin"
+  :desc "The second people of Men to enter Beleriand; afterwards dwelling in the Forest of Brethil."
+  :pages "133-4, 136-7, 146, 148-9, 151, 182, 185"}
+
+ {:type :character
+  :name "Haldad"
+  :desc "Leader of the Haladin in their defence against the attack on them by Orcs in Thargelion, and slain there; father of the Lady Haleth."
+  :pages "137-8"}
+
+ {:type :character
+  :name "Haldan"
+  :desc "Son of Haldar; leader of the Haladin after the death of the Lady Haleth."
+  :pages "138"}
+
+ {:type :character
+  :name "Haldar"
+  :desc "Son of Haldad of the Haladin, and brother of the Lady Haleth; slain with his father in the Orc-raid on Thargelion."
+  :pages "137-8"}
+
+ {:type :character
+  :name "Haldir"
+  :desc "Son of Halmir of Brethil; wedded Glóredhel, daughter of Hador of Dor-lómin; slain in the Nirnaeth Arnoediad."
+  :pages "149, 179-80, 182, 185"}
+
+ {:type :character
+  :name "Haleth"
+  :desc "Leader of the Haladin from Thargelion to the lands west of Sirion."
+  :pages "137-8"}
+
+ {:type :house
+  :name "House of Haleth"
+  :pages "138-9, 148, 179, 206, 210-11"
+  :founder "Haleth"
+  :todo "from the ‘House of, People of, Haleth’ sub-heading of Haleth"}
+
+ {:type :race
+  :name "Half-elven"
+  :desc "Applied to Elrond and Elros, 235, 243, 249, 274, 276; and to Eärendil, 230."
+  :pages "230, 235, 243, 249, 274, 276"
+  :todo "an epithet of Elrond, Elros and Eärendil, not a people"}
+
+ {:type :place
+  :name "Halls of Mandos"
+  :pages "16, 30, 32, 41, 49, 54-5, 57, 78, 95, 98, 176-7, 223"
+  :todo "from the Mandos sub-heading ‘Named as the place of his dwelling (including Halls of Mandos; also Halls of Awaiting, Houses of the Dead)’"}
+
+ {:type :character
+  :name "Halmir"
+  :desc "Lord of the Haladin, son of Haldan; with Beleg of Doriath defeated the Orcs that came south from the Pass of Sirion after the Dagor Bragollach."
+  :pages "148-9, 179"}
+
+ {:type :character
+  :name "Handir"
+  :desc "Son of Haldir and Glóredhel, father of Brandir the Lame; lord of the Haladin after Haldir’s death; slain in Brethil in battle with Orcs."
+  :pages "185, 202, 206"}
+
+ {:type :race
+  :name "Haradrim"
+  :desc "The Men of Harad (‘the South’), the lands south of Mordor."
+  :pages "281"}
+
+ {:type :character
+  :name "Hareth"
+  :desc "Daughter of Halmir of Brethil; wedded Galdor of Dor-lómin; mother of Húrin and Huor."
+  :pages "149, 151"}
+
+ {:type :character
+  :name "Hathaldir"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :character
+  :name "Hathol"
+  :desc "Father of Hador Lórindol."
+  :pages "139"}
+
+ {:type :place
+  :name "Haudh-en-Arwen"
+  :desc "‘The Ladybarrow’, the burial-mound of Haleth in the Forest of Brethil."
+  :pages "138"}
+
+ {:type :place
+  :name "Haudh-en-Elleth"
+  :desc "The mound in which Finduilas was buried, near the Crossings of Teiglin."
+  :pages "206, 209, 212, 214"}
+
+ {:type :place
+  :name "Haudh-en-Ndengin"
+  :desc "‘The Mound of Slain’ in the desert of Anfauglith, where were piled the bodies of the Elves and Men that died in the Nirnaeth Arnoediad."
+  :pages "187-8"}
+
+ {:type :place
+  :name "Havens of the Falas"
+  :pages "48, 97-8, 103, 112, 146, 186, 235"
+  :todo "from ‘Havens, The’: ‘Brithombar and Eglarest on the coast of Beleriand’"}
+
+ {:type :place
+  :name "Havens of Sirion"
+  :pages "227, 236-7, 242"
+  :todo "from ‘Havens, The’: ‘The Havens of Sirion at the end of the First Age’; ref 237 from the ‘Havens of Sirion’ sub-heading of Sirion"}
+
+ {:type :place
+  :name "Helcar"
+  :desc "The Inland Sea in the northeast of Middle-earth, where once stood the mountain of the lamp of Illuin; the mere of Cuiviénen where the first Elves awoke is described as a bay in this sea."
+  :pages "38, 42"}
+
+ {:type :place
+  :name "Helcaraxë"
+  :desc "The strait between Araman and Middle-earth."
+  :pages "40, 70, 79-80, 99, 106, 120, 125"}
+
+ {:type :place
+  :name "Helevorn"
+  :desc "‘Black Glass’, a lake in the north of Thargelion, below Mount Rerir, where Caranthir dwelt."
+  :pages "103, 115, 144"}
+
+ {:type :thing
+  :name "Helluin"
+  :desc "The star Sirius."
+  :pages "37, 54"}
+
+ {:type :character
+  :name "Herumor"
+  :desc "A renegade Númenórean who became mighty among the Haradrim at the end of the Second Age."
+  :pages "281"}
+
+ {:type :place
+  :name "Hildórien"
+  :desc "The land in the east of Middle-earth where the first Men (_Hildor_) awoke."
+  :pages "93-4, 132"}
+
+ {:type :place
+  :name "Himlad"
+  :desc "‘Cool Plain’, the region where Celegorm and Curufin dwelt south of the Pass of Aglon."
+  :pages "115, 123, 126"}
+
+ {:type :place
+  :name "Himring"
+  :desc "The great hill west of Maglor’s Gap on which was the stronghold of Maedhros; translated in the text as ‘Ever-cold’."
+  :pages "102, 114-15, 123, 144, 166, 173, 179"}
+
+ {:type :thing
+  :name "Hírilorn"
+  :desc "The great beech-tree in Doriath with three trunks, in which Lúthien was imprisoned. The name means ‘Tree of the Lady’."
+  :pages "162, 176"}
+
+ {:type :place
+  :name "Hithaeglir"
+  :desc "‘Line of Misty Peaks’. (The form _Hithaeglin_ on the map to _The Lord of the Rings_ is an error.)"
+  :pages "43-4, 82, 84, 278, 281, 283"}
+
+ {:type :place
+  :name "Hithlum"
+  :desc "‘Land of Mist’ (see 109), the region bounded on the east and south by Ered Wethrin and on the west by Ered Lómin."
+  :pages "40, 71, 96, 98-9, 101, 106, 109, 112, 114, 122-3, 134-5, 142-8, 151, 172, 179-82, 184-6, 188-9, 197, 216-17, 227"}
+
+ {:type :animal
+  :name "Huan"
+  :desc "The great wolfhound of Valinor that Oromë gave to Celegorm; friend and helper of Beren and Lúthien; slew and slain by Carcharoth. The name means ‘great dog, hound’."
+  :pages "162-70, 172, 174-6"}
+
+ {:type :character
+  :name "Hunthor"
+  :desc "A Man of the Haladin in Brethil who accompanied Túrin in his attack on Glaurung at Cabed-en-Aras and was killed there by a falling stone."
+  :pages "210-11"}
+
+ {:type :character
+  :name "Huor"
+  :desc "Son of Galdor of Dor-lómin, husband of Rían and father of Tuor; went to Gondolin with Húrin his brother; slain in the Nirnaeth Arnoediad."
+  :pages "117, 139, 149-50, 180, 184-5, 188, 227, 229-30, 232, 241"}
+
+ {:type :character
+  :name "Húrin"
+  :desc "Son of Galdor of Dor-lómin, husband of Morwen and father of Túrin and Nienor; lord of Dor-lómin, vassal of Fingon. Went with Huor his brother to Gondolin; captured by Morgoth in the Nirnaeth Arnoediad and set upon Thangorodrim for many years; after his release slew Mîm in Nargothrond and brought the Nauglamír to King Thingol."
+  :pages "117, 139, 149-51, 180-5, 187-91, 195-6, 198-207, 210, 212-22, 227, 230, 241"}
+
+ {:type :place
+  :name "Hyarmentir"
+  :desc "The highest mountain in the regions south of Valinor."
+  :pages "64"}
+
+ {:type :place
+  :name "Iant Iaur"
+  :desc "‘The Old Bridge’ over the Esgalduin on the northern borders of Doriath."
+  :pages "112"}
+
+ {:type :character
+  :name "Ibun"
+  :desc "One of the sons of Mîm the Petty-dwarf."
+  :pages "193, 195-6"}
+
+ {:type :character
+  :name "Idril"
+  :desc "The daughter (and only child) of Turgon and Elenwë; wife of Tuor, mother of Eärendil, with whom she escaped from Gondolin to the Mouths of Sirion; departed thence with Tuor into the West."
+  :pages "117, 125, 127, 129-30, 229-35, 238, 244, 249"}
+
+ {:type :thing
+  :name "Illuin"
+  :desc "One of the Lamps of the Valar made by Aulë. Illuin stood in the northern part of Middle-earth, and after the overthrow of the mountain by Melkor the Inland Sea of Helcar was formed there."
+  :pages "23-5, 38, 47"}
+
+ {:type :character
+  :name "Ilmarë"
+  :desc "A Maia, the handmaid of Varda."
+  :pages "18"}
+
+ {:type :place
+  :name "Ilmen"
+  :desc "The region above the air where the stars are."
+  :pages "89-91, 269"}
+
+ {:type :character
+  :name "Imlach"
+  :desc "Father of Amlach."
+  :pages "136"}
+
+ {:type :place
+  :name "Imladris"
+  :desc "Elrond’s dwelling in a valley of the Misty Mountains. The name means ‘Deep Dale of the Cleft’."
+  :pages "276, 281, 283-6, 291"}
+
+ {:type :character
+  :name "Indis"
+  :desc "Vanyarin Elf, close kin of Ingwë; second wife of Finwë, mother of Fingolfin and Finarfin."
+  :pages "50, 55, 59"}
+
+ {:type :character
+  :name "Ingwë"
+  :desc "Leader of the Vanyar, the first of the three hosts of the Eldar on the westward journey from Cuiviénen. In Aman he dwelt upon Taniquetil, and was held High King of all the Elves."
+  :pages "41-2, 48-9, 52, 55, 92, 240"}
+
+ {:type :character
+  :name "Inzilbêth"
+  :desc "Queen of Ar-Gimilzôr; of the house of the lords of Andúnië."
+  :pages "256"}
+
+ {:type :character
+  :name "Irmo"
+  :desc "A Vala, whose dwelling was in the gardens of Lórien. Irmo means ‘Desirer’ or ‘Master of Desire’."
+  :pages "16, 18, 54"}
+
+ {:type :place
+  :name "Isengard"
+  :pages "279, 288-91"}
+
+ {:type :character
+  :name "Isildur"
+  :desc "Elder son of Elendil, who with his father and his brother Anárion escaped from the Drowning of Númenor and founded in Middle-earth the Númenórean realms in exile; lord of Minas Ithil; cut the Ruling Ring from Sauron’s hand; slain by Orcs in the Anduin when the Ring slipped from his finger."
+  :pages "260-1, 264, 267, 278-9, 281-4, 288-9, 291"
+  :todo "sub-heading ‘Heir of Isildur = Aragorn 291–2’ merged into Aragorn"}
+
+ {:type :house
+  :name "Heirs of Isildur"
+  :pages "284-5, 288"
+  :founder "Isildur"
+  :todo "from the ‘Heirs of Isildur’ sub-heading of Isildur"}
+
+ {:type :race
+  :name "Istari"
+  :desc "See _Curunír_; _Mithrandir_; _Radagast_."
+  :pages "287"
+  :todo "an order of Maiar, not a people"}
+
+ {:type :place
+  :name "Ivrin"
+  :desc "The lake and falls beneath Ered Wethrin where the river Narog rose. See _Eithel Ivrin_."
+  :pages "109, 199, 103, 205, 228, 110, 160"
+  :todo "refs from the ‘Pools of Ivrin’ (103, 199, 205, 228) and ‘Falls of Ivrin’ (110, 160) sub-headings merged in"}
+
+ {:type :thing
+  :name "kelvar"
+  :desc "An Elvish word retained in the speeches of Yavanna and Manwë in Chapter 2: ‘animals, living things that move’."
+  :pages "33-4"
+  :todo "a word, not an object"}
+
+ {:type :place
+  :name "Khazad-dûm"
+  :desc "The great mansions of the Dwarves of Durin’s race in the Misty Mountains. See _Khazâd_; _dûm_ is probably a plural or collective, meaning ‘excavations, halls, mansions’."
+  :pages "33, 82, 274"}
+
+ {:type :character
+  :name "Khîm"
+  :desc "Son of Mîm the Petty-dwarf, slain by one of Túrin’s outlaw band."
+  :pages "193"}
+
+ {:type :event
+  :name "Kinslaying"
+  :desc "The slaying of the Teleri by the Noldor at Alqualondë."
+  :pages "77, 79-80, 94, 101, 118, 120, 130, 133, 147"}
+
+ {:type :race
+  :name "King’s Men"
+  :desc "Númenóreans hostile to the Eldar and the Elendili."
+  :pages "254-5, 257"
+  :todo "a faction of Númenóreans, not a people"}
+
+ {:type :race
+  :name "Laiquendi"
+  :desc "Elves of Ossiriand."
+  :pages "86"}
+
+ {:type :place
+  :name "Ladros"
+  :desc "The lands to the northeast of Dorthonion that were granted by the Noldorin Kings to the Men of the House of Bëor."
+  :pages "139"}
+
+ {:type :thing
+  :name "Laer Cú Beleg"
+  :desc "‘The Song of the Great Bow’, made by Túrin at Eithel Ivrin in memory of Beleg Cúthalion."
+  :pages "199"
+  :todo "a song, not an object"}
+
+ {:type :character
+  :name "Lalaith"
+  :desc "‘Laughter’, daughter of Húrin and Morwen who died in childhood."
+  :pages "188"}
+
+ {:type :place
+  :name "Lammoth"
+  :desc "‘The Great Echo’, region north of the Firth of Drengist, named from the echoes of Morgoth’s cry in his struggle with Ungoliant."
+  :pages "71, 96"}
+
+ {:type :place
+  :name "Lanthir Lamath"
+  :desc "‘Waterfall of Echoing Voices’, where Dior had his house in Ossiriand, and after which his daughter Elwing (‘Star-spray’) was named."
+  :pages "224-5"}
+
+ {:type :event
+  :name "Last Alliance"
+  :desc "The league made at the end of the Second Age between Elendil and Gil-galad to defeat Sauron."
+  :pages "281"
+  :todo "an alliance, not a single event"}
+
+ {:type :thing
+  :name "Laurelin"
+  :desc "‘Song of Gold’, the younger of the Two Trees of Valinor."
+  :pages "26-7, 51, 64, 89-91, 117"}
+
+ {:type :thing
+  :name "Lay of Leithian"
+  :desc "The long poem concerning the lives of Beren and Lúthien from which the prose account in _The Silmarillion_ was derived. _Leithian_ is translated ‘Release from Bondage’."
+  :pages "152, 155, 158, 161-2, 176"
+  :todo "a poem, not an object"}
+
+ {:type :place
+  :name "Legolin"
+  :desc "The third of the tributaries of Gelion in Ossiriand."
+  :pages "114"}
+
+ {:type :thing
+  :name "lembas"
+  :desc "Sindarin name of the waybread of the Eldar (from earlier _lenn-mbass_ ‘journey-bread’)."
+  :pages "192, 195-6, 198"}
+
+ {:type :character
+  :name "Lenwë"
+  :desc "The leader of the Elves from the host of the Teleri who refused to cross the Misty Mountains on the westward journey from Cuiviénen (the Nandor); father of Denethor."
+  :pages "43, 80, 84-5, 125"}
+
+ {:type :place
+  :name "Lhûn"
+  :desc "River in Eriador flowing into the sea in the Gulf of Lhûn."
+  :pages "274, 278"}
+
+ {:type :place
+  :name "Linaewen"
+  :desc "‘Lake of birds’, the great mere in Nevrast."
+  :pages "109"}
+
+ {:type :place
+  :name "Lindon"
+  :desc "A name of Ossiriand in the First Age; see 114. After the tumults at the end of the First Age the name Lindon was retained for the lands west of the Blue Mountains that still remained above the Sea."
+  :pages "114, 274-5, 277-8, 285"}
+
+ {:type :character
+  :name "Lindórië"
+  :desc "Mother of Inzilbêth."
+  :pages "256"}
+
+ {:type :place
+  :name "Little Gelion"
+  :desc "One of the two tributary branches of the river Gelion in the north, rising in the Hill of Himring."
+  :pages "114"}
+
+ {:type :animal
+  :name "Lómelindi"
+  :desc "Quenya word meaning ‘dusk-singers’, nightingales."
+  :pages "45"
+  :todo "a word for nightingales"}
+
+ {:type :place
+  :name "Lórellin"
+  :desc "The lake in Lórien in Valinor where the Vala Estë sleeps by day."
+  :pages "16"}
+
+ {:type :character
+  :name "Lorgan"
+  :desc "Chief of the Easterling Men in Hithlum after the Nirnaeth Arnoediad, by whom Tuor was enslaved."
+  :pages "227"}
+
+ {:type :place
+  :name "Lórien (gardens)"
+  :desc "The gardens and dwelling-place of the Vala Irmo."
+  :pages "14, 16, 18-19, 45, 54, 83, 90-1, 223"
+  :todo "glossary label ‘Lórien (1)’; place has no glossary-label attribute. Some refs may be to Irmo himself"}
+
+ {:type :place
+  :name "Lothlórien"
+  :desc "The land ruled by Celeborn and Galadriel between the rivers Celebrant and Anduin. Probably the original name of this land was altered to the form of the Quenya name Lórien of the gardens of the Vala Irmo in Valinor. In Lothlórien the Sindarin word _loth_ ‘flower’ is prefixed.\n\n_Lothlórien_: ‘Lórien of the Blossom’; see _Lórien_ (2)."
+  :pages "286"
+  :todo "glossary label ‘Lórien (2)’; place has no glossary-label attribute"}
+
+ {:type :place
+  :name "Losgar"
+  :desc "The place of the burning of the ships of the Teleri by Fëanor, at the mouth of the Firth of Drengist."
+  :pages "80, 87, 96, 99, 109, 118, 120"}
+
+ {:type :place
+  :name "Lothlann"
+  :desc "‘The wide and empty’, the great plain north of the March of Maedhros."
+  :pages "114, 144, 198"}
+
+ {:type :thing
+  :name "Luinil"
+  :desc "Name of a star (one shining with a blue light)."
+  :pages "37"
+  :todo "printed run-in with Lumbar; the page ref 37 is shared"}
+
+ {:type :thing
+  :name "Lumbar"
+  :desc "Name of a star."
+  :pages "37"
+  :todo "printed run-in with Luinil; the page ref 37 is shared"}
+
+ {:type :character
+  :name "Lúthien"
+  :desc "The daughter of King Thingol and Melian the Maia, who after the fulfilment of the Quest of the Silmaril and the death of Beren chose to become mortal and to share his fate."
+  :pages "81, 85, 114, 139, 152, 155-9, 162-79, 188, 223-5, 236, 239, 243, 249"}
+
+ {:type :character
+  :name "Mablung"
+  :desc "Elf of Doriath, chief captain of Thingol, friend of Túrin; slain in Menegroth by the Dwarves. The name means ‘of the Heavy Hand’."
+  :pages "103, 174-6, 179, 207-8, 214-15, 219, 223"}
+
+ {:type :character
+  :name "Maedhros"
+  :desc "The eldest son of Fëanor; rescued by Fingon from Thangorodrim; held the Hill of Himring and the lands about; formed the Union of Maedhros that ended in the Nirnaeth Arnoediad; bore one of the Silmarils with him to his death at the end of the First Age."
+  :pages "50, 73, 79-80, 98-103, 105-6, 109, 112, 114-15, 131, 136, 144, 148, 166, 178-83, 185, 226, 236, 239, 242-3"}
+
+ {:type :character
+  :name "Maeglin"
+  :desc "‘Sharp Glance’, son of Eöl and Aredhel Turgon’s sister, born in Nan Elmoth; became mighty in Gondolin, and betrayed it to Morgoth; slain in the sack of the city by Tuor."
+  :pages "82, 125-30, 150, 184, 192, 229-32"}
+
+ {:type :character
+  :name "Maglor"
+  :desc "The second son of Fëanor, a great singer and minstrel; held the lands called Maglor’s Gap; at the end of the First Age seized with Maedhros the two Silmarils that remained in Middle-earth, and cast the one that he took into the Sea."
+  :pages "50, 73, 77, 103, 105, 107, 115, 131, 144, 148, 183, 236-7, 239-40, 242-3"}
+
+ {:type :place
+  :name "Maglor’s Gap"
+  :desc "The region between the northern arms of Gelion where there were no hills of defence against the North."
+  :pages "105, 115, 144"}
+
+ {:type :character
+  :name "Magor"
+  :desc "Son of Malach Aradan; leader of the Men of the following of Marach who entered West Beleriand."
+  :pages "135, 139"}
+
+ {:type :place
+  :name "Máhanaxar"
+  :desc "The circle outside the gates of Valmar, in which were set the thrones of the Valar where they sat in council."
+  :pages "26, 40-1, 68-9, 72, 75, 88"}
+
+ {:type :character
+  :name "Mahtan"
+  :desc "A great smith of the Noldor, father of Nerdanel the wife of Fëanor."
+  :pages "54, 59"}
+
+ {:type :race
+  :name "Maiar"
+  :desc "Ainur of lesser degree than the Valar (singular _Maia_)."
+  :pages "9, 18-20, 24, 45, 49, 65, 72, 82, 85, 87, 90, 178, 223, 225, 249, 273"}
+
+ {:type :character
+  :name "Malach"
+  :desc "Son of Marach."
+  :pages "134, 139"}
+
+ {:type :place
+  :name "Malduin"
+  :desc "A tributary of the Teiglin; the name probably means ‘Yellow River’."
+  :pages "195"}
+
+ {:type :character
+  :name "Mandos"
+  :desc "A Vala, the Judge."
+  :pages "14, 16-17, 37, 41, 55, 58, 60-2, 69, 77, 89, 92, 95, 101, 120, 176, 238, 244"
+  :todo "the headword names both the Vala and his halls: refs ‘named as Vala’ are here; ‘named as the place of his dwelling’ went to Halls of Mandos; ‘Doom of the Noldor and the Curse of Mandos’ went to Doom of the Noldor"}
+
+ {:type :event
+  :name "Doom of the Noldor"
+  :pages "117, 120, 133, 157, 160, 166, 229"
+  :todo "from the Mandos sub-heading ‘With reference to the Doom of the Noldor and the Curse of Mandos’; also called the Curse of Mandos"}
+
+ {:type :character
+  :name "Manwë"
+  :desc "The chief of the Valar."
+  :pages "9, 14, 28, 55, 100-1"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :place
+  :name "March of Maedhros"
+  :desc "The open lands to the north of the head waters of the river Gelion, held by Maedhros and his brothers against attack on East Beleriand."
+  :pages "102-3, 114"}
+
+ {:type :character
+  :name "Marach"
+  :desc "Leader of the third host of Men to enter Beleriand, ancestor of Hador Lórindol."
+  :pages "133-5, 141"}
+
+ {:type :character
+  :name "Mardil"
+  :desc "The first Ruling Steward of Gondor."
+  :pages "285"}
+
+ {:type :character
+  :name "Melian"
+  :desc "A Maia, who left Valinor and came to Middle-earth; afterwards the Queen of King Thingol in Doriath, about which she set a girdle of enchantment, the Girdle of Melian; mother of Lúthien, and foremother of Elrond and Elros."
+  :pages "112-13, 118-20, 123-4, 135, 138, 143, 178-9, 244, 249"
+  :todo "glossary also says ‘Chapter 19 passim’ and ‘Chapters 21, 22 passim’; those chapters are not linked"}
+
+ {:type :character
+  :name "Melkor"
+  :desc "The great rebellious Vala, the beginning of evil, in his origin the mightiest of the Ainur. The meaning of _Melkor_ was ‘He who arises in Might’."
+  :pages "4, 6-7, 19, 39, 55-6, 71-2, 91-2, 195, 248"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :race
+  :name "Men"
+  :desc "See especially 29–30, 58–9, 93–4, 131–3, 140, 247–8, 251–3; and see also _Atani_, _Children of Ilúvatar_, _Easterlings_."
+  :pages "29-30, 58-9, 93-4, 131-3, 140, 247-8, 251-3"}
+
+ {:type :place
+  :name "Menegroth"
+  :desc "The hidden halls of Thingol and Melian on the river Esgalduin in Doriath; see especially 83."
+  :pages "46, 83-4, 86-7, 98, 101, 104, 113, 120, 156, 158, 162, 169, 173-6, 178, 189-92, 195, 207-8, 220-5"}
+
+ {:type :character
+  :name "Meneldil"
+  :desc "Son of Anárion, King of Gondor."
+  :pages "283-4"}
+
+ {:type :thing
+  :name "Menelmacar"
+  :desc "‘Swordsman of the Sky’, the constellation Orion."
+  :pages "37"}
+
+ {:type :place
+  :name "Meneltarma"
+  :desc "‘Pillar of Heaven’, the mountain in the midst of Númenor, upon whose summit was the Hallow of Eru Ilúvatar."
+  :pages "249, 251, 254, 257-8, 260, 265, 267-9"}
+
+ {:type :event
+  :name "Mereth Aderthad"
+  :desc "The ‘Feast of Reuniting’ held by Fingolfin near the Pools of Ivrin."
+  :pages "103"
+  :todo "a feast, not a battle"}
+
+ {:type :place
+  :name "Middle-earth"
+  :desc "The lands to the east of the Great Sea."
+  :todo "glossary says Passim; only alias refs are linked"}
+
+ ;; ---------------- index pages 331–345 ----------------
+ {:type :character
+  :name "Mîm"
+  :desc "The Petty-dwarf, in whose house (_Bar-en-Danwedh_) on Amon Rûdh Túrin dwelt with the outlaw band, and by whom their lair was betrayed to the Orcs; slain by Húrin in Nargothrond."
+  :pages "192-6, 219-20"}
+
+ {:type :place
+  :name "Minas Anor"
+  :desc "‘Tower of the Sun’; the city of Anárion, at the feet of Mount Mindolluin."
+  :pages "279-80, 283-4, 291"}
+
+ {:type :place
+  :name "Minas Ithil"
+  :desc "‘Tower of the Moon’; the city of Isildur, built on a shoulder of the Ephel Dúath."
+  :pages "279-81, 284"}
+
+ {:type :place
+  :name "Minas Tirith (Tol Sirion)"
+  :desc "‘Tower of Watch’, built by Finrod Felagund on Tol Sirion; see _Tol-in-Gaurhoth_."
+  :pages "110, 147-8, 195"
+  :todo "glossary label ‘Minas Tirith (1)’; place has no glossary-label attribute"}
+
+ {:type :place
+  :name "Mindeb"
+  :desc "A tributary of Sirion, between Dimbar and the Forest of Neldoreth."
+  :pages "112, 191"}
+
+ {:type :place
+  :name "Mindolluin"
+  :desc "‘Towering Blue-head’, the great mountain behind Minas Anor."
+  :pages "279, 291"}
+
+ {:type :place
+  :name "Mindon Eldaliéva"
+  :desc "‘Lofty Tower of the Eldalië’, the tower of Ingwë in the city of Tirion; also simply _the Mindon_."
+  :pages "49-50, 60, 72, 75, 78"}
+
+ {:type :character
+  :name "Míriel (mother of Fëanor)"
+  :label "Míriel (1)"
+  :desc "The first wife of Finwë, mother of Fëanor; died after Fëanor’s birth."
+  :pages "50, 53-5, 59"}
+
+ {:type :character
+  :name "Tar-Míriel"
+  :label "Míriel (2)"
+  :desc "Daughter of Tar-Palantir, forced into marriage by Ar-Pharazôn."
+  :pages "257, 267"}
+
+ {:type :place
+  :name "Mithlond"
+  :desc "Harbours of the Elves on the Gulf of Lhûn."
+  :pages "274, 277, 285-7, 292"}
+
+ {:type :character
+  :name "Mithrandir"
+  :desc "‘The Grey Pilgrim’, one of the Istari (Wizards)."
+  :pages "287-92"}
+
+ {:type :place
+  :name "Mithrim"
+  :desc "The name of the great lake in the east of Hithlum, and also of the region about it and of the mountains to the west, separating Mithrim from Dor-lómin. The name was originally that of the Sindarin Elves who dwelt there."
+  :pages "96-102, 109, 188, 227"}
+
+ {:type :place
+  :name "Mordor"
+  :desc "Sauron’s realm east of the mountains of the Ephel Dúath."
+  :pages "255, 268, 276, 278-84, 290-1"}
+
+ {:type :character
+  :name "Morwen"
+  :desc "Daughter of Baragund (nephew of Barahir, the father of Beren); wife of Húrin and mother of Túrin and Nienor."
+  :pages "139, 146, 151, 187-9, 200-1, 204-5, 207-8, 214, 216, 218-20"}
+
+ {:type :animal
+  :name "Nahar"
+  :desc "The horse of the Vala Oromë, said by the Eldar to be so named on account of his voice."
+  :pages "17, 29, 38-9, 42, 67, 85"}
+
+ {:type :race
+  :name "Nandor"
+  :desc "Said to mean ‘Those who turn back’: the Nandor were those Elves from the host of the Teleri who refused to cross the Misty Mountains on the westward journey from Cuiviénen, but of whom a part, led by Denethor, came long afterwards over the Blue Mountains and dwelt in Ossiriand (the Green-elves)."
+  :pages "43, 84, 114, 189"}
+
+ {:type :place
+  :name "Nan Dungortheb"
+  :desc "Translated in the text as ‘Valley of Dreadful Death’. The valley between the precipices of Ered Gorgoroth and the Girdle of Melian."
+  :pages "71, 112, 123, 154, 166"}
+
+ {:type :place
+  :name "Nan Elmoth"
+  :desc "The forest east of the river Celon where Elwë (Thingol) was enchanted by Melian and lost; afterwards the dwelling-place of Eöl."
+  :pages "45-6, 48, 82, 123-7, 133, 192, 223"}
+
+ {:type :place
+  :name "Nan-tathren"
+  :desc "‘Willow-vale’, translated as ‘the Land of Willows’, where the river Narog flowed into Sirion."
+  :pages "110, 185, 233"}
+
+ {:type :place
+  :name "Nargothrond"
+  :desc "‘The great underground fortress on the river Narog’, founded by Finrod Felagund and destroyed by Glaurung; also the realm of Nargothrond extending east and west of the Narog."
+  :pages "104-5, 110, 112-13, 118, 121, 131, 134, 138, 143-4, 147, 151, 158-61, 163, 166, 173, 179-82, 186, 194-5, 197-203, 206-8, 210, 212, 214, 219-20, 222, 228, 230, 274"}
+
+ {:type :thing
+  :name "Narn i Hîn Húrin"
+  :desc "‘The Tale of the Children of Húrin’, the long lay from which Chapter 21 was derived; ascribed to the poet Dírhaval, a Man who lived at the Havens of Sirion in the days of Eärendil and perished in the attack of the sons of Fëanor. _Narn_ signifies a tale made in verse, but to be spoken and not sung."
+  :pages "189"
+  :todo "a lay, not an object"}
+
+ {:type :place
+  :name "Narog"
+  :desc "The chief river of West Beleriand, rising at Ivrin under Ered Wethrin and flowing into Sirion in Nan-tathren."
+  :pages "86, 103-5, 110, 113, 158-60, 193-4, 199, 201-4, 207, 219"}
+
+ {:type :thing
+  :name "Narsil"
+  :desc "The sword of Elendil, made by Telchar of Nogrod, that was broken when Elendil died in combat with Sauron; from the shards it was reforged for Aragorn."
+  :pages "282-3"}
+
+ {:type :thing
+  :name "Narsilion"
+  :desc "The Song of the Sun and Moon."
+  :pages "89"
+  :todo "a song, not an object"}
+
+ {:type :thing
+  :name "Narya"
+  :desc "One of the Three Rings of the Elves; borne by Círdan and afterwards by Mithrandir."
+  :pages "276, 286, 292"}
+
+ {:type :thing
+  :name "Nauglamír"
+  :desc "The necklace made for Finrod Felagund by the Dwarves, brought by Húrin out of Nargothrond to Thingol, and the cause of his death."
+  :pages "104, 220-5"}
+
+ {:type :place
+  :name "Neldoreth"
+  :desc "The great beech-forest forming the northern part of Doriath."
+  :pages "45, 81, 83, 86-7, 113, 155, 162, 188, 223"}
+
+ {:type :thing
+  :name "Nénar"
+  :desc "Name of a star."
+  :pages "37"}
+
+ {:type :place
+  :name "Nenning"
+  :desc "River in West Beleriand, reaching the sea at the Haven of Eglarest."
+  :pages "110, 186, 201"}
+
+ {:type :place
+  :name "Nenuial"
+  :desc "‘Lake of Twilight’, in Eriador, where the river Baranduin rose, and beside which the city of Annúminas was built."
+  :pages "278"}
+
+ {:type :thing
+  :name "Nenya"
+  :desc "One of the Three Rings of the Elves, the Ring of Water, borne by Galadriel."
+  :pages "276, 286"}
+
+ {:type :character
+  :name "Nerdanel"
+  :desc "Daughter of Mahtan the smith, wife of Fëanor."
+  :pages "54, 56, 59"}
+
+ {:type :character
+  :name "Nessa"
+  :desc "One of the Valier, the sister of Oromë and spouse of Tulkas."
+  :pages "14, 17, 24"}
+
+ {:type :place
+  :name "Nevrast"
+  :desc "The region west of Dor-lómin, beyond Ered Lómin, where Turgon dwelt before his departure to Gondolin. The name, meaning ‘Hither Shore’, was originally that of all the northwestern coast of Middle-earth (the opposite being _Haerast_ ‘the Far Shore’, the coast of Aman)."
+  :pages "104-5, 109, 116-18, 122, 186, 227-8, 233"}
+
+ {:type :character
+  :name "Nienna"
+  :desc "One of the Valier, numbered among the Aratar; Lady of pity and mourning, the sister of Mandos and Lórien; see especially 16."
+  :pages "14, 16-17, 19, 26, 55, 69, 89"}
+
+ {:type :character
+  :name "Nienor"
+  :desc "‘Mourning’, the daughter of Húrin and Morwen and sister of Túrin; spell-bound by Glaurung at Nargothrond and in ignorance of her past wedded Túrin in Brethil; cast herself into the Teiglin."
+  :pages "189, 201, 204-5, 207-15"}
+
+ {:type :place
+  :name "Nimbrethil"
+  :desc "Birch-woods in Arvernien in the south of Beleriand. Cf. Bilbo’s song at Rivendell: ‘He built a boat of timber felled in Nimbrethil to journey in...’ (_The Fellowship of the Ring_ II 1)."
+  :pages "235"}
+
+ {:type :thing
+  :name "Nimloth (tree)"
+  :desc "The White Tree of Númenor, of which a fruit taken by Isildur before it was felled grew into the White Tree of Minas Ithil. _Nimloth_ ‘White Blossom’ is the Sindarin form of Quenya _Ninquelótë_, one of the names of Telperion."
+  :pages "50, 251, 260-1, 264, 279"
+  :todo "glossary label ‘Nimloth (1)’; thing has no glossary-label attribute"}
+
+ {:type :character
+  :name "Nimloth (elf)"
+  :label "Nimloth (2)"
+  :desc "Elf of Doriath who wedded Dior Thingol’s Heir; mother of Elwing; slain in Menegroth in the attack by the sons of Fëanor."
+  :pages "224-5"}
+
+ {:type :thing
+  :name "Nimphelos"
+  :desc "The great pearl given by Thingol to the lord of the Dwarves of Belegost."
+  :pages "83"}
+
+ {:type :thing
+  :name "niphredil"
+  :desc "A white flower that bloomed in Doriath in starlight when Lúthien was born. It grew also on Cerin Amroth in Lothlórien (_The Fellowship of the Ring_ II 6)."
+  :pages "81"
+  :todo "a flower, not an object"}
+
+ {:type :event
+  :name "Nirnaeth Arnoediad"
+  :desc "‘Tears Unnumbered’ (also simply _the Nirnaeth_), the name given to the ruinous fifth battle in the Wars of Beleriand."
+  :pages "129, 182, 185, 188, 197, 199, 227, 229-30"}
+
+ {:type :place
+  :name "Nivrim"
+  :desc "That part of Doriath that lay on the west bank of Sirion."
+  :pages "113"}
+
+ {:type :race
+  :name "Noegyth Nibin"
+  :desc "See also under _Dwarves_."
+  :pages "194, 219, 192-6, 202"
+  :todo "refs from the ‘Referring to the Petty-Dwarves’ sub-heading of Dwarves (192–6, 202, 219) merged in"}
+
+ {:type :place
+  :name "Nogrod"
+  :desc "One of the two cities of the Dwarves in the Blue Mountains."
+  :pages "82, 84, 103, 124, 126, 167, 179, 194, 220-4"}
+
+ {:type :thing
+  :name "Noldolantë"
+  :desc "‘The Fall of the Noldor’, a lament made by Maglor son of Fëanor."
+  :pages "77"
+  :todo "a song, not an object"}
+
+ {:type :race
+  :name "Noldor"
+  :desc "The Deep Elves, the second host of the Eldar on the westward journey from Cuiviénen, led by Finwë. The name (Quenya _Noldo_, Sindarin _Golodh_) meant ‘the Wise’ (but wise in the sense of possessing knowledge, not in the sense of possessing sagacity, sound judgement). For the language of the Noldor see _Quenya_."
+  :pages "27, 42, 49-50, 52-3, 107, 275"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :place
+  :name "North Downs"
+  :desc "In Eriador, where was built the Númenórean city of Fornost."
+  :pages "278"}
+
+ {:type :place
+  :name "Númenor"
+  :desc "The great island prepared by the Valar as a dwelling-place for the Edain after the ending of the First Age."
+  :pages "50, 139, 247-60, 262-8, 274-5, 277-81, 284, 289"}
+
+ {:type :race
+  :name "Númenóreans"
+  :desc "The Men of Númenor."
+  :pages "18, 249-55, 257-8, 261-2, 264-6, 268-9, 277-85, 288, 290-1"}
+
+ {:type :event
+  :name "Nurtalë Valinóreva"
+  :desc "‘The Hiding of Valinor’."
+  :pages "92"}
+
+ {:type :character
+  :name "Ohtar"
+  :desc "‘Warrior’, esquire of Isildur, who brought the shards of Elendil’s sword to Imladris."
+  :pages "283"}
+
+ {:type :place
+  :name "Oiomúrë"
+  :desc "A region of mists near to the Helcaraxë."
+  :pages "70"}
+
+ {:type :thing
+  :name "olvar"
+  :desc "An Elvish word retained in the speeches of Yavanna and Manwë in Chapter 2, meaning ‘growing things with roots in the earth’."
+  :pages "34"
+  :todo "a word, not an object"}
+
+ {:type :character
+  :name "Olwë"
+  :desc "Leader together with his brother Elwë (Thingol) of the hosts of the Teleri on the westward journey from Cuiviénen; lord of the Teleri of Alqualondë in Aman."
+  :pages "42-3, 46, 48-52, 76-8, 84, 101, 118"}
+
+ {:type :race
+  :name "Orcs"
+  :desc "Creatures of Morgoth."
+  :pages "39, 84"
+  :todo "glossary says Passim; for their origin see 39, 84; only those pages are linked"}
+
+ {:type :place
+  :name "Orfalch Echor"
+  :desc "The great ravine through the Encircling Mountains by which Gondolin was approached."
+  :pages "228"}
+
+ {:type :thing
+  :name "Ormal"
+  :desc "One of the Lamps of the Valar made by Aulë. Ormal stood in the south of Middle-earth."
+  :pages "23, 25"}
+
+ {:type :place
+  :name "Orocarni"
+  :desc "Mountains in the far east of Middle-earth (the name means ‘the Red Mountains’)."
+  :pages "38"}
+
+ {:type :character
+  :name "Orodreth"
+  :desc "The second son of Finarfin; warden of the tower of Minas Tirith on Tol Sirion; King of Nargothrond after the death of Finrod his brother; father of Finduilas; slain in the Battle of Tumhalad."
+  :pages "51, 74, 110, 147, 160, 163, 166, 179, 199-202, 206"}
+
+ {:type :place
+  :name "Orodruin"
+  :desc "‘Mountain of Blazing Fire’ in Mordor, in which Sauron forged the Ruling Ring."
+  :pages "280-2, 291"}
+
+ {:type :character
+  :name "Oromë"
+  :desc "A Vala, one of the Aratar; the great hunter, leader of the Elves from Cuiviénen, spouse of Vána. The name means ‘Horn-blowing’ or ‘Sound of Horns’, cf. _Valaróma_. See especially 17."
+  :pages "14, 17, 24, 29, 36-43, 47, 50, 52, 62-4, 67, 73, 83, 85, 90, 144, 162, 175"}
+
+ {:type :place
+  :name "Oromet"
+  :desc "A hill near the haven of Andúnië in the west of Númenor, on which was built the tower of Tar-Minastir."
+  :pages "257"}
+
+ {:type :place
+  :name "Orthanc"
+  :desc "‘Forked Height’, the Númenórean tower in the Circle of Isengard."
+  :pages "279-80, 288"}
+
+ {:type :place
+  :name "Osgiliath"
+  :desc "‘Fortress of the Stars’, the chief city of ancient Gondor, on either side of the river Anduin."
+  :pages "279-81, 284"}
+
+ {:type :character
+  :name "Ossë"
+  :desc "A Maia, vassal of Ulmo, with whom he entered the waters of Arda; lover and instructor of the Teleri."
+  :pages "18, 28, 48-9, 51, 77, 109, 186, 248"}
+
+ {:type :place
+  :name "Ossiriand"
+  :desc "‘Land of Seven Rivers’ (these being Gelion and its tributaries flowing down from the Blue Mountains), the land of the Green-elves. Cf. Treebeard’s song in _The Two Towers_ III 4: ‘I wandered in Summer in the elm-woods of Ossiriand. Ah! the light and the music in the Summer by the Seven Rivers of Ossir!’ See _Lindon_."
+  :pages "85-6, 103, 112, 114-15, 131, 133-4, 143-4, 178, 185, 223-5, 273-4"}
+
+ {:type :place
+  :name "Ost-in-Edhil"
+  :desc "‘Fortress of the Eldar’, the city of the Elves in Eregion."
+  :pages "274-5"}
+
+ {:type :thing
+  :name "Palantíri"
+  :desc "‘Those that watch from afar’; seven were brought by Elendil and his sons from Númenor; made by Fëanor in Aman (see 54, and _The Two Towers_ III 11)."
+  :pages "54, 264, 279-80"}
+
+ {:type :place
+  :name "Pelargir"
+  :desc "‘Garth of Royal Ships’, the Númenórean haven above the delta of Anduin."
+  :pages "255"}
+
+ {:type :place
+  :name "Pelóri"
+  :desc "‘The fencing or defensive heights’, raised by the Valar after the destruction of their dwelling on Almaren; ranging in a crescent from north to south, close to the eastern shores of Aman."
+  :pages "25-7, 36, 47, 49, 63-4, 70, 90-2, 164"}
+
+ {:type :race
+  :name "Periannath"
+  :pages "290-1"}
+
+ {:type :thing
+  :name "Quenta Silmarillion"
+  :desc "‘The History of the Silmarils.’"
+  :pages "274"
+  :todo "a title, not an object"}
+
+ {:type :language
+  :name "Quenya"
+  :desc "The ancient tongue, common to all Elves, in the form that it took in Valinor; brought to Middle-earth by the Noldorin exiles, but abandoned by them as a daily speech, especially after the edict of King Thingol against its use; see especially 103–4, 120–1."
+  :pages "16, 103-4, 116, 120-1, 125, 206, 249-50, 255, 268"}
+
+ {:type :character
+  :name "Radagast"
+  :desc "One of the Istari (Wizards)."
+  :pages "287, 289"}
+
+ {:type :character
+  :name "Radhruin"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :character
+  :name "Ragnor"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :place
+  :name "Ramdal"
+  :desc "‘Wall’s End’ (see _Andram_), where the dividing fall across Beleriand ceased."
+  :pages "113, 144"}
+
+ {:type :place
+  :name "Rauros"
+  :desc "‘Roaring Spray’, the great falls in the river Anduin."
+  :pages "285"}
+
+ {:type :place
+  :name "Region"
+  :desc "The dense forest forming the southern part of Doriath."
+  :pages "45, 83, 86-7, 113, 124, 222-3"}
+
+ {:type :place
+  :name "Rerir"
+  :desc "Mountain to the north of Lake Helevorn, where rose the greater of the two tributary branches of Gelion."
+  :pages "103, 114-15, 144"}
+
+ {:type :place
+  :name "Rhovanion"
+  :desc "‘Wilderland’, the wide region east of the Misty Mountains."
+  :pages "279"}
+
+ {:type :place
+  :name "Rhudaur"
+  :desc "Region in the north-east of Eriador."
+  :pages "278"}
+
+ {:type :character
+  :name "Rían"
+  :desc "Daughter of Belegund (nephew of Barahir, the father of Beren); wife of Huor and mother of Tuor; after Huor’s death died of grief on the Haudh-en-Ndengin."
+  :pages "139, 146, 151, 188, 227"}
+
+ {:type :thing
+  :name "Ringil"
+  :desc "The sword of Fingolfin."
+  :pages "145"}
+
+ {:type :thing
+  :name "Rings of Power"
+  :pages "275-6, 288-9"
+  :todo "own refs only; sub-headings split into The One Ring, Three Rings of the Elves, Seven Rings of the Dwarves, Nine Rings of Men"}
+
+ {:type :thing
+  :name "The One Ring"
+  :pages "255, 268, 275-7, 280, 282-3, 286, 290-1"
+  :todo "from the ‘The One Ring, Great Ring, or Ruling Ring’ sub-heading of Rings of Power"}
+
+ {:type :thing
+  :name "Three Rings of the Elves"
+  :pages "275-6, 286, 292"
+  :todo "from the ‘Three Rings of the Elves’ sub-heading of Rings of Power (see also Narya, Nenya, Vilya)"}
+
+ {:type :thing
+  :name "Seven Rings of the Dwarves"
+  :pages "276-7, 286, 289"
+  :todo "from the ‘Seven Rings of the Dwarves’ sub-heading of Rings of Power"}
+
+ {:type :thing
+  :name "Nine Rings of Men"
+  :pages "255, 277, 286, 289"
+  :todo "from the ‘Nine Rings of Men’ sub-heading of Rings of Power"}
+
+ {:type :place
+  :name "Ringwil"
+  :desc "The stream that flowed into the river Narog at Nargothrond."
+  :pages "113"}
+
+ {:type :race
+  :name "Ringwraiths"
+  :desc "The slaves of the Nine Rings of Men and chief servants of Sauron."
+  :pages "255, 277, 284-5, 288, 290"
+  :todo "nine servants of Sauron, not a people"}
+
+ {:type :place
+  :name "Rivil"
+  :desc "Stream falling northwards from Dorthonion and flowing into Sirion in the Fen of Serech."
+  :pages "181, 184, 154"
+  :todo "ref 154 from the ‘Rivil’s Well’ sub-heading merged in"}
+
+ {:type :animal
+  :name "Rochallor"
+  :desc "The horse of Fingolfin."
+  :pages "144"}
+
+ {:type :race
+  :name "Rohirrim"
+  :desc "‘The Horse-lords’ of Rohan."
+  :pages "285"}
+
+ {:type :place
+  :name "Rómenna"
+  :desc "Haven on the east coast of Númenor."
+  :pages "256, 260-1, 263, 267"}
+
+ {:type :character
+  :name "Rúmil"
+  :desc "A Noldorin sage of Tirion, the first deviser of written characters (cf. _The Lord of the Rings_ Appendix E II); to him is attributed the _Ainulindalë_."
+  :pages "53-4"}
+
+ {:type :character
+  :name "Saeros"
+  :desc "Nandorin Elf, one of the chief counsellors of Thingol in Doriath; insulted Túrin in Menegroth, and by him pursued to his death."
+  :pages "189-90"}
+
+ {:type :character
+  :name "Salmar"
+  :desc "A Maia who entered Arda with Ulmo; maker of Ulmo’s great horns, the _Ulumúri_."
+  :pages "28"}
+
+ {:type :place
+  :name "Sarn Athrad"
+  :desc "The ford where the Dwarf-road from Nogrod and Belegost crossed the river Gelion."
+  :pages "82, 131, 221, 224"}
+
+ {:type :character
+  :name "Sauron"
+  :desc "‘The Abhorred’; greatest of the servants of Melkor, in his origin a Maia of Aulë."
+  :pages "19-20, 37, 41, 133, 147, 152-4, 160-2, 164-6, 168, 255, 258-63, 265, 267-8, 273-91"}
+
+ {:type :place
+  :name "Serech"
+  :desc "The great fen north of the Pass of Sirion, where the river Rivil flowed in from Dorthonion."
+  :pages "97, 143, 154, 181, 183-4, 217"}
+
+ {:type :thing
+  :name "seregon"
+  :desc "‘Blood of Stone’, a plant with deep red flowers that grew on Amon Rûdh."
+  :pages "193, 196"
+  :todo "a plant, not an object"}
+
+ {:type :race
+  :name "Shepherds of the Trees"
+  :desc "Ents."
+  :pages "34, 224"
+  :todo "no Ents headword; this headword stands in for them"}
+
+ {:type :character
+  :name "Silmarien"
+  :desc "Daughter of Tar-Elendil, the fourth King of Númenor; mother of the first lord of Andúnië and ancestress of Elendil and his sons Isildur and Anárion."
+  :pages "256"}
+
+ {:type :thing
+  :name "Silmarils"
+  :desc "The three jewels made by Fëanor before the destruction of the Two Trees of Valinor, and filled with their light; see especially 57–8."
+  :pages "28, 57-9, 61-2, 65, 68-73, 91, 94, 101, 106, 118, 157-9, 163, 170-1, 189, 233-4, 241-3"}
+
+ {:type :race
+  :name "Silvan Elves"
+  :desc "They appear to have been in origin those Nandorin Elves who never passed west of the Misty Mountains, but remained in the Vale of Anduin and in Greenwood the Great; see _Nandor_."
+  :pages "274, 286"}
+
+ {:type :race
+  :name "Sindar"
+  :desc "The name was applied to all the Elves of Telerin origin whom the returning Noldor found in Beleriand, save for the Green-elves of Ossiriand. The Noldor may have devised this name because the first Elves of this origin whom they met with were in the north, under the grey skies and mists about Lake Mithrim (see _Mithrim_); or perhaps because they were not of the Light (of Valinor) nor yet of the Dark (Avari), but were _Elves of the Twilight_ (46). But it was held to refer to Elwë’s name _Thingol_, since he was acknowledged high king of all the land and its peoples."
+  :pages "17, 25, 46, 81, 84-5, 94, 98, 103, 107, 109-10, 115, 117, 119-20, 128, 134, 147-8, 188, 194-5, 214, 225, 227, 273"}
+
+ {:type :language
+  :name "Sindarin"
+  :desc "The Elvish tongue of Beleriand, derived from the common Elvish speech but greatly changed through long ages from Quenya of Valinor; acquired by the Noldorin exiles in Beleriand."
+  :pages "28, 50, 103, 109, 116, 121, 138, 147, 155, 194, 247, 249"}
+
+ {:type :place
+  :name "Sirion"
+  :desc "‘The Great River’ flowing from north to south and dividing West from East Beleriand."
+  :pages "40, 110, 113, 158, 220, 48, 148, 150, 186, 226, 233, 235-6"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked. Sub-heading refs merged in: Falls (158, 220), Fens (158), Gates (113), Mouths (48, 110, 148, 150, 186, 226, 233, 235–6). Havens, Pass and Vale of Sirion are their own places"}
+
+ {:type :place
+  :name "Pass of Sirion"
+  :pages "105, 110, 143, 151, 168, 182, 184, 201, 205"
+  :todo "from the ‘Pass of Sirion’ sub-heading of Sirion"}
+
+ {:type :place
+  :name "Vale of Sirion"
+  :pages "43, 97, 105, 109, 117, 192, 205, 233"
+  :todo "from the ‘Vale of Sirion’ sub-heading of Sirion"}
+
+ {:type :thing
+  :name "Soronúmë"
+  :desc "Name of a constellation."
+  :pages "37"}
+
+ {:type :thing
+  :name "Stone of the Hapless"
+  :desc "Memorial stone of Túrin and Nienor by Cabed Naeramarth in the river Teiglin."
+  :pages "219"}
+
+ {:type :place
+  :name "Straight Road"
+  :desc "The path over the Sea into the Ancient or True West, on which the ships of the Elves might still sail after the Downfall of Númenor and the Changing of the World."
+  :pages "269, 274"
+  :todo "headword ‘Straight Road, Straight Way’"}
+
+ {:type :place
+  :name "Talath Dirnen"
+  :desc "The plain north of Nargothrond."
+  :pages "138, 158, 162, 195, 200, 202"}
+
+ {:type :place
+  :name "Taniquetil"
+  :desc "‘High White Peak’, highest of the mountains of the Pelóri and the highest mountain of Arda, upon whose summit are Ilmarin, the mansions of Manwë and Varda."
+  :pages "14, 25, 28, 37, 40, 52, 64-6, 69, 73, 76, 84, 100, 237, 266, 269"}
+
+ {:type :character
+  :name "Tar-Ancalimon"
+  :desc "Fourteenth King of Númenor, in whose time the Númenóreans became divided into opposed parties."
+  :pages "254"}
+
+ {:type :place
+  :name "Taras"
+  :desc "Mountain on a promontory of Nevrast; beneath it was Vinyamar, the dwelling of Turgon before he went to Gondolin."
+  :pages "109-110, 228"}
+
+ {:type :character
+  :name "Tar-Atanamir"
+  :desc "Thirteenth King of Númenor, to whom the Messengers of the Valar came."
+  :pages "253"}
+
+ {:type :character
+  :name "Tar-Ciryatan"
+  :desc "Twelfth King of Númenor, ‘the Shipbuilder’."
+  :pages "253"}
+
+ {:type :character
+  :name "Tar-Elendil"
+  :desc "Fourth King of Númenor, father of Silmarien, from whom Elendil was descended."
+  :pages "256"}
+
+ {:type :character
+  :name "Tar-Minastir"
+  :desc "Eleventh King of Númenor, who aided Gil-galad against Sauron."
+  :pages "255, 257"}
+
+ {:type :place
+  :name "Tarn Aeluin"
+  :desc "The lake on Dorthonion where Barahir and his companions made their lair, and where they were slain."
+  :pages "152, 154"}
+
+ {:type :character
+  :name "Tar-Palantir"
+  :desc "Twenty-fourth King of Númenor, who repented of the ways of the Kings, and took his name in Quenya: ‘He who looks afar’."
+  :pages "257, 260"}
+
+ {:type :place
+  :name "Taur-en-Faroth"
+  :desc "The wooded highlands to the west of the river Narog above Nargothrond."
+  :pages "104, 113, 158"}
+
+ {:type :place
+  :name "Taur-im-Duinath"
+  :desc "‘The Forest between Rivers’, name of the wild country south of the Andram between Sirion and Gelion."
+  :pages "114, 144"}
+
+ {:type :place
+  :name "Teiglin"
+  :desc "A tributary of Sirion, rising in Ered Wethrin and bounding the Forest of Brethil on the south; see also _Crossings of Teiglin_."
+  :pages "110, 113, 138, 148, 190, 195, 202, 204-5, 209-11, 213, 215, 219"}
+
+ {:type :character
+  :name "Telchar"
+  :desc "The most renowned of the smiths of Nogrod, the maker of Angrist and (according to Aragorn in _The Two Towers_ III 6) of Narsil."
+  :pages "84, 167"}
+
+ {:type :character
+  :name "Telemnar"
+  :desc "Twenty-sixth King of Gondor."
+  :pages "284"}
+
+ {:type :race
+  :name "Teleri"
+  :desc "The third and greatest of the three hosts of the Eldar on the westward journey from Cuiviénen, led by Elwë (Thingol) and Olwë. Their own name for themselves was _Lindar_, the Singers; the name _Teleri_, the Last-comers, the Hindmost, was given to them by those before them on the march. Many of the Teleri did not leave Middle-earth; the Sindar and the Nandor were Telerin Elves in origin."
+  :pages "28, 42-6, 48-52, 56, 62-3, 65-6, 76-7, 80, 84, 87, 92, 124-5, 128, 237-8, 240, 243, 274"}
+
+ {:type :thing
+  :name "Telperion"
+  :desc "The elder of the Two Trees of Valinor."
+  :pages "26-7, 37, 50, 64, 89-90, 192, 251, 279"}
+
+ {:type :thing
+  :name "Telumendil"
+  :desc "Name of a constellation."
+  :pages "37"}
+
+ {:type :place
+  :name "Thalos"
+  :desc "The second of the tributaries of Gelion in Ossiriand."
+  :pages "114, 131"}
+
+ {:type :place
+  :name "Thangorodrim"
+  :desc "‘Mountains of Tyranny’, reared by Morgoth above Angband; broken down in the Great Battle at the end of the First Age."
+  :pages "71, 86, 97-100, 106, 108-9, 141-2, 144, 168, 172, 180, 182, 187, 197, 241, 247, 273, 281"}
+
+ {:type :place
+  :name "Thargelion"
+  :desc "‘The Land beyond Gelion’, between Mount Rerir and the river Ascar, where Caranthir dwelt."
+  :pages "115, 123, 134, 136, 144"}
+
+ {:type :character
+  :name "Thingol"
+  :desc "Leader with his brother Olwë of the host of the Teleri from Cuiviénen, and afterwards King of Doriath."
+  :pages "46, 81-7, 98, 101-2, 104-5, 113-14, 118-20, 123-4, 135, 138-9, 143, 148, 155-9, 162-3, 169, 173-6, 178-9, 189-92, 201, 206-8, 216, 220-3, 225, 230, 244"
+  :todo "printed ref 303 is outside the chapters and not linked"}
+
+ {:type :animal
+  :name "Thorondor"
+  :desc "‘King of Eagles.’ Cf. _The Return of the King_ VI 4: ‘Old Thorondor, who built his eyries in the inaccessible peaks of the Encircling Mountains when Middle-earth was young’. See _Crissaegrim_."
+  :pages "100-1, 116, 145, 149-50, 172, 217, 230, 232, 241"}
+
+ {:type :character
+  :name "Thranduil"
+  :desc "Sindarin Elf, King of the Silvan Elves in the north of Greenwood the Great (Mirkwood); father of Legolas, who was of the Fellowship of the Ring."
+  :pages "287"}
+
+ {:type :character
+  :name "Thuringwethil"
+  :desc "‘Woman of Secret Shadow’, the messenger of Sauron from Tol-in-Gaurhoth who took the form of a great bat, and in whose shape Lúthien entered Angband."
+  :pages "168-9"}
+
+ {:type :character
+  :name "Tilion"
+  :desc "A Maia, steersman of the Moon."
+  :pages "90-2"}
+
+ {:type :place
+  :name "Tirion"
+  :desc "‘Great Watch-tower’, the city of the Elves on the hill of Túna in Aman"
+  :pages "49, 51-3, 59-61, 65, 72, 74-6, 92, 104-5, 116-18, 160, 229, 237-8, 279"}
+
+ {:type :place
+  :name "Tol Eressëa"
+  :desc "The isle on which the Vanyar and the Noldor and afterwards the Teleri were drawn across the ocean by Ulmo, and which was at last rooted in the Bay of Eldamar near to the coasts of Aman. On it the Teleri long remained before they went to Alqualondë; and there dwelt many of the Noldor and the Sindar after the ending of the First Age."
+  :pages "39, 49-51, 92, 237, 239, 243, 248, 250-1, 256, 266-7, 269, 274-5, 280"}
+
+ {:type :place
+  :name "Tol Galen"
+  :desc "‘The Green Isle’ in the river Adurant in Ossiriand, where Beren and Lúthien dwelt after their return."
+  :pages "114, 178, 223-4"}
+
+ {:type :place
+  :name "Tol Morwen"
+  :desc "Island in the sea after the drowning of Beleriand on which stood the memorial stone of Túrin, Nienor, and Morwen."
+  :pages "219"}
+
+ {:type :place
+  :name "Tol Sirion"
+  :desc "Island in the river in the Pass of Sirion on which Finrod built the tower of Minas Tirith."
+  :pages "104, 110, 147"}
+
+ {:type :character
+  :name "Tulkas"
+  :desc "A Vala, the ‘greatest in strength and deeds of prowess’, who came last to Arda."
+  :pages "14, 17, 23-5, 37, 40, 56, 61-3, 67-8, 73"}
+
+ {:type :place
+  :name "Tumhalad"
+  :desc "Valley in the land between the rivers Ginglith and Narog, where the host of Nargothrond was defeated."
+  :pages "202-3"}
+
+ {:type :place
+  :name "Tumladen"
+  :desc "‘The Wide Valley’, the hidden vale in the Encircling Mountains in the midst of which stood the city of Gondolin. (_Tumladen_ was afterwards the name of a valley in Gondor: _The Return of the King_ V 1.)"
+  :pages "105, 116, 125, 149, 172, 229, 232"}
+
+ {:type :place
+  :name "Túna"
+  :desc "The green hill in the Calacirya on which Tirion, the city of the Elves, was built."
+  :pages "49, 51-3, 59, 62, 72, 75-6, 78, 105, 116, 237, 251, 266"}
+
+ {:type :character
+  :name "Tuor"
+  :desc "Son of Huor and Rían, fostered by the Grey-elves of Mithrim; entered Gondolin bearing the message of Ulmo; wedded Idril Turgon’s daughter, and with her and their son Eärendil escaped from the destruction of the city; in his ship Eärrámë set sail into the West."
+  :pages "139, 188, 227-35, 238"}
+
+ {:type :character
+  :name "Turgon"
+  :desc "The second son of Fingolfin; dwelt at Vinyamar in Nevrast before he departed in secret to Gondolin, which he ruled until his death in the sack of the city; father of Idril the mother of Eärendil."
+  :pages "51, 74, 79-80, 104-5, 109-10, 116-18, 121-3, 125, 127-9, 145, 149-51, 172, 180-4, 186, 192, 217-18, 227-30, 232-3, 238, 244"}
+
+ {:type :character
+  :name "Túrin"
+  :desc "Son of Húrin and Morwen; chief subject of the lay named _Narn i Hîn Húrin_ from which Chapter 21 was derived."
+  :pages "139, 160, 188-207, 210, 212-16, 219-20"}
+
+ {:type :race
+  :name "Two Kindreds"
+  :desc "Elves and Men."
+  :pages "176-7, 237-8, 247, 282"
+  :todo "Elves and Men together, not a single people"}
+
+ {:type :thing
+  :name "Two Trees of Valinor"
+  :pages "26, 34, 36, 41-2, 46, 48-9, 51-2, 56-7, 61-2, 65-6, 68, 85, 87-91, 93, 117, 222, 229, 233, 260"
+  :todo "page refs only, no glossary text"}
+
+ {:type :character
+  :name "Uinen"
+  :desc "A Maia, the Lady of the Seas, spouse of Ossë."
+  :pages "18, 28, 48, 77"}
+
+ {:type :character
+  :name "Uldor"
+  :desc "Son of Ulfang the Black; slain by Maglor in the Nirnaeth Arnoediad."
+  :pages "148, 180, 183-4, 241"}
+
+ {:type :character
+  :name "Ulfang"
+  :desc "A chieftain of the Easterlings, who with his three sons followed Caranthir, and proved faithless in the Nirnaeth Arnoediad."
+  :pages "148, 179, 183"}
+
+ {:type :character
+  :name "Ulfast"
+  :desc "Son of Ulfang the Black, slain by the sons of Bór in the Nirnaeth Arnoediad."
+  :pages "148, 183"}
+
+ {:type :character
+  :name "Ulmo"
+  :desc "A Vala, one of the Aratar. The name was interpreted by the Eldar to mean ‘The Pourer’ or ‘The Rainer’. See especially 14, 28."
+  :pages "7-8, 14-18, 28, 34, 40-1, 47-9, 51, 56, 76, 91, 93-4, 104-5, 109, 113-14, 116-18, 147, 149, 186, 199, 201, 227-30, 233, 236, 238, 258"}
+
+ {:type :thing
+  :name "Ulumúri"
+  :desc "The great horns of Ulmo made by the Maia Salmar."
+  :pages "15"}
+
+ {:type :character
+  :name "Ulwarth"
+  :desc "Son of Ulfang the Black, slain by the sons of Bór in the Nirnaeth Arnoediad."
+  :pages "148, 183"}
+
+ {:type :race
+  :name "Úmanyar"
+  :desc "Name given to those Elves who went on the westward journey from Cuiviénen but did not reach Aman: ‘Those not of Aman’, beside _Amanyar_ ‘Those of Aman’."
+  :pages "42, 46"}
+
+ {:type :place
+  :name "Umbar"
+  :desc "Great natural haven and fortress of the Númenóreans south of the Bay of Belfalas."
+  :pages "258"}
+
+ {:type :place
+  :name "Undying Lands"
+  :desc "Aman and Eressëa."
+  :pages "238, 248, 251, 266, 269"}
+
+ {:type :character
+  :name "Ungoliant"
+  :desc "The great spider, destroyer with Melkor of the Trees of Valinor. Shelob in _The Lord of the Rings_ was ‘the last child of Ungoliant to trouble the unhappy world’ (_The Two Towers_ IV 9)."
+  :pages "63-4, 66-7, 69-71, 79, 85, 91, 112, 123, 154, 237"}
+
+ {:type :event
+  :name "Union of Maedhros"
+  :desc "The league formed by Maedhros to defeat Morgoth that ended in the Nirnaeth Arnoediad."
+  :pages "179-80"
+  :todo "an alliance, not a single event"}
+
+ {:type :character
+  :name "Urthel"
+  :desc "One of the twelve companions of Barahir on Dorthonion."
+  :pages "146"}
+
+ {:type :animal
+  :name "Urulóki"
+  :desc "Quenya word meaning ‘fire-serpent’, dragon."
+  :pages "106, 202"
+  :todo "a word for dragons"}
+
+ {:type :place
+  :name "Utumno"
+  :desc "The first great stronghold of Melkor, in the north of Middle-earth, destroyed by the Valar."
+  :pages "24-5, 29, 36, 39-41, 64, 72, 89, 108"}
+
+ {:type :character
+  :name "Vairë"
+  :desc "‘The Weaver’, one of the Valier, the spouse of Námo Mandos."
+  :pages "14, 16"}
+
+ {:type :thing
+  :name "Valacirca"
+  :desc "The constellation of the Great Bear."
+  :pages "37, 164"}
+
+ {:type :character
+  :name "Valandil"
+  :desc "Youngest son of Isildur; third King of Arnor."
+  :pages "283"}
+
+ {:type :thing
+  :name "Valaquenta"
+  :desc "‘Account of the Valar’, a short work treated as a separate entity from _The Silmarillion_ proper."
+  :todo "a title, not an object; also the name of a chapter"}
+
+ {:type :race
+  :name "Valar"
+  :desc "‘Those with Power’, ‘The Powers’ (singular _Vala_); name given to those great Ainur who entered into Eä at the beginning of Time, and assumed the function of guarding and governing Arda."
+  :pages "8-9, 29, 64-5"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked; it also says ‘see also Ainur, Aratar’"}
+
+ {:type :thing
+  :name "Valaróma"
+  :desc "The horn of the Vala Oromë."
+  :pages "17, 29, 67, 85"}
+
+ {:type :race
+  :name "Valier"
+  :desc "‘The Queens of the Valar’ (singular _Valië_); a term used only in the _Valaquenta_."
+  :pages "13-14, 16-17"
+  :todo "the female Valar, not a people"}
+
+ {:type :place
+  :name "Valinor"
+  :desc "The land of the Valar in Aman, beyond the mountains of the Pelóri."
+  :pages "26, 92"
+  :todo "glossary says Passim; only the ‘especially’ pages are linked"}
+
+ {:type :place
+  :name "Valmar"
+  :desc "The city of the Valar in Valinor. In Galadriel’s lament in Lórien (_The Fellowship of the Ring_ II 8) the name is made equivalent to Valinor."
+  :pages "16-17, 26, 39-40, 45, 51, 55-6, 60-2, 64-6, 74, 92, 177, 237-9"}
+
+ {:type :character
+  :name "Vána"
+  :desc "One of the Valier, the sister of Yavanna and spouse of Oromë."
+  :pages "14, 17-18, 90"}
+
+ {:type :race
+  :name "Vanyar"
+  :desc "The first host of the Eldar on the westward journey from Cuiviénen, led by Ingwë. The name (singular _Vanya_) means ‘the Fair’, referring to the golden hair of the Vanyar; see _Finarfin_."
+  :pages "28, 42-3, 47, 49-50, 52, 56, 65-6, 72, 88-9, 92, 121, 127, 240, 243"}
+
+ {:type :character
+  :name "Varda"
+  :desc "‘The Exalted’, ‘The Lofty’. Greatest of the Valier, the spouse of Manwë, dwelling with him on Taniquetil. See especially 14."
+  :pages "14, 16-18, 23, 25, 27-8, 37-8, 42, 50, 57-8, 65-6, 68, 73, 89-91, 164, 242, 244"}
+
+ {:type :thing
+  :name "Vilya"
+  :desc "One of the Three Rings of the Elves, the Ring of Air, borne by Gil-galad and afterwards by Elrond."
+  :pages "276, 286"}
+
+ {:type :thing
+  :name "Vingilot"
+  :desc "‘Foam-flower’, the name of Eärendil’s ship."
+  :pages "235-7, 239, 241, 247"}
+
+ {:type :place
+  :name "Vinyamar"
+  :desc "The house of Turgon in Nevrast under Mount Taras. The meaning is probably ‘New Dwelling’."
+  :pages "105, 110, 117, 121, 228-9"}
+
+ {:type :character
+  :name "Voronwë"
+  :desc "‘The Steadfast’, Elf of Gondolin, the only mariner to survive from the seven ships sent into the West after the Nirnaeth Arnoediad; met with Tuor at Vinyamar and guided him to Gondolin."
+  :pages "186, 228"}
+
+ {:type :event
+  :name "White Council"
+  :desc "The Council of the Wise in the Third Age formed to oppose Sauron."
+  :pages "287-91"
+  :todo "a council, not a single event"}
+
+ {:type :thing
+  :name "White Tree"
+  :desc "See _Telperion_, _Galathilion_, _Nimloth_ (1). The White Trees of Minas Ithil and Minas Anor."
+  :pages "261, 264, 279, 281-5, 291"}
+
+ {:type :thing
+  :name "Wilwarin"
+  :desc "Name of a constellation. The word meant ‘butterfly’ in Quenya, and the constellation was perhaps Cassiopeia."
+  :pages "37"}
+
+ {:type :character
+  :name "Yavanna"
+  :desc "‘Giver of fruits’; one of the Valier, numbered among the Aratar; the spouse of Aulë. See especially 15."
+  :pages "14, 16-17, 23-4, 26-7, 29, 33-7, 45, 50, 64-5, 68, 70-1, 81, 89-90, 94, 248, 251, 279"}
+
+ {:type :event
+  :name "Year of Lamentation"
+  :desc "The year of the Nirnaeth Arnoediad."
+  :pages "117, 189"
+  :todo "a year, not a single event"}]

@@ -1,0 +1,353 @@
+;; Glossary batch 06 of 12 (Finwë – Halmir)
+[{:character/name        "Finwë"
+  :character/description "Leader of the Noldor on the westward journey from Cuiviénen; King of the Noldor in Aman; father of Fëanor, Fingolfin, and Finarfin; slain by Morgoth at Formenos. Other references are to his sons or his house."
+  :character/page        [41 44 45 48 49 50 52 53 54 55 59 60 61 62 65 69 72 118 119]
+  :character/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                          [:chapter/name "Of Thingol and Melian"]
+                          [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                          [:chapter/name "Of the Darkening of Valinor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Noldor in Beleriand"]]}
+
+ ;; TODO no headword in the glossary; pages and text from alias Elder Days
+ {:age/name        "First Age"
+  :age/page        [18 26 93 104 198 200 220 223 231 282 291]
+  :age/appears-in  [[:chapter/name "Valaquenta"]
+                    [:chapter/name "Of the Beginning of Days"]
+                    [:chapter/name "Of Men"]
+                    [:chapter/name "Of the Return of the Noldor"]
+                    [:chapter/name "Of Túrin Turambar"]
+                    [:chapter/name "Of the Ruin of Doriath"]
+                    [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                    [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Formenos"
+  :place/description "‘Northern Fortress’, the stronghold of Fëanor and his sons in the north of Valinor, built after the banishment of Fëanor from Tirion."
+  :place/page        [61 62 65 69 70 118]
+  :place/appears-in  [[:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Darkening of Valinor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Noldor in Beleriand"]]}
+
+ {:place/name        "Fornost"
+  :place/description "‘Northern Fortress’, Númenórean city on the North Downs in Eriador."
+  :place/page        [278]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Frodo"
+  :character/description "The Ringbearer."
+  :character/page        [291]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Fuinur"
+  :character/description "A renegade Númenórean who became mighty among the Haradrim at the end of the Second Age."
+  :character/page        [281]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Galadriel"
+  :character/description "Daughter of Finarfin and sister of Finrod Felagund; one of the leaders of the Noldorin rebellion against the Valar; wedded Celeborn of Doriath and with him remained in Middle-earth after the end of the First Age; keeper of Nenya, the Ring of Water, in Lothlórien."
+  :character/page        [51 74 80 104 105 118 119 121 135 159 224 243 286 287 288]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Galathilion"
+  :thing/description "The White Tree of Tirion, the image of Telperion made by Yavanna for the Vanyar and the Noldor."
+  :thing/page        [50 251 279]
+  :thing/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Galdor"
+  :character/description "Son of Hador Lórindol and lord of Dor-lómin after him; father of Húrin and Huor; slain at Eithel Sirion."
+  :character/page        [139 143 146 149 150 151 188 199 219 241]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:thing/name        "galvorn"
+  :thing/description "The metal devised by Eöl."
+  :thing/page        [124]
+  :thing/appears-in  [[:chapter/name "Of Maeglin"]]}
+
+ ;; TODO a festival, not a battle
+ {:event/name        "Gates of Summer"
+  :event/description "A great festival of Gondolin, on the eve of which the city was assaulted by the forces of Morgoth."
+  :event/page        [231]
+  :event/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Gelion"
+  :place/description "The great river of East Beleriand, rising in Himring and Mount Rerir and fed by the rivers of Ossiriand flowing down from the Blue Mountains."
+  :place/page        [44 45 81 82 86 103 112 113 114 115 131 133 137 144 178 221 223 224]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name           "Gelmir (son of Guilin)"
+  :character/glossary-label "Gelmir (1)"
+  :character/description    "Elf of Nargothrond, brother of Gwindor, captured in the Dagor Bragollach and afterwards put to death in front of Eithel Sirion, as a provocation to its defenders, before the Nirnaeth Arnoediad."
+  :character/page           [179 181]
+  :character/appears-in     [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name           "Gelmir (messenger)"
+  :character/glossary-label "Gelmir (2)"
+  :character/description    "Elf of the people of Angrod, who with Arminas came to Nargothrond to warn Orodreth of its peril."
+  :character/page           [201]
+  :character/appears-in     [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Gildor"
+  :character/description "One of the twelve companions of Barahir on Dorthonion."
+  :character/page        [146]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Gil-galad"
+  :character/description "‘Star of Radiance’, son of Fingon. After the death of Turgon he became the last High King of the Noldor in Middle-earth, and remained in Lindon after the end of the First Age; leader with Elendil of the Last Alliance of Men and Elves and slain with him in combat with Sauron."
+  :character/page        [146 186 233 236 243 255 256 274 275 277 278 280 281 282 285 286]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Akallabêth"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Gimilkhâd"
+  :character/description "Younger son of Ar-Gimilzôr and Inzilbêth and father of Ar-Pharazôn, the last King of Númenor."
+  :character/page        [256 257]
+  :character/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Ginglith"
+  :place/description "River in West Beleriand flowing into the Narog above Nargothrond."
+  :place/page        [159 202]
+  :place/appears-in  [[:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Gladden Fields"
+  :place/description "The great stretches of reeds and iris (gladden) in and about the Anduin, where Isildur was slain and the One Ring lost."
+  :place/page        [283 289]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Glaurung"
+  :character/description "The first of the Dragons of Morgoth; in the Dagor Bragollach, the Nirnaeth Arnoediad, and the Sack of Nargothrond; cast his spell upon Túrin and upon Nienor; slain by Túrin at Cabed-en-Aras."
+  :character/page        [106 107 139 142 144 183 202 203 204 205 207 208 210 211 212 213 214 215 218 219 228 231]
+  :character/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:thing/name        "Glingal"
+  :thing/description "‘Hanging Flame’, the image of Laurelin made by Turgon in Gondolin."
+  :thing/page        [117]
+  :thing/appears-in  [[:chapter/name "Of the Noldor in Beleriand"]]}
+
+ {:character/name        "Glirhuin"
+  :character/description "A minstrel of Brethil."
+  :character/page        [219]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Glóredhel"
+  :character/description "Daughter of Hador Lórindol of Dor-lómin and sister of Galdor; wedded Haldir of Brethil."
+  :character/page        [149]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Glorfindel"
+  :character/description "Elf of Gondolin, who fell to his death in Cirith Thoronath in combat with a Balrog after the escape from the sack of the city. The name means ‘Golden-haired’."
+  :character/page        [184 232 233]
+  :character/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Gondolin"
+  :place/description "‘The Hidden Rock’, secret city of King Turgon surrounded by the Encircling Mountains (Echoriath)."
+  :place/page        [51 97 116 117 118 122 123 125 126 127 129 130 145 149 150 151 172 180 182 184 186 187 195 217 227 228 229 230 231 232 233 236 239 244 249]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                      [:chapter/name "Akallabêth"]]}
+
+ {:race/name        "Gondolindrim"
+  :race/description "The people of Gondolin."
+  :race/page        [129 150 182]
+  :race/appears-in  [[:chapter/name "Of Maeglin"]
+                     [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                     [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ ;; TODO sub-heading ‘City of Gondor: Minas Tirith. 291’ logged as an alias of Minas Anor
+ {:place/name        "Gondor"
+  :place/description "‘Land of Stone’, name of the southern Númenórean kingdom in Middle-earth, established by Isildur and Anárion."
+  :place/page        [279 280 281 282 283 284 285 290 291]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO glossary label ‘Gorgoroth (2)’; ‘Gorgoroth (1)’ is a cross-reference to Ered Gorgoroth
+ {:place/name        "Gorgoroth (Mordor)"
+  :place/description "A plateau in Mordor, between the converging Mountains of Shadow and Mountains of Ash."
+  :place/page        [280 282 284]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Gorlim"
+  :character/description "One of the twelve companions of Barahir on Dorthonion, who was ensnared by a phantom of his wife Eilinel and revealed to Sauron the hiding-place of Barahir."
+  :character/page        [146 152 153]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]]}
+
+ {:character/name        "Gothmog"
+  :character/description "Lord of Balrogs, high-captain of Angband, slayer of Fëanor, Fingon, and Ecthelion. (The same name was borne in the Third Age by the Lieutenant of Minas Morgul; _The Return of the King_ V 6.)"
+  :character/page        [97 183 184 185 232]
+  :character/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Greater Gelion"
+  :place/description "One of the two tributary branches of the river Gelion in the north, rising in Mount Rerir."
+  :place/page        [114]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:place/name        "Greenwood the Great"
+  :place/description "The great forest east of the Misty Mountains."
+  :place/page        [278 283 287 288 289 290]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Grond"
+  :thing/description "The great mace of Morgoth, with which he fought Fingolfin. The battering-ram used against the Gate of Minas Tirith was named after it (_The Return of the King_ V 4)."
+  :thing/page        [145]
+  :thing/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Guilin"
+  :character/description "Father of Gelmir and Gwindor, Elves of Nargothrond."
+  :character/page        [179 181 197 199 202]
+  :character/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Gundor"
+  :character/description "Younger son of Hador Lórindol, lord of Dor-lómin, slain with his father at Eithel Sirion in the Dagor Bragollach."
+  :character/page        [139 143 241]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO a fellowship of craftsmen, not a people
+ {:race/name        "Gwaith-i-Mírdain"
+  :race/description "‘People of the Jewel-smiths’, name of the fellowship of craftsmen in Eregion, greatest of whom was Celebrimbor son of Curufin."
+  :race/page        [274]
+  :race/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Gwindor"
+  :character/description "Elf of Nargothrond, brother of Gelmir; enslaved in Angband, but escaped and aided Beleg in the rescue of Túrin; brought Túrin to Nargothrond; loved Finduilas Orodreth’s daughter; slain in the Battle of Tumhalad."
+  :character/page        [179 180 181 182 197 198 199 200 201 202]
+  :character/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Hador"
+  :character/description "Lord of Dor-lómin, vassal of Fingolfin; father of Galdor father of Húrin; slain at Eithel Sirion in the Dagor Bragollach."
+  :character/page        [139 143 146 149 151]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ ;; TODO from the ‘House of, People of, Hador’ sub-heading of Hador
+ {:house/name        "House of Hador"
+  :house/founder     {:character/name "Hador"}
+  :house/page        [139 148 149 151 179 184 185 188 189 196 205 216 238]
+  :house/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:race/name        "Haladin"
+  :race/description "The second people of Men to enter Beleriand; afterwards dwelling in the Forest of Brethil."
+  :race/page        [133 134 136 137 146 148 149 151 182 185]
+  :race/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                     [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                     [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name        "Haldad"
+  :character/description "Leader of the Haladin in their defence against the attack on them by Orcs in Thargelion, and slain there; father of the Lady Haleth."
+  :character/page        [137 138]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:character/name        "Haldan"
+  :character/description "Son of Haldar; leader of the Haladin after the death of the Lady Haleth."
+  :character/page        [138]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:character/name        "Haldar"
+  :character/description "Son of Haldad of the Haladin, and brother of the Lady Haleth; slain with his father in the Orc-raid on Thargelion."
+  :character/page        [137 138]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:character/name        "Haldir"
+  :character/description "Son of Halmir of Brethil; wedded Glóredhel, daughter of Hador of Dor-lómin; slain in the Nirnaeth Arnoediad."
+  :character/page        [149 179 180 182 185]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name        "Haleth"
+  :character/description "Leader of the Haladin from Thargelion to the lands west of Sirion."
+  :character/page        [137 138]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ ;; TODO from the ‘House of, People of, Haleth’ sub-heading of Haleth
+ {:house/name        "House of Haleth"
+  :house/founder     {:character/name "Haleth"}
+  :house/page        [138 139 148 179 206 210 211]
+  :house/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ ;; TODO an epithet of Elrond, Elros and Eärendil, not a people
+ {:race/name        "Half-elven"
+  :race/description "Applied to Elrond and Elros, 235, 243, 249, 274, 276; and to Eärendil, 230."
+  :race/page        [230 235 243 249 274 276]
+  :race/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]
+                     [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                     [:chapter/name "Akallabêth"]
+                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO from the Mandos sub-heading ‘Named as the place of his dwelling (including Halls of Mandos; also Halls of Awaiting, Houses of the Dead)’
+ {:place/name        "Halls of Mandos"
+  :place/page        [16 30 32 41 49 54 55 57 78 95 98 176 177 223]
+  :place/appears-in  [[:chapter/name "Valaquenta"]
+                      [:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Aulë and Yavanna"]
+                      [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of Men"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Halmir"
+  :character/description "Lord of the Haladin, son of Haldan; with Beleg of Doriath defeated the Orcs that came south from the Pass of Sirion after the Dagor Bragollach."
+  :character/page        [148 149 179]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}]

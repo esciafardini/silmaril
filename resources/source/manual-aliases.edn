@@ -1,0 +1,111 @@
+;; Aliases that are not glossary headwords, added by hand.
+;; Most are names the glossary mentions inside a main entry's text ("also called ...");
+;; those mentions were removed from the description.
+
+[{:name "Isle of Númenor", :of [:place "Númenor"]}
+ {:name "The Music", :of [:event "Ainulindalë"]}
+ {:name "The Great Music", :of [:event "Ainulindalë"]}
+ {:name "The Song", :of [:event "Ainulindalë"]}
+ {:name "The Great Song", :of [:event "Ainulindalë"]}
+ {:name "White Lady of the Noldor", :of [:character "Aredhel"]}
+ {:name "White Lady of Gondolin", :of [:character "Aredhel"]}
+ {:name "Valarauko", :of [:race "Balrog"]}
+ {:name "Great Sea", :of [:place "Belegaer"]}
+ {:name "The Sea", :of [:place "Belegaer"]}
+ {:name "Western Sea", :of [:place "Belegaer"]}
+ {:name "Great Water", :of [:place "Belegaer"]}
+ {:name "Bëor the Old", :of [:character "Bëor"]}
+ {:name "Eldest House of Men", :of [:house "House of Bëor"]}
+ {:name "First House of the Edain", :of [:house "House of Bëor"]}
+ {:name "One-hand", :of [:character "Beren"]}
+ {:name "Brandir the Lame", :of [:character "Brandir"]}
+ {:name "Caranthir the Dark", :of [:character "Caranthir"]}
+ {:name "Celegorm the Fair", :of [:character "Celegorm"]}
+ {:name "Children of Eru", :of [:race "Children of Ilúvatar"]}
+ {:name "Híni Ilúvataro", :of [:race "Children of Ilúvatar"]}
+ {:name "Eruhíni", :of [:race "Children of Ilúvatar"]}
+ {:name "The Children", :of [:race "Children of Ilúvatar"]}
+ {:name "Children of the Earth", :of [:race "Children of Ilúvatar"]}
+ {:name "Children of the World", :of [:race "Children of Ilúvatar"]}
+ {:name "Curufin the Crafty", :of [:character "Curufin"]}
+ {:name "Dor Iâth", :of [:place "Doriath"]}
+ {:name "Halfelven", :of [:character "Eärendil"]}
+ {:name "Eärendil the Blessed", :of [:character "Eärendil"]}
+ {:name "Eärendil the Bright", :of [:character "Eärendil"]}
+ {:name "Eärendil the Mariner", :of [:character "Eärendil"]}
+ {:name "Outer Ocean", :of [:place "Ekkaia"]}
+ {:name "Elendil the Tall", :of [:character "Elendil"]}
+ {:name "Master Elrond", :of [:character "Elrond"]}
+ {:name "Elrond Half-elven", :of [:character "Elrond"]}
+ {:name "Emeldir the Man-hearted", :of [:character "Emeldir"]}
+ {:name "Dark Elf", :of [:character "Eöl"]}
+ {:name "Herald of Manwë", :of [:character "Eönwë"]}
+ {:name "The Ephel", :of [:place "Ephel Brandir"]}
+ {:name "Mountains of Shadow", :of [:place "Ephel Dúath"]}
+ {:name "Gorgoroth", :of [:place "Ered Gorgoroth"]}
+ {:name "Fingon the Valiant", :of [:character "Fingon"]}
+ {:name "Finrod the Faithful", :of [:character "Finrod"]}
+ {:name "Friend of Men", :of [:character "Finrod"]}
+ {:name "Galdor the Tall", :of [:character "Galdor"]}
+ {:name "Father of Dragons", :of [:character "Glaurung"]}
+ {:name "Great Worm", :of [:character "Glaurung"]}
+ {:name "Worm of Morgoth", :of [:character "Glaurung"]}
+ {:name "Gorlim the Unhappy", :of [:character "Gorlim"]}
+ {:name "Hammer of the Underworld", :of [:thing "Grond"]}
+ {:name "Hador the Golden-haired", :of [:character "Hador"]}
+ {:name "Third House of the Edain", :of [:house "House of Hador"]}
+ {:name "Men of Brethil", :of [:race "Haladin"]}
+ {:name "Lady Haleth", :of [:character "Haleth"]}
+ {:name "Hathaldir the Young", :of [:character "Hathaldir"]}
+ {:name "coimas", :of [:thing "lembas"]}
+ {:name "Maedhros the Tall", :of [:character "Maedhros"]}
+ {:name "Ruler of Arda", :of [:character "Manwë"]}
+ {:name "Eastern March", :of [:place "March of Maedhros"]}
+ {:name "Mardil the Faithful", :of [:character "Mardil"]}
+ {:name "The Enemy", :of [:character "Melkor"]}
+ {:name "Belegûr", :of [:character "Melkor"]}
+ {:name "Belegurth", :of [:character "Melkor"]}
+ {:name "Tasarinan", :of [:place "Nan-tathren"]}
+ {:name "Nan-tasarion", :of [:place "Nan-tathren"]}
+ {:name "Andúril", :of [:thing "Narsil"]}
+ {:name "Taur-na-Neldor", :of [:place "Neldoreth"]}
+ {:name "Ring of Adamant", :of [:thing "Nenya"]}
+ {:name "Nerdanel the Wise", :of [:character "Nerdanel"]}
+ {:name "Númenórë", :of [:place "Númenor"]}
+ {:name "Araw", :of [:character "Oromë"]}
+ {:name "High Eldarin", :of [:language "Quenya"]}
+ {:name "Tongue of Valinor", :of [:language "Quenya"]}
+ {:name "Speech of the Elves of Valinor", :of [:language "Quenya"]}
+ {:name "Tongue of the Noldor", :of [:language "Quenya"]}
+ {:name "High Speech of the West", :of [:language "Quenya"]}
+ {:name "Edhel", :of [:race "Sindar"]}
+ {:name "Edhil", :of [:race "Sindar"]}
+ {:name "Tongue of the Elves of Beleriand", :of [:language "Sindarin"]}
+ {:name "Holy Mountain", :of [:place "Taniquetil"]}
+ {:name "Mountain of Manwë", :of [:place "Taniquetil"]}
+ {:name "White Tree", :of [:thing "Telperion"]}
+ {:name "Sindacollo", :of [:character "Thingol"]}
+ {:name "Hidden King", :of [:character "Thingol"]}
+ {:name "Hidden King", :of [:character "Turgon"]}
+ {:name "Turgon the Wise", :of [:character "Turgon"]}
+ {:name "Uldor the Accursed", :of [:character "Uldor"]}
+ {:name "Ulfang the Black", :of [:character "Ulfang"]}
+ {:name "King of the Sea", :of [:character "Ulmo"]}
+ {:name "Great Ones", :of [:race "Valar"]}
+ {:name "Rulers of Arda", :of [:race "Valar"]}
+ {:name "Lords of Valinor", :of [:race "Valar"]}
+ {:name "Ever-young", :of [:character "Vána"]}
+ {:name "Lady of the Stars", :of [:character "Varda"]}
+ {:name "Ring of Sapphire", :of [:thing "Vilya"]}
+ {:name "Vingilótë", :of [:thing "Vingilot"]}
+ {:name "Grey-cloak", :of [:character "Thingol"]}
+ {:name "Lórien", :of [:character "Irmo"]}
+ {:name "Peredhel", :of [:race "Half-elven"]}
+ {:name "Peredhil", :of [:race "Half-elven"]}
+ {:name "Grey-mantle", :of [:character "Thingol"]}
+ {:name "Westland", :of [:place "Númenor"]}
+ {:name "Mountains of Shadow", :of [:place "Ered Wethrin"]}
+ {:name "Ring of Fire", :of [:thing "Narya"]}
+ {:name "Hobbits", :of [:race "Periannath"]}
+ {:name "Fëanáro", :of [:character "Fëanor"]}
+ {:name "Tareldar", :of [:race "Eldar"]}]

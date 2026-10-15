@@ -1,0 +1,767 @@
+;; Aliases: other names for a main entry, with their own glossary text and page refs.
+;; Each becomes an alias entity, and its pages and text are also merged into the
+;; main entry (:of). A main entry missing from entries.edn is built from its aliases.
+;; :text is the glossary text without its trailing page refs; :pages are those refs.
+
+[{:name "Adanedhel"
+  :of [:character "Túrin"]
+  :text "‘Elf-Man’, name given to Túrin in Nargothrond."
+  :pages "200"}
+
+ {:name "Aftercomers"
+  :of [:race "Men"]
+  :text "The Younger Children of Ilúvatar, Men; translation of _Hildor_."
+  :pages "73, 89"}
+
+ {:name "Agarwaen"
+  :of [:character "Túrin"]
+  :text "‘Blood-stained’, name given to himself by Túrin when he came to Nargothrond."
+  :pages "200"}
+
+ {:name "Aldaron"
+  :of [:character "Oromë"]
+  :text "‘Lord of Trees’, a Quenya name of the Vala Oromë; cf. _Tauron_."
+  :pages "17"}
+
+ {:name "Angrenost"
+  :of [:place "Isengard"]
+  :text "‘Iron Fortress’, Númenórean fortress on the west borders of Gondor, afterwards inhabited by the wizard Curunír (Saruman); see _Isengard_."
+  :pages "279"}
+
+ {:name "Amon Amarth"
+  :of [:place "Orodruin"]
+  :text "‘Mount Doom’, the name given to Orodruin when its fires awoke again after Sauron’s return from Númenor."
+  :pages "281, 291"}
+
+ {:name "Amon Uilos"
+  :of [:place "Taniquetil"]
+  :text "Sindarin name of Oiolossë."
+  :pages "25"}
+
+ {:name "Anadûnê"
+  :of [:place "Númenor"]
+  :text "‘Westernesse’: name of Númenor in the Adûnaic (Númenórean) tongue (see _Númenor_)."
+  :pages "249"}
+
+ {:name "Anar"
+  :of [:thing "Sun"]
+  :text "Quenya name of the Sun."
+  :pages "89-91"}
+
+ {:name "Andor"
+  :of [:place "Númenor"]
+  :text "‘The Land of Gift’: Númenor."
+  :pages "248-9, 266, 268"}
+
+ {:name "Anfauglir"
+  :of [:character "Carcharoth"]
+  :text "A name of the wolf Carcharoth, translated in the text as ‘Jaws of Thirst’."
+  :pages "170"}
+
+ {:name "Anfauglith"
+  :of [:place "Ard-galen"]
+  :text "Name of the plain of Ard-galen after its desolation by Morgoth in the Battle of Sudden Flame; translated in the text as ‘the Gasping Dust’. Cf. _Dor-nu-Fauglith_."
+  :pages "142, 151, 168, 180-2, 187, 197-8, 202, 216, 240"}
+
+ {:name "Annatar"
+  :of [:character "Sauron"]
+  :text "‘Lord of Gifts’, name given to himself by Sauron in the Second Age, in that time when he appeared in a fair form among the Eldar who remained in Middle-earth."
+  :pages "275"}
+
+ {:name "Apanónar"
+  :of [:race "Men"]
+  :text "‘The Afterborn’, an Elvish name for Men."
+  :pages "93"}
+
+ {:name "Aradan"
+  :of [:character "Malach"]
+  :text "Sindarin name of Malach, son of Marach."
+  :pages "134-5, 139"}
+
+ {:name "Aranel"
+  :of [:character "Dior"]
+  :text "Name of Dior Thingol’s Heir."
+  :pages "178"}
+
+ {:name "Astaldo"
+  :of [:character "Tulkas"]
+  :text "‘The Valiant’, name of the Vala Tulkas."
+  :pages "17"}
+
+ {:name "Atanatári"
+  :of [:race "Atani"]
+  :text "‘Fathers of Men’; see _Atani_."}
+
+ {:name "Balan"
+  :of [:character "Bëor"]
+  :text "The name of Bëor the Old before he took service with Finrod."
+  :pages "134"}
+
+ {:name "Bauglir"
+  :of [:character "Melkor"]
+  :text "A name of Morgoth: ‘the Constrainer’."
+  :pages "94, 189, 200, 221, 244"}
+
+ {:name "Cabed Naeramarth"
+  :of [:place "Cabed-en-Aras"]
+  :text "‘Leap of Dreadful Doom’, name given to _Cabed-en-Aras_ after Nienor leapt from its cliffs."
+  :pages "213, 218-19"}
+
+ {:name "Camlost"
+  :of [:character "Beren"]
+  :text "‘Empty-handed’, name taken by Beren after his return to King Thingol without the Silmaril."
+  :pages "174, 176"}
+
+ {:name "Celebrindal"
+  :of [:character "Idril"]
+  :text "‘Silverfoot’; see _Idril_."}
+
+ {:name "Corollairë"
+  :of [:place "Ezellohar"]
+  :text "‘The Green Mound’ of the Two Trees in Valinor; also called _Ezellohar_."
+  :pages "26"}
+
+ {:name "Culúrien"
+  :of [:thing "Laurelin"]
+  :text "A name of Laurelin."
+  :pages "26"}
+
+ {:name "Curufinwë"
+  :of [:character "Fëanor"]
+  :text "See _Fëanor_."
+  :pages "53, 60"}
+
+ {:name "Cúthalion"
+  :of [:character "Beleg"]
+  :text "‘Strongbow’; see _Beleg_."}
+
+ {:name "Dagnir Glaurunga"
+  :of [:character "Túrin"]
+  :text "‘Glaurung’s Bane’, Túrin."
+  :pages "139, 215"}
+
+ ;; nickname for both Melkor and Sauron; refs split by hand
+ {:name "The Dark Lord"
+  :of [:character "Melkor"]
+  :text "The term is used of Morgoth, 136, 195, 216, and of Sauron, 277, 285, 287, 290"
+  :pages "136, 195, 216"}
+
+ {:name "The Dark Lord"
+  :of [:character "Sauron"]
+  :text "The term is used of Morgoth, 136, 195, 216, and of Sauron, 277, 285, 287, 290"
+  :pages "277, 285, 287, 290"}
+
+ {:name "Deldúwath"
+  :of [:place "Dorthonion"]
+  :text "One of the later names of Dorthonion (Taur-nu-Fuin), meaning ‘Horror of Night-shadow’."
+  :pages "146"}
+
+ {:name "The Dispossessed"
+  :of [:house "House of Fëanor"]
+  :text "The House of Fëanor."
+  :pages "78, 101"}
+
+ {:name "Dor Caranthir"
+  :of [:place "Thargelion"]
+  :text "‘Land of Caranthir’; see _Thargelion_."
+  :pages "115, 137, 144"}
+
+ {:name "Lady of Dor-lómin"
+  :of [:character "Morwen"]
+  :text "Morwen."
+  :pages "188"}
+
+ {:name "Dor-nu-Fauglith"
+  :of [:place "Ard-galen"]
+  :text "‘Land under Choking Ash’; see _Anfauglith_."
+  :pages "144, 172"}
+
+ {:name "Dúnedain"
+  :of [:race "Númenóreans"]
+  :text "‘The Edain of the West’; see _Númenóreans_."}
+
+ {:name "Dwarrowdelf"
+  :of [:place "Khazad-dûm"]
+  :text "‘Delving of the Dwarves’; translation of _Khazad-dûm_ (_Hadhodrond_)."
+  :pages "82"}
+
+ {:name "Eglador"
+  :of [:place "Doriath"]
+  :text "The former name of Doriath, before it was encompassed by the Girdle of Melian; probably connected with the name _Eglath_."
+  :pages "87"}
+
+ {:name "Elbereth"
+  :of [:character "Varda"]
+  :text "The usual name of Varda in Sindarin, ‘Star-Queen’; cf. _Elentári_."
+  :pages "14, 28"}
+
+ {:name "Eldalië"
+  :of [:race "Eldar"]
+  :text "‘The Elven-folk’, used as equivalent to _Eldar_."
+  :pages "10, 42, 47, 56, 117, 156, 173, 176-7, 181, 192, 243"}
+
+ {:name "Elder Days"
+  :of [:age "First Age"]
+  :text "The First Age; also called _the Eldest Days_."
+  :pages "18, 26, 93, 104, 198, 200, 220, 223, 231, 282, 291"}
+
+ {:name "Elder King"
+  :of [:character "Manwë"]
+  :text "Manwë."
+  :pages "239, 241"}
+
+ {:name "Elendë"
+  :of [:place "Eldamar"]
+  :text "A name of Eldamar."
+  :pages "51, 75, 101"}
+
+ {:name "Elenna"
+  :of [:place "Númenor"]
+  :text "A (Quenya) name of Númenor, ‘Starwards’, from the guidance of the Edain by Eärendil on their voyage to Númenor at the beginning of the Second Age."
+  :pages "249, 266, 268"}
+
+ {:name "Elentári"
+  :of [:character "Varda"]
+  :text "‘Star-Queen’, a name of Varda as maker of the Stars. She is called thus in Galadriel’s lament in Lórien, _The Fellowship of the Ring_ II 8. Cf. _Elbereth_, _Tintallë_."
+  :pages "38"}
+
+ {:name "Elerrína"
+  :of [:place "Taniquetil"]
+  :text "‘Crowned with Stars’, a name of Taniquetil."
+  :pages "25"}
+
+ {:name "Elwë"
+  :of [:character "Thingol"]
+  :text "Surnamed _Singollo_ ‘Greymantle’; leader with his brother Olwë of the hosts of the Teleri on the westward journey from Cuiviénen, until he was lost in Nan Elmoth; afterwards Lord of the Sindar, ruling in Doriath with Melian; received the Silmaril from Beren; slain in Menegroth by the Dwarves. Called _(Elu) Thingol_ in Sindarin. See _Dark Elves_, _Thingol_."
+  :pages "41-2, 44-6, 48-9, 81, 222-3"}
+
+ {:name "Elu"
+  :of [:character "Thingol"]
+  :text "Sindarin form of Elwë."
+  :pages "46, 81, 98, 222"}
+
+ {:name "Eluchíl"
+  :of [:character "Dior"]
+  :text "‘Heir of Elu (Thingol)’, name of Dior, son of Beren and Lúthien. See _Dior_."}
+
+ {:name "Endor"
+  :of [:place "Middle-earth"]
+  :text "‘Middle Land’, Middle-earth."
+  :pages "79"}
+
+ {:name "Engwar"
+  :of [:race "Men"]
+  :text "‘The Sickly’, one of the Elvish names for Men."
+  :pages "93"}
+
+ {:name "Erchamion"
+  :of [:character "Beren"]
+  :text "‘One-handed’, the name of Beren after his escape from Angband."
+  :pages "172, 175, 188, 225"}
+
+ {:name "Ered Lindon"
+  :of [:place "Ered Luin"]
+  :text "‘The Mountains of Lindon’, another name for _Ered Luin_, the Blue Mountains."
+  :pages "114-15, 125, 131, 137, 185, 221, 223-4"}
+
+ {:name "Ereinion"
+  :of [:character "Gil-galad"]
+  :text "‘Scion of Kings’, the son of Fingon, known always by his surname _Gil-galad_."
+  :pages "146, 186, 233"}
+
+ {:name "Eldarin"
+  :of [:language "Quenya"]
+  :text "Of the Eldar; used in reference to the language(s) of the Eldar. The occurrences of the term in fact refer to Quenya, also called _High Eldarin_ and _High-elven_; see _Quenya_."}
+
+ ;; refs are mid-text, merged by hand; 289 (Men of Gondor, Dúnedain of the North) goes to Atani too
+ {:name "Elf-friends"
+  :of [:race "Atani"]
+  :text "The Men of the Three Houses of Bëor, Haleth, and Hador, the Edain. 133–6, 180, 189, 241. In the _Akallabêth_ and in _Of the Rings of Power_ used of those Númenóreans who were not estranged from the Eldar; see _Elendili_. At 289 the reference is no doubt to the Men of Gondor and the Dúnedain of the North."
+  :pages "133-6, 180, 189, 241, 289"}
+
+ {:name "Eru"
+  :of [:character "Eru Ilúvatar"]
+  :text "‘The One’, ‘He that is Alone’: Ilúvatar. 3, 13–15, 17, 32–5, 65, 75, 78, 80, 88, 249, 253–4, 257, 259, 268; also in _Children of Eru_."
+  :pages "3, 13-15, 17, 32-5, 65, 75, 78, 80, 88, 249, 253-4, 257, 259, 268"}
+
+ {:name "Faelivrin"
+  :of [:character "Finduilas"]
+  :text "Name given to Finduilas by Gwindor."
+  :pages "199"}
+
+ {:name "Felagund"
+  :of [:character "Finrod"]
+  :text "The name by which King Finrod was known after the establishment of Nargothrond; it was Dwarvish in origin (_felak-gundu_ ‘cave-hewer’, but translated in the text as ‘Lord of Caves’, 51). For references see _Finrod_."}
+
+ {:name "Firimar"
+  :of [:race "Men"]
+  :text "‘Mortals’, one of the Elvish names for Men."
+  :pages "93"}
+
+ {:name "The Firstborn"
+  :of [:race "Elves"]
+  :text "The Elder Children of Ilúvatar, the Elves."
+  :pages "6, 8, 10, 27, 29, 32, 34, 37, 239, 243, 249, 251-2, 274-5, 286, 292"}
+
+ {:name "The Followers"
+  :of [:race "Men"]
+  :text "The Younger Children of Ilúvatar, Men; translation of _Hildor_."
+  :pages "6, 93"}
+
+ {:name "Gabilgathol"
+  :of [:place "Belegost"]
+  :text "See _Belegost_."
+  :pages "82"}
+
+ {:name "Gandalf"
+  :of [:character "Mithrandir"]
+  :text "The name among Men of Mithrandir, one of the Istari (Wizards); see _Olórin_."
+  :pages "287"}
+
+ {:name "Gil-Estel"
+  :of [:character "Eärendil"]
+  :text "‘Star of Hope’, Sindarin name for Eärendil bearing the Silmaril in his ship Vingilot."
+  :pages "239"}
+
+ {:name "Golodhrim"
+  :of [:race "Noldor"]
+  :text "The Noldor. _Golodh_ was the Sindarin form of Quenya _Noldo_, and _-rim_ a collective plural ending; cf. _Annon-in-Gelydh_, the Gate of the Noldor."
+  :pages "125"}
+
+ {:name "City of Gondor"
+  :of [:place "Minas Anor"]
+  :text "Minas Tirith. 291"
+  :pages "291"}
+
+ {:name "Green-elves"
+  :of [:race "Laiquendi"]
+  :text "Translation of _Laiquendi_; the Nandorin Elves of Ossiriand. For their origin see 84–5, and for the name 86. 86, 103, 114–15, 131, 133–4, 144, 185, 224–5"
+  :pages "84-5, 86, 103, 114-15, 131, 133-4, 144, 185, 224-5"}
+
+ {:name "Gonnhirrim"
+  :of [:race "Dwarves"]
+  :text "‘Masters of Stone’, a Sindarin name for the Dwarves."
+  :pages "81"}
+
+ {:name "Gorthaur"
+  :of [:character "Sauron"]
+  :text "The name of Sauron in Sindarin."
+  :pages "19, 147, 273"}
+
+ {:name "Gorthol"
+  :of [:character "Túrin"]
+  :text "‘Dread Helm’, the name that Túrin took as one of the Two Captains in the land of Dor-Cúarthol."
+  :pages "196"}
+
+ {:name "Great Lands"
+  :of [:place "Middle-earth"]
+  :text "Middle-earth."
+  :pages "251"}
+
+ {:name "Guarded Realm"
+  :of [:place "Valinor"]
+  :text "See _Valinor_."
+  :pages "64, 77"}
+
+ {:name "Gurthang"
+  :of [:thing "Anglachel"]
+  :text "‘Iron of Death’, name of Beleg’s sword Anglachel after it was reforged for Túrin in Nargothrond, and from which he was named _Mormegil_."
+  :pages "200, 203, 206, 211-13, 215"}
+
+ {:name "Hadhodrond"
+  :of [:place "Khazad-dûm"]
+  :text "The Sindarin name of Khazad-dûm (Moria)."
+  :pages "82, 274"}
+
+ {:name "Halflings"
+  :of [:race "Periannath"]
+  :text "Translation of _Periannath_ (Hobbits)."
+  :pages "290-1"}
+
+ {:name "Halls of Awaiting"
+  :of [:place "Halls of Mandos"]
+  :text "The Halls of Mandos."
+  :pages "57"}
+
+ {:name "Haudh-en-Nirnaeth"
+  :of [:place "Haudh-en-Ndengin"]
+  :text "‘The Mound of Tears’, another name of _Haudh-en-Ndengin_."
+  :pages "187"}
+
+ ;; ‘The Havens’ has four senses: Havens of the Falas and Havens of Sirion are their own places; these two are merged by hand
+ {:name "The Havens"
+  :of [:place "Mithlond"]
+  :text "The Grey Havens (_Mithlond_) in the Gulf of Lhûn: 277, 286–7, 292."
+  :pages "277, 286-7, 292"}
+
+ {:name "The Haven"
+  :of [:place "Alqualondë"]
+  :text "Alqualondë, the Haven of the Swans or Swanhaven, is also called simply _The Haven_: 51, 77, 79"
+  :pages "51, 77, 79"}
+
+ {:name "Herunúmen"
+  :of [:character "Adûnakhôr"]
+  :text "‘Lord of the West’, Quenya name of Ar-Adûnakhôr."
+  :pages "255"}
+
+ ;; names both Doriath and Gondolin; refs split by hand
+ {:name "Hidden Kingdom"
+  :of [:place "Doriath"]
+  :text "Name given both to Doriath, 105, 154, 156, 214, and to Gondolin, 122, 228, 230"
+  :pages "105, 154, 156, 214"}
+
+ {:name "Hidden Kingdom"
+  :of [:place "Gondolin"]
+  :text "Name given both to Doriath, 105, 154, 156, 214, and to Gondolin, 122, 228, 230"
+  :pages "122, 228, 230"}
+
+ {:name "High Elves"
+  :of [:race "Eldar"]
+  :text "See _Eldar_."
+  :pages "285"}
+
+ {:name "Hildor"
+  :of [:race "Men"]
+  :text "‘The Followers’, ‘The Aftercomers’, Elvish name for Men, as the Younger Children of Ilúvatar."
+  :pages "89, 93"}
+
+ {:name "Hisilómë"
+  :of [:place "Hithlum"]
+  :text "‘Land of Mist’, Quenya name of Hithlum."
+  :pages "109"}
+
+ {:name "Hither Lands"
+  :of [:place "Middle-earth"]
+  :text "Middle-earth (also called _the Outer Lands_)."
+  :pages "45, 47-8, 229, 235, 240, 243, 250, 286"}
+
+ {:name "Hollin"
+  :of [:place "Eregion"]
+  :text "See _Eregion_."
+  :pages "274"}
+
+ {:name "Hollowbold"
+  :of [:place "Nogrod"]
+  :text "Translation of _Nogrod_: ‘hollow dwelling’ (early English _hol_ ‘hollow’, _bold_, noun related to the verb _build_)."
+  :pages "82"}
+
+ {:name "Ilúvatar"
+  :of [:character "Eru Ilúvatar"]
+  :text "‘Father of All’, Eru."
+  :pages "3-10, 13-14, 16-19, 25, 27-34, 37-40, 46, 49, 55-8, 65, 68, 73, 80, 88-9, 93, 95, 139, 155-6, 176-7, 200, 222-3, 239, 242, 248-50, 252-3, 260, 266-7"}
+
+ {:name "Inziladûn"
+  :of [:character "Tar-Palantir"]
+  :text "Elder son of Ar-Gimilzôr and Inzilbêth; afterwards named _Tar-Palantir_."
+  :pages "257"}
+
+ {:name "Isil"
+  :of [:thing "Moon"]
+  :text "Quenya name of the Moon."
+  :pages "89-90"}
+
+ {:name "Heir of Isildur"
+  :of [:character "Aragorn"]
+  :text "Aragorn 291–2"
+  :pages "291-2"}
+
+ {:name "Kementári"
+  :of [:character "Yavanna"]
+  :text "‘Queen of the Earth’, a title of Yavanna."
+  :pages "16, 26-7, 34"}
+
+ {:name "Khazâd"
+  :of [:race "Dwarves"]
+  :text "The name of the Dwarves in their own language (_Khuzdul_)."
+  :pages "81"}
+
+ {:name "Land of the Star"
+  :of [:place "Númenor"]
+  :text "Númenor."
+  :pages "262-3"}
+
+ {:name "Loeg Ningloron"
+  :of [:place "Gladden Fields"]
+  :text "‘Pools of the golden water-flowers’; see _Gladden Fields_."}
+
+ {:name "Lómion"
+  :of [:character "Maeglin"]
+  :text "‘Son of Twilight’, the Quenya name that Aredhel gave to Maeglin."
+  :pages "125"}
+
+ {:name "Lórindol"
+  :of [:character "Hador"]
+  :text "‘Goldenhead’; see _Hador_."}
+
+ {:name "Mahal"
+  :of [:character "Aulë"]
+  :text "The name given to Aulë by the Dwarves."
+  :pages "32"}
+
+ {:name "Malinalda"
+  :of [:thing "Laurelin"]
+  :text "‘Tree of Gold’, a name of Laurelin."
+  :pages "26"}
+
+ {:name "Mar-nu-Falmar"
+  :of [:place "Númenor"]
+  :text "‘The Land under the Waves’, name of Númenor after the Downfall."
+  :pages "268"}
+
+ {:name "Mickleburg"
+  :of [:place "Belegost"]
+  :text "Translation of _Belegost_: ‘great fortress’."
+  :pages "82"}
+
+ {:name "Minas Tirith"
+  :of [:place "Minas Anor"]
+  :text "Later name of Minas Anor. Called _the City of Gondor_."
+  :pages "285"}
+
+ {:name "Minas Morgul"
+  :of [:place "Minas Ithil"]
+  :text "‘Tower of Sorcery’ (also simply _Morgul_), name of Minas Ithil after its capture by the Ringwraiths."
+  :pages "284-5"}
+
+ {:name "Morgoth"
+  :of [:character "Melkor"]
+  :text "‘The Black Enemy’, name of Melkor, first given to him by Fëanor after the rape of the Silmarils. 19–20, 56, 69 and thereafter _passim_. See _Melkor_."
+  :pages "19-20, 56, 69"}
+
+ {:name "Moria"
+  :of [:place "Khazad-dûm"]
+  :text "‘The Black Chasm’, later name for Khazad-dûm (Hadhodrond)."
+  :pages "82, 274, 276, 281"}
+
+ {:name "Moriquendi"
+  :of [:race "Dark Elves"]
+  :text "‘Elves of the Darkness’; see _Dark Elves_."
+  :pages "42, 46, 81, 98"}
+
+ {:name "Mormegil"
+  :of [:character "Túrin"]
+  :text "‘The Black Sword’, name given to Túrin as captain of the host of Nargothrond; see _Gurthang_."
+  :pages "200-1, 205-7, 210, 212, 214"}
+
+ {:name "Námo"
+  :of [:character "Mandos"]
+  :text "A Vala, one of the Aratar; usually named _Mandos_, the place of his dwelling. _Námo_ means ‘Ordainer, Judge’."
+  :pages "16"}
+
+ {:name "Naugrim"
+  :of [:race "Dwarves"]
+  :text "‘The Stunted People’, Sindarin name for the Dwarves."
+  :pages "81-6, 103, 124, 126, 179, 183, 223"}
+
+ {:name "Neithan"
+  :of [:character "Túrin"]
+  :text "Name given to himself by Túrin among the outlaws, translated as ‘The Wronged’ (literally ‘one who is deprived’)."
+  :pages "190"}
+
+ {:name "Nen Girith"
+  :of [:place "Dimrost"]
+  :text "‘Shuddering Water’, name given to Dimrost, the falls of Celebros in the Forest of Brethil."
+  :pages "209, 211-13"}
+
+ {:name "Níniel"
+  :of [:character "Nienor"]
+  :text "‘Tear-maiden’, the name that Túrin, ignorant of their relationship, gave to his sister; see _Nienor_."}
+
+ {:name "Ninquelótë"
+  :of [:thing "Telperion"]
+  :text "‘White Blossom’, a name of Telperion; see _Nimloth_ (1)."
+  :pages "26"}
+
+ ;; ‘Nóm, Nómin’ names both Finrod (Nóm) and his people (Nómin)
+ {:name "Nóm"
+  :of [:character "Finrod"]
+  :text "‘Wisdom’ and ‘the Wise’, the names that the Men of Bëor’s following gave to Finrod and his people in their own tongue. 132"
+  :pages "132"}
+
+ {:name "Nómin"
+  :of [:race "Noldor"]
+  :text "‘Wisdom’ and ‘the Wise’, the names that the Men of Bëor’s following gave to Finrod and his people in their own tongue. 132"
+  :pages "132"}
+
+ {:name "Nulukkizdîn"
+  :of [:place "Nargothrond"]
+  :text "Dwarvish name of Nargothrond."
+  :pages "219"}
+
+ {:name "Oiolossë"
+  :of [:place "Taniquetil"]
+  :text "‘Ever-snow-white’, the most common name among the Eldar for Taniquetil, rendered into Sindarin as _Amon Uilos_; but according to the _Valaquenta_ it was ‘the uttermost tower of Taniquetil’."
+  :pages "14, 25"}
+
+ {:name "Olórin"
+  :of [:character "Mithrandir"]
+  :text "A Maia, one of the Istari (Wizards); _Mithrandir_, _Gandalf_, and cf. _The Two Tower_ IV 5: ‘Olórin I was in my youth in the West that is forgotten’."
+  :pages "19"}
+
+ {:name "Ondolindë"
+  :of [:place "Gondolin"]
+  :text "‘Stone Song’, the original Quenya name of Gondolin."
+  :pages "116"}
+
+ {:name "Outer Lands"
+  :of [:place "Middle-earth"]
+  :text "Middle-earth (also called _the Hither Lands_)."
+  :pages "28-9, 37, 70, 80, 90, 238"}
+
+ {:name "Petty-dwarves"
+  :of [:race "Noegyth Nibin"]
+  :text "Translation of _Noegyth Nibin_. See also under _Dwarves_."}
+
+ {:name "Prophecy of the North"
+  :of [:event "Doom of the Noldor"]
+  :text "The Doom of the Noldor, uttered by Mandos on the coast of Araman."
+  :pages "78"}
+
+ {:name "Quendi"
+  :of [:race "Elves"]
+  :text "Original Elvish name for Elves (of every kind, including the Avari), meaning ‘Those that speak with voices’."
+  :pages "29, 38-42, 45, 49, 58, 60, 89, 95, 132"}
+
+ {:name "Rána"
+  :of [:thing "Moon"]
+  :text "‘The Wanderer’, a name of the Moon among the Noldor."
+  :pages "89"}
+
+ {:name "Rathlóriel"
+  :of [:place "Ascar"]
+  :text "‘Golden-bed’, later name for the river Ascar, after the treasure of Doriath was sunk in it."
+  :pages "114, 224"}
+
+ {:name "Rivendell"
+  :of [:place "Imladris"]
+  :text "Translation of _Imladris_."}
+
+ {:name "Rohan"
+  :of [:place "Calenardhon"]
+  :text "‘The Horse-country’, later name in Gondor for the great grassy plain formerly called Calenardhon."
+  :pages "285, 291"}
+
+ {:name "Rothinzil"
+  :of [:thing "Vingilot"]
+  :text "Adûnaic (Númenórean) name of Eärendil’s ship Vingilot, with the same meaning, ‘Foam-flower’."
+  :pages "247, 249"}
+
+ {:name "Saruman"
+  :of [:character "Curunír"]
+  :text "‘Man of Skill’, the name among Men of _Curunír_ (which it translates), one of the Istari (Wizards)."
+  :pages "287-8"}
+
+ {:name "The Secondborn"
+  :of [:race "Men"]
+  :text "The Younger Children of Ilúvatar, Men."
+  :pages "34"}
+
+ {:name "Serindë"
+  :of [:character "Míriel (mother of Fëanor)"]
+  :text "‘The Broideress’; see _Míriel_ (1)."}
+
+ {:name "Silpion"
+  :of [:thing "Telperion"]
+  :text "A name of Telperion."
+  :pages "26"}
+
+ {:name "Singollo"
+  :of [:character "Thingol"]
+  :text "‘Grey-cloak’, ‘Grey-mantle’; see _Sindar_, _Thingol_."}
+
+ {:name "Sons of Fëanor"
+  :of [:house "House of Fëanor"]
+  :text "See _Maedhros_, _Maglor_, _Celegorm_, _Caranthir_, _Curufin_, _Amrod_, _Amras_. Often referred to as a group, especially after the death of their father."
+  :pages "50-1, 55, 59, 61, 73, 98-9, 102-3, 112, 114-5, 118-20, 123, 125-6, 131, 141, 143-4, 159, 166-7, 173, 179-80, 182-3, 185, 225-6, 233, 236, 242-3"}
+
+ {:name "Strongbow"
+  :of [:character "Beleg"]
+  :text "Translation of _Cúthalion_, name of Beleg."}
+
+ {:name "Súlimo"
+  :of [:character "Manwë"]
+  :text "Name of Manwë, rendered in the _Valaquenta_ as ‘Lord of the Breath of Arda’ (literally ‘the Breather’)."
+  :pages "14, 28, 75"}
+
+ {:name "Swarthy Men"
+  :of [:race "Easterlings"]
+  :text "See _Easterlings_."
+  :pages "148"}
+
+ {:name "Talath Rhúnen"
+  :of [:place "Thargelion"]
+  :text "‘The East Vale’, earlier name of Thargelion."
+  :pages "115"}
+
+ {:name "Tar-Calion"
+  :of [:character "Ar-Pharazôn"]
+  :text "Quenya name of Ar-Pharazôn."
+  :pages "257, 278"}
+
+ {:name "Tar-Minyatur"
+  :of [:character "Elros"]
+  :text "Name of Elros Half-elven as first King of Númenor."
+  :pages "260"}
+
+ {:name "Taur-nu-Fuin"
+  :of [:place "Dorthonion"]
+  :text "Later name of Dorthonion: ‘the Forest under Night’. Cf. _Deldúwath_."
+  :pages "146, 160, 165, 168, 172, 174, 191, 196-8"}
+
+ {:name "Tauron"
+  :of [:character "Oromë"]
+  :text "‘The Forester’ (translated in the _Valaquenta_ ‘Lord of Forests’), a name of Oromë among the Sindar. Cf. _Aldaron_."
+  :pages "17"}
+
+ {:name "Thalion"
+  :of [:character "Húrin"]
+  :text "‘Steadfast, Strong’; see _Húrin_."}
+
+ {:name "Tintallë"
+  :of [:character "Varda"]
+  :text "‘The Kindler’, a name of Varda as maker of the Stars. She is called thus in Galadriel’s lament in Lórien, _The Fellowship of the Ring_ II 8. Cf. _Elbereth_, _Elentári_."
+  :pages "37"}
+
+ {:name "Tinúviel"
+  :of [:character "Lúthien"]
+  :text "The name that Beren gave to Lúthien: a poetic word for the nightingale, ‘Daughter of Twilight’. See _Lúthien_."}
+
+ {:name "Tol-in-Gaurhoth"
+  :of [:place "Tol Sirion"]
+  :text "‘Isle of Werewolves’, name of Tol Sirion after its capture by Sauron."
+  :pages "147, 162, 164"}
+
+ {:name "Tumunzahar"
+  :of [:place "Nogrod"]
+  :text "See _Nogrod_."
+  :pages "81-2"}
+
+ {:name "Turambar"
+  :of [:character "Túrin"]
+  :text "‘Master of Doom’, the last name taken by Túrin, during his days in the Forest of Brethil."
+  :pages "206, 209-16, 219"}
+
+ {:name "Tûr Haretha"
+  :of [:place "Haudh-en-Arwen"]
+  :text "The burial-mound of the Lady Haleth in the Forest of Brethil (see _Haudh-en-Arwen_)."
+  :pages "138"}
+
+ {:name "Úmarth"
+  :of [:character "Húrin"]
+  :text "‘Ill-fate’, a fictitious name for his father given out by Túrin in Nargothrond."
+  :pages "199-200"}
+
+ {:name "Valaraukar"
+  :of [:race "Balrog"]
+  :text "‘Demons of Might’ (singular _Valarauko_), Quenya form corresponding to Sindarin _Balrog_."
+  :pages "19"}
+
+ {:name "Vása"
+  :of [:thing "Sun"]
+  :text "‘The Consumer’, a name of the Sun among the Noldor."
+  :pages "89"}
+
+ {:name "Wildman of the Woods"
+  :of [:character "Túrin"]
+  :text "Name adopted by Túrin when he first came among the Men of Brethil."
+  :pages "206"}]

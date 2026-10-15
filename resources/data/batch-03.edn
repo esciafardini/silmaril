@@ -1,0 +1,347 @@
+;; Glossary batch 03 of 12 (House of Bëor – Dagor Bragollach)
+[;; TODO from the ‘House of, People of, Bëor’ sub-heading of Bëor
+ {:house/name        "House of Bëor"
+  :house/founder     {:character/name "Bëor"}
+  :house/page        [134 135 136 139 143 148 151]
+  :house/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Bereg"
+  :character/description "Grandson of Baran son of Bëor the Old (this is not stated in the text); a leader of dissension among the Men of Estolad; went back over the mountains into Eriador."
+  :character/page        [135 136]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:character/name        "Beren"
+  :character/description "Son of Barahir; cut a Silmaril from Morgoth’s crown to be the bride-price of Lúthien Thingol’s daughter, and was slain by Carcharoth the wolf of Angband; but returning from the dead, alone of mortal Men, lived afterwards with Lúthien on Tol Galen in Ossiriand, and fought with the Dwarves at Sarn Athrad. Great-grandfather of Elrond and Elros and ancestor of the Númenórean Kings."
+  :character/page        [95 114 139 146 151 152 153 154 155 156 157 158 159 160 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 188 189 200 220 223 224 225 236]
+  :character/appears-in  [[:chapter/name "Of Men"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO period with page refs only, no glossary text
+ {:age/name        "Black Years"
+  :age/page        [277 282]
+  :age/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Bór"
+  :character/description "A chieftain of the Easterlings, follower with his three sons of Maedhros and Maglor."
+  :character/page        [148 179 183]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name        "Borlach"
+  :character/description "One of the three sons of Bór; slain with his brothers in the Nirnaeth Arnoediad."
+  :character/page        [148]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ ;; no page refs in the glossary
+ {:character/name        "Borlad"
+  :character/description "One of the three sons of Bór; see _Borlach_."}
+
+ {:character/name        "Boromir"
+  :character/description "Great-grandson of Bëor the Old, grandfather of Barahir father of Beren; first lord of Ladros."
+  :character/page        [139]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:character/name        "Boron"
+  :character/description "Father of Boromir."
+  :character/page        [139]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ ;; no page refs in the glossary
+ {:character/name        "Borthand"
+  :character/description "One of the three sons of Bór; see _Borlach_."}
+
+ {:character/name        "Brandir"
+  :character/description "Ruler of the People of Haleth after the death of Handir his father; enamoured of Nienor; slain by Túrin."
+  :character/page        [206 209 210 211 212 213 214 215]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Bregolas"
+  :character/description "Father of Baragund and Belegund; slain in the Dagor Bragollach."
+  :character/page        [139 143 146]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:character/name        "Bregor"
+  :character/description "Father of Barahir and Bregolas."
+  :character/page        [139]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
+
+ {:place/name        "Brethil"
+  :place/description "The forest between the rivers Teiglin and Sirion, dwelling-place of the Haladin (the People of Haleth)."
+  :place/page        [110 138 146 148 149 150 166 179 180 182 185 191 193 195 202 205 206 209 210 214 215 218 219]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Brilthor"
+  :place/description "‘Glittering Torrent’, the fourth of the tributaries of Gelion in Ossiriand."
+  :place/page        [114]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ {:place/name        "Brithiach"
+  :place/description "The ford over Sirion north of the Forest of Brethil."
+  :place/page        [122 123 127 138 149 196 217 218]
+  :place/appears-in  [[:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Brithombar"
+  :place/description "The northern of the Havens of the Falas on the coast of Beleriand."
+  :place/page        [48 98 112 186 235]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:place/name        "Brithon"
+  :place/description "The river that flowed into the Great Sea at Brithombar."
+  :place/page        [186]
+  :place/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
+
+ {:character/name        "Brodda"
+  :character/description "An Easterling in Hithlum after the Nirnaeth Arnoediad who took as wife Aerin, kinswoman of Húrin; slain by Túrin."
+  :character/page        [188 205]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Cabed-en-Aras"
+  :place/description "Deep gorge in the river Teiglin, where Túrin slew Glaurung, and where Nienor leapt to her death."
+  :place/page        [211 213 215 218 219]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Calacirya"
+  :place/description "‘Cleft of Light’, the pass made in the mountains of the Pelóri in which was raised the green hill of Túna."
+  :place/page        [49 52 62 72 92 237]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:race/name        "Calaquendi"
+  :race/description "‘Elves of the Light’, those Elves who lived or had lived in Aman (the High Elves). See _Moriquendi_ and _Dark Elves_."
+  :race/page        [42 46 94 98]
+  :race/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                     [:chapter/name "Of Thingol and Melian"]
+                     [:chapter/name "Of Men"]
+                     [:chapter/name "Of the Return of the Noldor"]]}
+
+ {:place/name        "Calenardhon"
+  :place/description "‘The Green Province’, the great grassy plain that was the northern part of Gondor; cf. _Ard-galen_."
+  :place/page        [285 291]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Caragdûr"
+  :place/description "The precipice on the north side of Amon Gwareth (the hill of Gondolin) from which Eöl was cast to his death."
+  :place/page        [129]
+  :place/appears-in  [[:chapter/name "Of Maeglin"]]}
+
+ {:character/name        "Caranthir"
+  :character/description "The fourth son of Fëanor; ‘the harshest of the brothers and the most quick to anger’; ruled in Thargelion; slain in the assault on Doriath."
+  :character/page        [50 73 102 103 115 120 123 134 137 144 148 225]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Carcharoth"
+  :character/description "The great wolf of Angband that bit off the hand of Beren bearing the Silmaril; slain by Huan in Doriath. The name is translated in the text as ‘the Red Maw’."
+  :character/page        [170 171 173 174 175]
+  :character/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
+
+ {:place/name        "Cardolan"
+  :place/description "Region in the south of Eriador, a part of the Kingdom of Arnor."
+  :place/page        [278]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Carnil"
+  :thing/description "Name of a (red) star."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ ;; TODO glossary label ‘Celeborn (1)’; thing has no glossary-label attribute
+ {:thing/name        "Celeborn (tree)"
+  :thing/description "‘Tree of Silver’, name of the Tree of Tol Eressëa, a scion of Galathilion."
+  :thing/page        [50 251]
+  :thing/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Akallabêth"]]}
+
+ {:character/name           "Celeborn (elf)"
+  :character/glossary-label "Celeborn (2)"
+  :character/description    "Elf of Doriath, kinsman of Thingol; wedded Galadriel and with her remained in Middle-earth after the end of the First Age."
+  :character/page           [105 224 243 286]
+  :character/appears-in     [[:chapter/name "Of the Return of the Noldor"]
+                             [:chapter/name "Of the Ruin of Doriath"]
+                             [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                             [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Celebrant"
+  :place/description "‘Silver Lode’, river running from Mirrormere through Lothlórien to join the Anduin."
+  :place/page        [286]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Celebrimbor"
+  :character/description "‘Hand of Silver’, son of Curufin, who remained in Nargothrond when his father was expelled. In the Second Age greatest of the smiths of Eregion; maker of the Three Rings of the Elves; slain by Sauron."
+  :character/page        [166 274 276]
+  :character/appears-in  [[:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Celebros"
+  :place/description "‘Silver Foam’ or ‘Silver Rain’, a stream in Brethil falling down to Teiglin near the Crossings."
+  :place/page        [209]
+  :place/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:character/name        "Celegorm"
+  :character/description "The third son of Fëanor; until the Dagor Bragollach lord of the region of Himlad with Curufin his brother; dwelt in Nargothrond and imprisoned Lúthien; master of Huan the wolfhound; slain by Dior in Menegroth."
+  :character/page        [50 52 73 97 115 123 126 143 159 160 162 163 166 167 173 179 225 274]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Celon"
+  :place/description "River flowing southwest from the Hill of Himring, a tributary of Aros. The name means ‘stream flowing down from heights’."
+  :place/page        [86 115 123 126 133 138 147]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ ;; TODO glossary says Passim; only the ‘especially’ pages are linked
+ {:race/name        "Children of Ilúvatar"
+  :race/description "The Firstborn and the Followers, Elves and Men."
+  :race/page        [6 29]
+  :race/appears-in  [[:chapter/name "Ainulindalë"]
+                     [:chapter/name "Of the Beginning of Days"]]}
+
+ {:character/name        "Círdan"
+  :character/description "‘The Shipwright’; Telerin Elf, lord of the Falas (coasts of West Beleriand); at the destruction of the Havens after the Nirnaeth Arnoediad escaped with Gil-galad to the Isle of Balar; during the Second and Third Ages keeper of the Grey Havens in the Gulf of Lhûn; at the coming of Mithrandir entrusted to him Narya, the Ring of Fire."
+  :character/page        [48 81 83 86 87 97 103 110 119 151 186 201 202 233 235 236 243 282 286 287 288 292]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of the Noldor in Beleriand"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Cirith Ninniach"
+  :place/description "‘Rainbow Cleft’, by which Tuor came to the Western Sea; see _Annon-in-Gelydh_."
+  :place/page        [227]
+  :place/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Cirith Thoronath"
+  :place/description "‘Eagles’ Cleft’, a high pass in the mountains north of Gondolin, where Glorfindel fought with a Balrog and fell into the abyss."
+  :place/page        [232]
+  :place/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ ;; TODO a writing system; consider a :used-for ref to languages if the glossary ever names them
+ {:thing/name        "Cirth"
+  :thing/description "The Runes, first devised by Daeron of Doriath."
+  :thing/page        [85]
+  :thing/appears-in  [[:chapter/name "Of the Sindar"]]}
+
+ {:character/name        "Ciryon"
+  :character/description "Third son of Isildur, slain with him at the Gladden Fields."
+  :character/page        [283]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Crissaegrim"
+  :place/description "The mountain-peaks south of Gondolin, where were the eyries of Thorondor."
+  :place/page        [112 145 149 172 191 217]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Crossings of Teiglin"
+  :place/description "In the southwest of the Forest of Brethil, where the old road southward from the Pass of Sirion crossed the Teiglin."
+  :place/page        [138 195 196 206 209 212 214 218]
+  :place/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Cuiviénen"
+  :place/description "‘Water of Awakening’, the lake in Middle-earth where the first Elves awoke, and where they were found by Oromë."
+  :place/page        [38 39 40 41 42 45 73 89 222]
+  :place/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:character/name        "Curufin"
+  :character/description "The fifth son of Fëanor; father of Celebrimbor. For the origin of his name see _Fëanor_; and for his history see _Celegorm_."
+  :character/page        [50 113 115 123 126 127 143 159 160 162 163 166 167 168 172 173 179 225 274]
+  :character/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                          [:chapter/name "Of Beleriand and its Realms"]
+                          [:chapter/name "Of Maeglin"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of the Ruin of Doriath"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Curunír"
+  :character/description "‘The one of cunning devices’, one of the Istari (Wizards)."
+  :character/page        [287 288 289 290 291]
+  :character/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Daeron"
+  :character/description "Minstrel and chief loremaster of King Thingol; deviser of the Cirth (Runes); enamoured of Lúthien and twice betrayed her."
+  :character/page        [85 103 156 162 173 243]
+  :character/appears-in  [[:chapter/name "Of the Sindar"]
+                          [:chapter/name "Of the Return of the Noldor"]
+                          [:chapter/name "Of Beren and Lúthien"]
+                          [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ {:character/name        "Dagnir"
+  :character/description "One of the twelve companions of Barahir on Dorthonion."
+  :character/page        [146]
+  :character/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
+
+ {:event/name        "Dagor Aglareb"
+  :event/description "‘The Glorious Battle’, third of the great battles in the Wars of Beleriand."
+  :event/page        [105 106 108 116]
+  :event/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]]}
+
+ {:event/name        "Dagor Bragollach"
+  :event/description "‘The Battle of Sudden Flame’, fourth of the great battles in the Wars of Beleriand."
+  :event/page        [142 146 149 151 179 181 186 201]
+  :event/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]]}]

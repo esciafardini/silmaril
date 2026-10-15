@@ -1,0 +1,62 @@
+;; Ages not in the glossary, and which age(s) each chapter takes place in.
+;; Hand-written, not generated. Transact after the batch files (First Age is in one of them).
+;; Ainulindalë and Valaquenta take place outside the ages and have no :chapter/during.
+
+[;; ---- ages added by hand (chapter refs below are nested maps, not lookup refs: these are created in this same transaction) ----
+ {:age/name "Days Before Days"}
+ {:age/name "Second Age"}
+ {:age/name "Third Age"}
+
+ ;; ---- chapter → age ----
+ {:chapter/name "Of the Beginning of Days"
+  :chapter/during [{:age/name "Days Before Days"}]}
+ {:chapter/name "Of Aulë and Yavanna"
+  :chapter/during [{:age/name "Days Before Days"}]}
+ {:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Thingol and Melian"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Eldamar and the Princes of the Eldalië"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Fëanor and the Unchaining of Melkor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Silmarils and the Unrest of the Noldor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Darkening of Valinor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Flight of the Noldor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Sindar"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Sun and Moon and the Hiding of Valinor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Men"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Return of the Noldor"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Beleriand and its Realms"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Noldor in Beleriand"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Maeglin"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Coming of Men into the West"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Beren and Lúthien"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Túrin Turambar"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Ruin of Doriath"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of Tuor and the Fall of Gondolin"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Of the Voyage of Eärendil and the War of Wrath"
+  :chapter/during [{:age/name "First Age"}]}
+ {:chapter/name "Akallabêth"
+  :chapter/during [{:age/name "Second Age"}]}
+ {:chapter/name "Of the Rings of Power and the Third Age"
+  :chapter/during [{:age/name "Second Age"} {:age/name "Third Age"}]}]

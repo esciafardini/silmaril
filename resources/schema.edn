@@ -1,0 +1,244 @@
+;; Silmarillion graph schema — glossary import, pass 1.
+;; Every glossary type has the same three attributes: name, description, appears-in.
+;; Chapters are what appears-in points at.
+
+[;; ---- chapter ----
+ {:db/ident       :chapter/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Chapter title, e.g. \"Of the Darkening of Valinor\"."}
+ {:db/ident       :chapter/position
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Reading order, starting at 1 with Ainulindalë."}
+ {:db/ident       :chapter/start-page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db/doc         "First page of the chapter. Used to map glossary page refs to chapters."}
+ {:db/ident       :chapter/during
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many ;;many bc some chapters take place over multiple ages
+  :db/doc         "A chapter will occur during an Age."}
+
+ ;; ---- character ----
+ {:db/ident       :character/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword, or a fuller name when the headword is numbered."}
+ {:db/ident       :character/glossary-label
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "The glossary's numbered label, e.g. \"Míriel (2)\". Only on numbered headwords."}
+ {:db/ident       :character/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :character/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :character/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- place ----
+ {:db/ident       :place/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :place/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :place/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :place/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- age (Days Before Days, First Age, Second Age, Third Age) ----
+ {:db/ident       :age/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Age name, e.g. \"First Age\"."}
+ {:db/ident       :age/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :age/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :age/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- period (Years of the Trees, Years of the Sun) ----
+ ;; I am intentionally leaving these out of the data model
+
+ ;; ---- event ----
+ {:db/ident       :event/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :event/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :event/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :event/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+ {:db/ident       :event/during
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Ages this event takes place in."}
+
+ ;; ---- thing (objects, weapons, jewels, ships, stars, ...) ----
+ {:db/ident       :thing/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :thing/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :thing/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :thing/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- animal (horses, hounds, ...) ----
+ {:db/ident       :animal/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :animal/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :animal/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :animal/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- race (Noldor, Edain, Dwarves, ...) ----
+ {:db/ident       :race/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :race/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :race/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :race/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- house (House of Bëor, House of Hador, ...) ----
+ {:db/ident       :house/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :house/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :house/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :house/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ {:db/ident       :house/founder
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/doc         "The character the house descends from, e.g. Bëor for the House of Bëor."}
+
+ ;; ---- language (Quenya, Sindarin, ...) ----
+ {:db/ident       :language/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "Glossary headword."}
+ {:db/ident       :language/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Glossary text, copied verbatim."}
+ {:db/ident       :language/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters the glossary cites for this entry."}
+ {:db/ident       :language/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Glossary page refs, ranges expanded. appears-in is derived from these."}
+
+ ;; ---- alias (another name for a main entry: Anar for the Sun) ----
+ ;; One entity per (alias name, main entry): "The Dark Lord" has one for Melkor and one for Sauron.
+ {:db/ident       :alias/key
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "\"<alias name> → <main entry name>\", e.g. \"Anar → Sun\". Identity, since names alone repeat."}
+ {:db/ident       :alias/name
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "The alias as the glossary prints it."}
+ {:db/ident       :alias/of
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/doc         "The main entry this is another name for."}
+ {:db/ident       :alias/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc         "The alias's own glossary text. Also appended to the main entry's description."}
+ {:db/ident       :alias/page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/many
+  :db/doc         "The alias's own page refs. Also merged into the main entry's pages."}
+ {:db/ident       :alias/appears-in
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Chapters where the glossary cites this name."}
+
+ ;; ---- mentions (any entry type) ----
+ {:db/ident       :entry/mentions
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Entities this entry's description mentions. Added by hand."}]

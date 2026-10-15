@@ -1,0 +1,81 @@
+;; Cross-references: headwords that only say ‘See X’. Each becomes an alias entity
+;; with no text or pages. :see is the target as printed; it may be an alias or a
+;; numbered label, and is followed to its main entry. :target overrides :see when
+;; the glossary names more than one.
+
+[{:name "Anor" :see "Minas Anor"}
+ {:name "Ar-Feiniel" :see "Aredhel"}
+ {:name "Ar-Zimraphel" :see "Míriel (2)"}
+ {:name "Atanamir" :see "Tar-Atanamir"}
+ {:name "Black Land" :see "Mordor"}
+ {:name "Black Sword" :see "Mormegil"}
+ {:name "Blessed Realm" :see "Aman"}
+ {:name "Blue Mountains" :see "Ered Luin and Ered Lindon" :target "Ered Luin"}
+ {:name "Bragollach" :see "Dagor Bragollach"}
+ {:name "Bridge of Esgalduin" :see "Iant Iaur"}
+ {:name "Deathless Lands" :see "Undying Lands"}
+ {:name "Dungortheb" :see "Nan Dungortheb"}
+ {:name "Echoing Mountains" :see "Ered Lómin"}
+ {:name "Edain" :see "Atani"}
+ {:name "Eledhwen" :see "Morwen"}
+ {:name "Elvenhome" :see "Eldamar"}
+ {:name "Encircling Mountains" :see "Echoriath"}
+ {:name "Encircling Sea" :see "Ekkaia"}
+ {:name "Eressëa" :see "Tol Eressëa"}
+ {:name "The Faithful" :see "Elendili"}
+ {:name "Ford of Stones" :see "Sarn Athrad"}
+ {:name "Fords of Aros" :see "Arossiach"}
+ {:name "Forsaken Elves" :see "Eglath"}
+ {:name "Gimilzôr" :see "Ar-Gimilzôr"}
+ {:name "Gorgoroth (1)" :see "Ered Gorgoroth"}
+ {:name "Great River" :see "Anduin"}
+ {:name "Grey-elven tongue" :see "Sindarin"}
+ {:name "Grey-elves" :see "Sindar"}
+ {:name "Grey Havens" :see "(The) Havens, Mithlond" :target "Mithlond"}
+ {:name "Greymantle" :see "Singollo, Thingol" :target "Thingol"}
+ {:name "Grinding Ice" :see "Helcaraxë"}
+ {:name "Guarded Plain" :see "Talath Dirnen"}
+ {:name "Helm of Hador" :see "Dragon-helm of Dor-lómin"}
+ {:name "High-elven" :see "Quenya"}
+ {:name "High Faroth" :see "Taur-en-Faroth"}
+ {:name "Iron Mountains" :see "Ered Engrin"}
+ {:name "Land of Shadow" :see "Mordor"}
+ {:name "Land of the Dead that Live" :see "Dor Firn-i-Guinar"}
+ {:name "Lonely Isle" :see "Tol Eressëa"}
+ {:name "Lord of Waters" :see "Ulmo"}
+ {:name "Lords of the West" :see "Valar"}
+ {:name "Meres of Twilight" :see "Aelin-uial"}
+ {:name "Minastir" :see "Tar-Minastir"}
+ {:name "Mirkwood" :see "Greenwood the Great"}
+ {:name "Misty Mountains" :see "Hithaeglir"}
+ {:name "Morgul" :see "Minas Morgul"}
+ {:name "Mountain of Fire" :see "Orodruin"}
+ {:name "Mountains of Aman" :see "Pelóri"}
+ {:name "Mountains of Defence" :see "Pelóri"}
+ {:name "Mountains of the East" :see "Orocarni"}
+ {:name "Mountains of Iron" :see "Ered Engrin"}
+ {:name "Mountains of Mist" :see "Hithaeglir"}
+ {:name "Mountains of Mithrim" :see "Mithrim"}
+ {:name "Mountains of Terror" :see "Ered Gorgoroth"}
+ {:name "Mount Doom" :see "Amon Amarth"}
+ {:name "Music of the Ainur" :see "Ainulindalë"}
+ {:name "Nazgûl" :see "Ringwraiths"}
+ {:name "Necklace of the Dwarves" :see "Nauglamír"}
+ {:name "Outer Sea" :see "Ekkaia"}
+ {:name "People of Haleth" :see "Haladin and Haleth" :target "Haladin"}
+ {:name "Pharazôn" :see "Ar-Pharazôn"}
+ {:name "The Red Ring" :see "Narya"}
+ {:name "Ring of Doom" :see "Máhanaxar"}
+ {:name "Seeing Stones" :see "Palantíri"}
+ {:name "Seven Stones" :see "Palantíri"}
+ {:name "Shadowy Mountains" :see "Ered Wethrin"}
+ {:name "Sickle of the Valar" :see "Valacirca"}
+ {:name "Swanhaven" :see "Alqualondë"}
+ {:name "Thousand Caves" :see "Menegroth"}
+ {:name "Twilight Meres" :see "Aelin-uial"}
+ {:name "Úlairi" :see "Ringwraiths"}
+ {:name "Valimar" :see "Valmar"}
+ {:name "Westernesse" :see "Anadûnê, Númenor" :target "Númenor"}
+ {:name "White Mountain" :see "Taniquetil"}
+ {:name "Wizards" :see "Istari"}
+ {:name "Woodland Elves" :see "Silvan Elves"}]

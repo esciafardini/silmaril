@@ -1,0 +1,346 @@
+;; Glossary batch 09 of 12 (Meneltarma – Nogrod)
+[{:place/name        "Meneltarma"
+  :place/description "‘Pillar of Heaven’, the mountain in the midst of Númenor, upon whose summit was the Hallow of Eru Ilúvatar."
+  :place/page        [249 251 254 257 258 260 265 267 268 269]
+  :place/appears-in  [[:chapter/name "Akallabêth"]]}
+
+ ;; TODO a feast, not a battle
+ {:event/name        "Mereth Aderthad"
+  :event/description "The ‘Feast of Reuniting’ held by Fingolfin near the Pools of Ivrin."
+  :event/page        [103]
+  :event/appears-in  [[:chapter/name "Of the Return of the Noldor"]]}
+
+ ;; TODO glossary says Passim; only alias refs are linked
+ {:place/name        "Middle-earth"
+  :place/description "The lands to the east of the Great Sea."
+  :place/page        [28 29 37 45 47 48 70 79 80 90 229 235 238 240 243 250 251 286]
+  :place/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                      [:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Mîm"
+  :character/description "The Petty-dwarf, in whose house (_Bar-en-Danwedh_) on Amon Rûdh Túrin dwelt with the outlaw band, and by whom their lair was betrayed to the Orcs; slain by Húrin in Nargothrond."
+  :character/page        [192 193 194 195 196 219 220]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Minas Anor"
+  :place/description "‘Tower of the Sun’; the city of Anárion, at the feet of Mount Mindolluin."
+  :place/page        [279 280 283 284 285 291]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Minas Ithil"
+  :place/description "‘Tower of the Moon’; the city of Isildur, built on a shoulder of the Ephel Dúath."
+  :place/page        [279 280 281 284 285]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO glossary label ‘Minas Tirith (1)’; place has no glossary-label attribute
+ {:place/name        "Minas Tirith (Tol Sirion)"
+  :place/description "‘Tower of Watch’, built by Finrod Felagund on Tol Sirion; see _Tol-in-Gaurhoth_."
+  :place/page        [110 147 148 195]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Mindeb"
+  :place/description "A tributary of Sirion, between Dimbar and the Forest of Neldoreth."
+  :place/page        [112 191]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Mindolluin"
+  :place/description "‘Towering Blue-head’, the great mountain behind Minas Anor."
+  :place/page        [279 291]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Mindon Eldaliéva"
+  :place/description "‘Lofty Tower of the Eldalië’, the tower of Ingwë in the city of Tirion; also simply _the Mindon_."
+  :place/page        [49 50 60 72 75 78]
+  :place/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
+                      [:chapter/name "Of the Flight of the Noldor"]]}
+
+ {:character/name           "Míriel (mother of Fëanor)"
+  :character/glossary-label "Míriel (1)"
+  :character/description    "The first wife of Finwë, mother of Fëanor; died after Fëanor’s birth."
+  :character/page           [50 53 54 55 59]
+  :character/appears-in     [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                             [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                             [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]]}
+
+ {:character/name           "Tar-Míriel"
+  :character/glossary-label "Míriel (2)"
+  :character/description    "Daughter of Tar-Palantir, forced into marriage by Ar-Pharazôn."
+  :character/page           [257 267]
+  :character/appears-in     [[:chapter/name "Akallabêth"]]}
+
+ {:place/name        "Mithlond"
+  :place/description "Harbours of the Elves on the Gulf of Lhûn."
+  :place/page        [274 277 285 286 287 292]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Mithrandir"
+  :character/description "‘The Grey Pilgrim’, one of the Istari (Wizards)."
+  :character/page        [19 287 288 289 290 291 292]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:place/name        "Mithrim"
+  :place/description "The name of the great lake in the east of Hithlum, and also of the region about it and of the mountains to the west, separating Mithrim from Dor-lómin. The name was originally that of the Sindarin Elves who dwelt there."
+  :place/page        [96 97 98 99 100 101 102 109 188 227]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ ;; TODO no headword in the glossary; pages and text from alias Isil, Rána
+ {:thing/name        "Moon"
+  :thing/page        [89 90]
+  :thing/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:place/name        "Mordor"
+  :place/description "Sauron’s realm east of the mountains of the Ephel Dúath."
+  :place/page        [255 268 276 278 279 280 281 282 283 284 290 291]
+  :place/appears-in  [[:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Morwen"
+  :character/description "Daughter of Baragund (nephew of Barahir, the father of Beren); wife of Húrin and mother of Túrin and Nienor."
+  :character/page        [139 146 151 187 188 189 200 201 204 205 207 208 214 216 218 219 220]
+  :character/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
+                          [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                          [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                          [:chapter/name "Of Túrin Turambar"]
+                          [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:animal/name        "Nahar"
+  :animal/description "The horse of the Vala Oromë, said by the Eldar to be so named on account of his voice."
+  :animal/page        [17 29 38 39 42 67 85]
+  :animal/appears-in  [[:chapter/name "Valaquenta"]
+                       [:chapter/name "Of the Beginning of Days"]
+                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                       [:chapter/name "Of the Darkening of Valinor"]
+                       [:chapter/name "Of the Sindar"]]}
+
+ {:race/name        "Nandor"
+  :race/description "Said to mean ‘Those who turn back’: the Nandor were those Elves from the host of the Teleri who refused to cross the Misty Mountains on the westward journey from Cuiviénen, but of whom a part, led by Denethor, came long afterwards over the Blue Mountains and dwelt in Ossiriand (the Green-elves)."
+  :race/page        [43 84 114 189]
+  :race/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
+                     [:chapter/name "Of the Sindar"]
+                     [:chapter/name "Of Beleriand and its Realms"]
+                     [:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Nan Dungortheb"
+  :place/description "Translated in the text as ‘Valley of Dreadful Death’. The valley between the precipices of Ered Gorgoroth and the Girdle of Melian."
+  :place/page        [71 112 123 154 166]
+  :place/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of Beren and Lúthien"]]}
+
+ {:place/name        "Nan Elmoth"
+  :place/description "The forest east of the river Celon where Elwë (Thingol) was enchanted by Melian and lost; afterwards the dwelling-place of Eöl."
+  :place/page        [45 46 48 82 123 124 125 126 127 133 192 223]
+  :place/appears-in  [[:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Nan-tathren"
+  :place/description "‘Willow-vale’, translated as ‘the Land of Willows’, where the river Narog flowed into Sirion."
+  :place/page        [110 185 233]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Nargothrond"
+  :place/description "‘The great underground fortress on the river Narog’, founded by Finrod Felagund and destroyed by Glaurung; also the realm of Nargothrond extending east and west of the Narog."
+  :place/page        [104 105 110 112 113 118 121 131 134 138 143 144 147 151 158 159 160 161 163 166 173 179 180 181 182 186 194 195 197 198 199 200 201 202 203 206 207 208 210 212 214 219 220 222 228 230 274]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of the Coming of Men into the West"]
+                      [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO a lay, not an object
+ {:thing/name        "Narn i Hîn Húrin"
+  :thing/description "‘The Tale of the Children of Húrin’, the long lay from which Chapter 21 was derived; ascribed to the poet Dírhaval, a Man who lived at the Havens of Sirion in the days of Eärendil and perished in the attack of the sons of Fëanor. _Narn_ signifies a tale made in verse, but to be spoken and not sung."
+  :thing/page        [189]
+  :thing/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Narog"
+  :place/description "The chief river of West Beleriand, rising at Ivrin under Ered Wethrin and flowing into Sirion in Nan-tathren."
+  :place/page        [86 103 104 105 110 113 158 159 160 193 194 199 201 202 203 204 207 219]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:thing/name        "Narsil"
+  :thing/description "The sword of Elendil, made by Telchar of Nogrod, that was broken when Elendil died in combat with Sauron; from the shards it was reforged for Aragorn."
+  :thing/page        [282 283]
+  :thing/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; TODO a song, not an object
+ {:thing/name        "Narsilion"
+  :thing/description "The Song of the Sun and Moon."
+  :thing/page        [89]
+  :thing/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:thing/name        "Narya"
+  :thing/description "One of the Three Rings of the Elves; borne by Círdan and afterwards by Mithrandir."
+  :thing/page        [276 286 292]
+  :thing/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Nauglamír"
+  :thing/description "The necklace made for Finrod Felagund by the Dwarves, brought by Húrin out of Nargothrond to Thingol, and the cause of his death."
+  :thing/page        [104 220 221 222 223 224 225]
+  :thing/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Neldoreth"
+  :place/description "The great beech-forest forming the northern part of Doriath."
+  :place/page        [45 81 83 86 87 113 155 162 188 223]
+  :place/appears-in  [[:chapter/name "Of Thingol and Melian"]
+                      [:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:thing/name        "Nénar"
+  :thing/description "Name of a star."
+  :thing/page        [37]
+  :thing/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
+
+ {:place/name        "Nenning"
+  :place/description "River in West Beleriand, reaching the sea at the Haven of Eglarest."
+  :place/page        [110 186 201]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Nenuial"
+  :place/description "‘Lake of Twilight’, in Eriador, where the river Baranduin rose, and beside which the city of Annúminas was built."
+  :place/page        [278]
+  :place/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:thing/name        "Nenya"
+  :thing/description "One of the Three Rings of the Elves, the Ring of Water, borne by Galadriel."
+  :thing/page        [276 286]
+  :thing/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name        "Nerdanel"
+  :character/description "Daughter of Mahtan the smith, wife of Fëanor."
+  :character/page        [54 56 59]
+  :character/appears-in  [[:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]]}
+
+ {:character/name        "Nessa"
+  :character/description "One of the Valier, the sister of Oromë and spouse of Tulkas."
+  :character/page        [14 17 24]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Beginning of Days"]]}
+
+ {:place/name        "Nevrast"
+  :place/description "The region west of Dor-lómin, beyond Ered Lómin, where Turgon dwelt before his departure to Gondolin. The name, meaning ‘Hither Shore’, was originally that of all the northwestern coast of Middle-earth (the opposite being _Haerast_ ‘the Far Shore’, the coast of Aman)."
+  :place/page        [104 105 109 116 117 118 122 186 227 228 233]
+  :place/appears-in  [[:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Beleriand and its Realms"]
+                      [:chapter/name "Of the Noldor in Beleriand"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:character/name        "Nienna"
+  :character/description "One of the Valier, numbered among the Aratar; Lady of pity and mourning, the sister of Mandos and Lórien; see especially 16."
+  :character/page        [14 16 17 19 26 55 69 89]
+  :character/appears-in  [[:chapter/name "Valaquenta"]
+                          [:chapter/name "Of the Beginning of Days"]
+                          [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
+                          [:chapter/name "Of the Flight of the Noldor"]
+                          [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
+
+ {:character/name        "Nienor"
+  :character/description "‘Mourning’, the daughter of Húrin and Morwen and sister of Túrin; spell-bound by Glaurung at Nargothrond and in ignorance of her past wedded Túrin in Brethil; cast herself into the Teiglin."
+  :character/page        [189 201 204 205 207 208 209 210 211 212 213 214 215]
+  :character/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
+
+ {:place/name        "Nimbrethil"
+  :place/description "Birch-woods in Arvernien in the south of Beleriand. Cf. Bilbo’s song at Rivendell: ‘He built a boat of timber felled in Nimbrethil to journey in...’ (_The Fellowship of the Ring_ II 1)."
+  :place/page        [235]
+  :place/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
+
+ ;; TODO glossary label ‘Nimloth (1)’; thing has no glossary-label attribute
+ {:thing/name        "Nimloth (tree)"
+  :thing/description "The White Tree of Númenor, of which a fruit taken by Isildur before it was felled grew into the White Tree of Minas Ithil. _Nimloth_ ‘White Blossom’ is the Sindarin form of Quenya _Ninquelótë_, one of the names of Telperion."
+  :thing/page        [50 251 260 261 264 279]
+  :thing/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ {:character/name           "Nimloth (elf)"
+  :character/glossary-label "Nimloth (2)"
+  :character/description    "Elf of Doriath who wedded Dior Thingol’s Heir; mother of Elwing; slain in Menegroth in the attack by the sons of Fëanor."
+  :character/page           [224 225]
+  :character/appears-in     [[:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:thing/name        "Nimphelos"
+  :thing/description "The great pearl given by Thingol to the lord of the Dwarves of Belegost."
+  :thing/page        [83]
+  :thing/appears-in  [[:chapter/name "Of the Sindar"]]}
+
+ ;; TODO a flower, not an object
+ {:thing/name        "niphredil"
+  :thing/description "A white flower that bloomed in Doriath in starlight when Lúthien was born. It grew also on Cerin Amroth in Lothlórien (_The Fellowship of the Ring_ II 6)."
+  :thing/page        [81]
+  :thing/appears-in  [[:chapter/name "Of the Sindar"]]}
+
+ {:event/name        "Nirnaeth Arnoediad"
+  :event/description "‘Tears Unnumbered’ (also simply _the Nirnaeth_), the name given to the ruinous fifth battle in the Wars of Beleriand."
+  :event/page        [129 182 185 188 197 199 227 229 230]
+  :event/appears-in  [[:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ {:place/name        "Nivrim"
+  :place/description "That part of Doriath that lay on the west bank of Sirion."
+  :place/page        [113]
+  :place/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
+
+ ;; TODO refs from the ‘Referring to the Petty-Dwarves’ sub-heading of Dwarves (192–6, 202, 219) merged in
+ {:race/name        "Noegyth Nibin"
+  :race/description "See also under _Dwarves_."
+  :race/page        [192 193 194 195 196 202 219]
+  :race/appears-in  [[:chapter/name "Of Túrin Turambar"]
+                     [:chapter/name "Of the Ruin of Doriath"]]}
+
+ {:place/name        "Nogrod"
+  :place/description "One of the two cities of the Dwarves in the Blue Mountains."
+  :place/page        [81 82 84 103 124 126 167 179 194 220 221 222 223 224]
+  :place/appears-in  [[:chapter/name "Of the Sindar"]
+                      [:chapter/name "Of the Return of the Noldor"]
+                      [:chapter/name "Of Maeglin"]
+                      [:chapter/name "Of Beren and Lúthien"]
+                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
+                      [:chapter/name "Of Túrin Turambar"]
+                      [:chapter/name "Of the Ruin of Doriath"]]}]
