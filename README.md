@@ -4,9 +4,9 @@ Silmarillion glossary in a local Datomic db (`.datomic/local-storage`). See
 `resources/IMPORT.md` for the data model.
 
 ## Note from the developer
-This repo serves two purposes: to make it easier to read the Silmarillion and to get practice with graph data models.
-I used Claude to help with the import of each entry in the Glossary
-I intend to hand-write the rest of the code (a UI interface to use while reading, fetch logic, etc)
+- This repo serves two purposes: to make it easier to read the Silmarillion and to get practice with graph data models.
+- I used Claude to help with the import of each entry in the Glossary
+- I intend to hand-write the rest of the code (a UI interface to use while reading, fetch logic, etc)
 
 ## Wipe and re-import the db
 
