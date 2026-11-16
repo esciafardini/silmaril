@@ -1,5 +1,5 @@
 ;; Ages not in the glossary, and which age(s) each chapter takes place in.
-;; Hand-written, not generated. Transact after the batch files (First Age is in one of them).
+;; Hand-written. Transact after the batch files (First Age is in one of them).
 ;; Ainulindalë and Valaquenta take place outside the ages and have no :chapter/during.
 
 [;; ---- ages added by hand (chapter refs below are nested maps, not lookup refs: these are created in this same transaction) ----

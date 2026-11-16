@@ -5,12 +5,6 @@ Silmarillion glossary in a local Datomic db (`.datomic/local-storage`). See
 
 ## Wipe and re-import the db
 
-If you edited anything in `resources/source/`, regenerate first:
-
-```sh
-clojure -M -m silmaril.generate
-```
-
 From the REPL (use this while an nREPL is running; it owns the storage):
 
 ```clojure

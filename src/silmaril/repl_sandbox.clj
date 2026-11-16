@@ -4,6 +4,18 @@
 
 (def c (l/conn))
 
+(defn delete-db!
+  "Deletes the silmarillion database. `c` is stale until `reinstate-db!` runs."
+  []
+  (d/delete-database l/client {:db-name "silmarillion"}))
+
+(defn reinstate-db!
+  "Creates the database, loads schema + all data, and rebinds `c` to the new connection."
+  []
+  (let [conn (l/conn)]
+    (l/load-all! conn)
+    (alter-var-root #'c (constantly conn))))
+
 (defn query [query & [processing-fn]]
   (let [process (or processing-fn identity)]
     (process (d/q query (d/db c)))))
