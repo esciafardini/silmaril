@@ -7,9 +7,11 @@
 (defn query
   "to: the destination, can be pre-populated with data (defaults to empty vector)
    xform: optional transducer supplied (applies to every incoming datum)
-   *Note: I can't think of a user for pre-populated `to` but I like it as a concept."
-  [q & {:keys [args to xform] :or {xform (map identity) to []}}]
-  (into to xform (apply d/q q (d/db c) args)))
+   *Note: I can't think of a use for pre-populated `to` data but I like it as a concept."
+  [query & {:keys [args to xform]
+            :or {xform (map identity)
+                 to []}}]
+  (into to xform (apply d/q query (d/db c) args)))
 
 (def chapter-pattern
   [:db/id
@@ -23,8 +25,8 @@
   (query '{:find [(pull ?c pattern)]
            :in [$ pattern]
            :where [[?c :chapter/position]]}
-         :args [chapter-pattern]
-         :xform (map first)))
+         {:args [chapter-pattern]
+          :xform (map first)}))
 
 (defn get-chapter-id [chap-num]
   (-> (d/q '{:find  [?chapter]
