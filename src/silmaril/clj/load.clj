@@ -1,6 +1,6 @@
-(ns silmaril.load
+(ns silmaril.clj.load
   "Loads schema, chapters, and glossary batches into the local Datomic db.
-  Run from the project root:  clojure -M -m silmaril.load"
+  Run from the project root:  clojure -M -m silmaril.clj.load"
   (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
             [datomic.client.api :as d]))
@@ -34,13 +34,6 @@
                        (batch-files)
                        ;; last: aliases point at entities from any batch
                        ["resources/data/aliases.edn"
-                        ;; hand-written: extra ages and :chapter/during
                         "resources/data/ages.edn"])]
     (println "transacting" path)
     (d/transact conn {:tx-data (read-edn path)})))
-
-(defn -main [& _]
-  (let [c (conn)]
-    (load-all! c)
-    (println "chapters: " (ffirst (d/q '[:find (count ?c) :where [?c :chapter/name]] (d/db c)))))
-  (shutdown-agents))
