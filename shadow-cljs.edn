@@ -1,4 +1,4 @@
-{:deps   {:aliases [:dev]}
+{:deps {:aliases [:dev]}
  :builds {:app
           {:target :browser
            :output-dir "public/js"
