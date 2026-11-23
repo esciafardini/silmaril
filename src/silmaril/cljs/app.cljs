@@ -1,43 +1,35 @@
 (ns silmaril.cljs.app
-  (:require [cljs.reader :as reader]
+  (:require [silmaril.cljs.http :as http]
             [reagent.core :as r]
             [reagent.dom.client :as rdc]))
 
-(defonce state (r/atom {:status :idle :chapters []}))
-
-(defn fetch-edn [url]
-  (-> (js/fetch url #js {:headers #js {"Accept" "application/edn"}})
-      (.then (fn [resp]
-               (if (.-ok resp)
-                 (.text resp)
-                 (throw (js/Error. (str url " -> " (.-status resp)))))))
-      (.then reader/read-string)))
+(defonce state (r/atom {:status :idle :chapters [] :entries [] :entry {}}))
 
 (defn load-chapters! []
   (swap! state assoc :status :loading)
-  (-> (fetch-edn "/api/chapters")
-      (.then #(swap! state assoc :status :loaded :chapters %))
-      (.catch #(swap! state assoc :status :error :error (.-message %)))))
+  (http/fetch "/api/chapters"
+              #(swap! state assoc :status :success :chapters %)
+              #(swap! state assoc :status :error :error %)))
 
-(defn chapter-item [{:chapter/keys [name start-page]}]
-  [:li
-   [:span name]
-   (when start-page [:small " p. " start-page])])
+(defn chapter-item [{page :chapter/start-page chapter-name :chapter/name}]
+  [:li [:span chapter-name] [:small " (p " page ")"]])
 
 (defn chapter-list []
   (let [{:keys [status chapters error]} @state]
     (case status
       (:idle :loading) [:p "Loading…"]
-      :error           [:p "Failed to load chapters: " error]
-      :loaded          [:ol
-                        (for [{:db/keys [id] :as c} chapters]
-                          ^{:key id} [chapter-item c])])))
+      :error [:p "Failed to load: " error]
+      :success [:ol (map
+                     (fn [{:db/keys [id] :as c}]
+                       ^{:key id} [chapter-item c])
+                     chapters)])))
 
 (defn app []
   [:main
    [:h1 "The Silmarillion"]
    [chapter-list]])
 
+;;; Shadow-CLJS + Reagent
 (defonce root (delay (rdc/create-root (js/document.getElementById "app"))))
 
 (defn ^:dev/after-load mount! []
