@@ -42,3 +42,5 @@ Personally, I love the development experience of Clojure, so writing code by han
 
 I have been using a local copy (the website seems to have been shut down) of `Learn Datalog Today` to get a grip on Datalog syntax.
 source: https://github.com/jonase/learndatalogtoday
+
+Here is a cool curated playlist of Datomic content: https://www.youtube.com/playlist?list=PLvWe3cYI5xh1qNiSkE61AGVADenVsNZN2
