@@ -29,8 +29,8 @@
           :xform (map first)}))
 
 (defn get-chapter-id [chap-num]
-  (-> (d/q '{:find  [?chapter]
-             :in    [$ ?pos]
+  (-> (d/q '{:find [?chapter]
+             :in [$ ?pos]
              :where [[?chapter :chapter/position ?pos]]}
            (d/db c) chap-num)
       ffirst))
@@ -38,17 +38,33 @@
 (defn get-chapter-entity [chap-num]
   (d/pull (d/db c) '[*] [:chapter/position chap-num]))
 
-;; Find all entries for a chapter
-
-;; get min page within chapter that entity is mentioned
-;; i.e. Thingol is mentioned 10 times in chapter 4 - return the min page number (for sorting)
+(defn find-entries-for-chapter [chapter-number]
+  (query '{:find [?name ?description]
+           :in [$ ?chap-num]
+           :where [[?e :entry/name ?name]
+                   [?e :entry/description ?description]
+                   [?e :entry/appears-in ?c]
+                   [?c :chapter/position ?chap-num]]}
+         {:args [chapter-number]
+          :to {}}))
 
 ;; Find all entries for a page
+(defn find-entries-for-page [page-number]
+  (query '{:find [?name ?description]
+           :in [$ ?page-num]
+           :where [[?e :entry/name ?name]
+                   [?e :entry/description ?description]
+                   [?e :entry/page ?page-num]]}
+         {:args [page-number]
+          :to {}}))
 
 ;; Attach all aliases to an entity
 
+
 ;; Testing Testing
 (comment
-  (get-chapter-id 3)
-  (get-chapter-entity 3)
+  (find-entries-for-chapter 3)
+  (find-entries-for-page 195)
+  (get-chapter-id 1)
+  (get-chapter-entity 1)
   (get-all-chapters))
