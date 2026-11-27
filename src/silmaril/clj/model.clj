@@ -43,13 +43,14 @@
                        (map pages-in-chapter))
           :to {}}))
 
-(def rules
+(def entry-rules
   '[[(name-and-description ?e ?name ?description)
      [?e :entry/name ?name]
      [?e :entry/description ?description]]
-    ;; ?e is the entry whose main name or alias is ?lookup
+    ;; ?lookup is the entry name
     [(entry-by-name ?e ?lookup)
      [?e :entry/name ?lookup]]
+    ;; ?lookup can be an alias
     [(entry-by-name ?e ?lookup)
      [?a :alias/name ?lookup]
      [?a :alias/of ?e]]
@@ -63,8 +64,10 @@
     ;; get the "type" from pre-defined entry types
     [(entry-type ?e ?type)
      [?e :entry/type ?type-id]
-     [?type-id :db/ident ?type]]
-    ;; aliases for main entry
+     [?type-id :db/ident ?type]]])
+
+(def alias-rules
+  '[;; aliases for main entry
     [(aliases ?name ?alias)
      [?e :entry/name ?name]
      [?a :alias/of ?e]
@@ -88,7 +91,7 @@
   (query '{:find [?alias]
            :in [$ % ?name]
            :where [(aliases ?name ?alias)]}
-         {:args [rules entry-name]
+         {:args [alias-rules entry-name]
           :xform (map first)
           :to #{}}))
 
@@ -111,7 +114,7 @@
                    (lowest-page-in-chapter ?e ?c ?page)
                    [?e :entry/appears-in ?c]
                    [?c :chapter/position ?chap-num]]}
-         {:args [rules chapter-number]
+         {:args [entry-rules chapter-number]
           :to [{:context? true
                 :chapter chapter-number}]
           :xform (map build-entry-map)
@@ -123,7 +126,7 @@
            :where [(entry-type ?e ?entry-type)
                    (name-and-description ?e ?name ?description)
                    [?e :entry/page ?page-num]]}
-         {:args [rules page-number]
+         {:args [entry-rules page-number]
           :to [{:context? true
                 :page page-number}]
           :xform (comp (map build-entry-map))
@@ -136,7 +139,7 @@
            :where [(entry-by-name ?e ?lookup)
                    (entry-type ?e ?entry-type)
                    (name-and-description ?e ?name ?description)]}
-         {:args [rules entry-name]
+         {:args [entry-rules entry-name]
           :to {}
           :xform (comp (map build-entry-map))}))
 
@@ -145,7 +148,8 @@
   (find-other-names "Melkor")
   (find-other-names "Morgoth")
   (find-entry "Morgoth")
-  (find-entry "Tirion")
+  (find-entry "Túna")
+  (find-entry "Calacirya")
   (find-entries-for-chapter 1)
   (find-entries-for-page 4)
   (get-chapter 9)
