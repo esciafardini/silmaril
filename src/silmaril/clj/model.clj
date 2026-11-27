@@ -8,10 +8,11 @@
   "to: the destination, can be pre-populated with data (defaults to empty vector)
    xform: optional transducer supplied (applies to every incoming datum)
    *Note: Placing context maps at index 0 may prove useful..."
-  [query & {:keys [args to xform]
+  [query & {:keys [args to xform process-fn]
             :or {xform identity
+                 process-fn identity
                  to []}}]
-  (into to xform (apply d/q query (d/db c) args)))
+  (process-fn (into to xform (apply d/q query (d/db c) args))))
 
 (def chapter-pattern
   [:chapter/position
@@ -46,6 +47,12 @@
   '[[(name-and-description ?e ?name ?description)
      [?e :entry/name ?name]
      [?e :entry/description ?description]]
+    ;; ?e is the entry whose main name or alias is ?lookup
+    [(entry-by-name ?e ?lookup)
+     [?e :entry/name ?lookup]]
+    [(entry-by-name ?e ?lookup)
+     [?a :alias/name ?lookup]
+     [?a :alias/of ?e]]
     ;; for sorting on chapter view (show in order of appearance)
     [(lowest-page-in-chapter ?e ?c ?p)
      [?e :entry/page ?p]
@@ -97,35 +104,48 @@
       (assoc :lowest-page page))))
 
 (defn find-entries-for-chapter [chapter-number]
-  (->> (query '{:find [?name ?description ?entry-type ?page]
-                :in [$ % ?chap-num]
-                :where [(entry-type ?e ?entry-type)
-                        (name-and-description ?e ?name ?description)
-                        (lowest-page-in-chapter ?e ?c ?page)
-                        [?e :entry/appears-in ?c]
-                        [?c :chapter/position ?chap-num]]}
-              {:args [rules chapter-number]
-               :to [{:context? true
-                     :chapter chapter-number}]
-               :xform (map build-entry-map)})
-       (sort-by :lowest-page)))
+  (query '{:find [?name ?description ?entry-type (min ?page)]
+           :in [$ % ?chap-num]
+           :where [(entry-type ?e ?entry-type)
+                   (name-and-description ?e ?name ?description)
+                   (lowest-page-in-chapter ?e ?c ?page)
+                   [?e :entry/appears-in ?c]
+                   [?c :chapter/position ?chap-num]]}
+         {:args [rules chapter-number]
+          :to [{:context? true
+                :chapter chapter-number}]
+          :xform (map build-entry-map)
+          :process-fn #(sort-by :lowest-page %)}))
 
 (defn find-entries-for-page [page-number]
-  (->> (query '{:find [?name ?description ?entry-type]
-                :in [$ % ?page-num]
-                :where [(entry-type ?e ?entry-type)
-                        (name-and-description ?e ?name ?description)
-                        [?e :entry/page ?page-num]]}
-              {:args [rules page-number]
-               :to [{:context? true
-                     :page page-number}]
-               :xform (comp (map build-entry-map))})
-       (sort-by :name)))
+  (query '{:find [?name ?description ?entry-type]
+           :in [$ % ?page-num]
+           :where [(entry-type ?e ?entry-type)
+                   (name-and-description ?e ?name ?description)
+                   [?e :entry/page ?page-num]]}
+         {:args [rules page-number]
+          :to [{:context? true
+                :page page-number}]
+          :xform (comp (map build-entry-map))
+          :process-fn #(sort-by :name %)}))
+
+;; find a single entry from name
+(defn find-entry [entry-name]
+  (query '{:find [?name ?description ?entry-type]
+           :in [$ % ?lookup]
+           :where [(entry-by-name ?e ?lookup)
+                   (entry-type ?e ?entry-type)
+                   (name-and-description ?e ?name ?description)]}
+         {:args [rules entry-name]
+          :to {}
+          :xform (comp (map build-entry-map))}))
 
 ;; Testing Testing
 (comment
   (find-other-names "Melkor")
   (find-other-names "Morgoth")
+  (find-entry "Morgoth")
+  (find-entry "Tirion")
   (find-entries-for-chapter 1)
   (find-entries-for-page 4)
   (get-chapter 9)
