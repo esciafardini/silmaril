@@ -2,35 +2,35 @@
 ;; :chapter/position is reading order (like a base-1 index)
 
  ;; Days before days
-[{:chapter/name "Ainulindalë"                                            :chapter/position 1   :chapter/start-page 3}
+[{:chapter/name "Ainulindalë"                                            :chapter/position 1   :chapter/start-page 3   :chapter/last-page 12}
  ;; (no era associated)
- {:chapter/name "Valaquenta"                                             :chapter/position 2   :chapter/start-page 13}
+ {:chapter/name "Valaquenta"                                             :chapter/position 2   :chapter/start-page 13  :chapter/last-page 22}
  ;; First Age
- {:chapter/name "Of the Beginning of Days"                               :chapter/position 3   :chapter/start-page 23}
- {:chapter/name "Of Aulë and Yavanna"                                    :chapter/position 4   :chapter/start-page 31}
- {:chapter/name "Of the Coming of the Elves and the Captivity of Melkor" :chapter/position 5   :chapter/start-page 36}
- {:chapter/name "Of Thingol and Melian"                                  :chapter/position 6   :chapter/start-page 45}
- {:chapter/name "Of Eldamar and the Princes of the Eldalië"              :chapter/position 7   :chapter/start-page 47}
- {:chapter/name "Of Fëanor and the Unchaining of Melkor"                 :chapter/position 8   :chapter/start-page 53}
- {:chapter/name "Of the Silmarils and the Unrest of the Noldor"          :chapter/position 9   :chapter/start-page 57}
- {:chapter/name "Of the Darkening of Valinor"                            :chapter/position 10  :chapter/start-page 63}
- {:chapter/name "Of the Flight of the Noldor"                            :chapter/position 11  :chapter/start-page 68}
- {:chapter/name "Of the Sindar"                                          :chapter/position 12  :chapter/start-page 81}
- {:chapter/name "Of the Sun and Moon and the Hiding of Valinor"          :chapter/position 13  :chapter/start-page 88}
- {:chapter/name "Of Men"                                                 :chapter/position 14  :chapter/start-page 93}
- {:chapter/name "Of the Return of the Noldor"                            :chapter/position 15  :chapter/start-page 96}
- {:chapter/name "Of Beleriand and its Realms"                            :chapter/position 16  :chapter/start-page 108}
- {:chapter/name "Of the Noldor in Beleriand"                             :chapter/position 17  :chapter/start-page 116}
- {:chapter/name "Of Maeglin"                                             :chapter/position 18  :chapter/start-page 122}
- {:chapter/name "Of the Coming of Men into the West"                     :chapter/position 19  :chapter/start-page 131}
- {:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"     :chapter/position 20  :chapter/start-page 141}
- {:chapter/name "Of Beren and Lúthien"                                   :chapter/position 21  :chapter/start-page 152}
- {:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"                :chapter/position 22  :chapter/start-page 178}
- {:chapter/name "Of Túrin Turambar"                                      :chapter/position 23  :chapter/start-page 188}
- {:chapter/name "Of the Ruin of Doriath"                                 :chapter/position 24  :chapter/start-page 216}
- {:chapter/name "Of Tuor and the Fall of Gondolin"                       :chapter/position 25  :chapter/start-page 227}
- {:chapter/name "Of the Voyage of Eärendil and the War of Wrath"         :chapter/position 26  :chapter/start-page 235}
+ {:chapter/name "Of the Beginning of Days"                               :chapter/position 3   :chapter/start-page 23  :chapter/last-page 30}
+ {:chapter/name "Of Aulë and Yavanna"                                    :chapter/position 4   :chapter/start-page 31  :chapter/last-page 35}
+ {:chapter/name "Of the Coming of the Elves and the Captivity of Melkor" :chapter/position 5   :chapter/start-page 36  :chapter/last-page 44}
+ {:chapter/name "Of Thingol and Melian"                                  :chapter/position 6   :chapter/start-page 45  :chapter/last-page 46}
+ {:chapter/name "Of Eldamar and the Princes of the Eldalië"              :chapter/position 7   :chapter/start-page 47  :chapter/last-page 52}
+ {:chapter/name "Of Fëanor and the Unchaining of Melkor"                 :chapter/position 8   :chapter/start-page 53  :chapter/last-page 56}
+ {:chapter/name "Of the Silmarils and the Unrest of the Noldor"          :chapter/position 9   :chapter/start-page 57  :chapter/last-page 62}
+ {:chapter/name "Of the Darkening of Valinor"                            :chapter/position 10  :chapter/start-page 63  :chapter/last-page 67}
+ {:chapter/name "Of the Flight of the Noldor"                            :chapter/position 11  :chapter/start-page 68  :chapter/last-page 80}
+ {:chapter/name "Of the Sindar"                                          :chapter/position 12  :chapter/start-page 81  :chapter/last-page 87}
+ {:chapter/name "Of the Sun and Moon and the Hiding of Valinor"          :chapter/position 13  :chapter/start-page 88  :chapter/last-page 92}
+ {:chapter/name "Of Men"                                                 :chapter/position 14  :chapter/start-page 93  :chapter/last-page 95}
+ {:chapter/name "Of the Return of the Noldor"                            :chapter/position 15  :chapter/start-page 96  :chapter/last-page 107}
+ {:chapter/name "Of Beleriand and its Realms"                            :chapter/position 16  :chapter/start-page 108 :chapter/last-page 115}
+ {:chapter/name "Of the Noldor in Beleriand"                             :chapter/position 17  :chapter/start-page 116 :chapter/last-page 121}
+ {:chapter/name "Of Maeglin"                                             :chapter/position 18  :chapter/start-page 122 :chapter/last-page 130}
+ {:chapter/name "Of the Coming of Men into the West"                     :chapter/position 19  :chapter/start-page 131 :chapter/last-page 140}
+ {:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"     :chapter/position 20  :chapter/start-page 141 :chapter/last-page 151}
+ {:chapter/name "Of Beren and Lúthien"                                   :chapter/position 21  :chapter/start-page 152 :chapter/last-page 177}
+ {:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"                :chapter/position 22  :chapter/start-page 178 :chapter/last-page 187}
+ {:chapter/name "Of Túrin Turambar"                                      :chapter/position 23  :chapter/start-page 188 :chapter/last-page 215}
+ {:chapter/name "Of the Ruin of Doriath"                                 :chapter/position 24  :chapter/start-page 216 :chapter/last-page 226}
+ {:chapter/name "Of Tuor and the Fall of Gondolin"                       :chapter/position 25  :chapter/start-page 227 :chapter/last-page 234}
+ {:chapter/name "Of the Voyage of Eärendil and the War of Wrath"         :chapter/position 26  :chapter/start-page 235 :chapter/last-page 246}
  ;; Second Age
- {:chapter/name "Akallabêth"                                             :chapter/position 27  :chapter/start-page 247}
+ {:chapter/name "Akallabêth"                                             :chapter/position 27  :chapter/start-page 247 :chapter/last-page 272}
  ;; Second & Third Age
  {:chapter/name "Of the Rings of Power and the Third Age"                :chapter/position 28  :chapter/start-page 273}]

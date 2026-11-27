@@ -17,6 +17,10 @@
   :db/valueType   :db.type/long
   :db/cardinality :db.cardinality/one
   :db/doc         "First page of the chapter. Used to map glossary page refs to chapters."}
+ {:db/ident       :chapter/last-page
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db/doc         "Last page of the chapter (next chapter's start page minus one)."}
  {:db/ident       :chapter/during
   :db/valueType   :db.type/ref
   :db/cardinality :db.cardinality/many ;;many bc some chapters take place over multiple ages
