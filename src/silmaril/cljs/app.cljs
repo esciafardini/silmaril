@@ -3,7 +3,7 @@
             [reagent.core :as r]
             [reagent.dom.client :as rdc]))
 
-(defonce state (r/atom {:status :idle :chapters [] :entries [] :entry {}}))
+(defonce state (r/atom {:status :idle :chapters [] :entries [] :entry {} :chapter nil :page nil}))
 
 (defn load-chapters! []
   (swap! state assoc :status :loading)
@@ -11,23 +11,48 @@
               #(swap! state assoc :status :success :chapters %)
               #(swap! state assoc :status :error :error %)))
 
-(defn chapter-item [{page :chapter/start-page chapter-name :chapter/name}]
-  [:li [:span chapter-name] [:small " (p " page ")"]])
+(defn load-entries-for-chapter! [chapter-num]
+  (swap! state assoc :status :loading)
+  (http/fetch (str "/api/chapter?n=" chapter-num)
+              #(swap! state assoc :status :success :entries %)
+              #(swap! state assoc :status :error :error %)))
+
+(defn chapter-item [{:chapter/keys [start-page position] chapter-name :chapter/name}]
+  [:li
+   {:on-click (fn [_e]
+                (load-entries-for-chapter! position))}
+   [:span chapter-name] [:small " (p " start-page ")"]])
 
 (defn chapter-list []
   (let [{:keys [status chapters error]} @state]
-    (case status
-      (:idle :loading) [:p "Loading…"]
-      :error [:p "Failed to load: " error]
-      :success [:ol (map
-                     (fn [{:db/keys [id] :as c}]
-                       ^{:key id} [chapter-item c])
-                     chapters)])))
+    (cond
+      chapters [:ol (map
+                     (fn [c]
+                       ^{:key (:chapter/position c)} [chapter-item c])
+                     chapters)]
+      (#{:idle :loading} status) [:p "Loading…"]
+      (= :error status) [:p "Failed to load: " error])))
+
+(defn entries-list []
+  (let [{:keys [entries]} @state]
+    [:div
+     (map (fn [entry]
+            (print entry)
+            [:div {:style {:border "2px solid #333333;"}}
+             [:h2 (:name entry)]
+             [:i (:entry-type entry)]
+             [:p (:description entry)]
+             [:small (str "First appearance in chapter: p. " (:lowest-page entry))]])
+          (rest entries))]))
 
 (defn app []
-  [:main
-   [:h1 "The Silmarillion"]
-   [chapter-list]])
+  (let [{:keys [entries]} @state]
+    (print entries)
+    [:main
+     [:h1 "The Silmarillion"]
+     (if (seq entries)
+       [entries-list]
+       [chapter-list])]))
 
 ;;; Shadow-CLJS + Reagent
 (defonce root (delay (rdc/create-root (js/document.getElementById "app"))))

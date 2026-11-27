@@ -3,10 +3,11 @@
   (:require [ring.adapter.jetty :as jetty]
             [ring.middleware.content-type :refer [wrap-content-type]]
             [ring.middleware.file :refer [wrap-file]]
+            [ring.middleware.params :refer [wrap-params]]
             [silmaril.clj.routes :as routes]))
 
 
-(def app (-> #'routes/routes (wrap-file "public") wrap-content-type))
+(def app (-> #'routes/routes wrap-params (wrap-file "public") wrap-content-type))
 
 (defonce server (atom nil))
 

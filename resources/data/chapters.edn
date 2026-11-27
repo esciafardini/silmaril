@@ -33,4 +33,5 @@
  ;; Second Age
  {:chapter/name "Akallabêth"                                             :chapter/position 27  :chapter/start-page 247 :chapter/last-page 272}
  ;; Second & Third Age
- {:chapter/name "Of the Rings of Power and the Third Age"                :chapter/position 28  :chapter/start-page 273}]
+ ;; TODO - find the actual last page oops
+ {:chapter/name "Of the Rings of Power and the Third Age"                :chapter/position 28  :chapter/start-page 273 :chapter/last-page 400}] 
