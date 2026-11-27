@@ -46,10 +46,13 @@
   '[[(name-and-description ?e ?name ?description)
      [?e :entry/name ?name]
      [?e :entry/description ?description]]
-    ;; Get lowest page mention in chapter (for sorting)
-    [(lowest-page ?e ?type)
-     [?e :entry/type ?type-id]
-     [?type-id :db/ident ?type]]
+    ;; for sorting on chapter view (show in order of appearance)
+    [(lowest-page-in-chapter ?e ?c ?p)
+     [?e :entry/page ?p]
+     [?c :chapter/start-page ?start]
+     [?c :chapter/last-page ?end]
+     [(<= ?start ?p)]
+     [(<= ?p ?end)]]
     ;; get the "type" from pre-defined entry types
     [(entry-type ?e ?type)
      [?e :entry/type ?type-id]
@@ -83,25 +86,29 @@
           :to #{}}))
 
 ;;xform fn
-(defn build-entry-map [[entry-name desc entry-type]]
+(defn build-entry-map [[entry-name desc entry-type & [page]]]
   (let [aliases (find-other-names entry-name)]
     (cond-> {:name entry-name
              :description desc
              :entry-type (name entry-type)}
       (seq aliases)
-      (assoc :aliases aliases))))
+      (assoc :aliases aliases)
+      page
+      (assoc :lowest-page page))))
 
 (defn find-entries-for-chapter [chapter-number]
-  (query '{:find [?name ?description ?entry-type]
-           :in [$ % ?chap-num]
-           :where [(entry-type ?e ?entry-type)
-                   (name-and-description ?e ?name ?description)
-                   [?e :entry/appears-in ?c]
-                   [?c :chapter/position ?chap-num]]}
-         {:args [rules chapter-number]
-          :to [{:context? true
-                :chapter chapter-number}]
-          :xform (map build-entry-map)}))
+  (->> (query '{:find [?name ?description ?entry-type ?page]
+                :in [$ % ?chap-num]
+                :where [(entry-type ?e ?entry-type)
+                        (name-and-description ?e ?name ?description)
+                        (lowest-page-in-chapter ?e ?c ?page)
+                        [?e :entry/appears-in ?c]
+                        [?c :chapter/position ?chap-num]]}
+              {:args [rules chapter-number]
+               :to [{:context? true
+                     :chapter chapter-number}]
+               :xform (map build-entry-map)})
+       (sort-by :lowest-page)))
 
 (defn find-entries-for-page [page-number]
   (->> (query '{:find [?name ?description ?entry-type]
