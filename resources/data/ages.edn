@@ -1,13 +1,8 @@
-;; Ages not in the glossary, and which age(s) each chapter takes place in.
-;; Hand-written. Transact after the batch files (First Age is in one of them).
+;; Which age(s) each chapter takes place in.
+;; Hand-written. Transact after the batch files (all four ages are entries in them).
 ;; Ainulindalë and Valaquenta take place outside the ages and have no :chapter/during.
 
-[;; ---- ages added by hand (chapter refs below are nested maps, not lookup refs: these are created in this same transaction) ----
- {:entry/name "Days Before Days" :entry/type :entry.type/age}
- {:entry/name "Second Age" :entry/type :entry.type/age}
- {:entry/name "Third Age" :entry/type :entry.type/age}
-
- ;; ---- chapter → age ----
+[;; ---- chapter → age ----
  {:chapter/name "Of the Beginning of Days"
   :chapter/during [{:entry/name "Days Before Days"}]}
  {:chapter/name "Of Aulë and Yavanna"

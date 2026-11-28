@@ -5,7 +5,6 @@
   :entry/page        [249 251 254 257 258 260 265 267 268 269]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
- ;; TODO a feast, not a battle
  {:entry/name        "Mereth Aderthad"
   :entry/type        :entry.type/event
   :entry/description "The Feast of Reuniting held by _Fingolfin_ near the Pools of _Ivrin_."
@@ -114,9 +113,10 @@
                       [:chapter/name "Of Túrin Turambar"]
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
- ;; TODO no headword in the glossary; pages and text from alias Isil, Rána
+ ;; Taken from Tolkien Gateway; no headword in the glossary; pages from alias Isil, Rána
  {:entry/name       "Moon"
   :entry/type       :entry.type/thing
+  :entry/description "The Moon is a celestial object seen in the skies of _Arda_ at night. After the Darkening of _Valinor_ and the destruction of the _Two Trees_, _Telperion_, the White Tree, bore one last Flower of Silver before its end. According to the lore of the _Elder Days_, _Aulë_ and his people made a vessel to carry the silver flower aloft, and _Tilion_, one of the hunters of _Oromë_, was granted the task of steering the new Moon through the sky."
   :entry/page       [89 90]
   :entry/appears-in [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
@@ -201,7 +201,6 @@
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a lay, not an object
  {:entry/name        "Narn i Hîn Húrin"
   :entry/type        :entry.type/account
   :entry/description "The Tale of the Children of _Húrin_; the long lay from which Chapter 21 was derived; ascribed to the poet Dírhaval, a Man who lived at the _Havens of Sirion_ in the days of _Eärendil_ and perished in the attack of the sons of _Fëanor_. Narn signifies a tale made in verse, but to be spoken and not sung."
@@ -225,7 +224,6 @@
   :entry/page        [282 283]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a song, not an object
  {:entry/name        "Narsilion"
   :entry/type        :entry.type/account
   :entry/description "_The Song_ of the _Sun_ and _Moon_."
@@ -309,7 +307,7 @@
 
  {:entry/name        "Nienna"
   :entry/type        :entry.type/character
-  :entry/description "One of the _Valier_, numbered among the _Aratar_; Lady of pity and mourning, the sister of _Mandos_ and _Lórien_; see especially 16."
+  :entry/description "One of the _Valier_, numbered among the _Aratar_; Lady of pity and mourning, the sister of _Mandos_ and _Lórien_."
   :entry/page        [14 16 17 19 26 55 69 89]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -351,7 +349,6 @@
   :entry/page        [83]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]]}
 
- ;; TODO a flower, not an object
  {:entry/name        "niphredil"
   :entry/type        :entry.type/thing
   :entry/description "A white flower that bloomed in _Doriath_ in starlight when _Lúthien_ was born. It grew also on Cerin Amroth in _Lothlórien_ (The Fellowship of the Ring II 6)."
@@ -373,7 +370,6 @@
   :entry/page        [113]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
 
- ;; TODO refs from the ‘Referring to the Petty-Dwarves’ sub-heading of Dwarves (192–6, 202, 219) merged in
  {:entry/name        "Noegyth Nibin"
   :entry/type        :entry.type/race
   :entry/description "See also under _Dwarves_."

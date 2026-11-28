@@ -2,7 +2,7 @@
 [
  {:entry/name        "Eldar"
   :entry/type        :entry.type/race
-  :entry/description "According to Elvish legend the name _Eldar_ People of the Stars was given to all the _Elves_ by the Vala _Oromë_. It came however to be used to refer only to the _Elves_ of the Three Kindreds (_Vanyar_, _Noldor_, and _Teleri_) who set out on the great westward march from _Cuiviénen_ (whether or not they remained in _Middle-earth_), and to exclude the _Avari_. See _Dark Elves_, _Úmanyar_."
+  :entry/description "According to Elvish legend the name Eldar People of the Stars was given to all the _Elves_ by the Vala _Oromë_. It came however to be used to refer only to the _Elves_ of the Three Kindreds (_Vanyar_, _Noldor_, and _Teleri_) who set out on the great westward march from _Cuiviénen_ (whether or not they remained in _Middle-earth_), and to exclude the _Avari_. See _Dark Elves_, _Úmanyar_."
   :entry/page        [10 42 47 56 117 156 173 176 177 181 192 243 285]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -36,17 +36,9 @@
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘Heirs of Elendil’ sub-heading of Elendil
- {:entry/name       "Heirs of Elendil"
-  :entry/type       :entry.type/house
-  :house/founder    {:entry/name "Elendil"}
-  :entry/page       [268 282]
-  :entry/appears-in [[:chapter/name "Akallabêth"]
-                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
-
  {:entry/name        "Elendili"
   :entry/type        :entry.type/race
-  :entry/description "_Elf-friend_s; name given to those _Númenórean_s who were not estranged from the _Eldar_ in the days of _Tar-Ancalimon_ and later kings."
+  :entry/description "_Elf-friends_; name given to those _Númenóreans_ who were not estranged from the _Eldar_ in the days of _Tar-Ancalimon_ and later kings."
   :entry/page        [254 255 256 257 259 260 261 263 264 279 280]
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
@@ -70,7 +62,6 @@
   :entry/page        [280]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO ref 291 from the ‘Sons of Elrond’ sub-heading merged in
  {:entry/name        "Elrond"
   :entry/type        :entry.type/character
   :entry/description "Son of _Eärendil_ and _Elwing_, who at the end of the _First Age_ chose to belong to _The Firstborn_, and remained in _Middle-earth_ until the end of the Third Age; master of _Imladris_ (_Rivendell_) and keeper of _Vilya_, the Ring of Air, which he had received from _Gil-galad_. The name means Star-dome."
@@ -180,7 +171,7 @@
 
  {:entry/name        "Erech"
   :entry/type        :entry.type/place
-  :entry/description "A hill in the west of _Gondor_, where was the Stone of _Isildur_ (see The Return of the King V 2)."
+  :entry/description "A hill in the west of _Gondor_, where was the Stone of _Isildur_."
   :entry/page        [279]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -230,7 +221,6 @@
   :entry/page        [84]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]]}
 
- ;; TODO printed refs 279–80, 284 dropped: they belong to Ephel Dúath, which shares the name ‘Mountains of Shadow’
  {:entry/name        "Ered Wethrin"
   :entry/type        :entry.type/place
   :entry/description "The great curving range bordering _Ard-galen_ on the west and forming the barrier between _Hithlum_ and West _Beleriand_."
@@ -248,7 +238,7 @@
 
  {:entry/name        "Eregion"
   :entry/type        :entry.type/place
-  :entry/description "Land of Holly; Noldorin realm in the Second Age at the western feet of the _Misty Mountains_, where the Elven Rings were made."
+  :entry/description "Land of Holly; _Noldor_in realm in the Second Age at the western feet of the _Misty Mountains_, where the Elven Rings were made."
   :entry/page        [274 275 276]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -268,9 +258,10 @@
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO no headword of its own; combined name chosen for the import; text and pages come from the Eru and Ilúvatar headwords
+ ;; Taken from Tolkien Gateway; combined name chosen for the import; pages come from the Eru and Ilúvatar headwords
  {:entry/name       "Eru Ilúvatar"
   :entry/type       :entry.type/character
+  :entry/description "Eru Ilúvatar is the single omniscient and omnipotent creator. He has been existing eternally in the _Timeless Halls_ and possesses the _Flame Imperishable_ in his spirit which kindles existence from nothingness."
   :entry/page       [3 4 5 6 7 8 9 10 13 14 15 16 17 18 19 25 27 28 29 30 31 32 33 34 35 37 38 39 40 46 49 55 56 57 58 65 68 73 75 78 80 88 89 93 95 139 155 156 176 177 200 222 223 239 242 248 249 250 252 253 254 257 259 260 266 267 268]
   :entry/appears-in [[:chapter/name "Ainulindalë"]
                      [:chapter/name "Valaquenta"]
@@ -358,16 +349,17 @@
 
  {:entry/name        "Fëanor"
   :entry/type        :entry.type/character
-  :entry/description "Eldest son of _Finwë_ (the only child of _Finwë_ and Míriel), half-brother of _Fingolfin_ and _Finarfin_; greatest of the _Noldor_, and leader in their rebellion; deviser of the Fëanorian script; maker of the _Silmaril_s; slain in _Mithrim_ in the _Dagor-nuin-Giliath_. His fifth son, _Curufin_, was named after him. Chapters 5–9 and 13 passim; see especially 50, 53–6, 88. Elsewhere his name occurs chiefly in the sons of Fëanor."
+  :entry/description "Eldest son of _Finwë_ (the only child of _Finwë_ and Míriel), half-brother of _Fingolfin_ and _Finarfin_; greatest of the _Noldor_, and leader in their rebellion; deviser of the Fëanorian script; maker of the _Silmarils_; slain in _Mithrim_ in the _Dagor-nuin-Giliath_. His fifth son, _Curufin_, was named after him. Elsewhere his name occurs chiefly in the sons of Fëanor."
   :entry/page        [50 53 54 55 56 60 88]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
                       [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
                       [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
- ;; TODO no headword in the glossary; pages and text from alias The Dispossessed, Sons of Fëanor
+ ;; Taken from Tolkien Gateway; pages from alias The Dispossessed, Sons of Fëanor
  {:entry/name       "House of Fëanor"
   :entry/type       :entry.type/house
+  :entry/description "The House of Fëanor were the cursed descendants and followers of _Fëanor_, the eldest son of _Finwë_ and his spouse Míriel. See _Oath of Fëanor_ and _Curse of Mandos_."
   :entry/page       [50 51 55 59 61 73 78 98 99 101 102 103 112 114 115 118 119 120 123 125 126 131 141 143 144 159 166 167 173 179 180 182 183 185 225 226 233 236 242 243]
   :entry/appears-in [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                      [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
@@ -385,16 +377,15 @@
                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO a pair of Valar, not a people
  {:entry/name        "Fëanturi"
-  :entry/type        :entry.type/race
-  :entry/description "Masters of Spirits; the _Valar_ _Námo_ (_Mandos_) and _Irmo_ (_Lórien_)."
+  :entry/type        :entry.type/character
+  :entry/description "Masters of Spirits; the _Valar_ _Námo_ (_Mandos_) and _Irmo_ (_Lórien_). [2 characters]"
   :entry/page        [16]
   :entry/appears-in  [[:chapter/name "Valaquenta"]]}
 
  {:entry/name        "Finarfin"
   :entry/type        :entry.type/character
-  :entry/description "The third son of _Finwë_, the younger of _Fëanor_’s half-brothers; remained in _Aman_ after the Exile of the _Noldor_ and ruled the remnant of his people in _Tirion_. Alone among the Noldorin princes he and his descendants had golden hair, derived from his mother _Indis_, who was a Vanyarin Elf (see _Vanyar_). Many other occurrences of the name of Finarfin relate to his sons or his people."
+  :entry/description "The third son of _Finwë_, the younger of _Fëanor_’s half-brothers; remained in _Aman_ after the Exile of the _Noldor_ and ruled the remnant of his people in _Tirion_. Alone among the _Noldor_in princes he and his descendants had golden hair, derived from his mother _Indis_, who was a Vanyarin Elf (see _Vanyar_). Many other occurrences of the name of Finarfin relate to his sons or his people."
   :entry/page        [50 55 59 60 74 75 78 92 157 166 240]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]

@@ -47,6 +47,12 @@
   :entry/page        [92]
   :entry/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Oath of Fëanor"
+  :entry/type        :entry.type/event
+  :entry/description "The Oath of Fëanor was a dreadful irrevocable oath taken by _Fëanor_ and his seven sons to pursue any in _Arda_ who may take and withhold from them any of the _Silmarils_. It was taken following his great speech urging the _Noldor_ to leave _Aman_ and return to _Middle-earth_."
+  :entry/appears-in  [[:chapter/name "Of the Flight of the Noldor"]]}
+
  {:entry/name        "Ohtar"
   :entry/type        :entry.type/character
   :entry/description "Warrior; esquire of _Isildur_, who brought the shards of _Elendil_’s sword to _Imladris_."
@@ -187,7 +193,7 @@
 
  {:entry/name        "Palantíri"
   :entry/type        :entry.type/thing
-  :entry/description "Those that watch from afar; seven were brought by _Elendil_ and his sons from _Númenor_; made by _Fëanor_ in _Aman_ (see 54, and The Two Towers III 11)."
+  :entry/description "Those that watch from afar; seven were brought by _Elendil_ and his sons from _Númenor_; made by _Fëanor_ in _Aman_."
   :entry/page        [54 264 279 280]
   :entry/appears-in  [[:chapter/name "Of Fëanor and the Unchaining of Melkor"]
                       [:chapter/name "Akallabêth"]
@@ -211,20 +217,22 @@
                       [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
                       [:chapter/name "Of Beren and Lúthien"]]}
 
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Periannath"
   :entry/type       :entry.type/race
+  :entry/description "perian (lit. \"Halfling\"), plural periain and collective plural Periannath, is both the _Sindarin_ and _Quenya_ name for Hobbits."
   :entry/page       [290 291]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Quenta Silmarillion"
   :entry/type        :entry.type/account
-  :entry/description "The History of the _Silmaril_s."
+  :entry/description "The History of the _Silmarils_."
   :entry/page        [274]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Quenya"
   :entry/type        :entry.type/language
-  :entry/description "The ancient tongue, common to all _Elves_, in the form that it took in _Valinor_; brought to _Middle-earth_ by the Noldorin exiles, but abandoned by them as a daily speech, especially after the edict of King _Thingol_ against its use; see especially 103–4, 120–1."
+  :entry/description "The ancient tongue, common to all _Elves_, in the form that it took in _Valinor_; brought to _Middle-earth_ by the _Noldor_in exiles, but abandoned by them as a daily speech, especially after the edict of King _Thingol_ against its use."
   :entry/page        [16 103 104 116 120 121 125 206 249 250 255 268]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Return of the Noldor"]
@@ -309,34 +317,39 @@
   :entry/page        [145]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Rings of Power"
   :entry/type       :entry.type/thing
+  :entry/description "The Rings of Power were magic rings created by the _Elves_ of _Eregion_. Nineteen Great rings were made with the knowledge obtained from _Sauron_, guised as _Annatar_, with him aiding in the creation of most. _Sauron_ alone forged the twentieth Great Ring, called _The One Ring_ or the Ruling Ring, secretly in the fires of _Mount Doom_."
   :entry/page       [275 276 288 289]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "The One Ring"
   :entry/type       :entry.type/thing
+  :entry/description "The One Ring was an ancient artifact created by the Dark Lord _Sauron_ in the _Second Age_ for the purpose of ruling over the Free peoples of _Middle-earth_, mainly the _Elves_."
   :entry/page       [255 268 275 276 277 280 282 283 286 290 291]
   :entry/appears-in [[:chapter/name "Akallabêth"]
                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Three Rings of the Elves"
   :entry/type       :entry.type/thing
+  :entry/description "The Three Rings were magical artifacts, three of the _Rings of Power_. They were forged by _Celebrimbor_ and granted the power to preserve the beauty of things by stopping change and warding off the decay of time and postponing the weariness of the world. They had the greatest power of the _Rings of Power_. The Three Rings were named _Vilya_, _Narya_, and _Nenya_ after the principal elements of air, fire, and water (respectively)."
   :entry/page       [275 276 286 292]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Seven Rings of the Dwarves"
   :entry/type       :entry.type/thing
+  :entry/description "The Seven Dwarf-rings were the _Rings of Power_ given to seven Dwarf Lords by _Sauron_ in the guise of _Annatar_.\n\nApparently the Lords were the Kings of the Seven Houses, as _Gandalf_ mentions that the Rings were given to the \"Dwarf-kings\"."
   :entry/page       [276 277 286 289]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Nine Rings of Men"
   :entry/type       :entry.type/thing
+  :entry/description "The Nine Rings were the _Rings of Power_ that _Sauron_ used to corrupt _Men_ to his service. Those who took the Nine Rings became the _Nazgûl_.\n\nThe Nine Rings were made along with the other _Rings of Power_ in _Eregion_ and were forged by Elven smiths under the guidance of _Sauron_. They were kept in the House of the Mírdain, but all rings save the Three Elven rings were captured by _Sauron_ when he attacked _Eregion_. He gave nine of them to _Men_, and it was said that three of those that received them were _Númenórean_ lords, and another was from the East."
   :entry/page       [255 277 286 289]
   :entry/appears-in [[:chapter/name "Akallabêth"]
                      [:chapter/name "Of the Rings of Power and the Third Age"]]}

@@ -33,7 +33,6 @@
   :entry/page        [283]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a rank among the Valar, not a people
  {:entry/name        "Aratar"
   :entry/type        :entry.type/race
   :entry/description "The Exalted; the eight _Valar_ of greatest power."
@@ -81,7 +80,7 @@
 
  {:entry/name        "Argonath"
   :entry/type        :entry.type/place
-  :entry/description "King-stones; the Pillars of the Kings, great carvings of _Isildur_ and _Anárion_ on the _Anduin_ at the entrance to the northern bounds of _Gondor_ (see The Fellowship of the Ring II 9)."
+  :entry/description "King-stones; the Pillars of the Kings, great carvings of _Isildur_ and _Anárion_ on the _Anduin_ at the entrance to the northern bounds of _Gondor_."
   :entry/page        [279 285]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -98,16 +97,15 @@
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO glossary only says ‘See Gelmir (2)’; description written for the import, not glossary text; page borrowed from Gelmir (2)
  {:entry/name        "Arminas"
   :entry/type        :entry.type/character
-  :entry/description "Noldorin Elf of the House of _Finarfin_, of the people of _Angrod_."
+  :entry/description "_Noldor_in Elf of the House of _Finarfin_, of the people of _Angrod_. Wandered with _Gelmir (messenger)_"
   :entry/page        [201]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Arnor"
   :entry/type        :entry.type/place
-  :entry/description "Land of the King; the northern realm of the _Númenórean_s in _Middle-earth_, established by _Elendil_ after his escape from the Drowning of _Númenor_."
+  :entry/description "Land of the King; the northern realm of the _Númenóreans_ in _Middle-earth_, established by _Elendil_ after his escape from the Drowning of _Númenor_."
   :entry/page        [279 280 291]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -163,16 +161,15 @@
                       [:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
- ;; TODO a word, not an object
  {:entry/name        "Atalantë"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "The Downfallen; _Quenya_ word equivalent in meaning to _Akallabêth_."
   :entry/page        [268]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Atani"
   :entry/type        :entry.type/race
-  :entry/description "The Second People; _Men_ (singular Atan). For the origin of the name see 134. Since in _Beleriand_ for a long time the only _Men_ known to the _Noldor_ and _Sindar_ were those of the Three Houses, this name became specially associated with them, so that it was seldom applied to other _Men_ who came later to _Beleriand_, or who were reported to be dwelling beyond the Mountains. But in the speech of _Ilúvatar_ (29) the meaning is _Men_ (in general)."
+  :entry/description "The Second People; _Men_ (singular Atan). Since in _Beleriand_ for a long time the only _Men_ known to the _Noldor_ and _Sindar_ were those of the Three Houses, this name became specially associated with them, so that it was seldom applied to other _Men_ who came later to _Beleriand_, or who were reported to be dwelling beyond the Mountains. But in the speech of _Ilúvatar_ the meaning is _Men_ (in general)."
   :entry/page        [29 93 133 134 135 136 137 138 139 140 148 149 180 185 187 189 225 241 247 248 249 268 289]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of Men"]
@@ -187,7 +184,7 @@
 
  {:entry/name        "Aulë"
   :entry/type        :entry.type/character
-  :entry/description "A Vala, one of the _Aratar_, the smith and master of crafts, spouse of _Yavanna_; see especially 15, 27–8, and for his making of the _Dwarves_ 31ff."
+  :entry/description "A Vala, one of the _Aratar_, the smith and master of crafts, spouse of _Yavanna_."
   :entry/page        [7 8 14 15 17 18 19 20 23 24 27 29 31 32 33 34 35 40 41 42 50 52 54 59 69 75 82 89 248]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -291,7 +288,7 @@
 
  {:entry/name        "Barahir"
   :entry/type        :entry.type/character
-  :entry/description "Father of _Beren_; rescued _Finrod_ _Felagund_ in the _Dagor Bragollach_, and received from him his ring; slain on _Dorthonion_. For the later history of the ring of Barahir, which became an heirloom of the House of _Isildur_, see The Lord of the Rings Appendix A (I, iii)."
+  :entry/description "Father of _Beren_; rescued _Finrod_ _Felagund_ in the _Dagor Bragollach_, and received from him his ring; slain on _Dorthonion_."
   :entry/page        [95 139 143 146 151 152 153 154 156 157 158 159 176 178 189 220 241]
   :entry/appears-in  [[:chapter/name "Of Men"]
                       [:chapter/name "Of the Coming of Men into the West"]
@@ -320,10 +317,9 @@
   :entry/page        [193 195 196]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO overview of the five battles, not a single event
  {:entry/name        "Battles of Beleriand"
   :entry/type        :entry.type/event
-  :entry/description "The first battle: 86. The second battle (the Battle-under-Stars): see _Dagor-nuin-Giliath_. The third battle (the Glorious Battle): see _Dagor Aglareb_. The fourth battle (the Battle of Sudden Flame): see _Dagor Bragollach_. The fifth battle (Unnumbered Tears): see _Nirnaeth Arnoediad_. The Great Battle: 240–1, 247, 273"
+  :entry/description "The first battle: see _First Battle_. The second battle (the Battle-under-Stars): see _Dagor-nuin-Giliath_. The third battle (the Glorious Battle): see _Dagor Aglareb_. The fourth battle (the Battle of Sudden Flame): see _Dagor Bragollach_. The fifth battle (Unnumbered Tears): see _Nirnaeth Arnoediad_. The Great Battle: see _Great Battle_."
   :entry/page        [86 240 241 247 273]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]

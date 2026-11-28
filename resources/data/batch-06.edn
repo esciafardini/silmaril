@@ -12,9 +12,10 @@
                       [:chapter/name "Of the Flight of the Noldor"]
                       [:chapter/name "Of the Noldor in Beleriand"]]}
 
- ;; TODO no headword in the glossary; pages and text from alias Elder Days
+ ;; Taken from Tolkien Gateway; pages from alias Elder Days
  {:entry/name       "First Age"
   :entry/type       :entry.type/age
+  :entry/description "The First Age was the longest of the recorded ages of _Middle-earth_, and its events were chronicled between the coming of the Elder _Children of Ilúvatar_ into the world and the Downfall of _Angband_."
   :entry/page       [18 26 93 104 198 200 220 223 231 282 291]
   :entry/appears-in [[:chapter/name "Valaquenta"]
                     [:chapter/name "Of the Beginning of Days"]
@@ -24,6 +25,13 @@
                     [:chapter/name "Of the Ruin of Doriath"]
                     [:chapter/name "Of Tuor and the Fall of Gondolin"]
                     [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; Taken from Tolkien Gateway; pages from the Battles of Beleriand headword
+ {:entry/name        "First Battle"
+  :entry/type        :entry.type/event
+  :entry/description "The First Battle was the first great battle of the Wars of _Beleriand_ fought between the forces of _Morgoth_ and the _Elves_ and _Dwarves_ in _Beleriand_."
+  :entry/page        [86]
+  :entry/appears-in  [[:chapter/name "Of the Sindar"]]}
 
  {:entry/name        "Formenos"
   :entry/type        :entry.type/place
@@ -54,7 +62,7 @@
 
  {:entry/name        "Galadriel"
   :entry/type        :entry.type/character
-  :entry/description "Daughter of _Finarfin_ and sister of _Finrod_ _Felagund_; one of the leaders of the Noldorin rebellion against the _Valar_; wedded Celeborn of _Doriath_ and with him remained in _Middle-earth_ after the end of the _First Age_; keeper of _Nenya_, the Ring of Water, in _Lothlórien_."
+  :entry/description "Daughter of _Finarfin_ and sister of _Finrod_ _Felagund_; one of the leaders of the _Noldor_in rebellion against the _Valar_; wedded Celeborn of _Doriath_ and with him remained in _Middle-earth_ after the end of the _First Age_; keeper of _Nenya_, the Ring of Water, in _Lothlórien_."
   :entry/page        [51 74 80 104 105 118 119 121 135 159 224 243 286 287 288]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -90,7 +98,6 @@
   :entry/page        [124]
   :entry/appears-in  [[:chapter/name "Of Maeglin"]]}
 
- ;; TODO a festival, not a battle
  {:entry/name        "Gates of Summer"
   :entry/type        :entry.type/event
   :entry/description "A great festival of _Gondolin_, on the eve of which the city was assaulted by the forces of _Morgoth_."
@@ -223,14 +230,12 @@
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
- ;; TODO sub-heading ‘City of Gondor: Minas Tirith. 291’ logged as an alias of Minas Anor
  {:entry/name        "Gondor"
   :entry/type        :entry.type/place
   :entry/description "Land of Stone; name of the southern _Númenórean_ kingdom in _Middle-earth_, established by _Isildur_ and _Anárion_."
   :entry/page        [279 280 281 282 283 284 285 290 291]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO glossary label ‘Gorgoroth (2)’; ‘Gorgoroth (1)’ is a cross-reference to Ered Gorgoroth
  {:entry/name        "Gorgoroth (Mordor)"
   :entry/type        :entry.type/place
   :entry/description "A plateau in _Mordor_, between the converging _Mountains of Shadow_ and Mountains of Ash."
@@ -251,6 +256,15 @@
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
+
+ ;; Taken from Tolkien Gateway; pages from the Battles of Beleriand headword
+ {:entry/name        "Great Battle"
+  :entry/type        :entry.type/event
+  :entry/description "The Great Battle was the final conflict in the Wars of _Beleriand_ fought between the Host of the West and the forces of _Morgoth_. The devastation caused by the two sides clashing left _Beleriand_ mostly destroyed and in the end most of the land sank beneath the waves. According to The Tale of Years it lasted for more than four decades (F.A. 545 - 587)."
+  :entry/page        [240 241 247 273]
+  :entry/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
+                      [:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Greater Gelion"
   :entry/type        :entry.type/place
@@ -285,7 +299,6 @@
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO a fellowship of craftsmen, not a people
  {:entry/name        "Gwaith-i-Mírdain"
   :entry/type        :entry.type/race
   :entry/description "People of the Jewel-smiths; name of the fellowship of craftsmen in _Eregion_, greatest of whom was _Celebrimbor_ son of _Curufin_."
@@ -306,9 +319,10 @@
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO from the ‘House of, People of, Hador’ sub-heading of Hador
+ ;; Taken from Tolkien Gateway
  {:entry/name       "House of Hador"
   :entry/type       :entry.type/house
+  :entry/description "The House of Hador was the last House of the _Edain_ to cross the _Ered Luin_ into _Beleriand_ during the late _First Age_.\n\nThe followers of _Marach_ and his descendants would become the _Edain_ of the North, Folk of _Marach_, Hadorians, _Men_ of _Dor-lómin_, _Men_ of _Hador_’s House, _Men_ of _Hithlum_, _Men_ of the North, and the People of _Hador_."
   :house/founder    {:entry/name "Hador"}
   :entry/page       [139 148 149 151 179 184 185 188 189 196 205 216 238]
   :entry/appears-in [[:chapter/name "Of the Coming of Men into the West"]
@@ -357,9 +371,10 @@
   :entry/page        [137 138]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
- ;; TODO from the ‘House of, People of, Haleth’ sub-heading of Haleth
+ ;; Taken from Tolkien Gateway
  {:entry/name       "House of Haleth"
   :entry/type       :entry.type/house
+  :entry/description "The House of Haleth was the second House of the _Edain_ to come over the _Ered Luin_ into _Beleriand_ and survived longest of all three houses, owing to their defensive strategy during the Wars of _Beleriand_.\n\nThe followers of _Haldad_ and his descendants would become the Folk of _Haleth_, the _Haladin_, the Halethrim, _Men of Brethil_, _Men_ of _Haleth_, and the _People of Haleth_."
   :house/founder    {:entry/name "Haleth"}
   :entry/page       [138 139 148 179 206 210 211]
   :entry/appears-in [[:chapter/name "Of the Coming of Men into the West"]
@@ -367,19 +382,19 @@
                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                      [:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO an epithet of Elrond, Elros and Eärendil, not a people
  {:entry/name        "Half-elven"
   :entry/type        :entry.type/race
-  :entry/description "Applied to _Elrond_ and _Elros_, 235, 243, 249, 274, 276; and to _Eärendil_, 230."
+  :entry/description "Applied to _Elrond_ and _Elros_, and to _Eärendil_."
   :entry/page        [230 235 243 249 274 276]
   :entry/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the Mandos sub-heading ‘Named as the place of his dwelling (including Halls of Mandos; also Halls of Awaiting, Houses of the Dead)’
+ ;; Taken from Tolkien Gateway; pages from the Mandos sub-heading ‘Named as the place of his dwelling (including Halls of Mandos; also Halls of Awaiting, Houses of the Dead)’
  {:entry/name       "Halls of Mandos"
   :entry/type       :entry.type/place
+  :entry/description "The Halls of Mandos were the dwellings of _Námo_, the Doomsman of the _Valar_; he was more often given the name _Mandos_ from his own halls.\n\nThe Halls of Mandos stood on the northern shores of _Valinor_, looking out across the _Encircling Sea_. They were said to be great cavernous delvings, growing in size as the World aged, and their walls were lined with the tapestries of _Námo_’s spouse _Vairë_, depicting all the events of unfolding history."
   :entry/page       [16 30 32 41 49 54 55 57 78 95 98 176 177 223]
   :entry/appears-in [[:chapter/name "Valaquenta"]
                      [:chapter/name "Of the Beginning of Days"]

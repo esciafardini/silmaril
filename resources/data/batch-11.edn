@@ -13,7 +13,7 @@
 
  {:entry/name        "Rúmil"
   :entry/type        :entry.type/character
-  :entry/description "A Noldorin sage of _Tirion_, the first deviser of written characters (cf. The Lord of the Rings Appendix E II); to him is attributed the _Ainulindalë_."
+  :entry/description "A _Noldor_in sage of _Tirion_, the first deviser of written characters (cf. The Lord of the Rings Appendix E II); to him is attributed the _Ainulindalë_."
   :entry/page        [53 54]
   :entry/appears-in  [[:chapter/name "Of Fëanor and the Unchaining of Melkor"]]}
 
@@ -49,6 +49,19 @@
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Second Age"
+  :entry/type        :entry.type/age
+  :entry/description "The Second Age, often abbreviated to S.A., began after the destruction of _Beleriand_ in the _War of Wrath_, and the execution and subsequent expulsion of _Morgoth_ from _Eä_ into the Void."
+  :entry/appears-in  [[:chapter/name "Akallabêth"]
+                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Secret Fire"
+  :entry/type        :entry.type/thing
+  :entry/description "The Secret Fire was _Eru Ilúvatar_’s mysterious power of creation."
+  :entry/appears-in  [[:chapter/name "Ainulindalë"]]}
+
  {:entry/name        "Serech"
   :entry/type        :entry.type/place
   :entry/description "The great fen north of the _Pass of Sirion_, where the river _Rivil_ flowed in from _Dorthonion_."
@@ -81,7 +94,7 @@
 
  {:entry/name        "Silmarils"
   :entry/type        :entry.type/thing
-  :entry/description "The three jewels made by _Fëanor_ before the destruction of the _Two Trees of Valinor_, and filled with their light; see especially 57–8."
+  :entry/description "The Silmarils (_Quenya_ Silmarilli) were three gems of immense beauty, created by _Fëanor_ in _Aman_ during the Years of the Trees of the _First Age_. Their theft by _Morgoth_ was the trigger for the following War of the Jewels narrated in the _Quenta Silmarillion_ (The History of the Silmarils).\n\nThe three jewels made by _Fëanor_ before the destruction of the _Two Trees of Valinor_, and filled with their light."
   :entry/page        [28 57 58 59 61 62 65 68 69 70 71 72 73 91 94 101 106 118 157 158 159 163 170 171 189 233 234 241 242 243]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Silmarils and the Unrest of the Noldor"]
@@ -104,7 +117,7 @@
 
  {:entry/name        "Sindar"
   :entry/type        :entry.type/race
-  :entry/description "The name was applied to all the _Elves_ of Telerin origin whom the returning _Noldor_ found in _Beleriand_, save for the _Green-elves_ of _Ossiriand_. The _Noldor_ may have devised this name because the first _Elves_ of this origin whom they met with were in the north, under the grey skies and mists about Lake _Mithrim_ (see _Mithrim_); or perhaps because they were not of the Light (of _Valinor_) nor yet of the Dark (_Avari_), but were _Elves_ of the Twilight (46). But it was held to refer to _Elwë_’s name _Thingol_, since he was acknowledged high king of all the land and its peoples."
+  :entry/description "The name was applied to all the _Elves_ of Telerin origin whom the returning _Noldor_ found in _Beleriand_, save for the _Green-elves_ of _Ossiriand_. The _Noldor_ may have devised this name because the first _Elves_ of this origin whom they met with were in the north, under the grey skies and mists about Lake _Mithrim_ (see _Mithrim_); or perhaps because they were not of the Light (of _Valinor_) nor yet of the Dark (_Avari_), but were _Elves_ of the Twilight. But it was held to refer to _Elwë_’s name _Thingol_, since he was acknowledged high king of all the land and its peoples."
   :entry/page        [17 25 46 81 84 85 94 98 103 107 109 110 115 117 119 120 128 134 147 148 188 194 195 214 225 227 273]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -124,7 +137,7 @@
 
  {:entry/name        "Sindarin"
   :entry/type        :entry.type/language
-  :entry/description "The Elvish tongue of _Beleriand_, derived from the common Elvish speech but greatly changed through long ages from _Quenya_ of _Valinor_; acquired by the Noldorin exiles in _Beleriand_."
+  :entry/description "The Elvish tongue of _Beleriand_, derived from the common Elvish speech but greatly changed through long ages from _Quenya_ of _Valinor_; acquired by the _Noldor_in exiles in _Beleriand_."
   :entry/page        [28 50 103 109 116 121 138 147 155 194 247 249]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
@@ -151,9 +164,10 @@
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Pass of Sirion"
   :entry/type       :entry.type/place
+  :entry/description "The Pass of Sirion, in the _First Age_, was a steep-sided pass between the _Ered Wethrin_ and the _Echoriath_, on the upper reaches of the River _Sirion_. The only road through the pass was narrow and ran along the western bank of the river. The sheer walls were covered with pines yet the vale was green. In the middle of the pass was the isle of _Tol Sirion_ where _Finrod_ built the tower of Minas Tirith. After _Finrod_ departed to _Nargothrond_ the fortress was committed to _Finrod_’s kinsman _Orodreth_."
   :entry/page       [105 110 143 151 168 182 184 201 205]
   :entry/appears-in [[:chapter/name "Of the Return of the Noldor"]
                      [:chapter/name "Of Beleriand and its Realms"]
@@ -162,9 +176,10 @@
                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                      [:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO description
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Vale of Sirion"
   :entry/type       :entry.type/place
+  :entry/description "The Vale(s) of Sirion was the wide valley of the River _Sirion_, that separated West _Beleriand_ from East _Beleriand_. The term seems to apply especially to that part of the river’s course around the _Pass of Sirion_ that lay to the north of _Doriath_. These waters were protected by _Ulmo_ until some point prior to F.A. 495; at that time, two messengers from _Círdan_ bore tidings to _Orodreth_ that the Evil of the North had defiled the springs of _Sirion_, and _Ulmo_’s power had withdrawn."
   :entry/page       [43 97 105 109 117 192 205 233]
   :entry/appears-in [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                      [:chapter/name "Of the Return of the Noldor"]
@@ -192,9 +207,10 @@
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO no headword in the glossary; pages and text from alias Anar, Vása
+ ;; Taken from Tolkien Gateway; no headword in the glossary; pages from alias Anar, Vása
  {:entry/name       "Sun"
   :entry/type       :entry.type/thing
+  :entry/description "The Sun is the source of daylight, rising in the East of _Middle-earth_ and sinking in the West. During the Years of the Trees, _Valinor_ was lit for many thousands of years by the light of the _Two Trees_, _Telperion_ the Silver and _Laurelin_ the Gold. When these were destroyed by _Morgoth_ and _Ungoliant_, _Arda_ was plunged into darkness. Through the power of _Varda_ and _Yavanna_, though, _Laurelin_ produced a single fiery fruit before it died. This golden fire was set in a vessel made by _Aulë_ and his people, and steered into the sky by the Maia _Arien_."
   :entry/page       [89 90 91]
   :entry/appears-in [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
@@ -223,7 +239,7 @@
 
  {:entry/name        "Tar-Ancalimon"
   :entry/type        :entry.type/character
-  :entry/description "Fourteenth King of _Númenor_, in whose time the _Númenórean_s became divided into opposed parties."
+  :entry/description "Fourteenth King of _Númenor_, in whose time the _Númenóreans_ became divided into opposed parties."
   :entry/page        [254]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
@@ -310,7 +326,7 @@
 
  {:entry/name        "Teleri"
   :entry/type        :entry.type/race
-  :entry/description "The third and greatest of the three hosts of the _Eldar_ on the westward journey from _Cuiviénen_, led by _Elwë_ (_Thingol_) and _Olwë_. Their own name for themselves was Lindar, the Singers; the name _Teleri_, the Last-comers, the Hindmost, was given to them by those before them on the march. Many of the Teleri did not leave _Middle-earth_; the _Sindar_ and the _Nandor_ were Telerin _Elves_ in origin."
+  :entry/description "The third and greatest of the three hosts of the _Eldar_ on the westward journey from _Cuiviénen_, led by _Elwë_ (_Thingol_) and _Olwë_. Their own name for themselves was Lindar, the Singers; the name Teleri, the Last-comers, the Hindmost, was given to them by those before them on the march. Many of the Teleri did not leave _Middle-earth_; the _Sindar_ and the _Nandor_ were Telerin _Elves_ in origin."
   :entry/page        [28 42 43 44 45 46 48 49 50 51 52 56 62 63 65 66 76 77 80 84 87 92 124 125 128 237 238 240 243 274]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -354,7 +370,7 @@
 
  {:entry/name        "Thangorodrim"
   :entry/type        :entry.type/place
-  :entry/description "Mountains of Tyranny; reared by _Morgoth_ above _Angband_; broken down in the Great Battle at the end of the _First Age_."
+  :entry/description "Mountains of Tyranny; reared by _Morgoth_ above _Angband_; broken down in the _Great Battle_ at the end of the _First Age_."
   :entry/page        [71 86 97 98 99 100 106 108 109 141 142 144 168 172 180 182 187 197 241 247 273 281]
   :entry/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
                       [:chapter/name "Of the Sindar"]
@@ -398,6 +414,12 @@
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Third Age"
+  :entry/type        :entry.type/age
+  :entry/description "The Third Age, often abbreviated to T.A., began after the first downfall of _Sauron_, when he was defeated by the _Last Alliance_ of _Elves_ and _Men_ following the downfall of _Númenor_.\n\nThis age was characterized by the rise and decline of the exiled _Númenórean_ kingdoms, in contrast to the slow recovery of _Sauron_’s power. In the meantime the _Elves_, _Dwarves_ and other peoples did little new; the Age marked the waning of the _Elves_."
+  :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
  {:entry/name        "Thorondor"
   :entry/type        :entry.type/animal
   :entry/description "King of _Eagles_. Cf. The Return of the King VI 4: Old Thorondor, who built his eyries in the inaccessible peaks of the _Encircling Mountains_ when _Middle-earth_ was young. See _Crissaegrim_."
@@ -428,9 +450,15 @@
   :entry/page        [90 91 92]
   :entry/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Timeless Halls"
+  :entry/type        :entry.type/place
+  :entry/description "The Timeless Halls are the dwelling of _Eru_, as distinct from the Void. They have existed before and outside the boundaries of the _Eä_, the created universe, and may or may not have a physical form. Although without limit, they are said to stretch from the Abyss to the Firmament. It is where the _Ainur_ were created and then sang the Song of the _Ainur_."
+  :entry/appears-in  [[:chapter/name "Ainulindalë"]]}
+
  {:entry/name        "Tirion"
   :entry/type        :entry.type/place
-  :entry/description "Great Watch-tower; the city of the _Elves_ on the hill of _Túna_ in _Aman_"
+  :entry/description "Great Watch-tower; the city of the _Elves_ on the hill of _Túna_ in _Aman_."
   :entry/page        [49 51 52 53 59 60 61 65 72 74 75 76 92 104 105 116 117 118 160 229 237 238 279]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]

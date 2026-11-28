@@ -49,9 +49,10 @@
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO from ‘Havens, The’: ‘Brithombar and Eglarest on the coast of Beleriand’
+ ;; Taken from Tolkien Gateway; pages from ‘Havens, The’: ‘Brithombar and Eglarest on the coast of Beleriand’
  {:entry/name       "Havens of the Falas"
   :entry/type       :entry.type/place
+  :entry/description "The Havens of the Falas were the two great walled Elven cities: _Eglarest_ at the mouth of the River _Nenning_, and to the north _Brithombar_ at the mouth of the River _Brithon_. Built on the western shores of the _Falas_, the Havens were the realm of _Círdan_ the Shipwright and his people, the _Falathrim_, who were considered _Sindar_."
   :entry/page       [48 97 98 103 112 146 186 235]
   :entry/appears-in [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                      [:chapter/name "Of the Return of the Noldor"]
@@ -60,9 +61,10 @@
                      [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO from ‘Havens, The’: ‘The Havens of Sirion at the end of the First Age’; ref 237 from the ‘Havens of Sirion’ sub-heading of Sirion
+ ;; Taken from Tolkien Gateway; pages from ‘Havens, The’: ‘The Havens of Sirion at the end of the First Age’; ref 237 from the ‘Havens of Sirion’ sub-heading of Sirion
  {:entry/name       "Havens of Sirion"
   :entry/type       :entry.type/place
+  :entry/description "The Mouths of Sirion was the great delta where the _Sirion_, the main river of _Beleriand_, emptied into the sea, in the north-east corner of the Bay of _Balar_. The land about the mouths was named Lisgardh; it was a region of reeds dense as a forest."
   :entry/page       [227 236 237 242]
   :entry/appears-in [[:chapter/name "Of Tuor and the Fall of Gondolin"]
                      [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
@@ -145,7 +147,7 @@
 
  {:entry/name        "Hithlum"
   :entry/type        :entry.type/place
-  :entry/description "Land of Mist (see 109), the region bounded on the east and south by _Ered Wethrin_ and on the west by _Ered Lómin_."
+  :entry/description "Land of Mist, the region bounded on the east and south by _Ered Wethrin_ and on the west by _Ered Lómin_."
   :entry/page        [40 71 96 98 99 101 106 109 112 114 122 123 134 135 142 143 144 145 146 147 148 151 172 179 180 181 182 184 185 186 188 189 197 216 217 227]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -289,12 +291,13 @@
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]]}
 
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Isengard"
   :entry/type       :entry.type/place
+  :entry/description "Isengard was a great fortress and the domain of _Saruman_, located within a valley at the southern end of the _Misty Mountains_ near the Gap of _Rohan_. In the centre of the Ring of Isengard stood the stone tower of _Orthanc_."
   :entry/page       [279 288 289 290 291]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO sub-heading ‘Heir of Isildur = Aragorn 291–2’ merged into Aragorn
  {:entry/name        "Isildur"
   :entry/type        :entry.type/character
   :entry/description "Elder son of _Elendil_, who with his father and his brother _Anárion_ escaped from the Drowning of _Númenor_ and founded in _Middle-earth_ the _Númenórean_ realms in exile; lord of _Minas Ithil_; cut the Ruling Ring from _Sauron_’s hand; slain by _Orcs_ in the _Anduin_ when the Ring slipped from his finger."
@@ -302,21 +305,20 @@
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘Heirs of Isildur’ sub-heading of Isildur
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Heirs of Isildur"
   :entry/type       :entry.type/house
+  :entry/description "Heir of Isildur was the title of thirty-nine lords of the _Dúnedain_ descended in right line from _Isildur_ the son of _Elendil_, from his son _Valandil_ to _Aragorn_ Elessar, who reunited the Kingdoms of the _Dúnedain_ in _Middle-earth_.\n\n_Isildur_ was the eldest son of _Elendil_, and so by right he and his heirs should have inherited the title of High King and ruled the Two Kingdoms of _Arnor_ and _Gondor_. Soon after the defeat of _Sauron_ at the end of the _Second Age_, _Isildur_ and his three elder sons all perished in the Disaster of the _Gladden Fields_."
   :house/founder    {:entry/name "Isildur"}
   :entry/page       [284 285 288]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO an order of Maiar, not a people
  {:entry/name        "Istari"
   :entry/type        :entry.type/race
   :entry/description "See _Curunír_; _Mithrandir_; _Radagast_."
   :entry/page        [287]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO refs from the ‘Pools of Ivrin’ (103, 199, 205, 228) and ‘Falls of Ivrin’ (110, 160) sub-headings merged in
  {:entry/name        "Ivrin"
   :entry/type        :entry.type/place
   :entry/description "The lake and falls beneath _Ered Wethrin_ where the river _Narog_ rose. See _Eithel Ivrin_."
@@ -327,7 +329,6 @@
                       [:chapter/name "Of Túrin Turambar"]
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
- ;; TODO a word, not an object
  {:entry/name        "kelvar"
   :entry/type        :entry.type/thing
   :entry/description "An Elvish word retained in the speeches of _Yavanna_ and _Manwë_ in Chapter 2: animals, living things that move."
@@ -360,10 +361,9 @@
                       [:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO a faction of Númenóreans, not a people
  {:entry/name        "King’s Men"
   :entry/type        :entry.type/race
-  :entry/description "_Númenórean_s hostile to the _Eldar_ and the _Elendili_."
+  :entry/description "_Númenóreans_ hostile to the _Eldar_ and the _Elendili_."
   :entry/page        [254 255 257]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 

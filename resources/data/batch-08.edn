@@ -1,11 +1,10 @@
 ;; Glossary batch 08 of 12 (Ladros – Menelmacar)
 [{:entry/name        "Ladros"
   :entry/type        :entry.type/place
-  :entry/description "The lands to the northeast of _Dorthonion_ that were granted by the Noldorin Kings to the _Men_ of the _House of Bëor_."
+  :entry/description "The lands to the northeast of _Dorthonion_ that were granted by the _Noldor_in Kings to the _Men_ of the _House of Bëor_."
   :entry/page        [139]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
- ;; TODO a song, not an object
  {:entry/name        "Laer Cú Beleg"
   :entry/type        :entry.type/account
   :entry/description "The Song of the Great Bow; made by _Túrin_ at _Eithel Ivrin_ in memory of _Beleg_ _Cúthalion_."
@@ -31,9 +30,8 @@
   :entry/page        [224 225]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
 
- ;; TODO an alliance, not a single event
  {:entry/name        "Last Alliance"
-  :entry/type        :entry.type/event
+  :entry/type        :entry.type/thing
   :entry/description "The league made at the end of the Second Age between _Elendil_ and _Gil-galad_ to defeat _Sauron_."
   :entry/page        [281]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
@@ -48,7 +46,6 @@
                       [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]
                       [:chapter/name "Of the Noldor in Beleriand"]]}
 
- ;; TODO a poem, not an object
  {:entry/name        "Lay of Leithian"
   :entry/type        :entry.type/account
   :entry/description "The long poem concerning the lives of _Beren_ and _Lúthien_ from which the prose account in The Silmarillion was derived. Leithian is translated Release from Bondage."
@@ -90,7 +87,7 @@
 
  {:entry/name        "Lindon"
   :entry/type        :entry.type/place
-  :entry/description "A name of _Ossiriand_ in the _First Age_; see 114. After the tumults at the end of the _First Age_ the name Lindon was retained for the lands west of the _Blue Mountains_ that still remained above _The Sea_."
+  :entry/description "A name of _Ossiriand_ in the _First Age_. After the tumults at the end of the _First Age_ the name Lindon was retained for the lands west of the _Blue Mountains_ that still remained above _The Sea_."
   :entry/page        [114 274 275 277 278 285]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
@@ -107,7 +104,6 @@
   :entry/page        [114]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
 
- ;; TODO a word for nightingales
  {:entry/name        "Lómelindi"
   :entry/type        :entry.type/animal
   :entry/description "_Quenya_ word meaning dusk-singers, nightingales."
@@ -126,7 +122,6 @@
   :entry/page        [227]
   :entry/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
- ;; TODO Some refs may be to Irmo himself
  {:entry/name           "Lórien (gardens)"
   :entry/type           :entry.type/place
   :entry/glossary-label "Lórien (1)"
@@ -142,7 +137,7 @@
  {:entry/name           "Lothlórien"
   :entry/type           :entry.type/place
   :entry/glossary-label "Lórien (2)"
-  :entry/description    "The land ruled by Celeborn and _Galadriel_ between the rivers _Celebrant_ and _Anduin_. Probably the original name of this land was altered to the form of the _Quenya_ name _Lórien_ of the gardens of the Vala _Irmo_ in _Valinor_. In Lothlórien the _Sindarin_ word loth flower is prefixed.\n\n_Lothlórien_: _Lórien_ of the Blossom; see _Lórien_ (2)."
+  :entry/description    "The land ruled by Celeborn and _Galadriel_ between the rivers _Celebrant_ and _Anduin_. Probably the original name of this land was altered to the form of the _Quenya_ name _Lórien_ of the gardens of the Vala _Irmo_ in _Valinor_. In Lothlórien the _Sindarin_ word loth flower is prefixed.\n\nLothlórien: _Lórien_ of the Blossom; see _Lórien_ (2)."
   :entry/page           [286]
   :entry/appears-in     [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -164,14 +159,12 @@
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO printed run-in with Lumbar; the page ref 37 is shared
  {:entry/name        "Luinil"
   :entry/type        :entry.type/thing
   :entry/description "Name of a star (one shining with a blue light)."
   :entry/page        [37]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
 
- ;; TODO printed run-in with Luinil; the page ref 37 is shared
  {:entry/name        "Lumbar"
   :entry/type        :entry.type/thing
   :entry/description "Name of a star."
@@ -204,7 +197,7 @@
 
  {:entry/name        "Maedhros"
   :entry/type        :entry.type/character
-  :entry/description "The eldest son of _Fëanor_; rescued by _Fingon_ from _Thangorodrim_; held the Hill of _Himring_ and the lands about; formed the _Union of Maedhros_ that ended in the _Nirnaeth Arnoediad_; bore one of the _Silmaril_s with him to his death at the end of the _First Age_."
+  :entry/description "The eldest son of _Fëanor_; rescued by _Fingon_ from _Thangorodrim_; held the Hill of _Himring_ and the lands about; formed the _Union of Maedhros_ that ended in the _Nirnaeth Arnoediad_; bore one of the _Silmarils_ with him to his death at the end of the _First Age_."
   :entry/page        [50 73 79 80 98 99 100 101 102 103 105 106 109 112 114 115 131 136 144 148 166 178 179 180 181 182 183 185 226 236 239 242 243]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -230,7 +223,7 @@
 
  {:entry/name        "Maglor"
   :entry/type        :entry.type/character
-  :entry/description "The second son of _Fëanor_, a great singer and minstrel; held the lands called _Maglor’s Gap_; at the end of the _First Age_ seized with _Maedhros_ the two _Silmaril_s that remained in _Middle-earth_, and cast the one that he took into _The Sea_."
+  :entry/description "The second son of _Fëanor_, a great singer and minstrel; held the lands called _Maglor’s Gap_; at the end of the _First Age_ seized with _Maedhros_ the two _Silmarils_ that remained in _Middle-earth_, and cast the one that he took into _The Sea_."
   :entry/page        [50 73 77 103 105 107 115 131 144 148 183 236 237 239 240 242 243]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -301,10 +294,10 @@
   :entry/page        [195]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO the headword names both the Vala and his halls: refs ‘named as Vala’ are here; ‘named as the place of his dwelling’ went to Halls of Mandos; ‘Doom of the Noldor and the Curse of Mandos’ went to Doom of the Noldor
+ ;; Tolkien Gateway again
  {:entry/name        "Mandos"
   :entry/type        :entry.type/character
-  :entry/description "A Vala, the Judge."
+  :entry/description "A Vala, the Judge. Mandos was the Doomsman of the _Valar_ who pronounced judgement in matters of fate. He was the keeper of the slain in his Halls in the west of _Valinor_."
   :entry/page        [14 16 17 37 41 55 58 60 61 62 69 77 89 92 95 101 120 176 238 244]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -318,9 +311,10 @@
                       [:chapter/name "Of Beren and Lúthien"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO from the Mandos sub-heading ‘With reference to the Doom of the Noldor and the Curse of Mandos’; also called the Curse of Mandos
+ ;; Taken from Tolkien Gateway; pages from the Mandos sub-heading ‘With reference to the Doom of the Noldor and the Curse of Mandos’
  {:entry/name       "Doom of the Noldor"
   :entry/type       :entry.type/event
+  :entry/description "The Doom of the Noldor was the judgement of the _Valar_ pronounced on the _Noldor_in _Elves_ who carried out the _Kinslaying_ at _Alqualondë_ in _Eldamar_. It was given to the _Noldor_ in the lands of _Araman_ north of _Valinor_ as a warning of the woe that would come upon them if they continued in their rebellion against the _Valar_ and did not repent of their killing of the innocent Falmarin _Elves_. The Doom was believed to have been spoken personally by _Mandos_."
   :entry/page       [78 117 120 133 157 160 166 229]
   :entry/appears-in [[:chapter/name "Of the Flight of the Noldor"]
                      [:chapter/name "Of the Noldor in Beleriand"]
@@ -375,7 +369,7 @@
 
  {:entry/name        "Melkor"
   :entry/type        :entry.type/character
-  :entry/description "The great rebellious Vala, the beginning of evil, in his origin the mightiest of the _Ainur_. The meaning of _Melkor_ was He who arises in Might."
+  :entry/description "The great rebellious Vala, the beginning of evil, in his origin the mightiest of the _Ainur_. The meaning of Melkor was He who arises in Might."
   :entry/page        [4 6 7 19 20 39 55 56 69 71 72 91 92 94 136 189 195 200 216 221 244 248]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -392,7 +386,7 @@
 
  {:entry/name        "Men"
   :entry/type        :entry.type/race
-  :entry/description "Mankind was created _Ilúvatar_, awaking in _Hildórien_ at the rising of the _Sun_ after the _Elves_, _Dwarves_, and Ents appeared in _Arda_. Men bore the Gift of _Ilúvatar_, which is mortality, and therefore aged and died when their time came; and were susceptible to illness and disease"
+  :entry/description "Mankind was created by _Ilúvatar_, awaking in _Hildórien_ at the rising of the _Sun_ after the _Elves_, _Dwarves_, and _Ents_ appeared in _Arda_. Men bore the Gift of _Ilúvatar_, which is mortality, and therefore aged and died when their time came; and were susceptible to illness and disease."
   :entry/page        [6 29 30 34 58 59 73 89 93 94 131 132 133 140 247 248 251 252 253]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -406,7 +400,7 @@
 
  {:entry/name        "Menegroth"
   :entry/type        :entry.type/place
-  :entry/description "The hidden halls of _Thingol_ and _Melian_ on the river _Esgalduin_ in _Doriath_; see especially 83."
+  :entry/description "The hidden halls of _Thingol_ and _Melian_ on the river _Esgalduin_ in _Doriath_."
   :entry/page        [46 83 84 86 87 98 101 104 113 120 156 158 162 169 173 174 175 176 178 189 190 191 192 195 207 208 220 221 222 223 224 225]
   :entry/appears-in  [[:chapter/name "Of Thingol and Melian"]
                       [:chapter/name "Of the Sindar"]

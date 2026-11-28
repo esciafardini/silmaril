@@ -1,7 +1,8 @@
 ;; Glossary batch 03 of 12 (House of Bëor – Dagor Bragollach)
-[;; TODO from the ‘House of, People of, Bëor’ sub-heading of Bëor
+[;; Taken from Tolkien Gateway
  {:entry/name       "House of Bëor"
   :entry/type       :entry.type/house
+  :entry/description "The House of Bëor was the name given to the first of the three Houses of the _Edain_ to cross the _Ered Luin_ into _Beleriand_ after travelling west, driven forth by the terrors wrought by _Morgoth_ in the east. From the House of Bëor would come many famous lords and heroes, most notably _Beren_ _Erchamion_ who claimed a _Silmaril_ from _Morgoth_’s Iron Crown."
   :house/founder    {:entry/name "Bëor"}
   :entry/page       [134 135 136 139 143 148 151]
   :entry/appears-in [[:chapter/name "Of the Coming of Men into the West"]
@@ -27,15 +28,16 @@
                       [:chapter/name "Of the Ruin of Doriath"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO period with page refs only, no glossary text
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Black Years"
   :entry/type       :entry.type/age
+  :entry/description "The Dark Years were the long years of the _Second Age_ when the races of _Middle-earth_, especially the _Men_, suffered under the domination of _Sauron_."
   :entry/page       [277 282]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Bór"
   :entry/type        :entry.type/character
-  :entry/description "A chieftain of the _Easterling_s, follower with his three sons of _Maedhros_ and _Maglor_."
+  :entry/description "A chieftain of the _Easterlings_, follower with his three sons of _Maedhros_ and _Maglor_."
   :entry/page        [148 179 183]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
@@ -304,7 +306,6 @@
   :entry/page        [232]
   :entry/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
- ;; TODO a writing system; consider a :used-for ref to languages if the glossary ever names them
  {:entry/name        "Cirth"
   :entry/type        :entry.type/thing
   :entry/description "The Runes, first devised by _Daeron_ of _Doriath_."

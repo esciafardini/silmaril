@@ -53,7 +53,7 @@
 
  {:entry/name        "Tumladen"
   :entry/type        :entry.type/place
-  :entry/description "The Wide Valley; the hidden vale in the _Encircling Mountains_ in the midst of which stood the city of _Gondolin_. (_Tumladen_ was afterwards the name of a valley in _Gondor_: The Return of the King V 1.)"
+  :entry/description "The Wide Valley; the hidden vale in the _Encircling Mountains_ in the midst of which stood the city of _Gondolin_. (Tumladen was afterwards the name of a valley in _Gondor_: The Return of the King V 1.)"
   :entry/page        [105 116 125 149 172 229 232]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of the Noldor in Beleriand"]
@@ -161,7 +161,7 @@
 
  {:entry/name        "Ulfang"
   :entry/type        :entry.type/character
-  :entry/description "A chieftain of the _Easterling_s, who with his three sons followed _Caranthir_, and proved faithless in the _Nirnaeth Arnoediad_."
+  :entry/description "A chieftain of the _Easterlings_, who with his three sons followed _Caranthir_, and proved faithless in the _Nirnaeth Arnoediad_."
   :entry/page        [148 179 183]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
@@ -219,7 +219,7 @@
 
  {:entry/name        "Umbar"
   :entry/type        :entry.type/place
-  :entry/description "Great natural haven and fortress of the _Númenórean_s south of the Bay of _Belfalas_."
+  :entry/description "Great natural haven and fortress of the _Númenóreans_ south of the Bay of _Belfalas_."
   :entry/page        [258]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
@@ -311,7 +311,7 @@
 
  {:entry/name        "Valier"
   :entry/type        :entry.type/race
-  :entry/description "The Queens of the _Valar_ (singular Valië); a term used only in the _Valaquenta_."
+  :entry/description "The Queens of the _Valar_ (singular Valië); a term used only in the Valaquenta."
   :entry/page        [13 14 16 17]
   :entry/appears-in  [[:chapter/name "Valaquenta"]]}
 
@@ -407,16 +407,15 @@
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
- ;; TODO a council, not a single event
  {:entry/name        "White Council"
-  :entry/type        :entry.type/event
+  :entry/type        :entry.type/thing
   :entry/description "The Council of the Wise in the Third Age formed to oppose _Sauron_."
   :entry/page        [287 288 289 290 291]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "White Tree"
   :entry/type        :entry.type/thing
-  :entry/description "See _Telperion_, _Galathilion_, Nimloth (1). The White Trees of _Minas Ithil_ and _Minas Anor_."
+  :entry/description "The White Tree can refer to any of these trees:\n\n_Telperion_, the White Tree of _Valinor_, one of the _Two Trees of Valinor_.\n_Galathilion_, the White Tree of _Tirion_.\n_Celeborn (tree)_, the White Tree of _Tol Eressëa_.\n_Nimloth (tree)_, the White Tree of _Númenor_.\nThe White Tree of _Gondor_, four different seedlings."
   :entry/page        [261 264 279 281 282 283 284 285 291]
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
@@ -445,7 +444,6 @@
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a year, not a single event
  {:entry/name        "Year of Lamentation"
   :entry/type        :entry.type/event
   :entry/description "The year of the _Nirnaeth Arnoediad_."

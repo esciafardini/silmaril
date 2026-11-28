@@ -19,7 +19,7 @@
 
  {:entry/name        "Dark Elves"
   :entry/type        :entry.type/race
-  :entry/description "In the language of _Aman_ all _Elves_ that did not cross the _Great Sea_ were Dark Elves, and the term is sometimes used thus, 94, 102; when _Caranthir_ called _Thingol_ a _Dark Elf_ it was intended opprobriously, and was especially so, since _Thingol_ had been to _Aman_ and was not accounted among them (46). But in the period of the Exile of the _Noldor_ it was often used of the _Elves_ of _Middle-earth_ other than the _Noldor_ and the _Sindar_, and is then virtually equivalent to _Avari_ (94, 114, 132). Different again is the title _Dark Elf_ of the _Sindarin_ Elf _Eöl_, 124, 126, 192; but at 128 _Turgon_ no doubt meant that _Eöl_ was a _Dark Elf_ in the first sense."
+  :entry/description "In the language of _Aman_ all _Elves_ that did not cross the _Great Sea_ were Dark Elves, and the term is sometimes used thus; when _Caranthir_ called _Thingol_ a _Dark Elf_ it was intended opprobriously, and was especially so, since _Thingol_ had been to _Aman_ and was not accounted among them. But in the period of the Exile of the _Noldor_ it was often used of the _Elves_ of _Middle-earth_ other than the _Noldor_ and the _Sindar_, and is then virtually equivalent to _Avari_. Different again is the title _Dark Elf_ of the _Sindarin_ Elf _Eöl_; but in one passage _Turgon_ no doubt meant that _Eöl_ was a _Dark Elf_ in the first sense."
   :entry/page        [42 46 81 94 98 102 114 124 126 128 132 192]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of Thingol and Melian"]
@@ -31,15 +31,16 @@
                       [:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO period with page refs only, no glossary text
- {:entry/name       "Days of Flight"
-  :entry/type       :entry.type/age
-  :entry/page       [277]
-  :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+ ;; Taken from Tolkien Gateway; not a glossary headword; reference only (no page refs)
+ {:entry/name        "Days Before Days"
+  :entry/type        :entry.type/age
+  :entry/description "The Days Before Days were three thousand and five hundred Valian Years that passed ere the measurement of time first known to the _Eldar_ began with the flowering of the _Two Trees of Valinor_."
+  :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
+                      [:chapter/name "Of Aulë and Yavanna"]]}
 
  {:entry/name        "Denethor"
   :entry/type        :entry.type/character
-  :entry/description "Son of _Lenwë_; leader of the Nandorin _Elves_ that came at last over the _Blue Mountains_ and dwelt in _Ossiriand_; slain on _Amon Ereb_ in the First Battle of _Beleriand_."
+  :entry/description "Son of _Lenwë_; leader of the Nandorin _Elves_ that came at last over the _Blue Mountains_ and dwelt in _Ossiriand_; slain on _Amon Ereb_ in the _First Battle of Beleriand_."
   :entry/page        [43 85 86 114]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Sindar"]
@@ -126,12 +127,6 @@
   :entry/page        [206 210 211 213 214]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
- ;; TODO from the ‘The wife of Dorlas, not named’ sub-heading of Dorlas
- {:entry/name       "Wife of Dorlas"
-  :entry/type       :entry.type/character
-  :entry/page       [214]
-  :entry/appears-in [[:chapter/name "Of Túrin Turambar"]]}
-
  {:entry/name        "Dor-lómin"
   :entry/type        :entry.type/place
   :entry/description "_Region_ in the south of _Hithlum_, the territory of _Fingon_, given as a fief to the _House of Hador_; the home of _Húrin_ and _Morwen_."
@@ -165,9 +160,10 @@
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
- ;; TODO page refs only, no glossary text
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Dragons"
   :entry/type       :entry.type/animal
+  :entry/description "Dragons were creatures mostly seen in northern _Middle-earth_ in the late _First Age_. They were greedy, cunning, seductive, and malicious servants of _Morgoth_."
   :entry/page       [183 231 232 241 248 277 286]
   :entry/appears-in [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                      [:chapter/name "Of Tuor and the Fall of Gondolin"]
@@ -218,7 +214,6 @@
   :entry/page        [131 134 137]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
- ;; TODO refs from sub-heading ‘Seven Fathers of the Dwarves’ (31–33, 82) merged in; ‘Referring to the Petty-Dwarves’ (192–6, 202, 219) moved to Noegyth Nibin
  {:entry/name        "Dwarves"
   :entry/type        :entry.type/race
   :entry/description "For the _Necklace of the Dwarves_ see _Nauglamír_. For the _Seven Rings of the Dwarves_ see _Rings of Power_."
@@ -237,7 +232,7 @@
 
  {:entry/name        "Eä"
   :entry/type        :entry.type/place
-  :entry/description "The World, the material Universe; _Eä_, meaning in Elvish It is or Let it be, was the word of _Ilúvatar_ when the World began its existence."
+  :entry/description "The World, the material Universe; Eä, meaning in Elvish It is or Let it be, was the word of _Ilúvatar_ when the World began its existence."
   :entry/page        [8 13 14 18 24 27 31 37 38 46 62 65 68 75 78 88]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -250,9 +245,10 @@
                       [:chapter/name "Of the Flight of the Noldor"]
                       [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
- ;; TODO page refs only, no glossary text
+ ;; Taken from Tolkien Gateway
  {:entry/name       "Eagles"
   :entry/type       :entry.type/animal
+  :entry/description "The Eagles were immense, sentient bird-like creatures that served as messengers of _Manwë_. They were capable of speech and often helped _Men_, _Elves_ and _Wizards_ in their efforts to defeat foes such as _Morgoth_ and _Sauron_."
   :entry/page       [34 54 100 112 116 149 150 172 217 218 230 265]
   :entry/appears-in [[:chapter/name "Of Aulë and Yavanna"]
                      [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
@@ -276,9 +272,9 @@
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a song about Eärendil; from the ‘Lay of Eärendil’ sub-heading of Eärendil
  {:entry/name       "Lay of Eärendil"
-  :entry/type       :entry.type/thing
+  :entry/type       :entry.type/account
+  :entry/description "Lo! the flame of fire and fierce hatred\nengulfed _Gondolin_ and its glory fell,\nits tapering towers and its tall rooftops\nwere laid all low, and its leaping fountains\nmade no music more on the mount of _Gwareth_,\nand its whitehewn walls were whispering ash."
   :entry/page       [235 247]
   :entry/appears-in [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
                      [:chapter/name "Akallabêth"]]}
@@ -325,7 +321,7 @@
 
  {:entry/name        "Easterlings"
   :entry/type        :entry.type/race
-  :entry/description "Entered _Beleriand_ from the East in the time after the _Dagor Bragollach_, and fought on both sides in the _Nirnaeth Arnoediad_; given _Hithlum_ as a dwelling-place by _Morgoth_, where they oppressed the remnant of the People of _Hador_."
+  :entry/description "The Easterlings were _Men_ who lived in the East of _Middle-earth_, and mostly served the Dark Powers. They were frequent enemies of the Free Peoples.\n\nEntered _Beleriand_ from the East in the time after the _Dagor Bragollach_, and fought on both sides in the _Nirnaeth Arnoediad_; given _Hithlum_ as a dwelling-place by _Morgoth_, where they oppressed the remnant of the People of _Hador_."
   :entry/page        [148 183 185 188 205 216 227]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]

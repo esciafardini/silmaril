@@ -171,7 +171,7 @@
  {:alias/key         "Corollairë → Ezellohar"
   :alias/name        "Corollairë"
   :alias/of          [:entry/name "Ezellohar"]
-  :alias/description "The Green Mound of the Two Trees in _Valinor_; also called _Ezellohar_."
+  :alias/description "The Green Mound of the _Two Trees_ in _Valinor_; also called _Ezellohar_."
   :alias/page        [26]
   :alias/appears-in  [[:chapter/name "Of the Beginning of Days"]]}
 
@@ -206,7 +206,7 @@
  {:alias/key         "The Dark Lord → Melkor"
   :alias/name        "The Dark Lord"
   :alias/of          [:entry/name "Melkor"]
-  :alias/description "The term is used of _Morgoth_, 136, 195, 216, and of _Sauron_, 277, 285, 287, 290"
+  :alias/description "The term is used of _Morgoth_ and of _Sauron_."
   :alias/page        [136 195 216]
   :alias/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                     [:chapter/name "Of Túrin Turambar"]
@@ -215,7 +215,7 @@
  {:alias/key         "The Dark Lord → Sauron"
   :alias/name        "The Dark Lord"
   :alias/of          [:entry/name "Sauron"]
-  :alias/description "The term is used of _Morgoth_, 136, 195, 216, and of _Sauron_, 277, 285, 287, 290"
+  :alias/description "The term is used of _Morgoth_ and of _Sauron_."
   :alias/page        [277 285 287 290]
   :alias/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -261,7 +261,7 @@
  {:alias/key         "Dúnedain → Númenóreans"
   :alias/name        "Dúnedain"
   :alias/of          [:entry/name "Númenóreans"]
-  :alias/description "The _Edain_ of the West; see _Númenórean_s."}
+  :alias/description "The _Edain_ of the West; see _Númenóreans_."}
 
  {:alias/key         "Dwarrowdelf → Khazad-dûm"
   :alias/name        "Dwarrowdelf"
@@ -428,7 +428,7 @@
  {:alias/key         "Elf-friends → Atani"
   :alias/name        "Elf-friends"
   :alias/of          [:entry/name "Atani"]
-  :alias/description "The _Men_ of the Three Houses of _Bëor_, _Haleth_, and _Hador_, the _Edain_. 133–6, 180, 189, 241. In the _Akallabêth_ and in Of the _Rings of Power_ used of those _Númenórean_s who were not estranged from the _Eldar_; see _Elendili_. At 289 the reference is no doubt to the _Men_ of _Gondor_ and the _Dúnedain_ of the North."
+  :alias/description "The _Men_ of the Three Houses of _Bëor_, _Haleth_, and _Hador_, the _Edain_. In the _Akallabêth_ and in Of the _Rings of Power_ used of those _Númenóreans_ who were not estranged from the _Eldar_; see _Elendili_. In one passage the reference is no doubt to the _Men_ of _Gondor_ and the _Dúnedain_ of the North."
   :alias/page        [133 134 135 136 180 189 241 289]
   :alias/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                     [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -439,7 +439,7 @@
  {:alias/key         "Eru → Eru Ilúvatar"
   :alias/name        "Eru"
   :alias/of          [:entry/name "Eru Ilúvatar"]
-  :alias/description "The One; He that is Alone: _Ilúvatar_. 3, 13–15, 17, 32–5, 65, 75, 78, 80, 88, 249, 253–4, 257, 259, 268; also in _Children of Eru_."
+  :alias/description "The One; He that is Alone: _Ilúvatar_; also in _Children of Eru_."
   :alias/page        [3 13 14 15 17 32 33 34 35 65 75 78 80 88 249 253 254 257 259 268]
   :alias/appears-in  [[:chapter/name "Ainulindalë"]
                     [:chapter/name "Valaquenta"]
@@ -459,7 +459,7 @@
  {:alias/key         "Felagund → Finrod"
   :alias/name        "Felagund"
   :alias/of          [:entry/name "Finrod"]
-  :alias/description "The name by which King _Finrod_ was known after the establishment of _Nargothrond_; it was Dwarvish in origin (felak-gundu cave-hewer, but translated in the text as Lord of Caves, 51). For references see _Finrod_."}
+  :alias/description "The name by which King _Finrod_ was known after the establishment of _Nargothrond_; it was Dwarvish in origin (felak-gundu cave-hewer, but translated in the text as Lord of Caves). For references see _Finrod_."}
 
  {:alias/key         "Firimar → Men"
   :alias/name        "Firimar"
@@ -520,14 +520,14 @@
  {:alias/key         "City of Gondor → Minas Anor"
   :alias/name        "City of Gondor"
   :alias/of          [:entry/name "Minas Anor"]
-  :alias/description "_Minas Tirith_. 291"
+  :alias/description "_Minas Tirith_."
   :alias/page        [291]
   :alias/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:alias/key         "Green-elves → Laiquendi"
   :alias/name        "Green-elves"
   :alias/of          [:entry/name "Laiquendi"]
-  :alias/description "Translation of _Laiquendi_; the Nandorin _Elves_ of _Ossiriand_. For their origin see 84–5, and for the name 86. 86, 103, 114–15, 131, 133–4, 144, 185, 224–5"
+  :alias/description "Translation of _Laiquendi_; the Nandorin _Elves_ of _Ossiriand_."
   :alias/page        [84 85 86 103 114 115 131 133 134 144 185 224 225]
   :alias/appears-in  [[:chapter/name "Of the Sindar"]
                     [:chapter/name "Of the Return of the Noldor"]
@@ -614,14 +614,14 @@
  {:alias/key         "The Havens → Mithlond"
   :alias/name        "The Havens"
   :alias/of          [:entry/name "Mithlond"]
-  :alias/description "The _Grey Havens_ (_Mithlond_) in the Gulf of _Lhûn_: 277, 286–7, 292."
+  :alias/description "The _Grey Havens_ (_Mithlond_) in the Gulf of _Lhûn_."
   :alias/page        [277 286 287 292]
   :alias/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:alias/key         "The Haven → Alqualondë"
   :alias/name        "The Haven"
   :alias/of          [:entry/name "Alqualondë"]
-  :alias/description "_Alqualondë_, the Haven of the Swans or _Swanhaven_, is also called simply The Haven: 51, 77, 79"
+  :alias/description "_Alqualondë_, the Haven of the Swans or _Swanhaven_, is also called simply The Haven."
   :alias/page        [51 77 79]
   :alias/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                     [:chapter/name "Of the Flight of the Noldor"]]}
@@ -636,7 +636,7 @@
  {:alias/key         "Hidden Kingdom → Doriath"
   :alias/name        "Hidden Kingdom"
   :alias/of          [:entry/name "Doriath"]
-  :alias/description "Name given both to _Doriath_, 105, 154, 156, 214, and to _Gondolin_, 122, 228, 230"
+  :alias/description "Name given both to _Doriath_ and to _Gondolin_."
   :alias/page        [105 154 156 214]
   :alias/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                     [:chapter/name "Of Beren and Lúthien"]
@@ -645,7 +645,7 @@
  {:alias/key         "Hidden Kingdom → Gondolin"
   :alias/name        "Hidden Kingdom"
   :alias/of          [:entry/name "Gondolin"]
-  :alias/description "Name given both to _Doriath_, 105, 154, 156, 214, and to _Gondolin_, 122, 228, 230"
+  :alias/description "Name given both to _Doriath_ and to _Gondolin_."
   :alias/page        [122 228 230]
   :alias/appears-in  [[:chapter/name "Of Maeglin"]
                     [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
@@ -740,7 +740,7 @@
  {:alias/key         "Heir of Isildur → Aragorn"
   :alias/name        "Heir of Isildur"
   :alias/of          [:entry/name "Aragorn"]
-  :alias/description "_Aragorn_ 291–2"
+  :alias/description "_Aragorn_."
   :alias/page        [291 292]
   :alias/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
@@ -829,7 +829,7 @@
  {:alias/key         "Morgoth → Melkor"
   :alias/name        "Morgoth"
   :alias/of          [:entry/name "Melkor"]
-  :alias/description "The Black Enemy; name of _Melkor_, first given to him by _Fëanor_ after the rape of the _Silmaril_s. 19–20, 56, 69 and thereafter passim. See _Melkor_."
+  :alias/description "The Black Enemy; name of _Melkor_, first given to him by _Fëanor_ after the rape of the _Silmarils_. See _Melkor_."
   :alias/page        [19 20 56 69]
   :alias/appears-in  [[:chapter/name "Valaquenta"]
                     [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
@@ -907,14 +907,14 @@
  {:alias/key         "Nóm → Finrod"
   :alias/name        "Nóm"
   :alias/of          [:entry/name "Finrod"]
-  :alias/description "Wisdom and the Wise; the names that the _Men_ of _Bëor_’s following gave to _Finrod_ and his people in their own tongue. 132"
+  :alias/description "Wisdom and the Wise; the names that the _Men_ of _Bëor_’s following gave to _Finrod_ and his people in their own tongue."
   :alias/page        [132]
   :alias/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
  {:alias/key         "Nómin → Noldor"
   :alias/name        "Nómin"
   :alias/of          [:entry/name "Noldor"]
-  :alias/description "Wisdom and the Wise; the names that the _Men_ of _Bëor_’s following gave to _Finrod_ and his people in their own tongue. 132"
+  :alias/description "Wisdom and the Wise; the names that the _Men_ of _Bëor_’s following gave to _Finrod_ and his people in their own tongue."
   :alias/page        [132]
   :alias/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
@@ -928,7 +928,7 @@
  {:alias/key         "Oiolossë → Taniquetil"
   :alias/name        "Oiolossë"
   :alias/of          [:entry/name "Taniquetil"]
-  :alias/description "Ever-snow-white; the most common name among the _Eldar_ for _Taniquetil_, rendered into _Sindarin_ as _Amon Uilos_; but according to the _Valaquenta_ it was the uttermost tower of _Taniquetil_."
+  :alias/description "Ever-snow-white; the most common name among the _Eldar_ for _Taniquetil_, rendered into _Sindarin_ as _Amon Uilos_; but according to the Valaquenta it was the uttermost tower of _Taniquetil_."
   :alias/page        [14 25]
   :alias/appears-in  [[:chapter/name "Valaquenta"]
                     [:chapter/name "Of the Beginning of Days"]]}
@@ -1078,7 +1078,7 @@
  {:alias/key         "Súlimo → Manwë"
   :alias/name        "Súlimo"
   :alias/of          [:entry/name "Manwë"]
-  :alias/description "Name of _Manwë_, rendered in the _Valaquenta_ as Lord of the Breath of _Arda_ (literally the Breather)."
+  :alias/description "Name of _Manwë_, rendered in the Valaquenta as Lord of the Breath of _Arda_ (literally the Breather)."
   :alias/page        [14 28 75]
   :alias/appears-in  [[:chapter/name "Valaquenta"]
                     [:chapter/name "Of the Beginning of Days"]
@@ -1087,7 +1087,7 @@
  {:alias/key         "Swarthy Men → Easterlings"
   :alias/name        "Swarthy Men"
   :alias/of          [:entry/name "Easterlings"]
-  :alias/description "See _Easterling_s."
+  :alias/description "See _Easterlings_."
   :alias/page        [148]
   :alias/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
@@ -1125,7 +1125,7 @@
  {:alias/key         "Tauron → Oromë"
   :alias/name        "Tauron"
   :alias/of          [:entry/name "Oromë"]
-  :alias/description "The Forester (translated in the _Valaquenta_ Lord of Forests), a name of _Oromë_ among the _Sindar_. Cf. _Aldaron_."
+  :alias/description "The Forester (translated in the Valaquenta Lord of Forests), a name of _Oromë_ among the _Sindar_. Cf. _Aldaron_."
   :alias/page        [17]
   :alias/appears-in  [[:chapter/name "Valaquenta"]]}
 
@@ -1914,11 +1914,6 @@
   :alias/of   [:entry/name "Taniquetil"]}
 
  ;; added by hand; not a glossary headword
- {:alias/key  "White Tree → Telperion"
-  :alias/name "White Tree"
-  :alias/of   [:entry/name "Telperion"]}
-
- ;; added by hand; not a glossary headword
  {:alias/key  "Sindacollo → Thingol"
   :alias/name "Sindacollo"
   :alias/of   [:entry/name "Thingol"]}
@@ -2061,4 +2056,141 @@
  ;; added by hand; not a glossary headword
  {:alias/key  "Isle of Almaren → Almaren"
   :alias/name "Isle of Almaren"
-  :alias/of   [:entry/name "Almaren"]}]
+  :alias/of   [:entry/name "Almaren"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Gwareth → Amon Gwareth"
+  :alias/name "Gwareth"
+  :alias/of   [:entry/name "Amon Gwareth"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Dark Years → Black Years"
+  :alias/name "Dark Years"
+  :alias/of   [:entry/name "Black Years"]}
+
+ ;; glossary headword (page refs only); folded into Black Years
+ {:alias/key         "Days of Flight → Black Years"
+  :alias/name        "Days of Flight"
+  :alias/of          [:entry/name "Black Years"]
+  :alias/page        [277]
+  :alias/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Curse of Mandos → Doom of the Noldor"
+  :alias/name "Curse of Mandos"
+  :alias/of   [:entry/name "Doom of the Noldor"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "The One → Eru Ilúvatar"
+  :alias/name "The One"
+  :alias/of   [:entry/name "Eru Ilúvatar"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Flame Imperishable → Secret Fire"
+  :alias/name "Flame Imperishable"
+  :alias/of   [:entry/name "Secret Fire"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Imperishable Flame → Secret Fire"
+  :alias/name "Imperishable Flame"
+  :alias/of   [:entry/name "Secret Fire"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Doom of Mandos → Doom of the Noldor"
+  :alias/name "Doom of Mandos"
+  :alias/of   [:entry/name "Doom of the Noldor"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Ithil → Moon"
+  :alias/name "Ithil"
+  :alias/of   [:entry/name "Moon"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Two Trees → Two Trees of Valinor"
+  :alias/name "Two Trees"
+  :alias/of   [:entry/name "Two Trees of Valinor"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Great Worms → Dragons"
+  :alias/name "Great Worms"
+  :alias/of   [:entry/name "Dragons"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Great Eagles → Eagles"
+  :alias/name "Great Eagles"
+  :alias/of   [:entry/name "Eagles"]}
+
+ ;; added by hand; not a glossary headword (singular / adjective)
+ {:alias/key  "Númenórean → Númenóreans"
+  :alias/name "Númenórean"
+  :alias/of   [:entry/name "Númenóreans"]}
+
+ ;; added by hand; not a glossary headword (singular)
+ {:alias/key  "Silmaril → Silmarils"
+  :alias/name "Silmaril"
+  :alias/of   [:entry/name "Silmarils"]}
+
+ ;; added by hand; not a glossary headword (singular)
+ {:alias/key  "Easterling → Easterlings"
+  :alias/name "Easterling"
+  :alias/of   [:entry/name "Easterlings"]}
+
+ ;; added by hand; not a glossary headword (singular of Elf-friends)
+ {:alias/key  "Elf-friend → Atani"
+  :alias/name "Elf-friend"
+  :alias/of   [:entry/name "Atani"]}
+
+ ;; added by hand; not a glossary headword (Voronwë’s name for them)
+ {:alias/key  "Havens of Círdan → Havens of the Falas"
+  :alias/name "Havens of Círdan"
+  :alias/of   [:entry/name "Havens of the Falas"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Lisgardh → Havens of Sirion"
+  :alias/name "Lisgardh"
+  :alias/of   [:entry/name "Havens of Sirion"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Havens of the Ships → Havens of Sirion"
+  :alias/name "Havens of the Ships"
+  :alias/of   [:entry/name "Havens of Sirion"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Sirion’s Haven → Havens of Sirion"
+  :alias/name "Sirion’s Haven"
+  :alias/of   [:entry/name "Havens of Sirion"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Siriombar → Havens of Sirion"
+  :alias/name "Siriombar"
+  :alias/of   [:entry/name "Havens of Sirion"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Three Rings → Three Rings of the Elves"
+  :alias/name "Three Rings"
+  :alias/of   [:entry/name "Three Rings of the Elves"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Seven Dwarf-rings → Seven Rings of the Dwarves"
+  :alias/name "Seven Dwarf-rings"
+  :alias/of   [:entry/name "Seven Rings of the Dwarves"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Nine Rings → Nine Rings of Men"
+  :alias/name "Nine Rings"
+  :alias/of   [:entry/name "Nine Rings of Men"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "Fading Years → Third Age"
+  :alias/name "Fading Years"
+  :alias/of   [:entry/name "Third Age"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "First Battle of Beleriand → First Battle"
+  :alias/name "First Battle of Beleriand"
+  :alias/of   [:entry/name "First Battle"]}
+
+ ;; added by hand; not a glossary headword
+ {:alias/key  "War of Wrath → Great Battle"
+  :alias/name "War of Wrath"
+  :alias/of   [:entry/name "Great Battle"]}]
