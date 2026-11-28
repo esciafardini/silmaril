@@ -52,22 +52,21 @@
 
  {:entry/name        "Aglarond"
   :entry/type        :entry.type/place
-  :entry/description "‘The Glittering Cavern’ of Helm’s Deep in Ered Nimrais (see _The Two Towers_ III 8)."
+  :entry/description "The Glittering Cavern of Helm’s Deep in _Ered Nimrais_."
   :entry/page        [279]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Aglon"
   :entry/type        :entry.type/place
-  :entry/description "‘The Narrow Pass’, between Dorthonion and the heights to the west of Himring."
+  :entry/description "The Narrow Pass between Dorthonion and the heights to the west of Himring."
   :entry/page        [115 126 143 144]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
                       [:chapter/name "Of Maeglin"]
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO the Music itself and the title of an account
  {:entry/name        "Ainulindalë"
-  :entry/type        :entry.type/event
-  :entry/description "The account of Creation said to have been composed by Rúmil of Tirion in the Elder Days."
+  :entry/type        :entry.type/account
+  :entry/description "The account of Creation said to have been composed by _Rúmil_ of _Tirion_ in the _Elder Days_."
   :entry/page        [3 4 5 6 7 8 13 14 16 29 30 34 35 39 58 65 95 195]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -94,7 +93,7 @@
 
  ;; TODO a word and a title, not an object
  {:entry/name        "Akallabêth"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "‘The Downfallen’, Adûnaic (Númenórean) word equivalent in meaning to Quenya _Atalantë_. Also the title of the account of the Downfall of Númenor."
   :entry/page        [268 278]
   :entry/appears-in  [[:chapter/name "Akallabêth"]
@@ -114,7 +113,7 @@
 
  ;; TODO a song, not an object
  {:entry/name        "Aldudénië"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "‘Lament for the Two Trees’, made by a Vanyarin Elf named Elemmírë."
   :entry/page        [66]
   :entry/appears-in  [[:chapter/name "Of the Darkening of Valinor"]]}

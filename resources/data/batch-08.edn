@@ -7,7 +7,7 @@
 
  ;; TODO a song, not an object
  {:entry/name        "Laer Cú Beleg"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "‘The Song of the Great Bow’, made by Túrin at Eithel Ivrin in memory of Beleg Cúthalion."
   :entry/page        [199]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
@@ -50,7 +50,7 @@
 
  ;; TODO a poem, not an object
  {:entry/name        "Lay of Leithian"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "The long poem concerning the lives of Beren and Lúthien from which the prose account in _The Silmarillion_ was derived. _Leithian_ is translated ‘Release from Bondage’."
   :entry/page        [152 155 158 161 162 176]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}

@@ -204,7 +204,7 @@
 
  ;; TODO a lay, not an object
  {:entry/name        "Narn i Hîn Húrin"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "‘The Tale of the Children of Húrin’, the long lay from which Chapter 21 was derived; ascribed to the poet Dírhaval, a Man who lived at the Havens of Sirion in the days of Eärendil and perished in the attack of the sons of Fëanor. _Narn_ signifies a tale made in verse, but to be spoken and not sung."
   :entry/page        [189]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
@@ -228,7 +228,7 @@
 
  ;; TODO a song, not an object
  {:entry/name        "Narsilion"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "The Song of the Sun and Moon."
   :entry/page        [89]
   :entry/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}

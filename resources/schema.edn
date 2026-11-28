@@ -68,6 +68,7 @@
  {:db/ident :entry.type/race      :db/doc "Peoples and kindreds."}
  {:db/ident :entry.type/house     :db/doc "Houses and lineages."}
  {:db/ident :entry.type/language  :db/doc "Spoken languages."}
+ {:db/ident :entry.type/account   :db/doc "Written works, tales, songs, laments."}
 
  ;; ---- type-specific attributes ----
  ;; Period (Years of the Trees, Years of the Sun) is intentionally left out of the data model.

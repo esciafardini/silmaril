@@ -297,7 +297,7 @@
  ;; TODO a title, not an object; also the name of a chapter
  ;; no page refs in the glossary
  {:entry/name        "Valaquenta"
-  :entry/type        :entry.type/thing
+  :entry/type        :entry.type/account
   :entry/description "‘Account of the Valar’, a short work treated as a separate entity from _The Silmarillion_ proper."}
 
  ;; TODO glossary says Passim; only the ‘especially’ pages are linked; it also says ‘see also Ainur, Aratar’
