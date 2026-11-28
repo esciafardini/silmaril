@@ -1,25 +1,25 @@
 ;; Glossary batch 04 of 12 (Dagorlad – Eldamar)
 [{:entry/name        "Dagorlad"
   :entry/type        :entry.type/place
-  :entry/description "‘Battle Plain’, the place of the great battle north of Mordor between Sauron and the Last Alliance of Elves and Men at the end of the Second Age."
+  :entry/description "Battle Plain; the place of the great battle north of _Mordor_ between _Sauron_ and the _Last Alliance_ of _Elves_ and _Men_ at the end of the Second Age."
   :entry/page        [281 283]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Dagor-nuin-Giliath"
   :entry/type        :entry.type/event
-  :entry/description "‘The Battle-under-Stars’, the second battle in the Wars of Beleriand, fought in Mithrim after the coming of Fëanor to Middle-earth."
+  :entry/description "The Battle-under-Stars; the second battle in the Wars of _Beleriand_, fought in _Mithrim_ after the coming of _Fëanor_ to _Middle-earth_."
   :entry/page        [96 97]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]]}
 
  {:entry/name        "Dairuin"
   :entry/type        :entry.type/character
-  :entry/description "One of the twelve companions of Barahir on Dorthonion."
+  :entry/description "One of the twelve companions of _Barahir_ on _Dorthonion_."
   :entry/page        [146]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
  {:entry/name        "Dark Elves"
   :entry/type        :entry.type/race
-  :entry/description "In the language of Aman all Elves that did not cross the Great Sea were Dark Elves, and the term is sometimes used thus, 94, 102; when Caranthir called Thingol a Dark Elf it was intended opprobriously, and was especially so, since Thingol had been to Aman and was not accounted among them (46). But in the period of the Exile of the Noldor it was often used of the Elves of Middle-earth other than the Noldor and the Sindar, and is then virtually equivalent to Avari (94, 114, 132). Different again is the title Dark Elf of the Sindarin Elf Eöl, 124, 126, 192; but at 128 Turgon no doubt meant that Eöl was a Dark Elf in the first sense."
+  :entry/description "In the language of _Aman_ all _Elves_ that did not cross the _Great Sea_ were Dark Elves, and the term is sometimes used thus, 94, 102; when _Caranthir_ called _Thingol_ a _Dark Elf_ it was intended opprobriously, and was especially so, since _Thingol_ had been to _Aman_ and was not accounted among them (46). But in the period of the Exile of the _Noldor_ it was often used of the _Elves_ of _Middle-earth_ other than the _Noldor_ and the _Sindar_, and is then virtually equivalent to _Avari_ (94, 114, 132). Different again is the title _Dark Elf_ of the _Sindarin_ Elf _Eöl_, 124, 126, 192; but at 128 _Turgon_ no doubt meant that _Eöl_ was a _Dark Elf_ in the first sense."
   :entry/page        [42 46 81 94 98 102 114 124 126 128 132 192]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of Thingol and Melian"]
@@ -39,7 +39,7 @@
 
  {:entry/name        "Denethor"
   :entry/type        :entry.type/character
-  :entry/description "Son of Lenwë; leader of the Nandorin Elves that came at last over the Blue Mountains and dwelt in Ossiriand; slain on Amon Ereb in the First Battle of Beleriand."
+  :entry/description "Son of _Lenwë_; leader of the Nandorin _Elves_ that came at last over the _Blue Mountains_ and dwelt in _Ossiriand_; slain on _Amon Ereb_ in the First Battle of _Beleriand_."
   :entry/page        [43 85 86 114]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Sindar"]
@@ -47,7 +47,7 @@
 
  {:entry/name        "Dimbar"
   :entry/type        :entry.type/place
-  :entry/description "The land between the rivers Sirion and Mindeb."
+  :entry/description "The land between the rivers _Sirion_ and _Mindeb_."
   :entry/page        [112 123 149 166 191 192 194 195 217]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
                       [:chapter/name "Of Maeglin"]
@@ -58,13 +58,13 @@
 
  {:entry/name        "Dimrost"
   :entry/type        :entry.type/place
-  :entry/description "The falls of Celebros in the Forest of Brethil; translated in the text as ‘the Rainy Stair’."
+  :entry/description "The falls of _Celebros_ in the Forest of _Brethil_; translated in the text as the Rainy Stair."
   :entry/page        [209 211 212 213]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Dior"
   :entry/type        :entry.type/character
-  :entry/description "Son of Beren and Lúthien and father of Elwing, Elrond’s mother; came to Doriath from Ossiriand after the death of Thingol, and received the Silmaril after the death of Beren and Lúthien; slain in Menegroth by the sons of Fëanor."
+  :entry/description "Son of _Beren_ and _Lúthien_ and father of _Elwing_, _Elrond_’s mother; came to _Doriath_ from _Ossiriand_ after the death of _Thingol_, and received the _Silmaril_ after the death of _Beren_ and _Lúthien_; slain in _Menegroth_ by the sons of _Fëanor_."
   :entry/page        [178 224 225 226 230 233 236 240 242 243]
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of the Ruin of Doriath"]
@@ -73,13 +73,13 @@
 
  {:entry/name        "Dol Guldur"
   :entry/type        :entry.type/place
-  :entry/description "‘Hill of Sorcery’, fastness of the Necromancer (Sauron) in southern Mirkwood in the Third Age."
+  :entry/description "Hill of Sorcery; fastness of the Necromancer (_Sauron_) in southern _Mirkwood_ in the Third Age."
   :entry/page        [287 288 289 290]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Dolmed"
   :entry/type        :entry.type/place
-  :entry/description "‘Wet Head’, a great mountain in the Ered Luin, near the Dwarf-cities of Nogrod and Belegost."
+  :entry/description "Wet Head; a great mountain in the _Ered Luin_, near the Dwarf-cities of _Nogrod_ and _Belegost_."
   :entry/page        [81 82 86 183 224]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -87,33 +87,32 @@
 
  {:entry/name        "Dor-Cúarthol"
   :entry/type        :entry.type/place
-  :entry/description "‘Land of Bow and Helm’, name of the country defended by Beleg and Túrin from their lair on Amon Rûdh."
+  :entry/description "Land of Bow and Helm; name of the country defended by _Beleg_ and _Túrin_ from their lair on _Amon Rûdh_."
   :entry/page        [195]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Dor Daedeloth"
   :entry/type        :entry.type/place
-  :entry/description "‘Land of the Shadow of Horror’, the land of Morgoth in the north."
+  :entry/description "Land of the Shadow of Horror; the land of _Morgoth_ in the north."
   :entry/page        [97 99 101]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]]}
 
  {:entry/name        "Dor Dínen"
   :entry/type        :entry.type/place
-  :entry/description "‘The Silent Land’, where nothing dwelt, between the upper waters of Esgalduin and Aros."
+  :entry/description "The Silent Land; where nothing dwelt, between the upper waters of _Esgalduin_ and _Aros_."
   :entry/page        [112]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
 
  {:entry/name        "Dor Firn-i-Guinar"
   :entry/type        :entry.type/place
-  :entry/description "The region in Ossiriand where Beren and Lúthien dwelt after their return."
+  :entry/description "The region in _Ossiriand_ where _Beren_ and _Lúthien_ dwelt after their return."
   :entry/page        [178 224]
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
- ;; TODO glossary says Passim; only the ‘especially’ pages are linked
  {:entry/name        "Doriath"
   :entry/type        :entry.type/place
-  :entry/description "‘Land of the Fence’, referring to the Girdle of Melian; the kingdom of Thingol and Melian in the forests of Neldoreth and Region, ruled from Menegroth on the river Esgalduin."
+  :entry/description "Land of the Fence; referring to the Girdle of _Melian_; the kingdom of _Thingol_ and _Melian_ in the forests of _Neldoreth_ and _Region_, ruled from _Menegroth_ on the river _Esgalduin_."
   :entry/page        [87 105 113 154 156 214]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]
                       [:chapter/name "Of the Return of the Noldor"]
@@ -123,7 +122,7 @@
 
  {:entry/name        "Dorlas"
   :entry/type        :entry.type/character
-  :entry/description "A Man of the Haladin in Brethil; went with Túrin and Hunthor to the attack on Glaurung, but withdrew in fear; slain by Brandir the Lame."
+  :entry/description "A Man of the _Haladin_ in _Brethil_; went with _Túrin_ and _Hunthor_ to the attack on _Glaurung_, but withdrew in fear; slain by _Brandir the Lame_."
   :entry/page        [206 210 211 213 214]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
@@ -135,7 +134,7 @@
 
  {:entry/name        "Dor-lómin"
   :entry/type        :entry.type/place
-  :entry/description "Region in the south of Hithlum, the territory of Fingon, given as a fief to the House of Hador; the home of Húrin and Morwen."
+  :entry/description "_Region_ in the south of _Hithlum_, the territory of _Fingon_, given as a fief to the _House of Hador_; the home of _Húrin_ and _Morwen_."
   :entry/page        [79 109 110 139 146 149 150 151 180 184 188 189 194 203 204 205 206 207 213 214 217 222]
   :entry/appears-in  [[:chapter/name "Of the Flight of the Noldor"]
                       [:chapter/name "Of Beleriand and its Realms"]
@@ -147,7 +146,7 @@
 
  {:entry/name        "Dorthonion"
   :entry/type        :entry.type/place
-  :entry/description "‘Land of Pines’, the great forested highlands on the northern borders of Beleriand. Cf. Treebeard’s song in _The Two Towers_ III 4: ‘To the pine-trees upon the highlands of Dorthonion I climbed in the Winter...’"
+  :entry/description "Land of Pines; the great forested highlands on the northern borders of _Beleriand_. Cf. Treebeard’s song in The Two Towers III 4: To the pine-trees upon the highlands of Dorthonion I climbed in the Winter..."
   :entry/page        [40 86 97 102 105 106 110 112 114 115 134 139 142 143 144 146 151 152 153 154 160 165 168 172 174 180 191 196 197 198]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Sindar"]
@@ -161,7 +160,7 @@
 
  {:entry/name        "Dragon-helm of Dor-lómin"
   :entry/type        :entry.type/thing
-  :entry/description "Heirloom of the House of Hador, worn by Túrin."
+  :entry/description "Heirloom of the _House of Hador_, worn by _Túrin_."
   :entry/page        [189 194 195 201 219]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
@@ -178,13 +177,13 @@
 
  {:entry/name        "Draugluin"
   :entry/type        :entry.type/character
-  :entry/description "The great werewolf slain by Huan at Tol-in-Gaurhoth, and in whose form Beren entered Angband."
+  :entry/description "The great werewolf slain by _Huan_ at _Tol-in-Gaurhoth_, and in whose form _Beren_ entered _Angband_."
   :entry/page        [164 168 169 170]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
 
  {:entry/name        "Drengist"
   :entry/type        :entry.type/place
-  :entry/description "The long firth that pierced Ered Lómin, the west-fence of Hithlum."
+  :entry/description "The long firth that pierced _Ered Lómin_, the west-fence of _Hithlum_."
   :entry/page        [43 70 79 80 87 96 106 109 151]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -195,27 +194,27 @@
 
  {:entry/name        "Dry River"
   :entry/type        :entry.type/place
-  :entry/description "The river that once flowed out under the Encircling Mountains from the primeval lake where was afterwards Tumladen, the plain of Gondolin."
+  :entry/description "The river that once flowed out under the _Encircling Mountains_ from the primeval lake where was afterwards _Tumladen_, the plain of _Gondolin_."
   :entry/page        [128 217]
   :entry/appears-in  [[:chapter/name "Of Maeglin"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
  {:entry/name        "Duilwen"
   :entry/type        :entry.type/place
-  :entry/description "The fifth of the tributaries of Gelion in Ossiriand."
+  :entry/description "The fifth of the tributaries of _Gelion_ in _Ossiriand_."
   :entry/page        [114]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
 
  {:entry/name        "Durin"
   :entry/type        :entry.type/character
-  :entry/description "Lord of the Dwarves of Khazad-dûm (Moria)."
+  :entry/description "Lord of the _Dwarves_ of _Khazad-dûm_ (_Moria_)."
   :entry/page        [33 281]
   :entry/appears-in  [[:chapter/name "Of Aulë and Yavanna"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Dwarf-road"
   :entry/type        :entry.type/place
-  :entry/description "Road leading down into Beleriand from the cities of Nogrod and Belegost, and crossing Gelion at the ford of Sarn Athrad."
+  :entry/description "Road leading down into _Beleriand_ from the cities of _Nogrod_ and _Belegost_, and crossing _Gelion_ at the ford of _Sarn Athrad_."
   :entry/page        [131 134 137]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]]}
 
@@ -238,7 +237,7 @@
 
  {:entry/name        "Eä"
   :entry/type        :entry.type/place
-  :entry/description "The World, the material Universe; _Eä_, meaning in Elvish ‘It is’ or ‘Let it be’, was the word of Ilúvatar when the World began its existence."
+  :entry/description "The World, the material Universe; _Eä_, meaning in Elvish It is or Let it be, was the word of _Ilúvatar_ when the World began its existence."
   :entry/page        [8 13 14 18 24 27 31 37 38 46 62 65 68 75 78 88]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -268,7 +267,7 @@
 
  {:entry/name        "Eärendil"
   :entry/type        :entry.type/character
-  :entry/description "Son of Tuor and Idril Turgon’s daughter; escaped from the sack of Gondolin and wedded Elwing daughter of Dior at the Mouths of Sirion; sailed with her to Aman and pleaded for help against Morgoth; set to sail the skies in his ship Vingilot bearing the Silmaril that Beren and Lúthien brought out of Angband. The name means ‘Lover of the Sea’."
+  :entry/description "Son of _Tuor_ and _Idril_ _Turgon_’s daughter; escaped from the sack of _Gondolin_ and wedded _Elwing_ daughter of _Dior_ at the Mouths of _Sirion_; sailed with her to _Aman_ and pleaded for help against _Morgoth_; set to sail the skies in his ship _Vingilot_ bearing the _Silmaril_ that _Beren_ and _Lúthien_ brought out of _Angband_. The name means Lover of _The Sea_."
   :entry/page        [95 139 230 231 232 233 235 236 237 238 239 241 244 247 248 249 252 258 263 264 266 268 274]
   :entry/appears-in  [[:chapter/name "Of Men"]
                       [:chapter/name "Of the Coming of Men into the West"]
@@ -287,38 +286,38 @@
  {:entry/name           "Eärendur (lord of Andúnië)"
   :entry/type           :entry.type/character
   :entry/glossary-label "Eärendur (1)"
-  :entry/description    "A lord of Andúnië in Númenor."
+  :entry/description    "A lord of _Andúnië_ in _Númenor_."
   :entry/page           [256]
   :entry/appears-in     [[:chapter/name "Akallabêth"]]}
 
  {:entry/name           "Eärendur (king of Arnor)"
   :entry/type           :entry.type/character
   :entry/glossary-label "Eärendur (2)"
-  :entry/description    "Tenth King of Arnor."
+  :entry/description    "Tenth King of _Arnor_."
   :entry/page           [283]
   :entry/appears-in     [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Eärnil"
   :entry/type        :entry.type/character
-  :entry/description "Thirty-second King of Gondor."
+  :entry/description "Thirty-second King of _Gondor_."
   :entry/page        [284 285]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Eärnur"
   :entry/type        :entry.type/character
-  :entry/description "Son of Eärnil; last King of Gondor, in whom the line of Anárion came to its end."
+  :entry/description "Son of _Eärnil_; last King of _Gondor_, in whom the line of _Anárion_ came to its end."
   :entry/page        [285]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Eärrámë"
   :entry/type        :entry.type/thing
-  :entry/description "‘Sea-wing’, the name of Tuor’s ship."
+  :entry/description "Sea-wing; the name of _Tuor_’s ship."
   :entry/page        [234]
   :entry/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
  {:entry/name        "Eärwen"
   :entry/type        :entry.type/character
-  :entry/description "Daughter of Olwë of Alqualondë, Thingol’s brother; wedded Finarfin of the Noldor. From Eärwen Finrod, Orodreth, Angrod, Aegnor and Galadriel had Telerin blood and were therefore allowed entry into Doriath."
+  :entry/description "Daughter of _Olwë_ of _Alqualondë_, _Thingol_’s brother; wedded _Finarfin_ of the _Noldor_. From Eärwen _Finrod_, _Orodreth_, _Angrod_, _Aegnor_ and _Galadriel_ had _Teleri_n blood and were therefore allowed entry into _Doriath_."
   :entry/page        [50 101 120]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Return of the Noldor"]
@@ -326,7 +325,7 @@
 
  {:entry/name        "Easterlings"
   :entry/type        :entry.type/race
-  :entry/description "Entered Beleriand from the East in the time after the Dagor Bragollach, and fought on both sides in the Nirnaeth Arnoediad; given Hithlum as a dwelling-place by Morgoth, where they oppressed the remnant of the People of Hador."
+  :entry/description "Entered _Beleriand_ from the East in the time after the _Dagor Bragollach_, and fought on both sides in the _Nirnaeth Arnoediad_; given _Hithlum_ as a dwelling-place by _Morgoth_, where they oppressed the remnant of the People of _Hador_."
   :entry/page        [148 183 185 188 205 216 227]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -336,7 +335,7 @@
 
  {:entry/name        "Echoriath"
   :entry/type        :entry.type/place
-  :entry/description "The mountains about the plain of Gondolin."
+  :entry/description "The mountains about the plain of _Gondolin_."
   :entry/page        [105 129 149 217 218 230]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Maeglin"]
@@ -346,7 +345,7 @@
 
  {:entry/name        "Ecthelion"
   :entry/type        :entry.type/character
-  :entry/description "Elf-lord of Gondolin, who in the sack of the city slew and was slain by Gothmog Lord of Balrogs."
+  :entry/description "Elf-lord of _Gondolin_, who in the sack of the city slew and was slain by _Gothmog_ Lord of Balrogs."
   :entry/page        [97 184 228 229 231]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -354,13 +353,13 @@
 
  {:entry/name        "Edrahil"
   :entry/type        :entry.type/character
-  :entry/description "Chief of the Elves of Nargothrond who accompanied Finrod and Beren on their quest, and died in the dungeons of Tol-in-Gaurhoth."
+  :entry/description "Chief of the _Elves_ of _Nargothrond_ who accompanied _Finrod_ and _Beren_ on their quest, and died in the dungeons of _Tol-in-Gaurhoth_."
   :entry/page        [160]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
 
  {:entry/name        "Eglarest"
   :entry/type        :entry.type/place
-  :entry/description "The southern of the Havens of the Falas on the coast of Beleriand."
+  :entry/description "The southern of the _Havens of the Falas_ on the coast of _Beleriand_."
   :entry/page        [48 86 98 110 112 113 186 235]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Sindar"]
@@ -371,26 +370,26 @@
 
  {:entry/name        "Eglath"
   :entry/type        :entry.type/race
-  :entry/description "‘The Forsaken People’, name given to themselves by the Telerin Elves who remained in Beleriand seeking for Elwë (Thingol) when the main host of the Teleri departed to Aman."
+  :entry/description "The Forsaken People; name given to themselves by the Telerin _Elves_ who remained in _Beleriand_ seeking for _Elwë_ (_Thingol_) when the main host of the _Teleri_ departed to _Aman_."
   :entry/page        [48 222]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
  {:entry/name        "Eilinel"
   :entry/type        :entry.type/character
-  :entry/description "The wife of Gorlim the Unhappy."
+  :entry/description "The wife of _Gorlim the Unhappy_."
   :entry/page        [152 153]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]]}
 
  {:entry/name        "Eithel Ivrin"
   :entry/type        :entry.type/place
-  :entry/description "‘Ivrin’s Well’, the source of the river Narog beneath Ered Wethrin."
+  :entry/description "_Ivrin_’s Well; the source of the river _Narog_ beneath _Ered Wethrin_."
   :entry/page        [199 202]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Eithel Sirion"
   :entry/type        :entry.type/place
-  :entry/description "‘Sirion’s Well’, in the eastern face of Ered Wethrin, where was the great fortress of Fingolfin and Fingon (see _Barad Eithel_)."
+  :entry/description "_Sirion_’s Well; in the eastern face of _Ered Wethrin_, where was the great fortress of _Fingolfin_ and _Fingon_ (see _Barad Eithel_)."
   :entry/page        [97 109 110 143 151 180 181]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Beleriand and its Realms"]
@@ -399,7 +398,7 @@
 
  {:entry/name        "Ekkaia"
   :entry/type        :entry.type/place
-  :entry/description "The sea encircling Arda."
+  :entry/description "The sea encircling _Arda_."
   :entry/page        [25 28 40 52 79 91 95 176]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -411,7 +410,7 @@
 
  {:entry/name        "Eldamar"
   :entry/type        :entry.type/place
-  :entry/description "The region of Aman in which the Elves dwelt; also the great Bay of the same name."
+  :entry/description "The region of _Aman_ in which the _Elves_ dwelt; also the great Bay of the same name."
   :entry/page        [49 50 51 52 53 59 60 62 63 75 76 101 125 166 237]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]

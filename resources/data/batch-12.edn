@@ -1,7 +1,7 @@
 ;; Glossary batch 12 of 12 (Tol Eressëa – Year of Lamentation)
 [{:entry/name        "Tol Eressëa"
   :entry/type        :entry.type/place
-  :entry/description "The isle on which the Vanyar and the Noldor and afterwards the Teleri were drawn across the ocean by Ulmo, and which was at last rooted in the Bay of Eldamar near to the coasts of Aman. On it the Teleri long remained before they went to Alqualondë; and there dwelt many of the Noldor and the Sindar after the ending of the First Age."
+  :entry/description "The isle on which the _Vanyar_ and the _Noldor_ and afterwards the _Teleri_ were drawn across the ocean by _Ulmo_, and which was at last rooted in the Bay of _Eldamar_ near to the coasts of _Aman_. On it the _Teleri_ long remained before they went to _Alqualondë_; and there dwelt many of the _Noldor_ and the _Sindar_ after the ending of the _First Age_."
   :entry/page        [39 49 50 51 92 237 239 243 248 250 251 256 266 267 269 274 275 280]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of Eldamar and the Princes of the Eldalië"]
@@ -12,7 +12,7 @@
 
  {:entry/name        "Tol Galen"
   :entry/type        :entry.type/place
-  :entry/description "‘The Green Isle’ in the river Adurant in Ossiriand, where Beren and Lúthien dwelt after their return."
+  :entry/description "The Green Isle in the river _Adurant_ in _Ossiriand_, where _Beren_ and _Lúthien_ dwelt after their return."
   :entry/page        [114 178 223 224]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -20,13 +20,13 @@
 
  {:entry/name        "Tol Morwen"
   :entry/type        :entry.type/place
-  :entry/description "Island in the sea after the drowning of Beleriand on which stood the memorial stone of Túrin, Nienor, and Morwen."
+  :entry/description "Island in the sea after the drowning of _Beleriand_ on which stood the memorial stone of _Túrin_, _Nienor_, and _Morwen_."
   :entry/page        [219]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Doriath"]]}
 
  {:entry/name        "Tol Sirion"
   :entry/type        :entry.type/place
-  :entry/description "Island in the river in the Pass of Sirion on which Finrod built the tower of Minas Tirith."
+  :entry/description "Island in the river in the _Pass of Sirion_ on which _Finrod_ built the tower of _Minas Tirith_."
   :entry/page        [104 110 147 162 164]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Beleriand and its Realms"]
@@ -35,7 +35,7 @@
 
  {:entry/name        "Tulkas"
   :entry/type        :entry.type/character
-  :entry/description "A Vala, the ‘greatest in strength and deeds of prowess’, who came last to Arda."
+  :entry/description "A Vala, the greatest in strength and deeds of prowess, who came last to _Arda_."
   :entry/page        [14 17 23 24 25 37 40 56 61 62 63 67 68 73]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -47,13 +47,13 @@
 
  {:entry/name        "Tumhalad"
   :entry/type        :entry.type/place
-  :entry/description "Valley in the land between the rivers Ginglith and Narog, where the host of Nargothrond was defeated."
+  :entry/description "Valley in the land between the rivers _Ginglith_ and _Narog_, where the host of _Nargothrond_ was defeated."
   :entry/page        [202 203]
   :entry/appears-in  [[:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Tumladen"
   :entry/type        :entry.type/place
-  :entry/description "‘The Wide Valley’, the hidden vale in the Encircling Mountains in the midst of which stood the city of Gondolin. (_Tumladen_ was afterwards the name of a valley in Gondor: _The Return of the King_ V 1.)"
+  :entry/description "The Wide Valley; the hidden vale in the _Encircling Mountains_ in the midst of which stood the city of _Gondolin_. (_Tumladen_ was afterwards the name of a valley in _Gondor_: The Return of the King V 1.)"
   :entry/page        [105 116 125 149 172 229 232]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of the Noldor in Beleriand"]
@@ -64,7 +64,7 @@
 
  {:entry/name        "Túna"
   :entry/type        :entry.type/place
-  :entry/description "The green hill in the Calacirya on which Tirion, the city of the Elves, was built."
+  :entry/description "The green hill in the _Calacirya_ on which _Tirion_, the city of the _Elves_, was built."
   :entry/page        [49 51 52 53 59 62 72 75 76 78 105 116 237 251 266]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of Fëanor and the Unchaining of Melkor"]
@@ -77,7 +77,7 @@
 
  {:entry/name        "Tuor"
   :entry/type        :entry.type/character
-  :entry/description "Son of Huor and Rían, fostered by the Grey-elves of Mithrim; entered Gondolin bearing the message of Ulmo; wedded Idril Turgon’s daughter, and with her and their son Eärendil escaped from the destruction of the city; in his ship Eärrámë set sail into the West."
+  :entry/description "Son of _Huor_ and _Rían_, fostered by the _Grey-elves_ of _Mithrim_; entered _Gondolin_ bearing the message of _Ulmo_; wedded _Idril_ _Turgon_’s daughter, and with her and their son _Eärendil_ escaped from the destruction of the city; in his ship _Eärrámë_ set sail into the West."
   :entry/page        [139 188 227 228 229 230 231 232 233 234 235 238]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of Túrin Turambar"]
@@ -86,7 +86,7 @@
 
  {:entry/name        "Turgon"
   :entry/type        :entry.type/character
-  :entry/description "The second son of Fingolfin; dwelt at Vinyamar in Nevrast before he departed in secret to Gondolin, which he ruled until his death in the sack of the city; father of Idril the mother of Eärendil."
+  :entry/description "The second son of _Fingolfin_; dwelt at _Vinyamar_ in _Nevrast_ before he departed in secret to _Gondolin_, which he ruled until his death in the sack of the city; father of _Idril_ the mother of _Eärendil_."
   :entry/page        [51 74 79 80 104 105 109 110 116 117 118 121 122 123 125 127 128 129 145 149 150 151 172 180 181 182 183 184 186 192 217 218 227 228 229 230 232 233 238 244]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -104,26 +104,26 @@
 
  {:entry/name        "Túrin"
   :entry/type        :entry.type/character
-  :entry/description "Son of Húrin and Morwen; chief subject of the lay named _Narn i Hîn Húrin_ from which Chapter 21 was derived."
+  :entry/description "Son of _Húrin_ and _Morwen_; chief subject of the lay named _Narn i Hîn Húrin_ from which Chapter 21 was derived."
   :entry/page        [139 160 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 209 210 211 212 213 214 215 216 219 220]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of Beren and Lúthien"]
                       [:chapter/name "Of Túrin Turambar"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
- ;; TODO Elves and Men together, not a single people
  {:entry/name        "Two Kindreds"
   :entry/type        :entry.type/race
-  :entry/description "Elves and Men."
+  :entry/description "_Elves_ and _Men_."
   :entry/page        [176 177 237 238 247 282]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
                       [:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO page refs only, no glossary text
+ ;; Tolkien Gateway
  {:entry/name       "Two Trees of Valinor"
   :entry/type       :entry.type/thing
+  :entry/description "The Two Trees of Valinor were Telperion and Laurelin, the Silver Tree and the Gold Tree that brought Light to the Land of the Valar in ancient times. They were destroyed by Melkor and Ungoliant, but their last flower and fruit were made by the Valar into the Moon and the Sun."
   :entry/page       [26 34 36 41 42 46 48 49 51 52 56 57 61 62 65 66 68 85 87 88 89 90 91 93 117 222 229 233 260]
   :entry/appears-in [[:chapter/name "Of the Beginning of Days"]
                      [:chapter/name "Of Aulë and Yavanna"]
@@ -144,7 +144,7 @@
 
  {:entry/name        "Uinen"
   :entry/type        :entry.type/character
-  :entry/description "A Maia, the Lady of the Seas, spouse of Ossë."
+  :entry/description "A Maia, the Lady of the Seas, spouse of _Ossë_."
   :entry/page        [18 28 48 77]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -153,7 +153,7 @@
 
  {:entry/name        "Uldor"
   :entry/type        :entry.type/character
-  :entry/description "Son of Ulfang the Black; slain by Maglor in the Nirnaeth Arnoediad."
+  :entry/description "Son of _Ulfang the Black_; slain by _Maglor_ in the _Nirnaeth Arnoediad_."
   :entry/page        [148 180 183 184 241]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
@@ -161,21 +161,21 @@
 
  {:entry/name        "Ulfang"
   :entry/type        :entry.type/character
-  :entry/description "A chieftain of the Easterlings, who with his three sons followed Caranthir, and proved faithless in the Nirnaeth Arnoediad."
+  :entry/description "A chieftain of the _Easterling_s, who with his three sons followed _Caranthir_, and proved faithless in the _Nirnaeth Arnoediad_."
   :entry/page        [148 179 183]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
  {:entry/name        "Ulfast"
   :entry/type        :entry.type/character
-  :entry/description "Son of Ulfang the Black, slain by the sons of Bór in the Nirnaeth Arnoediad."
+  :entry/description "Son of _Ulfang the Black_, slain by the sons of _Bór_ in the _Nirnaeth Arnoediad_."
   :entry/page        [148 183]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
  {:entry/name        "Ulmo"
   :entry/type        :entry.type/character
-  :entry/description "A Vala, one of the Aratar. The name was interpreted by the Eldar to mean ‘The Pourer’ or ‘The Rainer’. See especially 14, 28."
+  :entry/description "A Vala, one of the _Aratar_. The name was interpreted by the _Eldar_ to mean The Pourer or The Rainer."
   :entry/page        [7 8 14 15 16 17 18 28 34 40 41 47 48 49 51 56 76 91 93 94 104 105 109 113 114 116 117 118 147 149 186 199 201 227 228 229 230 233 236 238 258]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Valaquenta"]
@@ -199,40 +199,40 @@
 
  {:entry/name        "Ulumúri"
   :entry/type        :entry.type/thing
-  :entry/description "The great horns of Ulmo made by the Maia Salmar."
+  :entry/description "The great horns of _Ulmo_ made by the Maia _Salmar_."
   :entry/page        [15]
   :entry/appears-in  [[:chapter/name "Valaquenta"]]}
 
  {:entry/name        "Ulwarth"
   :entry/type        :entry.type/character
-  :entry/description "Son of Ulfang the Black, slain by the sons of Bór in the Nirnaeth Arnoediad."
+  :entry/description "Son of _Ulfang the Black_, slain by the sons of _Bór_ in the _Nirnaeth Arnoediad_."
   :entry/page        [148 183]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
  {:entry/name        "Úmanyar"
   :entry/type        :entry.type/race
-  :entry/description "Name given to those Elves who went on the westward journey from Cuiviénen but did not reach Aman: ‘Those not of Aman’, beside _Amanyar_ ‘Those of Aman’."
+  :entry/description "Name given to those _Elves_ who went on the westward journey from _Cuiviénen_ but did not reach _Aman_: Those not of _Aman_, beside Amanyar Those of _Aman_."
   :entry/page        [42 46]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of Thingol and Melian"]]}
 
  {:entry/name        "Umbar"
   :entry/type        :entry.type/place
-  :entry/description "Great natural haven and fortress of the Númenóreans south of the Bay of Belfalas."
+  :entry/description "Great natural haven and fortress of the _Númenórean_s south of the Bay of _Belfalas_."
   :entry/page        [258]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Undying Lands"
   :entry/type        :entry.type/place
-  :entry/description "Aman and Eressëa."
+  :entry/description "_Aman_ and _Eressëa_."
   :entry/page        [238 248 251 266 269]
   :entry/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
                       [:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Ungoliant"
   :entry/type        :entry.type/character
-  :entry/description "The great spider, destroyer with Melkor of the Trees of Valinor. Shelob in _The Lord of the Rings_ was ‘the last child of Ungoliant to trouble the unhappy world’ (_The Two Towers_ IV 9)."
+  :entry/description "The great spider, destroyer with _Melkor_ of the Trees of _Valinor_. Shelob in The Lord of the Rings was the last child of Ungoliant to trouble the unhappy world (The Two Towers IV 9)."
   :entry/page        [63 64 66 67 69 70 71 79 85 91 112 123 154 237]
   :entry/appears-in  [[:chapter/name "Of the Darkening of Valinor"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -243,30 +243,28 @@
                       [:chapter/name "Of Beren and Lúthien"]
                       [:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]]}
 
- ;; TODO an alliance, not a single event
  {:entry/name        "Union of Maedhros"
   :entry/type        :entry.type/event
-  :entry/description "The league formed by Maedhros to defeat Morgoth that ended in the Nirnaeth Arnoediad."
+  :entry/description "The league formed by _Maedhros_ to defeat _Morgoth_ that ended in the _Nirnaeth Arnoediad_."
   :entry/page        [179 180]
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
  {:entry/name        "Urthel"
   :entry/type        :entry.type/character
-  :entry/description "One of the twelve companions of Barahir on Dorthonion."
+  :entry/description "One of the twelve companions of _Barahir_ on _Dorthonion_."
   :entry/page        [146]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO a word for dragons
  {:entry/name        "Urulóki"
   :entry/type        :entry.type/animal
-  :entry/description "Quenya word meaning ‘fire-serpent’, dragon."
+  :entry/description "_Quenya_ word meaning fire-serpent, dragon."
   :entry/page        [106 202]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Túrin Turambar"]]}
 
  {:entry/name        "Utumno"
   :entry/type        :entry.type/place
-  :entry/description "The first great stronghold of Melkor, in the north of Middle-earth, destroyed by the Valar."
+  :entry/description "The first great stronghold of _Melkor_, in the north of _Middle-earth_, destroyed by the _Valar_."
   :entry/page        [24 25 29 36 39 40 41 64 72 89 108]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -277,7 +275,7 @@
 
  {:entry/name        "Vairë"
   :entry/type        :entry.type/character
-  :entry/description "‘The Weaver’, one of the Valier, the spouse of Námo Mandos."
+  :entry/description "The Weaver; one of the _Valier_, the spouse of _Námo_ _Mandos_."
   :entry/page        [14 16]
   :entry/appears-in  [[:chapter/name "Valaquenta"]]}
 
@@ -290,20 +288,13 @@
 
  {:entry/name        "Valandil"
   :entry/type        :entry.type/character
-  :entry/description "Youngest son of Isildur; third King of Arnor."
+  :entry/description "Youngest son of _Isildur_; third King of _Arnor_."
   :entry/page        [283]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a title, not an object; also the name of a chapter
- ;; no page refs in the glossary
- {:entry/name        "Valaquenta"
-  :entry/type        :entry.type/account
-  :entry/description "‘Account of the Valar’, a short work treated as a separate entity from _The Silmarillion_ proper."}
-
- ;; TODO glossary says Passim; only the ‘especially’ pages are linked; it also says ‘see also Ainur, Aratar’
  {:entry/name        "Valar"
   :entry/type        :entry.type/race
-  :entry/description "‘Those with Power’, ‘The Powers’ (singular _Vala_); name given to those great Ainur who entered into Eä at the beginning of Time, and assumed the function of guarding and governing Arda."
+  :entry/description "Those with Power; The Powers (singular Vala); name given to those great _Ainur_ who entered into _Eä_ at the beginning of Time, and assumed the function of guarding and governing _Arda_."
   :entry/page        [8 9 29 64 65]
   :entry/appears-in  [[:chapter/name "Ainulindalë"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -311,24 +302,22 @@
 
  {:entry/name        "Valaróma"
   :entry/type        :entry.type/thing
-  :entry/description "The horn of the Vala Oromë."
+  :entry/description "The horn of the Vala _Oromë_."
   :entry/page        [17 29 67 85]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Darkening of Valinor"]
                       [:chapter/name "Of the Sindar"]]}
 
- ;; TODO the female Valar, not a people
  {:entry/name        "Valier"
   :entry/type        :entry.type/race
-  :entry/description "‘The Queens of the Valar’ (singular _Valië_); a term used only in the _Valaquenta_."
+  :entry/description "The Queens of the _Valar_ (singular Valië); a term used only in the _Valaquenta_."
   :entry/page        [13 14 16 17]
   :entry/appears-in  [[:chapter/name "Valaquenta"]]}
 
- ;; TODO glossary says Passim; only the ‘especially’ pages are linked
  {:entry/name        "Valinor"
   :entry/type        :entry.type/place
-  :entry/description "The land of the Valar in Aman, beyond the mountains of the Pelóri."
+  :entry/description "The land of the _Valar_ in _Aman_, beyond the mountains of the _Pelóri_."
   :entry/page        [26 64 77 92]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Darkening of Valinor"]
@@ -337,7 +326,7 @@
 
  {:entry/name        "Valmar"
   :entry/type        :entry.type/place
-  :entry/description "The city of the Valar in Valinor. In Galadriel’s lament in Lórien (_The Fellowship of the Ring_ II 8) the name is made equivalent to Valinor."
+  :entry/description "The city of the _Valar_ in _Valinor_. In _Galadriel_’s lament in _Lórien_ (The Fellowship of the Ring II 8) the name is made equivalent to _Valinor_."
   :entry/page        [16 17 26 39 40 45 51 55 56 60 61 62 64 65 66 74 92 177 237 238 239]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -354,14 +343,14 @@
 
  {:entry/name        "Vána"
   :entry/type        :entry.type/character
-  :entry/description "One of the Valier, the sister of Yavanna and spouse of Oromë."
+  :entry/description "One of the _Valier_, the sister of _Yavanna_ and spouse of _Oromë_."
   :entry/page        [14 17 18 90]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
  {:entry/name        "Vanyar"
   :entry/type        :entry.type/race
-  :entry/description "The first host of the Eldar on the westward journey from Cuiviénen, led by Ingwë. The name (singular _Vanya_) means ‘the Fair’, referring to the golden hair of the Vanyar; see _Finarfin_."
+  :entry/description "The first host of the _Eldar_ on the westward journey from _Cuiviénen_, led by _Ingwë_. The name (singular Vanya) means the Fair, referring to the golden hair of the Vanyar; see _Finarfin_."
   :entry/page        [28 42 43 47 49 50 52 56 65 66 72 88 89 92 121 127 240 243]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -376,7 +365,7 @@
 
  {:entry/name        "Varda"
   :entry/type        :entry.type/character
-  :entry/description "‘The Exalted’, ‘The Lofty’. Greatest of the Valier, the spouse of Manwë, dwelling with him on Taniquetil. See especially 14."
+  :entry/description "The Exalted; The Lofty. Greatest of the _Valier_, the spouse of _Manwë_, dwelling with him on _Taniquetil_."
   :entry/page        [14 16 17 18 23 25 27 28 37 38 42 50 57 58 65 66 68 73 89 90 91 164 242 244]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -391,20 +380,20 @@
 
  {:entry/name        "Vilya"
   :entry/type        :entry.type/thing
-  :entry/description "One of the Three Rings of the Elves, the Ring of Air, borne by Gil-galad and afterwards by Elrond."
+  :entry/description "One of the _Three Rings of the Elves_, the Ring of Air, borne by _Gil-galad_ and afterwards by _Elrond_."
   :entry/page        [276 286]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Vingilot"
   :entry/type        :entry.type/thing
-  :entry/description "‘Foam-flower’, the name of Eärendil’s ship."
+  :entry/description "Foam-flower; the name of _Eärendil_’s ship."
   :entry/page        [235 236 237 239 241 247 249]
   :entry/appears-in  [[:chapter/name "Of the Voyage of Eärendil and the War of Wrath"]
                       [:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Vinyamar"
   :entry/type        :entry.type/place
-  :entry/description "The house of Turgon in Nevrast under Mount Taras. The meaning is probably ‘New Dwelling’."
+  :entry/description "The house of _Turgon_ in _Nevrast_ under _Mount Taras_. The meaning is probably New Dwelling."
   :entry/page        [105 110 117 121 228 229]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Beleriand and its Realms"]
@@ -413,7 +402,7 @@
 
  {:entry/name        "Voronwë"
   :entry/type        :entry.type/character
-  :entry/description "‘The Steadfast’, Elf of Gondolin, the only mariner to survive from the seven ships sent into the West after the Nirnaeth Arnoediad; met with Tuor at Vinyamar and guided him to Gondolin."
+  :entry/description "The Steadfast; Elf of _Gondolin_, the only mariner to survive from the seven ships sent into the West after the _Nirnaeth Arnoediad_; met with _Tuor_ at _Vinyamar_ and guided him to _Gondolin_."
   :entry/page        [186 228]
   :entry/appears-in  [[:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]
                       [:chapter/name "Of Tuor and the Fall of Gondolin"]]}
@@ -421,26 +410,26 @@
  ;; TODO a council, not a single event
  {:entry/name        "White Council"
   :entry/type        :entry.type/event
-  :entry/description "The Council of the Wise in the Third Age formed to oppose Sauron."
+  :entry/description "The Council of the Wise in the Third Age formed to oppose _Sauron_."
   :entry/page        [287 288 289 290 291]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "White Tree"
   :entry/type        :entry.type/thing
-  :entry/description "See _Telperion_, _Galathilion_, _Nimloth_ (1). The White Trees of Minas Ithil and Minas Anor."
+  :entry/description "See _Telperion_, _Galathilion_, Nimloth (1). The White Trees of _Minas Ithil_ and _Minas Anor_."
   :entry/page        [261 264 279 281 282 283 284 285 291]
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Wilwarin"
   :entry/type        :entry.type/thing
-  :entry/description "Name of a constellation. The word meant ‘butterfly’ in Quenya, and the constellation was perhaps Cassiopeia."
+  :entry/description "Name of a constellation. The word meant butterfly in _Quenya_, and the constellation was perhaps Cassiopeia."
   :entry/page        [37]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
 
  {:entry/name        "Yavanna"
   :entry/type        :entry.type/character
-  :entry/description "‘Giver of fruits’; one of the Valier, numbered among the Aratar; the spouse of Aulë. See especially 15."
+  :entry/description "Giver of fruits; one of the _Valier_, numbered among the _Aratar_; the spouse of _Aulë_."
   :entry/page        [14 16 17 23 24 26 27 29 33 34 35 36 37 45 50 64 65 68 70 71 81 89 90 94 248 251 279]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -459,7 +448,7 @@
  ;; TODO a year, not a single event
  {:entry/name        "Year of Lamentation"
   :entry/type        :entry.type/event
-  :entry/description "The year of the Nirnaeth Arnoediad."
+  :entry/description "The year of the _Nirnaeth Arnoediad_."
   :entry/page        [117 189]
   :entry/appears-in  [[:chapter/name "Of the Noldor in Beleriand"]
                       [:chapter/name "Of Túrin Turambar"]]}]

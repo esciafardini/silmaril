@@ -1,15 +1,13 @@
 ;; Glossary batch 10 of 12 (Noldolantë – Rochallor)
-[;; TODO a song, not an object
- {:entry/name        "Noldolantë"
+[{:entry/name        "Noldolantë"
   :entry/type        :entry.type/account
-  :entry/description "‘The Fall of the Noldor’, a lament made by Maglor son of Fëanor."
+  :entry/description "The Fall of the _Noldor_; a lament made by _Maglor_ son of _Fëanor_."
   :entry/page        [77]
   :entry/appears-in  [[:chapter/name "Of the Flight of the Noldor"]]}
 
- ;; TODO glossary says Passim; only the ‘especially’ pages are linked
  {:entry/name        "Noldor"
   :entry/type        :entry.type/race
-  :entry/description "The Deep Elves, the second host of the Eldar on the westward journey from Cuiviénen, led by Finwë. The name (Quenya _Noldo_, Sindarin _Golodh_) meant ‘the Wise’ (but wise in the sense of possessing knowledge, not in the sense of possessing sagacity, sound judgement). For the language of the Noldor see _Quenya_."
+  :entry/description "The Deep _Elves_, the second host of the _Eldar_ on the westward journey from _Cuiviénen_, led by _Finwë_. The name (_Quenya_ Noldo, _Sindarin_ Golodh) meant the Wise (but wise in the sense of possessing knowledge, not in the sense of possessing sagacity, sound judgement). For the language of the Noldor see _Quenya_."
   :entry/page        [27 42 49 50 52 53 107 125 132 275]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -22,13 +20,13 @@
 
  {:entry/name        "North Downs"
   :entry/type        :entry.type/place
-  :entry/description "In Eriador, where was built the Númenórean city of Fornost."
+  :entry/description "In _Eriador_, where was built the _Númenórean_ city of _Fornost_."
   :entry/page        [278]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Númenor"
   :entry/type        :entry.type/place
-  :entry/description "The great island prepared by the Valar as a dwelling-place for the Edain after the ending of the First Age."
+  :entry/description "The great island prepared by the _Valar_ as a dwelling-place for the _Edain_ after the ending of the _First Age_."
   :entry/page        [50 139 247 248 249 250 251 252 253 254 255 256 257 258 259 260 262 263 264 265 266 267 268 274 275 277 278 279 280 281 284 289]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Coming of Men into the West"]
@@ -37,7 +35,7 @@
 
  {:entry/name        "Númenóreans"
   :entry/type        :entry.type/race
-  :entry/description "The Men of Númenor."
+  :entry/description "The _Men_ of _Númenor_."
   :entry/page        [18 249 250 251 252 253 254 255 257 258 261 262 264 265 266 268 269 277 278 279 280 281 282 283 284 285 288 290 291]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Akallabêth"]
@@ -45,32 +43,31 @@
 
  {:entry/name        "Nurtalë Valinóreva"
   :entry/type        :entry.type/event
-  :entry/description "‘The Hiding of Valinor’."
+  :entry/description "The Hiding of _Valinor_."
   :entry/page        [92]
   :entry/appears-in  [[:chapter/name "Of the Sun and Moon and the Hiding of Valinor"]]}
 
  {:entry/name        "Ohtar"
   :entry/type        :entry.type/character
-  :entry/description "‘Warrior’, esquire of Isildur, who brought the shards of Elendil’s sword to Imladris."
+  :entry/description "Warrior; esquire of _Isildur_, who brought the shards of _Elendil_’s sword to _Imladris_."
   :entry/page        [283]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Oiomúrë"
   :entry/type        :entry.type/place
-  :entry/description "A region of mists near to the Helcaraxë."
+  :entry/description "A region of mists near to the _Helcaraxë_."
   :entry/page        [70]
   :entry/appears-in  [[:chapter/name "Of the Flight of the Noldor"]]}
 
- ;; TODO a word, not an object
  {:entry/name        "olvar"
   :entry/type        :entry.type/thing
-  :entry/description "An Elvish word retained in the speeches of Yavanna and Manwë in Chapter 2, meaning ‘growing things with roots in the earth’."
+  :entry/description "An Elvish word retained in the speeches of _Yavanna_ and _Manwë_ in Chapter 2, meaning growing things with roots in the earth."
   :entry/page        [34]
   :entry/appears-in  [[:chapter/name "Of Aulë and Yavanna"]]}
 
  {:entry/name        "Olwë"
   :entry/type        :entry.type/character
-  :entry/description "Leader together with his brother Elwë (Thingol) of the hosts of the Teleri on the westward journey from Cuiviénen; lord of the Teleri of Alqualondë in Aman."
+  :entry/description "Leader together with his brother _Elwë_ (_Thingol_) of the hosts of the _Teleri_ on the westward journey from _Cuiviénen_; lord of the _Teleri_ of _Alqualondë_ in _Aman_."
   :entry/page        [42 43 46 48 49 50 51 52 76 77 78 84 101 118]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of Thingol and Melian"]
@@ -80,35 +77,34 @@
                       [:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of the Noldor in Beleriand"]]}
 
- ;; TODO glossary says Passim; for their origin see 39, 84; only those pages are linked
  {:entry/name        "Orcs"
   :entry/type        :entry.type/race
-  :entry/description "Creatures of Morgoth."
+  :entry/description "Creatures of _Morgoth_."
   :entry/page        [39 84]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
                       [:chapter/name "Of the Sindar"]]}
 
  {:entry/name        "Orfalch Echor"
   :entry/type        :entry.type/place
-  :entry/description "The great ravine through the Encircling Mountains by which Gondolin was approached."
+  :entry/description "The great ravine through the _Encircling Mountains_ by which _Gondolin_ was approached."
   :entry/page        [228]
   :entry/appears-in  [[:chapter/name "Of Tuor and the Fall of Gondolin"]]}
 
  {:entry/name        "Ormal"
   :entry/type        :entry.type/thing
-  :entry/description "One of the Lamps of the Valar made by Aulë. Ormal stood in the south of Middle-earth."
+  :entry/description "One of the Lamps of the _Valar_ made by _Aulë_. Ormal stood in the south of _Middle-earth_."
   :entry/page        [23 25]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]]}
 
  {:entry/name        "Orocarni"
   :entry/type        :entry.type/place
-  :entry/description "Mountains in the far east of Middle-earth (the name means ‘the Red Mountains’)."
+  :entry/description "Mountains in the far east of _Middle-earth_ (the name means the Red Mountains)."
   :entry/page        [38]
   :entry/appears-in  [[:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]]}
 
  {:entry/name        "Orodreth"
   :entry/type        :entry.type/character
-  :entry/description "The second son of Finarfin; warden of the tower of Minas Tirith on Tol Sirion; King of Nargothrond after the death of Finrod his brother; father of Finduilas; slain in the Battle of Tumhalad."
+  :entry/description "The second son of _Finarfin_; warden of the tower of _Minas Tirith_ on _Tol Sirion_; King of _Nargothrond_ after the death of _Finrod_ his brother; father of _Finduilas_; slain in the Battle of _Tumhalad_."
   :entry/page        [51 74 110 147 160 163 166 179 199 200 201 202 206]
   :entry/appears-in  [[:chapter/name "Of Eldamar and the Princes of the Eldalië"]
                       [:chapter/name "Of the Flight of the Noldor"]
@@ -120,13 +116,13 @@
 
  {:entry/name        "Orodruin"
   :entry/type        :entry.type/place
-  :entry/description "‘Mountain of Blazing Fire’ in Mordor, in which Sauron forged the Ruling Ring."
+  :entry/description "Mountain of Blazing Fire in _Mordor_, in which _Sauron_ forged the Ruling Ring."
   :entry/page        [280 281 282 291]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Oromë"
   :entry/type        :entry.type/character
-  :entry/description "A Vala, one of the Aratar; the great hunter, leader of the Elves from Cuiviénen, spouse of Vána. The name means ‘Horn-blowing’ or ‘Sound of Horns’, cf. _Valaróma_. See especially 17."
+  :entry/description "A Vala, one of the _Aratar_; the great hunter, leader of the _Elves_ from _Cuiviénen_, spouse of _Vána_. The name means Horn-blowing or Sound of Horns, cf. _Valaróma_."
   :entry/page        [14 17 24 29 36 37 38 39 40 41 42 43 47 50 52 62 63 64 67 73 83 85 90 144 162 175]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -142,25 +138,25 @@
 
  {:entry/name        "Oromet"
   :entry/type        :entry.type/place
-  :entry/description "A hill near the haven of Andúnië in the west of Númenor, on which was built the tower of Tar-Minastir."
+  :entry/description "A hill near the haven of _Andúnië_ in the west of _Númenor_, on which was built the tower of _Tar-Minastir_."
   :entry/page        [257]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Orthanc"
   :entry/type        :entry.type/place
-  :entry/description "‘Forked Height’, the Númenórean tower in the Circle of Isengard."
+  :entry/description "Forked Height; the _Númenórean_ tower in the Circle of _Isengard_."
   :entry/page        [279 280 288]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Osgiliath"
   :entry/type        :entry.type/place
-  :entry/description "‘Fortress of the Stars’, the chief city of ancient Gondor, on either side of the river Anduin."
+  :entry/description "Fortress of the Stars; the chief city of ancient _Gondor_, on either side of the river _Anduin_."
   :entry/page        [279 280 281 284]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Ossë"
   :entry/type        :entry.type/character
-  :entry/description "A Maia, vassal of Ulmo, with whom he entered the waters of Arda; lover and instructor of the Teleri."
+  :entry/description "A Maia, vassal of _Ulmo_, with whom he entered the waters of _Arda_; lover and instructor of the _Teleri_."
   :entry/page        [18 28 48 49 51 77 109 186 248]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Beginning of Days"]
@@ -172,7 +168,7 @@
 
  {:entry/name        "Ossiriand"
   :entry/type        :entry.type/place
-  :entry/description "‘Land of Seven Rivers’ (these being Gelion and its tributaries flowing down from the Blue Mountains), the land of the Green-elves. Cf. Treebeard’s song in _The Two Towers_ III 4: ‘I wandered in Summer in the elm-woods of Ossiriand. Ah! the light and the music in the Summer by the Seven Rivers of Ossir!’ See _Lindon_."
+  :entry/description "Land of Seven Rivers (these being _Gelion_ and its tributaries flowing down from the _Blue Mountains_), the land of the _Green-elves_. Cf. Treebeard’s song in The Two Towers III 4: I wandered in Summer in the elm-woods of Ossiriand. Ah! the light and the music in the Summer by the Seven Rivers of Ossir! See _Lindon_."
   :entry/page        [85 86 103 112 114 115 131 133 134 143 144 178 185 223 224 225 273 274]
   :entry/appears-in  [[:chapter/name "Of the Sindar"]
                       [:chapter/name "Of the Return of the Noldor"]
@@ -185,13 +181,13 @@
 
  {:entry/name        "Ost-in-Edhil"
   :entry/type        :entry.type/place
-  :entry/description "‘Fortress of the Eldar’, the city of the Elves in Eregion."
+  :entry/description "Fortress of the _Eldar_; the city of the _Elves_ in _Eregion_."
   :entry/page        [274 275]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Palantíri"
   :entry/type        :entry.type/thing
-  :entry/description "‘Those that watch from afar’; seven were brought by Elendil and his sons from Númenor; made by Fëanor in Aman (see 54, and _The Two Towers_ III 11)."
+  :entry/description "Those that watch from afar; seven were brought by _Elendil_ and his sons from _Númenor_; made by _Fëanor_ in _Aman_ (see 54, and The Two Towers III 11)."
   :entry/page        [54 264 279 280]
   :entry/appears-in  [[:chapter/name "Of Fëanor and the Unchaining of Melkor"]
                       [:chapter/name "Akallabêth"]
@@ -199,13 +195,13 @@
 
  {:entry/name        "Pelargir"
   :entry/type        :entry.type/place
-  :entry/description "‘Garth of Royal Ships’, the Númenórean haven above the delta of Anduin."
+  :entry/description "Garth of Royal Ships; the _Númenórean_ haven above the delta of _Anduin_."
   :entry/page        [255]
   :entry/appears-in  [[:chapter/name "Akallabêth"]]}
 
  {:entry/name        "Pelóri"
   :entry/type        :entry.type/place
-  :entry/description "‘The fencing or defensive heights’, raised by the Valar after the destruction of their dwelling on Almaren; ranging in a crescent from north to south, close to the eastern shores of Aman."
+  :entry/description "The fencing or defensive heights; raised by the _Valar_ after the destruction of their dwelling on _Almaren_; ranging in a crescent from north to south, close to the eastern shores of _Aman_."
   :entry/page        [25 26 27 36 47 49 63 64 70 90 91 92 164]
   :entry/appears-in  [[:chapter/name "Of the Beginning of Days"]
                       [:chapter/name "Of the Coming of the Elves and the Captivity of Melkor"]
@@ -220,16 +216,15 @@
   :entry/page       [290 291]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO a title, not an object
  {:entry/name        "Quenta Silmarillion"
   :entry/type        :entry.type/account
-  :entry/description "‘The History of the Silmarils.’"
+  :entry/description "The History of the _Silmaril_s."
   :entry/page        [274]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Quenya"
   :entry/type        :entry.type/language
-  :entry/description "The ancient tongue, common to all Elves, in the form that it took in Valinor; brought to Middle-earth by the Noldorin exiles, but abandoned by them as a daily speech, especially after the edict of King Thingol against its use; see especially 103–4, 120–1."
+  :entry/description "The ancient tongue, common to all _Elves_, in the form that it took in _Valinor_; brought to _Middle-earth_ by the Noldorin exiles, but abandoned by them as a daily speech, especially after the edict of King _Thingol_ against its use; see especially 103–4, 120–1."
   :entry/page        [16 103 104 116 120 121 125 206 249 250 255 268]
   :entry/appears-in  [[:chapter/name "Valaquenta"]
                       [:chapter/name "Of the Return of the Noldor"]
@@ -240,38 +235,38 @@
 
  {:entry/name        "Radagast"
   :entry/type        :entry.type/character
-  :entry/description "One of the Istari (Wizards)."
+  :entry/description "One of the _Istari_ (_Wizards_)."
   :entry/page        [287 289]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Radhruin"
   :entry/type        :entry.type/character
-  :entry/description "One of the twelve companions of Barahir on Dorthonion."
+  :entry/description "One of the twelve companions of _Barahir_ on _Dorthonion_."
   :entry/page        [146]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
  {:entry/name        "Ragnor"
   :entry/type        :entry.type/character
-  :entry/description "One of the twelve companions of Barahir on Dorthonion."
+  :entry/description "One of the twelve companions of _Barahir_ on _Dorthonion_."
   :entry/page        [146]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
  {:entry/name        "Ramdal"
   :entry/type        :entry.type/place
-  :entry/description "‘Wall’s End’ (see _Andram_), where the dividing fall across Beleriand ceased."
+  :entry/description "Wall’s End (see _Andram_), where the dividing fall across _Beleriand_ ceased."
   :entry/page        [113 144]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
  {:entry/name        "Rauros"
   :entry/type        :entry.type/place
-  :entry/description "‘Roaring Spray’, the great falls in the river Anduin."
+  :entry/description "Roaring Spray; the great falls in the river _Anduin_."
   :entry/page        [285]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Region"
   :entry/type        :entry.type/place
-  :entry/description "The dense forest forming the southern part of Doriath."
+  :entry/description "The dense forest forming the southern part of _Doriath_."
   :entry/page        [45 83 86 87 113 124 222 223]
   :entry/appears-in  [[:chapter/name "Of Thingol and Melian"]
                       [:chapter/name "Of the Sindar"]
@@ -279,9 +274,9 @@
                       [:chapter/name "Of Maeglin"]
                       [:chapter/name "Of the Ruin of Doriath"]]}
 
- {:entry/name        "Rerir"
+ {:entry/name        "Mount Rerir"
   :entry/type        :entry.type/place
-  :entry/description "Mountain to the north of Lake Helevorn, where rose the greater of the two tributary branches of Gelion."
+  :entry/description "Mountain to the north of Lake _Helevorn_, where rose the greater of the two tributary branches of _Gelion_."
   :entry/page        [103 114 115 144]
   :entry/appears-in  [[:chapter/name "Of the Return of the Noldor"]
                       [:chapter/name "Of Beleriand and its Realms"]
@@ -289,19 +284,19 @@
 
  {:entry/name        "Rhovanion"
   :entry/type        :entry.type/place
-  :entry/description "‘Wilderland’, the wide region east of the Misty Mountains."
+  :entry/description "Wilderland; the wide region east of the _Misty Mountains_."
   :entry/page        [279]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Rhudaur"
   :entry/type        :entry.type/place
-  :entry/description "Region in the north-east of Eriador."
+  :entry/description "_Region_ in the north-east of _Eriador_."
   :entry/page        [278]
   :entry/appears-in  [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
  {:entry/name        "Rían"
   :entry/type        :entry.type/character
-  :entry/description "Daughter of Belegund (nephew of Barahir, the father of Beren); wife of Huor and mother of Tuor; after Huor’s death died of grief on the Haudh-en-Ndengin."
+  :entry/description "Daughter of _Belegund_ (nephew of _Barahir_, the father of _Beren_); wife of _Huor_ and mother of _Tuor_; after _Huor_’s death died of grief on the _Haudh-en-Ndengin_."
   :entry/page        [139 146 151 188 227]
   :entry/appears-in  [[:chapter/name "Of the Coming of Men into the West"]
                       [:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]
@@ -310,36 +305,36 @@
 
  {:entry/name        "Ringil"
   :entry/type        :entry.type/thing
-  :entry/description "The sword of Fingolfin."
+  :entry/description "The sword of _Fingolfin_."
   :entry/page        [145]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}
 
- ;; TODO own refs only; sub-headings split into The One Ring, Three Rings of the Elves, Seven Rings of the Dwarves, Nine Rings of Men
+ ;; TODO description
  {:entry/name       "Rings of Power"
   :entry/type       :entry.type/thing
   :entry/page       [275 276 288 289]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘The One Ring, Great Ring, or Ruling Ring’ sub-heading of Rings of Power
+ ;; TODO description
  {:entry/name       "The One Ring"
   :entry/type       :entry.type/thing
   :entry/page       [255 268 275 276 277 280 282 283 286 290 291]
   :entry/appears-in [[:chapter/name "Akallabêth"]
                      [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘Three Rings of the Elves’ sub-heading of Rings of Power (see also Narya, Nenya, Vilya)
+ ;; TODO description
  {:entry/name       "Three Rings of the Elves"
   :entry/type       :entry.type/thing
   :entry/page       [275 276 286 292]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘Seven Rings of the Dwarves’ sub-heading of Rings of Power
+ ;; TODO description
  {:entry/name       "Seven Rings of the Dwarves"
   :entry/type       :entry.type/thing
   :entry/page       [276 277 286 289]
   :entry/appears-in [[:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO from the ‘Nine Rings of Men’ sub-heading of Rings of Power
+ ;; TODO description
  {:entry/name       "Nine Rings of Men"
   :entry/type       :entry.type/thing
   :entry/page       [255 277 286 289]
@@ -348,28 +343,26 @@
 
  {:entry/name        "Ringwil"
   :entry/type        :entry.type/place
-  :entry/description "The stream that flowed into the river Narog at Nargothrond."
+  :entry/description "The stream that flowed into the river _Narog_ at _Nargothrond_."
   :entry/page        [113]
   :entry/appears-in  [[:chapter/name "Of Beleriand and its Realms"]]}
 
- ;; TODO nine servants of Sauron, not a people
  {:entry/name        "Ringwraiths"
   :entry/type        :entry.type/race
-  :entry/description "The slaves of the Nine Rings of Men and chief servants of Sauron."
+  :entry/description "The slaves of the _Nine Rings of Men_ and chief servants of _Sauron_."
   :entry/page        [255 277 284 285 288 290]
   :entry/appears-in  [[:chapter/name "Akallabêth"]
                       [:chapter/name "Of the Rings of Power and the Third Age"]]}
 
- ;; TODO ref 154 from the ‘Rivil’s Well’ sub-heading merged in
  {:entry/name        "Rivil"
   :entry/type        :entry.type/place
-  :entry/description "Stream falling northwards from Dorthonion and flowing into Sirion in the Fen of Serech."
+  :entry/description "Stream falling northwards from _Dorthonion_ and flowing into _Sirion_ in the Fen of _Serech_."
   :entry/page        [154 181 184]
   :entry/appears-in  [[:chapter/name "Of Beren and Lúthien"]
                       [:chapter/name "Of the Fifth Battle: Nirnaeth Arnoediad"]]}
 
  {:entry/name        "Rochallor"
   :entry/type        :entry.type/animal
-  :entry/description "The horse of Fingolfin."
+  :entry/description "The horse of _Fingolfin_."
   :entry/page        [144]
   :entry/appears-in  [[:chapter/name "Of the Ruin of Beleriand and the Fall of Fingolfin"]]}]
